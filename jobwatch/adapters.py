@@ -14,6 +14,11 @@ from . import http
 JOBISH_HREF = re.compile(
     r"/(job|jobs|career|careers|position|positions|opening|openings|role|roles|requisition|"
     r"vacanc|posting|postings|jobdetail|job-details|jobdetails|opportunit)[^\s]*", re.I)
+def _strip(h):
+    import html as _h
+    return re.sub(r"\s+", " ", BeautifulSoup(_h.unescape(h or ""), "html.parser").get_text(" ", strip=True))
+
+
 NAV_WORDS = {"careers", "jobs", "home", "search", "apply", "login", "sign in", "view all",
              "all jobs", "see all", "learn more", "read more", "next", "previous", "back", "more"}
 
@@ -21,12 +26,13 @@ NAV_WORDS = {"careers", "jobs", "home", "search", "apply", "login", "sign in", "
 # --------------------------------------------------------------------------- Greenhouse
 def greenhouse(cfg, s):
     token = cfg["token"]
-    r = http.get(s, f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=false")
+    r = http.get(s, f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true")
     r.raise_for_status()
     out = []
     for j in r.json().get("jobs", []):
         out.append(Job(cfg["name"], j.get("title", ""), j.get("absolute_url", ""),
-                       (j.get("location") or {}).get("name", ""), j.get("updated_at", ""), "greenhouse"))
+                       (j.get("location") or {}).get("name", ""), j.get("updated_at", ""), "greenhouse",
+                       description=_strip(j.get("content", ""))))
     return out
 
 
@@ -37,8 +43,10 @@ def lever(cfg, s):
     out = []
     for p in r.json():
         cats = p.get("categories") or {}
+        desc = (p.get("descriptionPlain") or "") + " " + " ".join(
+            (l.get("text", "") + " " + _strip(l.get("content", ""))) for l in (p.get("lists") or [])) + " " + (p.get("additionalPlain") or "")
         out.append(Job(cfg["name"], p.get("text", ""), p.get("hostedUrl", ""),
-                       cats.get("location", ""), str(p.get("createdAt", "")), "lever",
+                       cats.get("location", ""), str(p.get("createdAt", "")), "lever", description=desc,
                        extra={"team": cats.get("team", ""), "commitment": cats.get("commitment", "")}))
     return out
 
@@ -59,7 +67,7 @@ def smartrecruiters(cfg, s):
             loc_txt = ", ".join(x for x in [loc.get("city"), loc.get("region"), loc.get("country")] if x)
             out.append(Job(cfg["name"], c.get("name", ""),
                            f"https://jobs.smartrecruiters.com/{cid}/{c.get('id')}",
-                           loc_txt, c.get("releasedDate", ""), "smartrecruiters"))
+                           loc_txt, c.get("releasedDate", ""), "smartrecruiters", extra={"id": c.get("id")}))
         offset += 100
         if offset >= data.get("totalFound", 0) or not data.get("content"):
             break
@@ -79,7 +87,7 @@ def amazon(cfg, s):
         for j in jobs:
             out.append(Job(cfg["name"], j.get("title", ""), urljoin("https://www.amazon.jobs", j.get("job_path", "")),
                            j.get("normalized_location", ""), j.get("posted_date", ""), "amazon",
-                           description=j.get("basic_qualifications", "") or ""))
+                           description=" ".join(str(j.get(k) or "") for k in ("basic_qualifications", "preferred_qualifications", "description"))))
         if len(jobs) < 100:
             break
         offset += 100
@@ -116,7 +124,7 @@ def workday(cfg, s):
                     continue
                 seen.add(url)
                 out.append(Job(cfg["name"], p.get("title", ""), url, p.get("locationsText", ""),
-                               p.get("postedOn", ""), "workday"))
+                               p.get("postedOn", ""), "workday", extra={"externalPath": path}))
             if len(posts) < 20:
                 break
             offset += 20
@@ -137,7 +145,7 @@ def eightfold(cfg, s):
         pos = data.get("positions", [])
         for p in pos:
             out.append(Job(cfg["name"], p.get("name", ""), p.get("canonicalPositionUrl", ""),
-                           p.get("location", ""), str(p.get("t_create", "")), "eightfold"))
+                           p.get("location", ""), str(p.get("t_create", "")), "eightfold", extra={"id": p.get("id")}))
         if len(pos) < 100:
             break
         start += 100
@@ -163,7 +171,8 @@ def oracle(cfg, s):
             rid = q.get("Id")
             url = f"{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}"
             out.append(Job(cfg["name"], q.get("Title", ""), url, q.get("PrimaryLocation", ""),
-                           q.get("PostedDate", ""), "oracle", description=q.get("ShortDescriptionStr", "") or ""))
+                           q.get("PostedDate", ""), "oracle", description=q.get("ShortDescriptionStr", "") or "",
+                           extra={"id": rid}))
     return out
 
 
