@@ -10,7 +10,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from .adapters import REGISTRY
-from .filters import is_relevant, collapse
+from .filters import is_relevant, collapse, qualifies
+from .details import enrich
 from . import http, notify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -114,10 +115,31 @@ def main(argv=None):
                 continue
             relevant_all.append(j)
             if j.key not in seen:
-                j.extra["found"] = now.strftime("%d-%b-%Y")
+                j.extra["cfg"] = cfg
                 new_jobs.append(j)
-                seen[j.key] = {"company": j.company, "title": j.title, "url": j.url,
-                               "location": j.location, "first_seen": stamp}
+
+    # ---- second pass: read each new candidate's full description for experience / degree requirements
+    cand = list(new_jobs)
+    new_jobs, dropped_qual = [], []
+    print(f"\nreading {len(cand)} job descriptions...")
+
+    def check(j):
+        s = http.session()
+        enrich(j, j.extra["cfg"], s, allow_browser=not args.no_browser)
+        return j, qualifies(j.description, max_years=j.extra["cfg"].get("max_years", 1))
+
+    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+        for j, (ok, why) in ex.map(check, cand):
+            j.extra.pop("cfg", None)
+            seen[j.key] = {"company": j.company, "title": j.title, "url": j.url, "location": j.location,
+                           "first_seen": stamp, "verdict": why}
+            if ok:
+                j.extra["found"] = now.strftime("%d-%b-%Y")
+                j.extra["verdict"] = "" if why == "ok" else why
+                new_jobs.append(j)
+            else:
+                dropped_qual.append({"company": j.company, "title": j.title, "url": j.url, "why": why})
+    print(f"kept {len(new_jobs)}, dropped {len(dropped_qual)} after reading descriptions")
 
     # ---- outputs
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -136,7 +158,8 @@ def main(argv=None):
                 w.writerow([stamp, j.company, j.title, j.location, j.url, j.source])
     save_json(LAST_RUN, {"when": stamp, "sources_ok": len(results), "sources_failed": errors,
                          "sources_zero": zero, "relevant_open": len(relevant_all),
-                         "new": [j.to_dict() for j in new_jobs], "rejected_sample": rejected_sample})
+                         "new": [{k: v for k, v in j.to_dict().items() if k != "description"} for j in new_jobs], "dropped_after_reading": dropped_qual,
+                         "rejected_sample": rejected_sample})
 
     # ---- notify (identical postings merged; message capped per company so every company is visible)
     new_merged = sorted(collapse(list(new_jobs)), key=lambda x: (x.company, x.title))
