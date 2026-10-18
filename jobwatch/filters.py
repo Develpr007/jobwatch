@@ -113,7 +113,79 @@ def is_relevant(job: Job, india_only: bool = False, max_years: int = 2) -> tuple
         return False, "excluded keyword"
     if not _any(INCLUDE, tl):
         return False, "no role phrase"
-    yrs = min_years(t + " " + (job.description or "")[:3000])
+    yrs = min_years(t)
+    if yrs is not None and yrs > max_years:
+        return False, f"title says {yrs}+ years"
+    return True, "ok"
+
+
+# ---- Second pass: read the job description ---------------------------------------------
+# Phrases that mean "fresher is fine" — any of these and the role is accepted.
+FRESHER_OK = [
+    r"\bfreshers?\b", r"\b0\s*(?:-|to|–)\s*[12]\s*(?:years?|yrs?)\b", r"\bno (?:prior )?experience\b",
+    r"\bentry[ -]level\b", r"\bcampus\b", r"\bgraduate (?:program|programme|trainee|hire|scheme)\b",
+    r"\bnew grad", r"\brecent graduates?\b", r"\bfinal[ -]year\b", r"\b2026 (?:batch|pass ?outs?|graduates?)\b",
+    r"\b2027 (?:batch|pass ?outs?|graduates?)\b", r"\bintern(?:ship)?\b", r"\btrainee\b", r"\bapprentice",
+]
+# Experience phrases. We look at the minimum number of years in any of these forms.
+EXP_PATTERNS = [
+    r"(\d{1,2})\s*\+?\s*(?:-|to|–)\s*(\d{1,2})\s*\+?\s*(?:years?|yrs?)",          # 3-5 years
+    r"(\d{1,2})\s*\+\s*(?:years?|yrs?)",                                           # 3+ years
+    r"(?:minimum|min\.?|at least|atleast|over|more than)\s*(?:of\s*)?(\d{1,2})\s*(?:years?|yrs?)",
+    r"(\d{1,2})\s*(?:years?|yrs?)(?:'|’)?\s*(?:of\s*)?(?:relevant |prior |work |professional |hands[- ]on |industry |total )?(?:experience|exp\b)",
+    r"experience\s*(?:required|needed)?\s*[:\-–]\s*(\d{1,2})\s*\+?",               # Experience: 5+
+    r"years? of experience\s*(?:required|needed)?\s*[:\-–]?\s*(\d{1,2})\s*\+?",
+]
+# Degrees that a B.Tech fresher does not have. Rejected when they appear as a requirement,
+# not when the sentence says preferred / plus / advantage.
+DEGREE_HARD = [
+    r"\bmba\b", r"\bpgdm\b", r"\bpgdbm\b", r"\bca\b(?!\s*freshers?)", r"\bchartered accountant", r"\bcfa\b", r"\bfrm\b",
+    r"\bcs\b(?=.*\b(?:company secretary|icsi)\b)", r"\bcompany secretary\b", r"\bicwa\b", r"\bcma\b", r"\bacca\b",
+    r"\bph\.?d\b", r"\bmaster(?:'s|s)? (?:degree|of|in)\b", r"\bm\.?sc\b", r"\bm\.?com\b", r"\bm\.?a\b(?=\s+in\b)",
+    r"\bb\.?des\b", r"\bm\.?des\b", r"\bbachelor of design\b", r"\bmaster of design\b", r"\bllb\b", r"\bllm\b",
+    r"\bmbbs\b", r"\bbds\b", r"\bb\.?pharm", r"\bm\.?pharm", r"\bb\.?com\b(?=.*\bonly\b)", r"\bactuar",
+]
+SOFT_WORDS = (r"(preferred|preferably|plus|advantage|nice to have|good to have|desirable|bonus|ideally|or equivalent|"
+              r"optional|would be|b\.?tech|b\.?e\b|bachelor|engineering|any graduate|graduate in any|any discipline|any stream)")
+LATERAL = [r"\bexperienced hire", r"\blateral\b", r"\bexperienced professionals?\b"]
+
+
+def min_experience(text: str):
+    """Smallest minimum-years figure the description asks for, or None if it never says."""
+    t = (text or "").lower()
+    vals = []
+    for pat in EXP_PATTERNS:
+        for m in re.finditer(pat, t):
+            try:
+                vals.append(int(m.group(1)))
+            except (ValueError, IndexError):
+                pass
+    return min(vals) if vals else None
+
+
+def hard_degree(text: str):
+    """Returns the first degree that is required (not merely preferred), or None."""
+    t = (text or "").lower()
+    for sent in re.split(r"(?<=[.;\n•])\s+|\s{2,}", t):
+        for pat in DEGREE_HARD:
+            if re.search(pat, sent) and not re.search(SOFT_WORDS, sent):
+                return re.search(pat, sent).group(0)
+    return None
+
+
+def qualifies(description: str, max_years: int = 1) -> tuple[bool, str]:
+    """Second-pass check on the full description. Unknown (no description) -> keep, flagged."""
+    if not description or len(description) < 120:
+        return True, "description not readable (unverified)"
+    t = description.lower()
+    deg = hard_degree(t)
+    if deg:
+        return False, f"requires {deg.upper()}"
+    if _any(FRESHER_OK, t):
+        return True, "fresher-friendly"
+    if _any(LATERAL, t):
+        return False, "experienced hires only"
+    yrs = min_experience(t)
     if yrs is not None and yrs > max_years:
         return False, f"asks {yrs}+ years"
     return True, "ok"
