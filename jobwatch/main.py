@@ -114,6 +114,7 @@ def main(argv=None):
                 continue
             relevant_all.append(j)
             if j.key not in seen:
+                j.extra["found"] = now.strftime("%d-%b-%Y")
                 new_jobs.append(j)
                 seen[j.key] = {"company": j.company, "title": j.title, "url": j.url,
                                "location": j.location, "first_seen": stamp}
@@ -152,6 +153,11 @@ def main(argv=None):
     if errors and (failing or now.weekday() == 0 and now.hour < 12):
         lines.append(f"\n⚠️ {len(errors)} sources failed this run; {len(failing)} failing 3+ runs: "
                      + ", ".join(failing[:12]))
+    if new_jobs and not args.dry_run:
+        try:
+            print("sheet:", notify.sheet(sorted(new_jobs, key=lambda x: (x.company, x.title))))
+        except Exception as e:
+            print("sheet error:", e)
     if lines and not args.dry_run:
         sent_tg = notify.telegram(lines)
         sent_mail = False
