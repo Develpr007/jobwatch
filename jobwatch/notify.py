@@ -62,17 +62,23 @@ def sheet(jobs):
     return True
 
 
-def format_jobs(jobs, header):
-    """Telegram-HTML lines, one per job."""
+def format_jobs(jobs, header, per_company=None):
+    """Telegram-HTML lines, one per job, grouped by company, optionally capped per company."""
     lines = [f"<b>{htmlmod.escape(header)}</b>"]
     by_company = {}
     for j in jobs:
         by_company.setdefault(j.company, []).append(j)
     for company in sorted(by_company):
-        lines.append(f"\n<b>{htmlmod.escape(company)}</b>")
-        for j in by_company[company]:
+        items = by_company[company]
+        lines.append(f"\n<b>{htmlmod.escape(company)}</b> ({len(items)})")
+        shown = items[:per_company] if per_company else items
+        for j in shown:
             loc = f" — {htmlmod.escape(j.location)}" if j.location else ""
-            lines.append(f"• <a href=\"{htmlmod.escape(j.url)}\">{htmlmod.escape(j.title)}</a>{loc}")
+            n = j.extra.get("count", 1)
+            cnt = f" ×{n}" if n > 1 else ""
+            lines.append(f"• <a href=\"{htmlmod.escape(j.url)}\">{htmlmod.escape(j.title)}</a>{cnt}{loc}")
+        if per_company and len(items) > per_company:
+            lines.append(f"  …+{len(items) - per_company} more in the sheet")
     return lines
 
 
