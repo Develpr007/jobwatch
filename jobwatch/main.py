@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from .adapters import REGISTRY
-from .filters import is_relevant
+from .filters import is_relevant, collapse
 from . import http, notify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -138,18 +138,18 @@ def main(argv=None):
                          "sources_zero": zero, "relevant_open": len(relevant_all),
                          "new": [j.to_dict() for j in new_jobs], "rejected_sample": rejected_sample})
 
-    # ---- notify
+    # ---- notify (identical postings merged; message capped per company so every company is visible)
+    new_merged = sorted(collapse(list(new_jobs)), key=lambda x: (x.company, x.title))
     failing = [n for n, h in health.items() if h["fail_streak"] >= 3]
     lines = []
     if first_run:
-        header = f"Jobwatch set up ✅ {len(relevant_all)} relevant roles open right now across {len(results)} companies"
-        shown = sorted(new_jobs, key=lambda x: (x.company, x.title))[:80]
-        lines = notify.format_jobs(shown, header)
-        if len(new_jobs) > 80:
-            lines.append(f"\n…and {len(new_jobs) - 80} more in output/all_relevant_open.csv")
-    elif new_jobs:
-        header = f"{len(new_jobs)} new role{'s' if len(new_jobs) != 1 else ''} — {stamp}"
-        lines = notify.format_jobs(sorted(new_jobs, key=lambda x: (x.company, x.title)), header)
+        header = (f"Jobwatch set up ✅ {len(new_merged)} relevant roles open right now across "
+                  f"{len({j.company for j in new_merged})} companies (full list in your sheet)")
+        lines = notify.format_jobs(new_merged, header, per_company=6)
+    elif new_merged:
+        header = f"{len(new_merged)} new role{'s' if len(new_merged) != 1 else ''} — {stamp}"
+        lines = notify.format_jobs(new_merged, header, per_company=15)
+    new_jobs = new_merged
     if errors and (failing or now.weekday() == 0 and now.hour < 12):
         lines.append(f"\n⚠️ {len(errors)} sources failed this run; {len(failing)} failing 3+ runs: "
                      + ", ".join(failing[:12]))
