@@ -54,7 +54,7 @@ def sheet(jobs):
     url = os.getenv("SHEETS_WEBHOOK_URL")
     if not url or not jobs:
         return False
-    rows = [[j.extra.get("found", ""), j.company, j.title, j.location, j.url] for j in jobs]
+    rows = [[j.extra.get("found", ""), j.company, j.title, j.location, j.url, j.extra.get("verdict", "")] for j in jobs]
     r = requests.post(url, json={"rows": rows}, timeout=60, allow_redirects=True)
     if r.status_code != 200 or "ok" not in r.text[:200].lower():
         print("sheet error:", r.status_code, r.text[:200])
@@ -76,7 +76,9 @@ def format_jobs(jobs, header, per_company=None):
             loc = f" — {htmlmod.escape(j.location)}" if j.location else ""
             n = j.extra.get("count", 1)
             cnt = f" ×{n}" if n > 1 else ""
-            lines.append(f"• <a href=\"{htmlmod.escape(j.url)}\">{htmlmod.escape(j.title)}</a>{cnt}{loc}")
+            v = j.extra.get("verdict", "")
+            flag = " ⚠️" if "unverified" in v else ""
+            lines.append(f"• <a href=\"{htmlmod.escape(j.url)}\">{htmlmod.escape(j.title)}</a>{cnt}{loc}{flag}")
         if per_company and len(items) > per_company:
             lines.append(f"  …+{len(items) - per_company} more in the sheet")
     return lines
