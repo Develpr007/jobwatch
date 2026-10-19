@@ -1,6 +1,6 @@
 {
- "when": "2026-10-19 03:56 IST",
- "sources_ok": 84,
+ "when": "2026-10-19 10:10 IST",
+ "sources_ok": 85,
  "sources_failed": [
   [
    "Morgan Stanley",
@@ -8,7 +8,7 @@
   ],
   [
    "State Street",
-   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"189CB7MVEEAJY1\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"7D594AMVERN4IW\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "PayPal",
@@ -16,19 +16,19 @@
   ],
   [
    "Fractal Analytics",
-   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"532E09MVEEANQH\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"2BCFE7MVERN9OM\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "Genpact",
-   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"B043C5MVEEAPVD\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
-  ],
-  [
-   "Myntra",
-   "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/myntra/jobs?content=true"
+   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"C4A32BMVERNAVW\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "Alvarez & Marsal India",
    "RuntimeError: html 403 for https://careers.alvarezandmarsal.com/search/jobs?location=India"
+  ],
+  [
+   "Myntra",
+   "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/myntra/jobs?content=true"
   ],
   [
    "Zepto",
@@ -36,7 +36,7 @@
   ],
   [
    "Salesforce",
-   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"674F38MVEEAT3A\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"725537MVERNEP2\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "Atlassian",
@@ -44,11 +44,7 @@
   ],
   [
    "Walmart Global Tech",
-   "RuntimeError: workday 422: {\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"F14AA9MVEEAVOX\",\"httpStatus\":422,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
-  ],
-  [
-   "Expedia Group",
-   "RuntimeError: html 403 for https://careers.expediagroup.com/jobs/?location=India"
+   "RuntimeError: workday 422: {\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"47F7BFMVERNHHN\",\"httpStatus\":422,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "Postman",
@@ -81,7 +77,6 @@
   "SAP Labs India",
   "Chargebee",
   "BNP Paribas",
-  "NatWest Group",
   "KPMG India",
   "LatentView Analytics",
   "Flipkart",
@@ -91,84 +86,223 @@
   "Zerodha",
   "Navi",
   "Ola",
-  "Delhivery",
   "Cars24",
-  "Tata 1mg",
-  "PhysicsWallah",
   "Nestle India"
  ],
- "relevant_open": 308,
+ "relevant_open": 315,
  "new": [
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Business Associate",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050547",
-   "location": "Gurgaon, Haryana, India",
-   "posted": "2026-10-01",
-   "source": "oracle",
+   "company": "NatWest Group",
+   "title": "Business Risk Data Analyst Bangalore, India NatWest Digital X Data, Insights & Analytics R-00286393 Posted 6 days ago",
+   "url": "https://jobs.natwestgroup.com/jobs/18329773-business-risk-data-analyst",
+   "location": "Bangalore, India",
+   "posted": "",
+   "source": "browser",
    "extra": {
-    "id": "30050547",
     "found": "19-Oct-2026",
     "verdict": ""
    },
-   "key": "62d2048066fc2ead"
+   "key": "eaa2e1948206792b"
   },
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Consulting-Procurement-Technology",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050598",
-   "location": "Bangalore, Karnataka, India",
-   "posted": "2026-10-01",
-   "source": "oracle",
+   "company": "PhonePe",
+   "title": "Bengaluru Consumer Payments Business Business Operations Analyst, Payments Business Full-time 6 days ago",
+   "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003165-business-operations-analyst-payments-business",
+   "location": "Tirupati",
+   "posted": "",
+   "source": "browser",
    "extra": {
-    "id": "30050598",
     "found": "19-Oct-2026",
-    "verdict": ""
+    "verdict": "fresher-friendly"
    },
-   "key": "c88279a93cbb7d21"
+   "key": "5a8400d7cd81ee73"
   }
  ],
  "dropped_after_reading": [
   {
-   "company": "Deloitte India",
-   "title": "T&T| Customer| S&S| Consultant | Salesforce | Lucknow",
-   "url": "https://southasiacareers.deloitte.com/job/Lucknow-T&T-Customer-S&S-Consultant-Salesforce-Lucknow/60777444/",
-   "why": "asks 3+ years"
-  },
-  {
    "company": "KPMG Global Services (KGS)",
-   "title": "Consultant - FSO - Bangalore",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049238",
-   "why": "requires MBA"
-  },
-  {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Associate Consultant - Debt",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30047576",
-   "why": "requires MBA"
+   "title": "Associate Consultant _ UK DG",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051135",
+   "why": "requires MASTER DEGREE"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Discovery - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Discovery-Mumbai-MH-400028/1448772533/",
+   "title": "Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1428926333/",
    "why": "requires CA"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Discovery - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Discovery-Mumbai-MH-400028/1448772533/",
+   "title": "Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1428926333/",
    "why": "requires CA"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Discovery - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Discovery-Mumbai-MH-400028/1448772733/",
+   "title": "Consultant - Business Consulting Risk - CHS - CNS - Risk - Process & Controls - Gurgaon",
+   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-CHS-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1439244233/",
    "why": "requires CA"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Discovery - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Discovery-Mumbai-MH-400028/1448772733/",
+   "title": "Consultant - Business Consulting Risk - CHS - CNS - Risk - Process & Controls - Gurgaon",
+   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-CHS-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1439244233/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439245133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439245133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Analyst - Assurance - National - ASU - FAAS - Financial&AccountingAdv - Mumbai/Pune/NCR",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Assurance-National-ASU-FAAS-Financial&AccountingAdv-MumbaiPuneNCR-MH-400028/1439229333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Analyst - Assurance - National - ASU - FAAS - Financial&AccountingAdv - Mumbai/Pune/NCR",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Assurance-National-ASU-FAAS-Financial&AccountingAdv-MumbaiPuneNCR-MH-400028/1439229333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1428927333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1428927333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439238033/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439238033/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-560001/1428937933/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-560001/1428937933/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439245233/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439245233/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237833/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237833/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439236833/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439236833/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439236933/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439236933/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1439246133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1439246133/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1439237333/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - TALENT - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Chennai-TN-600113/1448780733/",
+   "why": "requires CA"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - TALENT - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Chennai-TN-600113/1448780733/",
    "why": "requires CA"
   }
  ],
@@ -184,6 +318,12 @@
    "title": "VP MI Systems and Cntrl, INM FIN",
    "location": "Mumbai, Maharashtra, India",
    "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager Operations - Traditional Fund Accounting",
+   "location": "Kolkata, West Bengal, India",
+   "why": "manager-level"
   },
   {
    "company": "HSBC",
@@ -219,12 +359,6 @@
    "company": "HSBC",
    "title": "Avaloq Developer / SENIOR CONSULTANT SPECIALIST",
    "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP - AI Risk Advisory and Governance",
-   "location": "Bangalore, Karnataka, India",
    "why": "excluded keyword"
   },
   {
@@ -1879,18 +2013,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Cloud Data Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer - PBI Data Analytics",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
    "title": "Transaction Monitoring Analyst",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -2425,12 +2547,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Talent Vendor Management Strategy Lead – Vice President",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
    "title": "Planning and Stress Testing Model Execution AVP",
    "location": "New York, United States",
    "why": "location 'New York, United States' not India"
@@ -2520,6 +2636,30 @@
    "why": "location 'Wilmington, United States' not India"
   },
   {
+   "company": "Barclays",
+   "title": "Records Management",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Mobile AVP Software Engineer",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Mobile BA4 Software Engineer",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
    "company": "BlackRock",
    "title": "Implementation Consultant,  Director (New York/Princeton/Delaware) New York, NY 10/16/2026",
    "location": "New York, NY",
@@ -2566,12 +2706,6 @@
    "title": "2027 Mexico City Internship Program Mexico City, Mexico City 10/15/2026",
    "location": "Mexico City, Mexico City",
    "why": "location 'Mexico City, Mexico City' not India"
-  },
-  {
-   "company": "BlackRock",
-   "title": "Technical Solutions Architect - Aladdin Studio, Vice Presdient New York, NY 10/15/2026",
-   "location": "New York, NY",
-   "why": "location 'New York, NY' not India"
   }
  ]
 }
