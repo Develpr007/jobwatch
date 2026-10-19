@@ -1,5 +1,5 @@
 {
- "when": "2026-10-20 02:06 IST",
+ "when": "2026-10-20 02:33 IST",
  "sources_ok": 95,
  "sources_failed": [
   [
@@ -12,7 +12,7 @@
   ],
   [
    "Salesforce",
-   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"F48A49MVFPWUI2\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"C2D01FMVFQUWTZ\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "McKinsey & Company",
@@ -44,72 +44,10 @@
   "Ola",
   "Cars24",
   "Delhivery",
-  "PhysicsWallah",
   "Nestle India"
  ],
  "relevant_open": 355,
- "new": [
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1438262833/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f54c42fc57a074d9"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1438262833/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f54c42fc57a074d9"
-  },
-  {
-   "company": "Amazon",
-   "title": "Intelligence Analyst, ISAAC",
-   "url": "https://www.amazon.jobs/en/jobs/10583131/intelligence-analyst-isaac",
-   "location": "Hyderabad, Telangana, IND",
-   "posted": "October 19, 2026",
-   "source": "amazon",
-   "extra": {
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-20",
-    "posted": "2026-10-19",
-    "verdict": "no experience stated"
-   },
-   "key": "ee6c79462f942826"
-  },
-  {
-   "company": "Target India",
-   "title": "Data Analyst job id: R0000431066 job family: Business Intelligence Reporting & Analytics",
-   "url": "https://indiajobs.target.com/job/bengaluru/data-analyst/34386/92314580080",
-   "location": "",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": ""
-   },
-   "key": "a54a828d6af40383"
-  }
- ],
+ "new": [],
  "dropped_after_reading": [],
  "rejected_sample": [
   {
