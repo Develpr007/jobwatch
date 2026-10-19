@@ -92,7 +92,7 @@ def main(argv=None):
     # browser jobs are heavier; run them with fewer threads
     light = [c for c in companies if c["adapter"] != "browser"]
     heavy = [c for c in companies if c["adapter"] == "browser"]
-    for group, workers in ((light, args.workers), (heavy, 2)):
+    for group, workers in ((light, args.workers), (heavy, 3)):
         if not group:
             continue
         with ThreadPoolExecutor(max_workers=workers) as ex:
@@ -177,4 +177,50 @@ def main(argv=None):
                 w.writerow([stamp, j.company, j.title, j.location, j.url, j.source])
     save_json(LAST_RUN, {"when": stamp, "sources_ok": len(results), "sources_failed": errors,
                          "sources_zero": zero, "relevant_open": len(relevant_all),
-                         "new": [{k: v for k, v in j.to_dict().items() if k != "description"} for j in new_jobs], "dropped_after_reading"
+                         "new": [{k: v for k, v in j.to_dict().items() if k != "description"} for j in new_jobs], "dropped_after_reading": dropped_qual,
+                         "rejected_sample": rejected_sample})
+
+    # ---- notify (identical postings merged; message capped per company so every company is visible)
+    new_merged = sorted(collapse(list(new_jobs)), key=lambda x: (x.company, x.title))
+    failing = [n for n, h in health.items() if h["fail_streak"] >= 3]
+    lines = []
+    if first_run:
+        header = (f"Jobwatch set up ✅ {len(new_merged)} relevant roles open right now across "
+                  f"{len({j.company for j in new_merged})} companies (full list in your sheet)")
+        lines = notify.format_jobs(new_merged, header, per_company=6)
+    elif new_merged:
+        header = f"{len(new_merged)} new role{'s' if len(new_merged) != 1 else ''} — {stamp}"
+        lines = notify.format_jobs(new_merged, header, per_company=15)
+    new_jobs = new_merged
+    if errors and (failing or now.weekday() == 0 and now.hour < 12):
+        lines.append(f"\n⚠️ {len(errors)} sources failed this run; {len(failing)} failing 3+ runs: "
+                     + ", ".join(failing[:12]))
+    if new_jobs and not args.dry_run:
+        try:
+            print("sheet:", notify.sheet(sorted(new_jobs, key=lambda x: (x.company, x.title))))
+        except Exception as e:
+            print("sheet error:", e)
+    if lines and not args.dry_run:
+        sent_tg = notify.telegram(lines)
+        sent_mail = False
+        if new_jobs or first_run:
+            try:
+                sent_mail = notify.email(f"Jobwatch: {len(new_jobs)} new roles ({stamp})", lines,
+                                         notify.format_jobs_html(new_jobs, lines[0]))
+            except Exception as e:
+                print("email error:", e)
+        print(f"notified: telegram={sent_tg} email={sent_mail}")
+
+    if not args.dry_run:
+        save_json(SEEN, seen)
+        save_json(HEALTH, health)
+
+    print(f"\n{stamp}: {len(results)} ok, {len(errors)} failed, {len(zero)} empty, "
+          f"{len(relevant_all)} relevant open, {len(new_jobs)} new")
+    if errors:
+        print("failed:", "; ".join(f"{n} ({e})" for n, e in errors))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
