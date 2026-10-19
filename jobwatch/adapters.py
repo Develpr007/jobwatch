@@ -266,7 +266,17 @@ def _parse_links(company, html_text, base, source, selector=None, location_selec
                 l = parent.select_one("[class*=location], [class*=Location], .job-location, span.location")
                 if l and l is not a:
                     loc = l.get_text(" ", strip=True)[:80]
-            out.append(Job(company, text, full, loc, "", source))
+            posted = ""
+            m = re.search(r"\b(\d{1,2}/\d{1,2}/\d{4})\s*$", text)
+            if m:
+                posted = m.group(1)
+                text = text[:m.start()].strip()
+                # location often precedes the date: "Role Mumbai, Maharashtra 10/15/2026"
+                lm = re.search(r"\s([A-Z][a-z]+(?: [A-Z][a-z]+)*,\s*[A-Z][a-z]+(?: [A-Z][a-z]+)*)$", text)
+                if lm and not loc:
+                    loc = lm.group(1)
+                    text = text[:lm.start()].strip()
+            out.append(Job(company, text, full, loc, posted, source))
     return out
 
 
