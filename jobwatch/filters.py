@@ -123,4 +123,126 @@ def is_relevant(job: Job, india_only: bool = False, max_years: int = 2) -> tuple
 # Strong fresher signals: these override a years figure (a JD saying "0-2 years" or "campus hire" wins).
 FRESHER_STRONG = [
     r"\bfreshers?\b", r"\b0\s*(?:-|to|–)\s*[123]\s*(?:\+\s*)?(?:years?|yrs?)\b", r"\bno (?:prior )?(?:work )?experience (?:required|needed|necessary)\b",
-    r"\bentry[ -]level\b", r"\bcampus (?:hire|hiring|recruit|programme|program|placement)\b", r"\bgraduate (?:program|programme|tra
+    r"\bentry[ -]level\b", r"\bcampus (?:hire|hiring|recruit|programme|program|placement)\b", r"\bgraduate (?:program|programme|trainee|hire|scheme|analyst)\b",
+    r"\bnew grad", r"\brecent graduates?\b", r"\bfinal[ -]year\b", r"\b202[67] (?:batch|pass ?outs?|graduates?|grads?)\b",
+    r"\bmanagement trainee\b", r"\bearly[ -]careers?\b", r"\banalyst program(?:me)?\b",
+]
+# Weak signals: accepted only when nothing contradicts them.
+FRESHER_WEAK = [r"\bintern(?:ship)?s?\b", r"\btrainee\b", r"\bapprentice"]
+
+# Years of experience, counted only when the sentence is about experience.
+EXP_PATTERNS = [
+    r"\b(\d{1,2})\s*\+?\s*(?:-|to|–)\s*(\d{1,2})\s*\+?\s*(?:years?|yrs?)(?:[^.;]{0,60}?)(?:experience|exp\b|work|background|track record)",
+    r"\b(\d{1,2})\s*\+\s*(?:years?|yrs?)(?:[^.;]{0,60}?)(?:experience|exp\b|work|background)",
+    r"(?:minimum|min\.?|at least|atleast|more than|over)\s*(?:of\s*)?(\d{1,2})\s*\+?\s*(?:years?|yrs?)(?:[^.;]{0,60}?)(?:experience|exp\b|work|background)",
+    r"\b(\d{1,2})\s*\+?\s*(?:years?|yrs?)(?:'|’)?\s*(?:of\s*)?(?:relevant |prior |work |professional |hands[- ]on |industry |total |overall |post[- ]qualification |pqe )?(?:experience|exp\b)",
+    r"experience\s*(?:required|needed|level)?\s*[:\-–]\s*(\d{1,2})\s*\+?",
+    r"years? of experience\s*(?:required|needed)?\s*[:\-–]?\s*(\d{1,2})\s*\+?",
+    r"(?:experience|exp)\s*(?:of|:)?\s*(\d{1,2})\s*\+?\s*(?:-|to|–)?\s*(\d{1,2})?\s*\+?\s*(?:years?|yrs?)",
+]
+# Company boilerplate that also mentions years; matches near these words are ignored.
+BOILERPLATE = r"(history|heritage|legacy|founded|established|in business|serving|clients? for|track record of|innovation|old\b|company|firm has|we have|our|celebrat)"
+
+DEGREE_HARD = [
+    r"\bmba\b", r"\bpgdm\b", r"\bpgdbm\b", r"\bpgp\b", r"\bchartered accountant", r"\bca\b(?!\s*freshers?)(?=[^.;]{0,40}\b(?:qualified|required|must|mandatory|degree|final|inter)\b)",
+    r"\bcfa\b(?=[^.;]{0,40}\b(?:required|must|mandatory|charter|level)\b)", r"\bfrm\b(?=[^.;]{0,40}\b(?:required|must|mandatory)\b)",
+    r"\bcompany secretary\b", r"\bicwa\b", r"\bcma\b", r"\bacca\b", r"\bactuar",
+    r"\bph\.?d\b", r"\bdoctorate\b", r"\bmaster(?:'|’)?s? (?:degree|of|in)\b", r"\bpost[- ]?graduat(?:e|ion)\b", r"\bm\.?sc\b", r"\bm\.?com\b", r"\bm\.?tech\b", r"\bm\.?e\.\b",
+    r"\bb\.?des\b", r"\bm\.?des\b", r"\bbachelor of design\b", r"\bmaster of design\b", r"\bllb\b", r"\bllm\b",
+    r"\bmbbs\b", r"\bbds\b", r"\bb\.?pharm", r"\bm\.?pharm",
+]
+# If the same sentence says any of these, the degree is optional (or a B.Tech is listed as an alternative).
+SOFT_WORDS = (r"(preferred|preferably|plus\b|advantage|nice to have|good to have|desirable|bonus|ideally|or equivalent|optional|would be|"
+              r"b\.?tech|b\.?e\b|bachelor|engineering|any graduate|graduate in any|any discipline|any stream|graduates? (?:or|/)|undergraduate)")
+LATERAL = [r"\bexperienced hires? only\b", r"\blateral hir", r"\bexperienced professionals? only\b", r"\bnot (?:open|suitable) (?:to|for) freshers\b"]
+
+REQ_HEADS = re.compile(
+    r"(basic qualifications|minimum qualifications|preferred qualifications|qualifications|requirements|required skills|"
+    r"what you(?:'|’)ll need|what we(?:'|’)re looking for|what we look for|who you are|about you|skills and experience|"
+    r"skills & experience|experience required|eligibility|your profile|must have|to qualify|desired profile|candidate profile|"
+    r"required experience|key skills|what you bring|ideal candidate|job requirements|educational qualification|education qualification|"
+    r"years of experience|experience level|what you(?:'|’)ll bring|you have|we(?:'|’)re looking for|education|degree|"
+    r"skills required|skill ?sets?|profile)", re.I)
+END_HEADS = re.compile(
+    r"(about (?:us|the company|the team|the firm)|why join|benefits|what we offer|perks|equal opportunity|eeo\b|we are an equal|"
+    r"diversity|inclusion statement|similar jobs|related jobs|recommended jobs|jobs you may|people also viewed|share this job|"
+    r"privacy|cookie|apply now|job id|requisition id|posting date)", re.I)
+
+
+def requirements_section(text: str) -> str:
+    """The part of the page most likely to hold the requirements. Falls back to the whole text, trimmed."""
+    t = text or ""
+    m = REQ_HEADS.search(t)
+    if m:
+        seg = t[max(0, m.start() - 200): m.start() + 5000]
+        e = END_HEADS.search(seg, 200)
+        if e:
+            seg = seg[: e.start()]
+        return seg
+    e = END_HEADS.search(t, 500)
+    return t[: e.start()] if e else t[:6000]
+
+
+def min_experience(text: str):
+    """Smallest minimum-years figure asked for, ignoring company-history sentences. None if never stated."""
+    t = (text or "").lower()
+    vals = []
+    for pat in EXP_PATTERNS:
+        for m in re.finditer(pat, t):
+            window = t[max(0, m.start() - 80): m.start()]
+            if re.search(BOILERPLATE, window):
+                continue
+            try:
+                vals.append(int(m.group(1)))
+            except (ValueError, IndexError, TypeError):
+                pass
+    return min(vals) if vals else None
+
+
+def hard_degree(text: str):
+    """First degree that is required (not merely preferred, and not offered alongside a bachelor's), or None."""
+    t = (text or "").lower()
+    for sent in re.split(r"(?<=[.;!?•·])\s+|\s[-–•]\s|\n", t):
+        for pat in DEGREE_HARD:
+            m = re.search(pat, sent)
+            if m and not re.search(SOFT_WORDS, sent):
+                return m.group(0)
+    return None
+
+
+def qualifies(description: str, max_years: int = 1) -> tuple[bool, str]:
+    """Second-pass check on the full description. Unknown (no description) -> keep, flagged."""
+    if not description or len(description) < 120:
+        return True, "description not readable (unverified)"
+    req = requirements_section(description).lower()
+    full = description.lower()
+    if _any(LATERAL, req) or _any(LATERAL, full):
+        return False, "experienced hires only"
+    deg = hard_degree(req)
+    if deg:
+        return False, f"requires {deg.upper()}"
+    if _any(FRESHER_STRONG, req):
+        return True, "fresher-friendly"
+    yrs = min_experience(req)
+    if yrs is None:
+        yrs = min_experience(full)          # requirements may sit outside the section we found
+    if yrs is not None and yrs > max_years:
+        return False, f"asks {yrs}+ years"
+    if _any(FRESHER_STRONG, full):
+        return True, "fresher-friendly"
+    if _any(FRESHER_WEAK, req):
+        return True, "fresher-friendly"
+    return True, "ok" if yrs is not None else "no experience stated"
+
+
+def collapse(jobs):
+    """Merge postings that are the same company + title + location (Amazon posts one per seat)."""
+    groups = {}
+    for j in jobs:
+        k = (j.company, re.sub(r"\s+", " ", j.title.strip().lower()), j.location.strip().lower())
+        if k in groups:
+            groups[k].extra["count"] = groups[k].extra.get("count", 1) + 1
+        else:
+            j.extra.setdefault("count", 1)
+            groups[k] = j
+    return list(groups.values())
