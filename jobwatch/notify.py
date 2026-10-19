@@ -54,7 +54,8 @@ def sheet(jobs):
     url = os.getenv("SHEETS_WEBHOOK_URL")
     if not url or not jobs:
         return False
-    rows = [[j.extra.get("found", ""), j.company, j.title, j.location, j.url, j.extra.get("verdict", "")] for j in jobs]
+    rows = [[j.extra.get("found", ""), j.extra.get("posted", ""), j.company, j.title, j.location, j.url,
+             j.extra.get("verdict", "")] for j in jobs]
     r = requests.post(url, json={"rows": rows}, timeout=60, allow_redirects=True)
     if r.status_code != 200 or "ok" not in r.text[:200].lower():
         print("sheet error:", r.status_code, r.text[:200])
@@ -80,14 +81,4 @@ def format_jobs(jobs, header, per_company=None):
             flag = " ⚠️" if "unverified" in v else ""
             lines.append(f"• <a href=\"{htmlmod.escape(j.url)}\">{htmlmod.escape(j.title)}</a>{cnt}{loc}{flag}")
         if per_company and len(items) > per_company:
-            lines.append(f"  …+{len(items) - per_company} more in the sheet")
-    return lines
-
-
-def format_jobs_html(jobs, header):
-    rows = []
-    for j in sorted(jobs, key=lambda x: (x.company, x.title)):
-        rows.append(f"<tr><td>{htmlmod.escape(j.company)}</td><td><a href='{htmlmod.escape(j.url)}'>"
-                    f"{htmlmod.escape(j.title)}</a></td><td>{htmlmod.escape(j.location)}</td></tr>")
-    return (f"<h3>{htmlmod.escape(header)}</h3><table border='1' cellpadding='6' style='border-collapse:collapse'>"
-            f"<tr><th>Company</th><th>Role</th><th>Location</th></tr>{''.join(rows)}</table>")
+            lines.append(f"  …+{len(items) - per_company} more in
