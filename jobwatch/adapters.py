@@ -111,8 +111,14 @@ def workday(cfg, s):
         offset = 0
         while offset < 300:
             body = {"appliedFacets": cfg.get("facets", {}), "limit": 20, "offset": offset, "searchText": term}
-            r = http.post(s, base, json=body, headers={"Content-Type": "application/json",
-                                                       "Accept": "application/json", "Origin": host})
+            hdrs = {"Content-Type": "application/json", "Accept": "application/json", "Origin": host,
+                    "Referer": f"{host}/{site}"}
+            r = http.post(s, base, json=body, headers=hdrs)
+            if r.status_code in (400, 422) and body["appliedFacets"]:
+                # this tenant does not accept our country facet id; search without it (location is filtered later)
+                body["appliedFacets"] = {}
+                cfg["facets"] = {}
+                r = http.post(s, base, json=body, headers=hdrs)
             if r.status_code != 200:
                 raise RuntimeError(f"workday {r.status_code}: {r.text[:200]}")
             data = r.json()
@@ -138,7 +144,8 @@ def eightfold(cfg, s):
     out, start = [], 0
     while start < 500:
         url = f"{base}/api/apply/v2/jobs?domain={domain}&location={cfg.get('location', 'India')}&num=100&start={start}&sort_by=timestamp"
-        r = http.get(s, url, headers={"Accept": "application/json"})
+        r = http.get(s, url, headers={"Accept": "application/json", "Referer": f"{base}/careers",
+                                      "X-Requested-With": "XMLHttpRequest"})
         if r.status_code != 200:
             raise RuntimeError(f"eightfold {r.status_code}")
         data = r.json()
