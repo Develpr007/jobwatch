@@ -1,0 +1,926 @@
+[
+ {
+  "name": "JPMorgan Chase",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://jpmc.fa.oraclecloud.com",
+  "site": "CX_1001",
+  "location_id": "300000000289738",
+  "note": "Oracle REST feed; untested, fall back to browser on https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?location=India&locationId=300000000289738&locationLevel=country if it fails"
+ },
+ {
+  "name": "Goldman Sachs",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "urls": [
+   "https://higher.gs.com/results?LOCATION=Bengaluru&page=1&sort=RELEVANCE",
+   "https://higher.gs.com/results?LOCATION=Hyderabad&page=1&sort=RELEVANCE",
+   "https://higher.gs.com/results?LOCATION=Mumbai&page=1&sort=RELEVANCE"
+  ],
+  "note": "Site has bot protection; may fail"
+ },
+ {
+  "name": "Morgan Stanley",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://morganstanley.eightfold.ai",
+  "domain": "morganstanley.com",
+  "location": "India",
+  "fallback_url": "https://morganstanley.eightfold.ai/careers?location=India"
+ },
+ {
+  "name": "Barclays",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://search.jobs.barclays",
+  "location": "India",
+  "list_path": "/search-jobs/India"
+ },
+ {
+  "name": "Deutsche Bank",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.db.com/professionals/search-roles/",
+  "scrolls": 6
+ },
+ {
+  "name": "HSBC",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://hsbc.eightfold.ai",
+  "domain": "hsbc.com",
+  "location": "India"
+ },
+ {
+  "name": "Citi",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://jobs.citi.com",
+  "location": "India",
+  "list_path": "/location/india-jobs/287/1269750/2"
+ },
+ {
+  "name": "Wells Fargo",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.wellsfargojobs.com/en/jobs/?search=analyst&country=India"
+ },
+ {
+  "name": "Bank of America",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.bankofamerica.com/en-us/job-search?ref=search&country=India"
+ },
+ {
+  "name": "UBS",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults"
+ },
+ {
+  "name": "Standard Chartered",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.standardchartered.com",
+  "location": "India",
+  "fallback_url": "https://jobs.standardchartered.com/search/?q=&locationsearch=India"
+ },
+ {
+  "name": "BNP Paribas",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://group.bnpparibas/en/careers/all-job-offers?country=India"
+ },
+ {
+  "name": "Nomura",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.nomura.com/Nomura",
+  "location": "India"
+ },
+ {
+  "name": "Societe Generale",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.societegenerale.com/en/job-offers"
+ },
+ {
+  "name": "Macquarie",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "html",
+  "url": "https://recruitment.macquarie.com/en_US/careers/SearchJobs/?3_111_3=India"
+ },
+ {
+  "name": "NatWest Group",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.natwestgroup.com/search/jobs?location=India"
+ },
+ {
+  "name": "Northern Trust",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "ntrs",
+  "pod": "wd1",
+  "site": "northerntrust",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  }
+ },
+ {
+  "name": "State Street",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "statestreet",
+  "pod": "wd1",
+  "site": "Global",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://statestreet.wd1.myworkdayjobs.com/Global?q=analyst&locationCountry=c4f78be1a8f14da0ab49ce1162348a5e"
+ },
+ {
+  "name": "BlackRock",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.blackrock.com",
+  "location": "India",
+  "list_path": "/location/india-jobs/45831/1269750/2"
+ },
+ {
+  "name": "Fidelity (FMR India)",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "workday",
+  "host": "https://wd1.myworkdaysite.com",
+  "tenant": "fmr",
+  "site": "FidelityCareers",
+  "note": "If this fails, switch to adapter html with url https://jobs.fidelity.com/in/jobs/"
+ },
+ {
+  "name": "Franklin Templeton",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.franklintempleton.com/us/en/search-results?keywords=&location=India"
+ },
+ {
+  "name": "American Express",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://egug.fa.us2.oraclecloud.com",
+  "site": "CX_1",
+  "location_id": "300000000289738"
+ },
+ {
+  "name": "Mastercard",
+  "category": "Banks & FS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.mastercard.com/us/en/search-results?keywords=&location=India"
+ },
+ {
+  "name": "Visa",
+  "category": "Banks & FS",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "Visa",
+  "country": "in",
+  "fallback_url": "https://corporate.visa.com/en/jobs/search.html?location=India"
+ },
+ {
+  "name": "PayPal",
+  "category": "Banks & FS",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://paypal.eightfold.ai",
+  "domain": "paypal.com",
+  "location": "India",
+  "fallback_url": "https://paypal.eightfold.ai/careers?location=India"
+ },
+ {
+  "name": "McKinsey & Company",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.mckinsey.com/careers/search-jobs?cities=Bengaluru,Gurugram,Mumbai,Chennai,Hyderabad",
+  "scrolls": 6
+ },
+ {
+  "name": "BCG",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.bcg.com/global/en/search-results?location=India"
+ },
+ {
+  "name": "Bain & Company",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bain.com/careers/find-a-role/",
+  "note": "Site blocks bots; may fail"
+ },
+ {
+  "name": "Kearney",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://kearney.recsolu.com/job_boards/1"
+ },
+ {
+  "name": "Oliver Wyman",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.marsh.com/global/en/oliver-wyman-search?location=India"
+ },
+ {
+  "name": "Deloitte India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "html",
+  "india_only": true,
+  "urls": [
+   "https://southasiacareers.deloitte.com/go/Deloitte-India/718244/?q=&sortColumn=referencedate&sortDirection=desc",
+   "https://southasiacareers.deloitte.com/go/Deloitte-India/718244/25/?q=&sortColumn=referencedate&sortDirection=desc",
+   "https://southasiacareers.deloitte.com/go/Deloitte-India/718244/50/?q=&sortColumn=referencedate&sortDirection=desc"
+  ]
+ },
+ {
+  "name": "EY India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.ey.com/ey",
+  "location": "India"
+ },
+ {
+  "name": "KPMG India",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://kpmgindia.talentrecruit.com/career-page",
+  "india_only": true
+ },
+ {
+  "name": "KPMG Global Services (KGS)",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://ejgk.fa.em2.oraclecloud.com",
+  "site": "CX_3",
+  "india_only": true
+ },
+ {
+  "name": "KPMG Delivery Network (KDN)",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://ejgk.fa.em2.oraclecloud.com",
+  "site": "CX_3001"
+ },
+ {
+  "name": "PwC India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "pwc",
+  "pod": "wd3",
+  "site": "Global_Experienced_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  }
+ },
+ {
+  "name": "Accenture India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "accenture",
+  "pod": "wd103",
+  "site": "AccentureCareers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  }
+ },
+ {
+  "name": "ZS Associates",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "urls": [
+   "https://jobs.zs.com/jobs?location=India&page=1",
+   "https://jobs.zs.com/jobs?location=India&page=2"
+  ]
+ },
+ {
+  "name": "Axtria",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "html",
+  "url": "https://www.axtria.com/careers/"
+ },
+ {
+  "name": "Mu Sigma",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "html",
+  "enabled": false,
+  "url": "https://www.mu-sigma.com/career",
+  "note": "No job board; hires via email/LinkedIn. Disabled."
+ },
+ {
+  "name": "Fractal Analytics",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "fractal",
+  "pod": "wd1",
+  "site": "Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://fractal.wd1.myworkdayjobs.com/Careers?q=analyst"
+ },
+ {
+  "name": "Tiger Analytics",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "html",
+  "url": "https://www.tigeranalytics.com/about-us/current-openings/"
+ },
+ {
+  "name": "LatentView Analytics",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.latentview.com/careers/",
+  "india_only": true
+ },
+ {
+  "name": "Tredence",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://tredence.ripplehire.com/candidate/?token=rzuz0vttMaz0VxxVzDiY&source=CAREERSITE#list"
+ },
+ {
+  "name": "EXL Service",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_2",
+  "location_id": "300000000467203"
+ },
+ {
+  "name": "Genpact",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "genpact",
+  "pod": "wd108",
+  "site": "External_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://genpact.wd108.myworkdayjobs.com/External_Careers?q=analyst&locationCountry=c4f78be1a8f14da0ab49ce1162348a5e"
+ },
+ {
+  "name": "WNS",
+  "category": "Consulting & Analytics",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "WNSGlobalServices144",
+  "country": "in"
+ },
+ {
+  "name": "Capgemini India",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.capgemini.com/in-en/careers/join-capgemini/job-search/?country_code=in-en&country_name=India&size=15"
+ },
+ {
+  "name": "Redseer",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://redseer.com/careers/",
+  "india_only": true
+ },
+ {
+  "name": "Praxis Global Alliance",
+  "category": "Consulting & Analytics",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://praxian.keka.com/careers/",
+  "india_only": true
+ },
+ {
+  "name": "Alvarez & Marsal India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "html",
+  "url": "https://careers.alvarezandmarsal.com/search/jobs?location=India",
+  "fallback_url": "https://careers.alvarezandmarsal.com/search/jobs?location=India"
+ },
+ {
+  "name": "Gartner India",
+  "category": "Consulting & Analytics",
+  "tier": 2,
+  "adapter": "html",
+  "urls": [
+   "https://jobs.gartner.com/jobs/?location=India&page=1",
+   "https://jobs.gartner.com/jobs/?location=India&page=2",
+   "https://jobs.gartner.com/jobs/?location=India&page=3"
+  ]
+ },
+ {
+  "name": "Flipkart",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://flipkart.turbohire.co/careerpage/4d757ba0-3d57-448a-b82c-238ed87ac90f",
+  "scrolls": 8,
+  "card_selector": "a[href*='careerpage'], a[href*='jobdetail'], a[href*='job']"
+ },
+ {
+  "name": "Myntra",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "myntra",
+  "india_only": true,
+  "note": "Greenhouse token unverified; if it keeps failing switch to browser on https://careers.myntra.com/",
+  "fallback_url": "https://careers.myntra.com/"
+ },
+ {
+  "name": "Swiggy",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.swiggy.in/#/careers",
+  "scrolls": 8
+ },
+ {
+  "name": "Zomato / Blinkit (Eternal)",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://www.eternal.com/careers/",
+  "scrolls": 6
+ },
+ {
+  "name": "Zepto",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "zeptonow",
+  "india_only": true,
+  "note": "Lever tenant unverified",
+  "fallback_url": "https://www.zeptonow.com/careers"
+ },
+ {
+  "name": "Meesho",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "meesho",
+  "india_only": true
+ },
+ {
+  "name": "Nykaa",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.nykaa.com/"
+ },
+ {
+  "name": "Razorpay",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "razorpaysoftwareprivatelimited"
+ },
+ {
+  "name": "PhonePe",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://www.phonepe.com/careers/job-openings/",
+  "scrolls": 8
+ },
+ {
+  "name": "Paytm",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "paytm"
+ },
+ {
+  "name": "CRED",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "cred",
+  "india_only": true
+ },
+ {
+  "name": "Groww",
+  "category": "Indian Startups",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "groww",
+  "india_only": true
+ },
+ {
+  "name": "Zerodha",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.zerodha.com/"
+ },
+ {
+  "name": "Navi",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://navi.turbohire.co/dashboardv2?orgId=3e818601-0baa-429c-b6f8-4b21903ae0e6&type=0",
+  "scrolls": 8,
+  "card_selector": "a[href*='jobdetail'], a[href*='dashboardv2'], a[href*='job']"
+ },
+ {
+  "name": "Ola",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://olacareers.turbohire.co/dashboardv2?orgId=e0c1eb37-eb7a-4ca4-bcc5-d59ce4ce9212&type=0",
+  "scrolls": 8,
+  "card_selector": "a[href*='jobdetail'], a[href*='dashboardv2'], a[href*='job']"
+ },
+ {
+  "name": "Uber India",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "urls": [
+   "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore",
+   "https://jobs.uber.com/en/jobs/?location=IND-Telangana-Hyderabad",
+   "https://jobs.uber.com/en/jobs/?location=IND-Haryana-Gurgaon"
+  ]
+ },
+ {
+  "name": "Urban Company",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.urbancompany.com/"
+ },
+ {
+  "name": "Lenskart",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://ainterviews.com/job_board/lenskart_ho/"
+ },
+ {
+  "name": "Dream11 (Dream Sports)",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://www.dreamsports.group/careers",
+  "note": "No job board found; expect empty. LinkedIn is the real source."
+ },
+ {
+  "name": "Cars24",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.cars24.com/"
+ },
+ {
+  "name": "Delhivery",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://delhivery.darwinbox.in/ms/candidate/careers",
+  "scrolls": 8
+ },
+ {
+  "name": "MakeMyTrip",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.makemytrip.com/prod/jobs",
+  "scrolls": 5
+ },
+ {
+  "name": "Tata Digital",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "urls": [
+   "https://tatadigital.tata.com/jobpage",
+   "https://www.tatadigital.com/careers"
+  ]
+ },
+ {
+  "name": "Tata 1mg",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://1mg.darwinbox.in/jobs",
+  "scrolls": 8
+ },
+ {
+  "name": "PhysicsWallah",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://pwhr.darwinbox.in/ms/candidatev2/a62d7a6e288992/careers/home",
+  "scrolls": 8
+ },
+ {
+  "name": "Udaan",
+  "category": "Indian Startups",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.udaan.com/#!/",
+  "scrolls": 5
+ },
+ {
+  "name": "Google",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "html",
+  "urls": [
+   "https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=EARLY",
+   "https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=INTERN_AND_APPRENTICE",
+   "https://www.google.com/about/careers/applications/jobs/results/?location=India&q=analyst"
+  ]
+ },
+ {
+  "name": "Microsoft",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "microsoft",
+  "fallback_url": "https://jobs.careers.microsoft.com/global/en/search?lc=India&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Recent"
+ },
+ {
+  "name": "Amazon",
+  "category": "Global Tech & FMCG",
+  "tier": 1,
+  "adapter": "amazon"
+ },
+ {
+  "name": "Adobe",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.adobe.com/us/en/search-results?keywords=&location=India"
+ },
+ {
+  "name": "Salesforce",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "salesforce",
+  "pod": "wd12",
+  "site": "External_Career_Site",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://careers.salesforce.com/en/jobs/?country=India&search=analyst"
+ },
+ {
+  "name": "Oracle",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://eeho.fa.us2.oraclecloud.com",
+  "site": "jobsearch",
+  "location_id": "300000000106947",
+  "note": "Site number unverified; fall back to browser on careers.oracle.com if it fails"
+ },
+ {
+  "name": "SAP Labs India",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.sap.com",
+  "location": "India",
+  "fallback_url": "https://jobs.sap.com/search/?q=&locationsearch=India"
+ },
+ {
+  "name": "Atlassian",
+  "category": "Global Tech & FMCG",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "atlassian",
+  "note": "Lever tenant unverified; fall back to browser on https://www.atlassian.com/company/careers/all-jobs?location=India",
+  "fallback_url": "https://www.atlassian.com/company/careers/all-jobs?location=India"
+ },
+ {
+  "name": "Intuit",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://jobs.intuit.com",
+  "location": "India",
+  "list_path": "/search-jobs/India"
+ },
+ {
+  "name": "Walmart Global Tech",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "walmart",
+  "pod": "wd5",
+  "site": "WalmartExternal",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "note": "Tenant unverified",
+  "fallback_url": "https://careers.walmart.com/results?q=analyst&page=1&sort=rank&jobCountry=IN"
+ },
+ {
+  "name": "Target India",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "radancy",
+  "india_only": true,
+  "base": "https://indiajobs.target.com",
+  "location": "",
+  "list_path": "/search-jobs"
+ },
+ {
+  "name": "Lowe's India",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://talent.lowes.com/us/en/search-results?keywords=&location=Bengaluru"
+ },
+ {
+  "name": "Tesco Bengaluru",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.tesco.com/en_GB/careers/SearchJobs/Bengaluru"
+ },
+ {
+  "name": "Expedia Group",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "html",
+  "url": "https://careers.expediagroup.com/jobs/?location=India"
+ },
+ {
+  "name": "Freshworks",
+  "category": "Global Tech & FMCG",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "Freshworks",
+  "country": "in"
+ },
+ {
+  "name": "Zoho",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.zohocorp.com/jobs/Careers",
+  "scrolls": 8
+ },
+ {
+  "name": "Chargebee",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.chargebee.com",
+  "location": "India",
+  "fallback_url": "https://jobs.chargebee.com/"
+ },
+ {
+  "name": "Postman",
+  "category": "Global Tech & FMCG",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "postman",
+  "fallback_url": "https://www.postman.com/company/careers/open-positions/"
+ },
+ {
+  "name": "Hindustan Unilever",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.unilever.com",
+  "location": "India",
+  "list_path": "/search-jobs/India"
+ },
+ {
+  "name": "ITC Limited",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://recruitment.itcportal.com/jobs/Careers",
+  "scrolls": 6
+ },
+ {
+  "name": "Procter & Gamble India",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.pgcareers.com/global/en/search-results?location=India"
+ },
+ {
+  "name": "Nestle India",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://www.nestle.in/jobs/search-jobs",
+  "fallback_url": "https://www.nestle.in/jobs/search-jobs"
+ },
+ {
+  "name": "Aditya Birla Group",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://careers.adityabirla.com/job-search"
+ },
+ {
+  "name": "Mahindra Group",
+  "category": "Global Tech & FMCG",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.mahindracareers.com",
+  "location": "India"
+ },
+ {
+  "name": "Bajaj Finserv",
+  "category": "Global Tech & FMCG",
+  "tier": 3,
+  "adapter": "browser",
+  "india_only": true,
+  "url": "https://www.bajajfinserv.in/careers-finance",
+  "note": "ATS unknown; may return nothing"
+ }
+]
