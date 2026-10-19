@@ -12,6 +12,7 @@ from pathlib import Path
 from .adapters import REGISTRY
 from .filters import is_relevant, collapse, qualifies
 from .details import enrich
+from .dates import parse_posted
 from . import http, notify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -134,7 +135,8 @@ def main(argv=None):
             seen[j.key] = {"company": j.company, "title": j.title, "url": j.url, "location": j.location,
                            "first_seen": stamp, "verdict": why}
             if ok:
-                j.extra["found"] = now.strftime("%d-%b-%Y")
+                j.extra["found"] = now.strftime("%Y-%m-%d")
+                j.extra["posted"] = parse_posted(j.posted, now.date())
                 j.extra["verdict"] = "" if why == "ok" else why
                 new_jobs.append(j)
             else:
