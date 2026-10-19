@@ -17,7 +17,7 @@ def fetch_with_browser(cfg):
     urls = cfg.get("urls") or [cfg["url"]]
     out = []
     with sync_playwright() as p:
-        b = p.chromium.launch(headless=True)
+        b = p.chromium.launch(headless=True, args=["--disable-http2", "--disable-blink-features=AutomationControlled"])
         ctx = b.new_context(
             user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"),
@@ -25,11 +25,12 @@ def fetch_with_browser(cfg):
         page = ctx.new_page()
         for u in urls:
             try:
-                page.goto(u, wait_until="domcontentloaded", timeout=45000)
-                try:
-                    page.wait_for_load_state("networkidle", timeout=20000)
-                except Exception:
-                    pass
+                page.goto(u, wait_until="commit", timeout=60000)
+                for state, ms in (("domcontentloaded", 30000), ("networkidle", 20000)):
+                    try:
+                        page.wait_for_load_state(state, timeout=ms)
+                    except Exception:
+                        pass
                 if cfg.get("wait_for"):
                     try:
                         page.wait_for_selector(cfg["wait_for"], timeout=20000)
