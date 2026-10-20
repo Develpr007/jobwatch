@@ -1,5 +1,5 @@
 {
- "when": "2026-10-20 19:03 IST",
+ "when": "2026-10-21 00:04 IST",
  "sources_ok": 95,
  "sources_failed": [
   [
@@ -12,7 +12,7 @@
   ],
   [
    "Accenture India",
-   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"7A81F1MVGQGHPY\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"6BE7B0MVH13PPG\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "McKinsey & Company",
@@ -43,126 +43,637 @@
   "Navi",
   "Ola",
   "Cars24",
-  "Delhivery",
   "PhysicsWallah",
   "Nestle India"
  ],
- "relevant_open": 332,
+ "relevant_open": 338,
  "new": [
   {
-   "company": "Barclays",
-   "title": "Analyst IB Finance",
-   "url": "https://search.jobs.barclays/job/chennai/analyst-ib-finance/13015/101941262000",
-   "location": "Chennai, India",
-   "posted": "",
-   "source": "radancy",
+   "company": "State Street",
+   "title": "Apprentice",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hyderabad-India/Apprentice_R-799933",
+   "location": "Hyderabad, India",
+   "posted": "Posted Today",
+   "source": "workday",
    "extra": {
+    "externalPath": "/job/Hyderabad-India/Apprentice_R-799933",
     "category": "Banks & FS",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "no experience stated"
    },
-   "key": "36d2135eb37b7cf3"
-  },
-  {
-   "company": "KPMG Global Services (KGS)",
-   "title": "KGS-Analyst-Bangalore",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050890",
-   "location": "Bangalore, Karnataka, India",
-   "posted": "2026-10-20",
-   "source": "oracle",
-   "extra": {
-    "id": "30050890",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
-    "verdict": ""
-   },
-   "key": "96c49631c7b06127"
+   "key": "143e39389f460775"
   },
   {
    "company": "Genpact",
    "title": "Interns",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-14-45-Uppal-STPI-Hyderabad/Interns_JR10031765",
-   "location": "1401-G-India: 14-45, Uppal, STPI, Hyderabad",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-E-145146-Sitapura-STPI-Jaipur/Interns_JR10031092",
+   "location": "1401-G-India: E-145/146, Sitapura, STPI, Jaipur",
    "posted": "Posted Today",
    "source": "workday",
    "extra": {
-    "externalPath": "/job/1401-G-India-14-45-Uppal-STPI-Hyderabad/Interns_JR10031765",
+    "externalPath": "/job/1401-G-India-E-145146-Sitapura-STPI-Jaipur/Interns_JR10031092",
     "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
     "verdict": "no experience stated"
    },
-   "key": "781d97e1196a7d0d"
+   "key": "fd1da958a6748b64"
   },
   {
    "company": "Genpact",
    "title": "Interns",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-Ph-V--STPI-Gurgaon/Interns_JR10031766-2",
-   "location": "1401-G-India: Ph V,  STPI, Gurgaon",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-JLN-Marg-STPI-Jaipur/Interns_JR10031397",
+   "location": "1401-G-India: JLN Marg, STPI, Jaipur",
    "posted": "Posted Today",
    "source": "workday",
    "extra": {
-    "externalPath": "/job/1401-G-India-Ph-V--STPI-Gurgaon/Interns_JR10031766-2",
+    "externalPath": "/job/1401-G-India-JLN-Marg-STPI-Jaipur/Interns_JR10031397",
     "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
     "verdict": "no experience stated"
    },
-   "key": "ac4ba588c715d017"
+   "key": "693b1b4b93f43614"
   },
   {
    "company": "Genpact",
-   "title": "Analyst - Business Data Services 5B",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10031959",
-   "location": "1401-G-India: 2-3 FL, 22A, STPI, Gurgaon",
+   "title": "Interns",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-Indiabulls-Mega-Mall-Jodhpur-RJ/Interns_JR10031221",
+   "location": "1401-G-India: Indiabulls Mega Mall, Jodhpur, RJ",
    "posted": "Posted Today",
    "source": "workday",
    "extra": {
-    "externalPath": "/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10031959",
+    "externalPath": "/job/1401-G-India-Indiabulls-Mega-Mall-Jodhpur-RJ/Interns_JR10031221",
     "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
     "verdict": "no experience stated"
    },
-   "key": "d5114d459a30fb95"
-  },
-  {
-   "company": "Genpact",
-   "title": "Analyst - Business Data Services 5B",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10032088",
-   "location": "1401-G-India: 2-3 FL, 22A, STPI, Gurgaon",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10032088",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
-    "verdict": "no experience stated"
-   },
-   "key": "f98438acf81a4924"
-  },
-  {
-   "company": "Genpact",
-   "title": "Analyst - Process Analytics - SCM 5B",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10031969",
-   "location": "1401-G-India: 1-6 FL, Surya Park, STPI, Bangalore",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10031969",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
-    "verdict": "no experience stated"
-   },
-   "key": "50a0954b4c62a511"
+   "key": "98c3a3373161bb4f"
   }
  ],
- "dropped_after_reading": [],
+ "dropped_after_reading": [
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Intmd Analyst",
+   "url": "https://jobs.citi.com/job/pune/securities-and-derivatives-intmd-analyst/287/97223990096",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Support Inntermedita Analyst",
+   "url": "https://jobs.citi.com/job/pune/apps-support-inntermedita-analyst/287/97794677840",
+   "why": "asks 4+ years"
+  }
+ ],
  "rejected_sample": [
+  {
+   "company": "HSBC",
+   "title": "Governance and Programme Management Lead/Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager - Finance Operations",
+   "location": "Hyderabad, Telangana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Teller Supervisor",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Universal Banker",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Premier Relationship Manager -Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP Premier Relationship Manager - Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP Premier Relationship Manager-Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Assistant Vice President, Valuations Analytics Reporting",
+   "location": "Bangalore, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Vice President, Regulatory Compliance IWPB HSBC IBU",
+   "location": "Gandhinagar, Gujarat, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager -Global Regulatory Reporting",
+   "location": "Bangalore, Karnataka, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX- Desarrollador Junior Adobe Experience Manager",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Investment Counselor Sr - CIUDAD DE MEXICO",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part-Time Universal Banker (20 Hours), Los Angeles, Wilshire Westwood Branch",
+   "location": "Los Angeles, California, United States",
+   "why": "location 'Los Angeles, California, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX - Analista de Administración de Proyectos",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX OPERADOR CAJERO CABO SAN LUCAS Y SAN JOSE DEL CABO",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Business Analyst, Fraud Risk Technology",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Desarrollador Jr de Sistemas de Crédito",
+   "location": "Guadalajara, Jalisco, Mexico",
+   "why": "location 'Guadalajara, Jalisco, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX BANQUERO INTEGRAL ZONA NORTE",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Citigold NAM Managed Investment Specialist Lead",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX - Analista UI - portal web",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Ejecutivo Pyme JR Portales",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex  Gerente  -  Sucursal C 4018 Independencia - Mexicali BC",
+   "location": "Mexicali, Baja California, Mexico",
+   "why": "location 'Mexicali, Baja California, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Loan Documentation and Processing Intermediate Associate Analyst",
+   "location": "New Castle, Delaware, United States",
+   "why": "location 'New Castle, Delaware, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Op Cajero 418 Arcelia",
+   "location": "Arcelia, Guerrero, Mexico",
+   "why": "location 'Arcelia, Guerrero, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex op Cajero 445 Cd Altamirano",
+   "location": "Ciudad Altamirano, Guerrero, Mexico",
+   "why": "location 'Ciudad Altamirano, Guerrero, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Digital Tagging & Measurement Lead – VP (C13)",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Java Developer - Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Support Sr Analyst",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Tech Lead - Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Full Stack Developer - Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Java Principal Engineer Senior Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Software Engineer (Java) - Vice President",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Dev Tech Lead Analyst - Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Sr Programmer Analyst -Assistant Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applicationss Support Intermediate Analyst",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "South Africa Learnership Graduate Program - TTS, South Africa - Johannesburg, 2026",
+   "location": "Johannesburg, Gauteng, South Africa",
+   "why": "location 'Johannesburg, Gauteng, South Africa' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer Production Support Intmd Analyst",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Insurance, Reinsurance, P&C, Life - Investment Banker - VP",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Head of Audit - Zambia",
+   "location": "Lusaka, Lusaka Province, Zambia",
+   "why": "location 'Lusaka, Lusaka Province, Zambia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Especialista Senior de Partes Relacionadas en Contraloria Interna",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineer – Margin Technology",
+   "location": "Belfast, Northern Ireland, United Kingdom",
+   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Forward Deployed AI Engineer (SVP)",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Vice President-Central Program Manager - OMAI",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Forward Deployed AI Engineer - Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Rye Branch",
+   "location": "Rye, New York, United States",
+   "why": "location 'Rye, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "CHOFER CORPORATIVO",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act, Brooklyn West Area",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Fund Accounting Intermediate Analyst",
+   "location": "Budapest, Budapest, Hungary",
+   "why": "location 'Budapest, Budapest, Hungary' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking, Investment Banking, Full Time Analyst, Paris, France 2027",
+   "location": "Paris, Île-de-France Region, France",
+   "why": "location 'Paris, Île-de-France Region, France' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking, Investment Banking, Full Time Analyst, Madrid, Spain 2027",
+   "location": "Madrid, Madrid, Spain",
+   "why": "location 'Madrid, Madrid, Spain' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "OMAI - Program Management Lead - Vice President",
+   "location": "Getzville, New York, United States",
+   "why": "location 'Getzville, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Albertson Branch",
+   "location": "Albertson, New York, United States",
+   "why": "location 'Albertson, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part-Time Teller (20 Hours) - Hewlett Branch",
+   "location": "Hewlett, New York, United States",
+   "why": "location 'Hewlett, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Sr. Financial Officer - C14 - Schaumburg",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Third Party Risk Analyst, Assistant Vice President",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Director - Business Execution Lead - Banking Healthcare, Consumer & Retail",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Counsel 1 - Product - AVP",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking, Commercial Banking, Full Time Analyst, Paris - France 2027",
+   "location": "Paris, Île-de-France Region, France",
+   "why": "location 'Paris, Île-de-France Region, France' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Markets Legal Negotiator - Officer",
+   "location": "Belfast, Northern Ireland, United Kingdom",
+   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "SDLC & Release Automation Java/Kotlin Engineer",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Infrastructure Analyst",
+   "location": "Amman Governorate, Jordan",
+   "why": "location 'Amman Governorate, Jordan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Settlements Analyst",
+   "location": "Dublin, Leinster, Ireland",
+   "why": "location 'Dublin, Leinster, Ireland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Sr Programmer Analyst - Assistant Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Dev Tech Lead Analyst - C13 - IRVING",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Citigold Private Client Relationship Banker - AVP",
+   "location": "Dubai, Dubai, United Arab Emirates",
+   "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Analyst 2",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Backend Java Developer, Officer",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Java Developer, FX eCommerce, Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Banking Senior Associate - Technology M&A",
+   "location": "San Francisco, California, United States",
+   "why": "location 'San Francisco, California, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Business Analytics Senior Analyst",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Analyst 2 - C10 - PUNE",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Junior Trading Tool Developer - EMEA Credit",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Junior Banker - Bucharest",
+   "location": "Bucharest, București, Romania",
+   "why": "location 'Bucharest, București, Romania' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "In Business Risk Manager Vice President  NEW YORK",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Forward Deployed AI Engineer for Cyber Security",
+   "location": "Budapest, Budapest, Hungary",
+   "why": "location 'Budapest, Budapest, Hungary' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Trader",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Program Management Senior Lead",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Systematic Quantitative Analyst",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Product Manager",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Audit Manager",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Salesperson",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Assistant Vice President, Customer Service Senior Analyst, Securities Services Operations",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Anti Money Laundering Compliance Officer",
+   "location": "Algiers, Algiers Province, Algeria",
+   "why": "location 'Algiers, Algiers Province, Algeria' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Quantitative Analyst (VP), Commodities",
+   "location": "Houston, Texas, United States",
+   "why": "location 'Houston, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Commodities Quantitative Analyst (AVP)",
+   "location": "Houston, Texas, United States",
+   "why": "location 'Houston, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Analyst, Coverage Banker, Investment Banking",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Digital Asset Custody Operations Analyst",
+   "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+   "why": "location 'Kuala Lumpur, Kuala Lumpur, Malaysia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Digital Platforms Product Owner",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Microservices Senior Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Quantitative Analyst (Rates Electronic Market Making), VP",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "証券決済 シニア・アソシエイト / Securities Settlement Senior Associate – Tokyo",
+   "location": "Tokyo, Tokyo, Japan",
+   "why": "location 'Tokyo, Tokyo, Japan' not India"
+  },
   {
    "company": "Citi",
    "title": "Banamex  Cajero - Mexicali",
@@ -228,12 +739,6 @@
    "title": "Part-Time Universal Banker (20 Hours), Bilingual Mandarin Speaking Preferred, Industry-Puente Hills Branch",
    "location": "City of Industry, California, United States",
    "why": "location 'City of Industry, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Especialista en Apoyo de Documentos",
-   "location": "Mérida, Yucatán, Mexico",
-   "why": "location 'Mérida, Yucatán, Mexico' not India"
   },
   {
    "company": "Citi",
@@ -339,27 +844,9 @@
   },
   {
    "company": "Citi",
-   "title": "Banamex SC Asesor Tarjetas de Crédito FK Los Cabos Cabo Bello",
-   "location": "Cabo San Lucas, Baja California Sur, Mexico",
-   "why": "location 'Cabo San Lucas, Baja California Sur, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Wholesale Lending Operations - Closing Jr Analyst",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Senior Investment Counselor - Private Banking (Director)",
    "location": "Singapore, Singapore, Singapore",
    "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Application Development Senior Manager - Vice President",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
   },
   {
    "company": "Citi",
@@ -489,12 +976,6 @@
   },
   {
    "company": "Citi",
-   "title": "Applications Support Sr Analyst - C12 - WARSAW",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Apps Development Sr Lead Analyst - Senior Vice President",
    "location": "Charlotte, North Carolina, United States",
    "why": "location 'Charlotte, North Carolina, United States' not India"
@@ -588,12 +1069,6 @@
    "title": "VP, Sr Relationship Manager, Corporate Banking (Energy, Power and Chemical Sector)",
    "location": "Beijing, Beijing Municipality, China",
    "why": "location 'Beijing, Beijing Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Associate - Power, Energy and Commodity Traders (UK Natural Resources)",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
   },
   {
    "company": "Citi",
@@ -902,526 +1377,22 @@
    "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
   },
   {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
+   "company": "Barclays",
+   "title": "Event Coordinator - 12 Months Fixed Term Contract",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Corporate Banking Associate - Public Sector Banking",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
+   "company": "Barclays",
+   "title": "BPL - Business Development Manager - Barclaycard Payments",
+   "location": "Northampton, United Kingdom; Sunderland, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Sunderland, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Senior Relationship Manager, Public Sector Group, Corporate Banking",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banker, Director - North America Public Sector: State & Local",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Relationship Associate - Public Sector Banking",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Strategy Senior Analyst - AVP",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Vice President - Business Unit Manager - Hybrid",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Asset-Backed Securitization & Financing (“ABS&F”) - Associate - NEW YORK",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Banker, Financial Institutions - Director",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Relationship Manager - FIG, Assistant Vice President",
-   "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
-   "why": "location 'Kuala Lumpur, Kuala Lumpur, Malaysia' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director, Senior Banker, China Coverage, Investment Banking",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Clean Energy Finance (CEF) – VP/Director",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Equity Capital Markets Banker - Tech, Media, Telecom - VP",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Vice President, Banker, Financial Institutions, Corporate Banking",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Relationship Manager (Vice President)",
-   "location": "Taipei, Taiwan, Taiwan",
-   "why": "location 'Taipei, Taiwan, Taiwan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banker, Vice President - Corporate Banking U.S. Subsidiaries – Industrials Coverage",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banker, Director - Corporate Banking U.S. Subsidiaries - Tech Coverage",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Banker, Vice President - Power",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "CRE Finance Banker  - Vice President",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Vice President, Banker, Public Sector, Corporate Banking",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Metals & Mining",
-   "location": "Los Angeles, California, United States",
-   "why": "location 'Los Angeles, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banker - TMT (Tech, Media, Telecom) - VP",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Associate, Corporate Banker, Financial Institutions, Corporate Banking",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director, Power, Utilities & Renewables , Corporate Banking",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Industrials",
-   "location": "Chicago, Illinois, United States",
-   "why": "location 'Chicago, Illinois, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banker - Real Estate - Director",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "VP Banker - Global Infrastructure Coverage",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banking: IGS : Business Manager : MISG - Vice President",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Industrials",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Global Subsidiaries Group Senior Relationship Manager - Vice President",
-   "location": "Bangkok, Bangkok, Thailand",
-   "why": "location 'Bangkok, Bangkok, Thailand' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant (Investment Bank)",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Asset-Backed Securitization and Financing - Associate",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banker - ECM - FIG, Media, Telecom - VP or Director",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Asset-Backed Securitization & Financing (“ABS&F”) - Vice President",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX - Maquetador - Portal Web",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act, Mill Valley Area",
-   "location": "Mill Valley, California, United States",
-   "why": "location 'Mill Valley, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "RPS Registered Wealth Investment Services Associate",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex | Distrito Iztapalapa | Gerente PYME",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Consumer Product Sales Lead Analyst, Vice President (Hybrid)",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Financing & Securitization Analytics  - VP",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Staff Solutions Architect",
-   "location": "São Paulo, São Paulo, Brazil",
-   "why": "location 'São Paulo, São Paulo, Brazil' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Vice President - Credit Portfolio Senior Officer - Hybrid",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Assoc Ops Support Analyst",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Backend Engineer",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle EBS P2P Senior App Developer - Assistant Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Support Senior Manager - Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Full-Stack & Oracle EBS On-Prem Integration Development Lead",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Angular Full Stack Technical Lead",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Support Group Manager - Data Engineering",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Citi",
-   "title": "Assistant Vice President, Customer Service Senior Analyst, Operations",
-   "location": "Tokyo, Tokyo, Japan",
-   "why": "location 'Tokyo, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Officer, Customer Service Analyst, Operations",
-   "location": "Tokyo, Tokyo, Japan",
-   "why": "location 'Tokyo, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Coordinador de Procesos e Implantación sucursales Metro Sur",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle EBS P2P AP Functional Business Analyst",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle EBS AP Finance Functional Consultant - Senior Business",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle EBS AP Finance Functional Consultant - Senior Business Analyst",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Operations Support Specialist",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX INCLUYENDO + TALENTO CON DISCAPACIDAD - TIJUANA- BAJA CALIFORNIA",
-   "location": "Tijuana, Baja California, Mexico",
-   "why": "location 'Tijuana, Baja California, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior PySpark Developer",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "IT Business Senior Analyst - Assistant Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX - Digital Channels Management Associate Incident Analyst",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Python Engineer",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Engineering Lead - Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Full Stack Developer",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Engineering Lead Analyst - Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Python Full Stack Developer - VP",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "IT Business Lead Analyst",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Application Development - Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Regulatory Analyst - APAC Shift",
-   "location": "City of Taguig, Metro Manila, Philippines",
-   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology Lead Business Analyst - Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Development Senior Programmer Analyst - Assistant Vice President",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Technology Lead  - Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": ".NET Senior Programmer Analyst",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Digital Software Lead Analyst",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle ERP Application Development Lead, Vice President",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle EBS P2P Senior App Developer - Assistant Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "HSBC",
-   "title": "Governance and Programme Management Lead/Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Python, Gen AI , Agentic AI/Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Analyst, Control Manager",
-   "location": "Hyderabad, Telangana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Manager - Finance Operations",
-   "location": "Hyderabad, Telangana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Teller Supervisor",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "HSBC",
-   "title": "Universal Banker",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Premier Relationship Manager -Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager - Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager-Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Production Officer - Research",
-   "location": "Bangalore, Karnataka, India",
-   "why": "excluded keyword"
+   "company": "Barclays",
+   "title": "Group Data Management Strategy & Transformation Senior Analyst",
+   "location": "Glasgow, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom; Knutsford, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -1431,9 +1402,45 @@
   },
   {
    "company": "Barclays",
+   "title": "Windows Server Engineering Lead",
+   "location": "Knutsford, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Java Developer - AVP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Application Support Analyst",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
    "title": "Credit Risk Data Analyst",
    "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
    "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Product Manager",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equity Research Aerospace & Defense/Defense Tech, AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Data Engineer",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -1443,9 +1450,33 @@
   },
   {
    "company": "Barclays",
+   "title": "Quantitative Developer",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
    "title": "Ways of working - Transformation & Execution-  Director",
    "location": "Pune, India",
    "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Real Estate Risk UKC Sanctioning",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service - Personal Banker",
+   "location": "Harrogate, United Kingdom",
+   "why": "location 'Harrogate, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service - Personal Banker",
+   "location": "York, United Kingdom",
+   "why": "location 'York, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -1455,9 +1486,39 @@
   },
   {
    "company": "Barclays",
+   "title": "Junior Investment Strategist",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
    "title": "Senior Security Engineer - CIAM XDP",
    "location": "London, United Kingdom",
    "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior iOS Engineer- Identity Services",
+   "location": "Knutsford, United Kingdom; London, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Android Engineer",
+   "location": "Knutsford, United Kingdom; London, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equity Research Biotech, AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Americas Global Contract Services Distribution Negotiator AVP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
   },
   {
    "company": "Barclays",
@@ -1476,6 +1537,12 @@
    "title": "Clearing Product Manager",
    "location": "London, United Kingdom",
    "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Workday Specialist VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
   },
   {
    "company": "Barclays",
@@ -1638,12 +1705,6 @@
    "title": "End User Device Product Owner",
    "location": "Knutsford, United Kingdom",
    "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Junior Investment Strategist",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -2462,106 +2523,10 @@
    "why": "location 'Sunderland, United Kingdom; Knutsford, United Kingdom' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Compliance Assurance Review Lead VP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Innovation Research & Service Designer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "IFC - Cloud Data Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "BA4 - Research Operations",
-   "location": "Mumbai, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Quant AI/ML Model Developer VP",
-   "location": "Prague, Czechia",
-   "why": "location 'Prague, Czechia' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "VP - Liquidity Risk Reporting",
-   "location": "Chennai, India; Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Private Banker",
-   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
-   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Enterprise Data Platforms (EDP) Data Modeler",
-   "location": "Northampton, United Kingdom",
-   "why": "location 'Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Service Now Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Colleague Experience Analytics & Adoption Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Technical Product Owner",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Barclays Internal Audit Prudential Regulatory Reporting VP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Avaloq Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Quantitative Analyst AVP - Treasury",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Funds & Asset Managers Coverage, Americas",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Planning and Stress Testing Model Execution AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
+   "company": "JPMorgan Chase",
+   "title": "Payments Sales Manager - Broker Dealers & Market Structure - Executive Director",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
   }
  ]
 }
