@@ -229,7 +229,9 @@
   "tier": 3,
   "adapter": "browser",
   "url": "https://www.mckinsey.com/careers/search-jobs?cities=Bengaluru,Gurugram,Mumbai,Chennai,Hyderabad",
-  "scrolls": 6
+  "scrolls": 6,
+  "enabled": false,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | "
  },
  {
   "name": "BCG",
@@ -483,12 +485,12 @@
  {
   "name": "Myntra",
   "category": "Indian Startups",
-  "tier": 1,
-  "adapter": "greenhouse",
-  "token": "myntra",
+  "tier": 3,
+  "adapter": "browser",
   "india_only": true,
   "note": "Greenhouse token unverified; if it keeps failing switch to browser on https://careers.myntra.com/",
-  "fallback_url": "https://careers.myntra.com/"
+  "url": "https://careers.myntra.com/",
+  "scrolls": 6
  },
  {
   "name": "Swiggy",
@@ -500,7 +502,7 @@
   "scrolls": 8
  },
  {
-  "name": "Zomato / Blinkit (Eternal)",
+  "name": "Zomato / Blinkit / Hyperpure / District (Eternal)",
   "category": "Indian Startups",
   "tier": 3,
   "adapter": "browser",
@@ -511,12 +513,12 @@
  {
   "name": "Zepto",
   "category": "Indian Startups",
-  "tier": 1,
-  "adapter": "lever",
-  "slug": "zeptonow",
+  "tier": 3,
+  "adapter": "browser",
   "india_only": true,
   "note": "Lever tenant unverified",
-  "fallback_url": "https://www.zeptonow.com/careers"
+  "url": "https://www.zeptonow.com/careers",
+  "scrolls": 6
  },
  {
   "name": "Meesho",
@@ -660,7 +662,9 @@
   "adapter": "browser",
   "india_only": true,
   "url": "https://careers.makemytrip.com/prod/jobs",
-  "scrolls": 5
+  "scrolls": 5,
+  "enabled": false,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | "
  },
  {
   "name": "Tata Digital",
@@ -671,7 +675,9 @@
   "urls": [
    "https://tatadigital.tata.com/jobpage",
    "https://www.tatadigital.com/careers"
-  ]
+  ],
+  "enabled": false,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | "
  },
  {
   "name": "Tata 1mg",
@@ -698,7 +704,9 @@
   "adapter": "browser",
   "india_only": true,
   "url": "https://careers.udaan.com/#!/",
-  "scrolls": 5
+  "scrolls": 5,
+  "enabled": false,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | "
  },
  {
   "name": "Google",
@@ -744,7 +752,12 @@
     "c4f78be1a8f14da0ab49ce1162348a5e"
    ]
   },
-  "fallback_url": "https://careers.salesforce.com/en/jobs/?country=India&search=analyst"
+  "fallback_url": "https://careers.salesforce.com/en/jobs/?country=India&search=analyst",
+  "search_terms": [
+   "analyst",
+   "associate",
+   "intern"
+  ]
  },
  {
   "name": "Oracle",
@@ -922,5 +935,4807 @@
   "india_only": true,
   "url": "https://www.bajajfinserv.in/careers-finance",
   "note": "ATS unknown; may return nothing"
+ },
+ {
+  "name": "Bain Capability Network (BCN)",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.bain.com/jobs/SearchJobs/India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Avature | High | BCN roles under New Delhi/Gurugram; saw 'Analyst, TSG Product Management'"
+ },
+ {
+  "name": "McKinsey Knowledge Center India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.mckinsey.com/careers/search-jobs?cities=Gurugram",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | Custom SPA | Medium | Fresher titles: Junior Capabilities & Insights Analyst, Knowledge Analyst (Gurugram)",
+  "enabled": false
+ },
+ {
+  "name": "Deloitte USI",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://apply.deloitte.com/en_US/careers/SearchJobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Avature | High | Filter Hyderabad/Bengaluru/Gurugram/Mumbai/Pune client-side"
+ },
+ {
+  "name": "PwC Acceleration Centers India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "pwc",
+  "pod": "wd3",
+  "site": "Global_Experienced_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
+  "search_terms": [
+   "Associate",
+   "Analyst",
+   "Intern"
+  ],
+  "note": "Workday | High | AC Kolkata/Bangalore/Hyderabad roles post as 'Associate'"
+ },
+ {
+  "name": "EY GDS",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.ey.com/ey",
+  "location": "India",
+  "fallback_url": "https://careers.ey.com/ey/search/?q=GDS&locationsearch=India",
+  "note": "SuccessFactors | High | Bengaluru, Kochi, Trivandrum, Gurgaon, Noida, Mumbai; 'Associate Analyst' titles"
+ },
+ {
+  "name": "Grant Thornton Bharat",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://gtprod.talentrecruit.com/career-page",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "TalentRecruit | High | India-only"
+ },
+ {
+  "name": "BDO India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bdo.in/en-gb/careers/new-job-openings",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Medium | Fresher 'Associate' titles (Assurance, BAS, TRS)"
+ },
+ {
+  "name": "Protiviti India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.protiviti.com/in-en/experienced-hires",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "No board; hires via LinkedIn/Naukri/iimjobs | Low | Disabled"
+ },
+ {
+  "name": "FTI Consulting India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.fticonsulting.com/careers/search-jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown ATS | Low | Mumbai/New Delhi"
+ },
+ {
+  "name": "Arthur D. Little India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "urls": [
+   "https://experienced-careers-adlittle.icims.com/jobs/search?ss=1&searchKeyword=India",
+   "https://early-careers-adlittle.icims.com/jobs/search?ss=1&searchKeyword=India"
+  ],
+  "india_only": false,
+  "scrolls": 6,
+  "note": "iCIMS | High | Few India postings"
+ },
+ {
+  "name": "Roland Berger India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.rolandberger.com/en/Careers/Jobs/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Low | Mumbai; Junior Consultant titles"
+ },
+ {
+  "name": "L.E.K. Consulting India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-3/brand-2/candidate/jobboard/vacancy/5/adv/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Tal.net APAC board | High | Mumbai; 'Associate'"
+ },
+ {
+  "name": "Dalberg Advisors",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://dalberg.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown ATS | Low | Analyst - India (Mumbai), Undergraduate Intern - India seen"
+ },
+ {
+  "name": "Sattva Consulting",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.kula.ai/sattva",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Kula ATS | High | Analyst, Associate Consultant, Intern titles"
+ },
+ {
+  "name": "Zinnov",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "zinnov",
+  "india_only": true,
+  "note": "Greenhouse | High | Bangalore/Gurgaon"
+ },
+ {
+  "name": "Everest Group",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://everestgrp.com/openings/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom WordPress | High | Gurgaon/Bengaluru Analyst roles periodically"
+ },
+ {
+  "name": "Avalon Consulting",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://consulting.avalonglobal.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: careers URL does not resolve | Custom | Low",
+  "enabled": false
+ },
+ {
+  "name": "Vector Consulting Group",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.vectorconsulting.in/careers/career-listings",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | High | 'Business Consultant' posted periodically (Mumbai)"
+ },
+ {
+  "name": "Technopak",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.technopak.com/careers",
+  "india_only": true,
+  "scrolls": 4,
+  "enabled": false,
+  "note": "Static page, no ATS | Low | Disabled"
+ },
+ {
+  "name": "1Lattice",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://1lattice.hire.trakstar.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Trakstar Hire | High | Gurugram"
+ },
+ {
+  "name": "NielsenIQ India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "NielsenIQ",
+  "country": "in",
+  "note": "SmartRecruiters | High | Analyst, Associate Analyst titles"
+ },
+ {
+  "name": "Kantar India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "kantar",
+  "pod": "wd3",
+  "site": "KANTAR",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://kantar.wd3.myworkdayjobs.com/KANTAR",
+  "note": "Workday | High | Analyst, Research Executive titles"
+ },
+ {
+  "name": "Ipsos India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://ecqf.fa.em2.oraclecloud.com",
+  "site": "IpsosCareers",
+  "fallback_url": "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/jobs?keyword=India",
+  "note": "Oracle Recruiting Cloud | High"
+ },
+ {
+  "name": "Frost & Sullivan India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers4-frost.icims.com/jobs/search?ss=1&searchKeyword=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "iCIMS | High | Chennai; Research Analyst, Consulting Associate titles"
+ },
+ {
+  "name": "Sigmoid Analytics",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "sigmoid",
+  "note": "Greenhouse | High | Bengaluru"
+ },
+ {
+  "name": "Quantiphi",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "quantiphi",
+  "pod": "wd1",
+  "site": "Careers_at_Quantiphi",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi",
+  "note": "Workday | High | Business Analyst, Intern titles"
+ },
+ {
+  "name": "Course5 Intelligence",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.c5i.ai/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Medium | Bengaluru, Gurugram, Mumbai"
+ },
+ {
+  "name": "Cartesian Consulting",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.cartesianconsulting.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Low | Mumbai; Analyst/Associate titles"
+ },
+ {
+  "name": "Accordion (Merilytics)",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.accordion.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom WordPress | High | Hyderabad; 'Business Associate' fresher title"
+ },
+ {
+  "name": "MathCo",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://mathco.com/explore-roles/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Medium | Bengaluru"
+ },
+ {
+  "name": "Crayon Data",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.crayondata.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown ATS | Low | Chennai"
+ },
+ {
+  "name": "Infosys",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "urls": [
+   "https://career.infosys.com/joblist",
+   "https://www.infosysbpm.com/careers/apply.html"
+  ],
+  "india_only": false,
+  "scrolls": 8,
+  "note": "Custom SPA | Medium | Business Analyst, Process Executive titles"
+ },
+ {
+  "name": "TCS",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ibegin.tcs.com/iBegin/jobs/search",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "Disabled: iBegin URL does not resolve; freshers hired via NextStep (nextstep.tcs.com) | iBegin portal | Medium | Fresher NQT hiring is on nextstep.tcs.com, not here",
+  "enabled": false
+ },
+ {
+  "name": "Wipro",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.wipro.com/careers-home/jobs?country=India",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "Phenom-style SPA | Medium"
+ },
+ {
+  "name": "HCLTech",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.hcltech.com",
+  "location": "India",
+  "fallback_url": "https://careers.hcltech.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High | Analyst / Graduate Engineer Trainee titles"
+ },
+ {
+  "name": "LTIMindtree",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ltimindtree.ripplehire.com/candidate/?token=xviyQvbnyYZdGtozXoNm&lang=en&source=CAREERSITE#list/geo=India",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "RippleHire | High"
+ },
+ {
+  "name": "Cognizant India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "urls": [
+   "https://careers.cognizant.com/global-en/jobs/?location=India&page=1",
+   "https://careers.cognizant.com/global-en/jobs/?location=India&page=2",
+   "https://careers.cognizant.com/global-en/jobs/?location=India&page=3"
+  ],
+  "india_only": false,
+  "scrolls": 4,
+  "note": "Custom | High | Programmer Analyst Trainee, Process Executive titles"
+ },
+ {
+  "name": "Mphasis",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://mphasis.ripplehire.com/ripplehire/careers",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "RippleHire | Medium"
+ },
+ {
+  "name": "Publicis Sapient India",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.publicissapient.com",
+  "location": "India",
+  "list_path": "/search-jobs/India",
+  "fallback_url": "https://careers.publicissapient.com/search-jobs/India",
+  "note": "Radancy-style URLs, unconfirmed | Low | 'Associate' fresher titles"
+ },
+ {
+  "name": "Nagarro",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "Nagarro1",
+  "country": "in",
+  "note": "SmartRecruiters | High | Gurugram"
+ },
+ {
+  "name": "Hexaware",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://hexaware.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown ATS | Low"
+ },
+ {
+  "name": "Sutherland Global",
+  "category": "Consulting, IT & Knowledge Services",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.jobs.sutherlandglobal.com/job-results#/india",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "Shazamme site | Medium | Chennai, Hyderabad, Kochi, Mumbai"
+ },
+ {
+  "name": "Reliance Industries",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.ril.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom SPA | Medium"
+ },
+ {
+  "name": "Reliance Retail",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.relianceretail.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: careers URL does not resolve; Reliance group roles come via careers.ril.com | Custom | Low",
+  "enabled": false
+ },
+ {
+  "name": "Jio",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.jio.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "ASP.NET WebForms | High | campus page frmStudent_Campus.aspx"
+ },
+ {
+  "name": "Adani Group",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.adani.com/opportunity/#en/sites/CX_1/requisitions",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Oracle Recruiting behind adani.com | Medium"
+ },
+ {
+  "name": "Tata Consumer Products",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.tataconsumer.com",
+  "location": "India",
+  "fallback_url": "https://careers.tataconsumer.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | Medium"
+ },
+ {
+  "name": "Tata Motors",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://tatamotors.turbohire.co/careerpage/39ddba0d-55f7-4206-abf0-e6121e93436a",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "TurboHire | High"
+ },
+ {
+  "name": "Maruti Suzuki",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://maruti.app.param.ai/jobs/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "param.ai ATS | High | freshers and experienced route here"
+ },
+ {
+  "name": "Hero MotoCorp",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.heromotocorp.com",
+  "location": "India",
+  "fallback_url": "https://jobs.heromotocorp.com/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "Bajaj Auto",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.bajajauto.com",
+  "location": "India",
+  "fallback_url": "https://careers.bajajauto.com/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "TVS Motor",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tvsmotor.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "Larsen & Toubro",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.larsentoubro.com/corporate/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "No central board | Low"
+ },
+ {
+  "name": "Asian Paints",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.asianpaints.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "Marico",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://marico.sensehq.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "SenseHQ | High"
+ },
+ {
+  "name": "Dabur",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.dabur.com/join-us/explore-opportunities",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Medium"
+ },
+ {
+  "name": "Godrej Consumer Products",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.godrejindustries.com/in/en/search-results",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom group board | High"
+ },
+ {
+  "name": "Britannia",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://britannia.turbohire.co/careerpage/c143932d-0df7-4856-9dc5-0a9f1ca26dc5",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "TurboHire | High"
+ },
+ {
+  "name": "Colgate-Palmolive India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.colgate.com",
+  "location": "India",
+  "fallback_url": "https://jobs.colgate.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "PepsiCo India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.pepsicojobs.com/main/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe/iCIMS | High"
+ },
+ {
+  "name": "Coca-Cola India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "coke",
+  "pod": "wd1",
+  "site": "coca-cola-careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://coke.wd1.myworkdayjobs.com/coca-cola-careers",
+  "note": "Workday | High"
+ },
+ {
+  "name": "HCCB",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.hccb.in/career",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "No job board | Disabled"
+ },
+ {
+  "name": "Mondelez India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "mdlz",
+  "pod": "wd3",
+  "site": "External",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://mdlz.wd3.myworkdayjobs.com/External",
+  "note": "Workday | High"
+ },
+ {
+  "name": "Emami",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.emamiltd.in/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "Sun Pharma",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.sunpharma.com",
+  "location": "India",
+  "fallback_url": "https://careers.sunpharma.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "Cipla",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.cipla.com",
+  "location": "India",
+  "fallback_url": "https://careers.cipla.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "Dr. Reddy's",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.drreddys.com/jobs?country=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "SmartRecruiters Attrax | Medium"
+ },
+ {
+  "name": "Lupin",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.lupin.com",
+  "location": "India",
+  "fallback_url": "https://careers.lupin.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "Novartis India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "novartis",
+  "pod": "wd3",
+  "site": "Novartis_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers",
+  "note": "Workday | High | Hyderabad"
+ },
+ {
+  "name": "Pfizer India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "pfizer",
+  "pod": "wd1",
+  "site": "PfizerCareers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers",
+  "note": "Workday | High"
+ },
+ {
+  "name": "GSK India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "gsk",
+  "pod": "wd5",
+  "site": "GSKCareers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers",
+  "note": "Workday | High"
+ },
+ {
+  "name": "Abbott India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "abbott",
+  "pod": "wd5",
+  "site": "abbottcareers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers",
+  "note": "Workday | High"
+ },
+ {
+  "name": "Johnson & Johnson India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.careers.jnj.com/en/jobs/?country=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom over Workday | Medium"
+ },
+ {
+  "name": "Bharti Airtel",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.airtel.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | Custom SPA | Medium",
+  "enabled": false
+ },
+ {
+  "name": "Vodafone Idea",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.vodafoneidea.com",
+  "location": "India",
+  "fallback_url": "https://careers.vodafoneidea.com/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "IndiGo",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.goindigo.in",
+  "location": "India",
+  "fallback_url": "https://jobs.goindigo.in/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | SuccessFactors inferred | Medium",
+  "enabled": false
+ },
+ {
+  "name": "Air India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.airindia.com",
+  "location": "India",
+  "fallback_url": "https://careers.airindia.com/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "IHCL (Taj)",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.ihcltata.com",
+  "location": "India",
+  "fallback_url": "https://careers.ihcltata.com/search/?q=&locationsearch=India",
+  "india_only": true,
+  "note": "SuccessFactors | High"
+ },
+ {
+  "name": "Shell India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "shell",
+  "pod": "wd3",
+  "site": "ShellCareers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://shell.wd3.myworkdayjobs.com/ShellCareers",
+  "note": "Workday | High"
+ },
+ {
+  "name": "Siemens India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.siemens.com/careers?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Avature | High"
+ },
+ {
+  "name": "Honeywell India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://ibqbjb.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "fallback_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?location=India&mode=location",
+  "note": "Oracle Recruiting | High"
+ },
+ {
+  "name": "GE Aerospace India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.geaerospace.com/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "GE Vernova India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.gevernova.com/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | Medium"
+ },
+ {
+  "name": "GE HealthCare India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.gehealthcare.com/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | Medium"
+ },
+ {
+  "name": "Philips India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.careers.philips.com/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "Bosch India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "BoschGroup",
+  "country": "in",
+  "note": "SmartRecruiters | High"
+ },
+ {
+  "name": "Schneider Electric India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.se.com/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe/iCIMS | High"
+ },
+ {
+  "name": "ABB India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.abb/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "Dell Technologies India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?location=India&mode=location",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Oracle Recruiting on custom host | Medium"
+ },
+ {
+  "name": "IBM India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.ibm.com/in-en/careers/search?field_keyword_05[0]=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom SPA | High"
+ },
+ {
+  "name": "Cisco India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.cisco.com/global/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "ServiceNow India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.servicenow.com/jobs/?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Medium"
+ },
+ {
+  "name": "Nutanix India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.jobvite.com/nutanix/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jobvite | High"
+ },
+ {
+  "name": "Autodesk India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "autodesk",
+  "pod": "wd1",
+  "site": "Ext",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://autodesk.wd1.myworkdayjobs.com/Ext",
+  "note": "Workday | High"
+ },
+ {
+  "name": "LinkedIn India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.linkedin.com/jobs/search/?f_C=1337&geoId=102713980&sortBy=DD",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "LinkedIn's own jobs search | Medium | may need login"
+ },
+ {
+  "name": "Meta India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.metacareers.com/jobs?offices[0]=Bangalore%2C%20India&offices[1]=Gurgaon%2C%20India&offices[2]=Hyderabad%2C%20India&offices[3]=Mumbai%2C%20India&offices[4]=New%20Delhi%2C%20India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom SPA | Medium"
+ },
+ {
+  "name": "Booking.com",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.booking.com/booking/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe/iCIMS | High | Bengaluru"
+ },
+ {
+  "name": "Agoda",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "agoda",
+  "note": "Greenhouse verified | High | Gurugram roles"
+ },
+ {
+  "name": "Stripe India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "stripe",
+  "note": "Greenhouse verified | High | Bengaluru roles"
+ },
+ {
+  "name": "Fiserv India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.fiserv.com/us/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "FIS Global India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.fisglobal.com/us/en/search-results?keywords=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | High"
+ },
+ {
+  "name": "Nike India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.nike.com/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Medium | filter India client-side"
+ },
+ {
+  "name": "Levi Strauss India",
+  "category": "Corporates, FMCG, Pharma & Global Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.levistrauss.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "BNY Mellon",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://eofe.fa.us2.oraclecloud.com",
+  "site": "BNY-Careers",
+  "fallback_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/jobs?location=India&locationLevel=country&mode=location",
+  "note": "Oracle Recruiting | High | Pune/Chennai"
+ },
+ {
+  "name": "DBS Bank India",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "dbs",
+  "pod": "wd3",
+  "site": "DBS_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers",
+  "note": "Workday | High | group-wide board"
+ },
+ {
+  "name": "Lloyds Technology Centre",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "lbg",
+  "pod": "wd3",
+  "site": "Lloyds_Technology_Centre",
+  "facets": {},
+  "fallback_url": "https://lbg.wd3.myworkdayjobs.com/Lloyds_Technology_Centre",
+  "india_only": true,
+  "note": "Workday | High | Hyderabad; mostly engineering/data"
+ },
+ {
+  "name": "ANZ",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.anz.com",
+  "location": "India",
+  "fallback_url": "https://careers.anz.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High | Bengaluru; Ops Analyst, Associate - Credit Analysis seen"
+ },
+ {
+  "name": "Commonwealth Bank of Australia",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "cba",
+  "pod": "wd3",
+  "site": "CommBank_Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://cba.wd3.myworkdayjobs.com/CommBank_Careers?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e",
+  "note": "Workday | High | Bengaluru"
+ },
+ {
+  "name": "Credit Agricole CIB",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.ca-cib.com/offre-de-emploi/liste-toutes-offres.aspx?all=1&mode=layer",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom | Medium | Chennai + Mumbai; filter client-side"
+ },
+ {
+  "name": "Mizuho",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "enabled": false,
+  "url": "https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "No job board; LinkedIn only | Disabled"
+ },
+ {
+  "name": "MUFG",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "mufgub",
+  "pod": "wd3",
+  "site": "MUFG-Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers",
+  "note": "Workday | Medium | verify India roles post here"
+ },
+ {
+  "name": "Invesco",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "invesco",
+  "pod": "wd1",
+  "site": "IVZ",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://invesco.wd1.myworkdayjobs.com/IVZ",
+  "note": "Workday | High | Hyderabad; Analyst I titles"
+ },
+ {
+  "name": "Allianz India",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.allianz.com/global/en/search-results?qcountry=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | Medium | Trivandrum, Pune, Gurugram, Bengaluru"
+ },
+ {
+  "name": "AXA India",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.axa.com/global/en/search-results?qcountry=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | Medium | AXA XL Gurugram/Bengaluru, AXA BS Pune"
+ },
+ {
+  "name": "Swiss Re",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://www.swissre.com/careers",
+  "location": "India",
+  "fallback_url": "https://www.swissre.com/careers/jobSearch.html",
+  "note": "SuccessFactors | Medium | Bengaluru GBS; Apprentice postings exist"
+ },
+ {
+  "name": "Munich Re",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careerstore.munichre.com",
+  "location": "India",
+  "fallback_url": "https://careerstore.munichre.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High | Mumbai; Intern postings"
+ },
+ {
+  "name": "Prudential",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "prudential",
+  "pod": "wd3",
+  "site": "prudential",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://prudential.wd3.myworkdayjobs.com/prudential",
+  "note": "Workday | High | Bengaluru global services hub"
+ },
+ {
+  "name": "MetLife",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.metlife.com",
+  "location": "India",
+  "fallback_url": "https://jobs.metlife.com/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | Medium | Noida/Hyderabad/Bengaluru"
+ },
+ {
+  "name": "Chubb",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_2001",
+  "fallback_url": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs?location=India&locationLevel=country&mode=location",
+  "note": "Oracle Recruiting | High | Hyderabad/Bengaluru"
+ },
+ {
+  "name": "AIG",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "aig",
+  "pod": "wd1",
+  "site": "aig",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://aig.wd1.myworkdayjobs.com/aig",
+  "note": "Workday | High | Gurugram analytics centre"
+ },
+ {
+  "name": "Aon",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.aon.com/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe/iCIMS | Medium | Bengaluru/Gurgaon"
+ },
+ {
+  "name": "Marsh McLennan India",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.marsh.com/global/en/search-results?qcountry=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom | Medium | Data Analyst titles seen"
+ },
+ {
+  "name": "WTW",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.wtwco.com/jobs/search",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom SPA | Medium | filter client-side"
+ },
+ {
+  "name": "Moody's",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.moodys.com",
+  "location": "India",
+  "list_path": "/search-jobs/India",
+  "fallback_url": "https://careers.moodys.com/search-jobs/India",
+  "note": "Radancy | High | Financial Data Specialist (Bangalore/Gurgaon) fresher title"
+ },
+ {
+  "name": "S&P Global",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.spglobal.com/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe | Medium | Apprentice programmes, Data Analyst"
+ },
+ {
+  "name": "Fitch Group",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.fitch.group",
+  "location": "India",
+  "fallback_url": "https://careers.fitch.group/search/?q=&locationsearch=India",
+  "note": "SuccessFactors | High | few India roles"
+ },
+ {
+  "name": "CRISIL",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://career.crisil.com/crisil/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | Custom portal | Medium | Management Trainee, Apprentice, Analyst programmes",
+  "enabled": false
+ },
+ {
+  "name": "ICRA",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "enabled": false,
+  "url": "https://icra.in/Home/Careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "No job board | Disabled"
+ },
+ {
+  "name": "MSCI",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.msci.com/job-search?production__mscicare2201__sort-rank%5BrefinementList%5D%5Btown_city_country%5D%5B0%5D=Mumbai%20%7C%20India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe/iCIMS | Medium | Mumbai; Analyst Managed Services, Index Client Service Associate"
+ },
+ {
+  "name": "FactSet",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "note": "Workday | Medium | Hyderabad; Apprentice Research Analyst, Product Analyst",
+  "url": "https://factset.wd1.myworkdayjobs.com/FactSetCareers?q=analyst",
+  "scrolls": 6
+ },
+ {
+  "name": "Bloomberg",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://bloomberg.avature.net/careers/SearchJobs/India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Avature | High | Pune/Mumbai"
+ },
+ {
+  "name": "LSEG",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "lseg",
+  "pod": "wd3",
+  "site": "Careers",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://lseg.wd3.myworkdayjobs.com/Careers?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e",
+  "note": "Workday | High | Bengaluru; Associate Content Analyst"
+ },
+ {
+  "name": "Morningstar",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "morningstar",
+  "pod": "wd5",
+  "site": "morningstar",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://morningstar.wd5.myworkdayjobs.com/morningstar",
+  "note": "Workday | High | Mumbai; Associate Quantitative Analyst, Data Consultant"
+ },
+ {
+  "name": "Nasdaq",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "nasdaq",
+  "pod": "wd1",
+  "site": "Global_External_Site",
+  "facets": {
+   "locationCountry": [
+    "c4f78be1a8f14da0ab49ce1162348a5e"
+   ]
+  },
+  "fallback_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+  "note": "Workday | High | Bengaluru/Mumbai"
+ },
+ {
+  "name": "Acuity Analytics (Acuity Knowledge Partners)",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://acuitykp.darwinbox.com/ms/candidate/careers",
+  "india_only": false,
+  "scrolls": 8,
+  "note": "Darwinbox | High | Gurgaon/Bengaluru/Pune"
+ },
+ {
+  "name": "eClerx",
+  "category": "Finance, Insurance & Research",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "fallback_url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?location=India&locationLevel=country&mode=location",
+  "note": "Oracle Recruiting | High | Mumbai, Pune, Chandigarh; Analyst titles"
+ },
+ {
+  "name": "Evalueserve",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.evalueserve.com/jobs/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Own list over Darwinbox | Medium | Gurgaon/Bangalore"
+ },
+ {
+  "name": "Kotak Mahindra Bank",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.kotak.com/en/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | verify portal manually"
+ },
+ {
+  "name": "HDFC Bank",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.hdfc.bank.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Low"
+ },
+ {
+  "name": "ICICI Bank",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.icici.bank.in/CareerApplicant/Career/Home",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom SPA | Medium"
+ },
+ {
+  "name": "Axis Bank",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://axisbank.ripplehire.com/candidate/?token=WIXhCuz0XRZ7H0GZCwjJ&source=CAREERSITE#list",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "RippleHire | High"
+ },
+ {
+  "name": "IDFC FIRST Bank",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.idfcfirst.bank.in/in/en/search-results",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Phenom | Medium"
+ },
+ {
+  "name": "PolicyBazaar (PB Fintech)",
+  "category": "Finance, Insurance & Research",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.policybazaar.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | Custom | Medium | Gurugram; Associate titles",
+  "enabled": false
+ },
+ {
+  "name": "Pine Labs",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.pinelabs.com/careers/open-jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "TurboHire-fed page | Medium"
+ },
+ {
+  "name": "Juspay",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://juspay.io/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Medium | fresher hiring mostly campus/Unstop"
+ },
+ {
+  "name": "Zeta",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "zeta",
+  "india_only": true,
+  "note": "Lever verified | High"
+ },
+ {
+  "name": "Setu",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://setu.co/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Framer + TurboHire | High | few openings"
+ },
+ {
+  "name": "Slice",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.kula.ai/slice?jobs=true",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Kula ATS | High"
+ },
+ {
+  "name": "Jupiter",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jupiter.keka.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Keka | High"
+ },
+ {
+  "name": "Fi Money",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "epifi",
+  "india_only": true,
+  "fallback_url": "https://fi.money/careers",
+  "note": "Lever (slug epifi) verified but 0 postings today | High"
+ },
+ {
+  "name": "KreditBee",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.kreditbee.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom SPA | Low"
+ },
+ {
+  "name": "Upstox",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://upstox.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom in-house | High | Senior Associate - Research & Insight seen; Mumbai"
+ },
+ {
+  "name": "Angel One",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.angelone.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Medium"
+ },
+ {
+  "name": "INDmoney",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.indmoney.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom React | Low | Gurugram"
+ },
+ {
+  "name": "Acko",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.kula.ai/acko?jobs=true",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Kula ATS | High | Bangalore"
+ },
+ {
+  "name": "Go Digit Insurance",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://godigit.darwinbox.in/ms/candidatev2/a651fdd75445d1/careers/home",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High"
+ },
+ {
+  "name": "BigBasket",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://bigbasket.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High | Management Trainee Programme and Summer Internship exist"
+ },
+ {
+  "name": "Licious",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.licious.in/careers/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Medium | Bangalore"
+ },
+ {
+  "name": "Mamaearth (Honasa)",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://honasa.in/pages/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "No job board; LinkedIn only | Disabled"
+ },
+ {
+  "name": "boAt",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://boat-lifestyle.com/pages/boat-careers",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "No job board; LinkedIn only | Disabled"
+ },
+ {
+  "name": "Purplle",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.purplle.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "Email-only hiring | Disabled"
+ },
+ {
+  "name": "FirstCry",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.firstcry.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Static page | Low | Pune; disable if empty"
+ },
+ {
+  "name": "Pepperfry",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.pepperfry.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom in-house | Medium | low volume"
+ },
+ {
+  "name": "Rapido",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://rapido.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High | Bangalore"
+ },
+ {
+  "name": "Porter",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://porter.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Low | Trainee Business Associate / Business Associate fresher titles on aggregators"
+ },
+ {
+  "name": "BlackBuck",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.blackbuck.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Disabled: site blocks automated access from cloud servers (timed out twice). Covered by LinkedIn/Naukri alerts. | Unknown | Low",
+  "enabled": false
+ },
+ {
+  "name": "Shiprocket",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.shiprocket.in/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "WordPress careers | High | APM roles (1-3 yrs, Gurugram) seen"
+ },
+ {
+  "name": "Ecom Express",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ecomexpress.in/career",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Low | mostly ops roles"
+ },
+ {
+  "name": "XpressBees",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.xpressbees.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "React app | Low | Pune"
+ },
+ {
+  "name": "OYO",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.linkedin.com/company/oyo-rooms/jobs/",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "LinkedIn-only hiring | Disabled"
+ },
+ {
+  "name": "Cleartrip",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://flipkart.turbohire.co/careerpage/4d757ba0-3d57-448a-b82c-238ed87ac90f",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "Shares Flipkart's TurboHire board, already covered by Flipkart entry | Disabled to avoid duplicates"
+ },
+ {
+  "name": "ixigo",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.ixigo.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom Next.js | High | Gurgaon"
+ },
+ {
+  "name": "Games24x7",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.games24x7.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "MPL",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.mpl.live/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | FP&A Intern seen on Prosple"
+ },
+ {
+  "name": "InMobi",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "inmobi",
+  "note": "Greenhouse verified (75 jobs, global) | High | Bangalore"
+ },
+ {
+  "name": "ShareChat",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://sharechat.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom JS | Low | Bengaluru"
+ },
+ {
+  "name": "Dailyhunt (VerSe)",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://verse.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low"
+ },
+ {
+  "name": "Practo",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.practo.com/company/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | Bangalore"
+ },
+ {
+  "name": "PharmEasy",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://myhr.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High"
+ },
+ {
+  "name": "Cult.fit",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.cult.fit/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Culture page only | Low | roles on Accel board"
+ },
+ {
+  "name": "HealthifyMe",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://healthify.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High"
+ },
+ {
+  "name": "NoBroker",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.nobroker.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom JS | Medium | Bangalore"
+ },
+ {
+  "name": "Housing.com",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.housing.com/join-us/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "WordPress | Medium"
+ },
+ {
+  "name": "Moglix",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.moglix.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | Graduate Engineer Trainee - Analytics seen on Prosple; Noida"
+ },
+ {
+  "name": "Infra.Market",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://infra.market/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "HROne ATS behind short link | Medium | Thane"
+ },
+ {
+  "name": "OfBusiness",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.ofbusiness.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | Gurugram"
+ },
+ {
+  "name": "Zetwerk",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.zetwerk.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "SenseHQ, server-rendered | High | Associate Program Manager, Business Finance roles"
+ },
+ {
+  "name": "upGrad",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.upgrad.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | Low"
+ },
+ {
+  "name": "Unacademy",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://unacademy.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 8,
+  "note": "Darwinbox | High | Bengaluru"
+ },
+ {
+  "name": "Scaler",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.scaler.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | High | low hiring velocity"
+ },
+ {
+  "name": "Vedantu",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://courses.vedantu.com/career-page/",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "LinkedIn/Google Forms only | Disabled"
+ },
+ {
+  "name": "Ather Energy",
+  "category": "Indian Startups & Consumer Internet",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.atherenergy.com/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom | High | Bengaluru"
+ },
+ {
+  "name": "IndusInd Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.indusind.bank.in/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (domain moved indusind.com -> indusind.bank.in; careers page content did not expose an ATS link) | Low | Verify the openings link in a browser; old indusind.com/careers.html redirects"
+ },
+ {
+  "name": "Yes Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.yes.bank.in/about-us/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch; yesbank.in migrating to yes.bank.in) | Low | Aggregators show Credit Analyst/risk roles; naukri company page companies.naukri.com/yesbank-jobs as backup"
+ },
+ {
+  "name": "Federal Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://federalbankcareers.zappyhire.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "ZappyHire (linked from federal.bank.in/career Apply Now) | High | Mostly Associate Officer/sales and clerical drives"
+ },
+ {
+  "name": "RBL Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://rblcareers.peoplestrong.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "PeopleStrong (linked from rbl.bank.in/careers 'Job Opportunities') | High | Internships via PM Internship portal"
+ },
+ {
+  "name": "AU Small Finance Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://autalenthub.darwinbox.in/ms/candidatev2/main/careers/home",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from au.bank.in/careers) | High | Early-career programmes AUric/AUrify/AU Shine at https://www.au.bank.in/careers/early-career"
+ },
+ {
+  "name": "Bandhan Bank",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://bandhanbank.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown ('View all openings' link target not exposed in fetch) | Low | Mostly branch/sales roles"
+ },
+ {
+  "name": "SBI Card",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://sbicards.thetalentpool.co.in/web/#/home/open-positions/list",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "TheTalentPool (linked from sbicard.com/en/who-we-are/open-positions.page) | High | Associate Analyst titles seen on aggregators"
+ },
+ {
+  "name": "Bajaj Finance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bajajfinserv.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-rendered; no ATS link visible) | Low | Bajaj Finance hires under the Bajaj Finserv brand on bajajfinserv.in (same site); no separate Bajaj Finserv entry in list so kept enabled. Functional Trainee/Economist roles seen on aggregators",
+  "enabled": false
+ },
+ {
+  "name": "Tata Capital",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://eofh.fa.em2.oraclecloud.com",
+  "site": "CX",
+  "fallback_url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions?location=India",
+  "note": "Oracle HCM (tatacapital.com/careers.html 'View Opening') | High | Site id CX confirmed from link"
+ },
+ {
+  "name": "L&T Finance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://myltfs.ltfs.com/CPortal/GeneralOpening.aspx",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom ASP.NET portal (linked from ltfinance.com/careers) | High | Business Operations, housing finance, two-wheeler roles"
+ },
+ {
+  "name": "Shriram Finance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.shriramfinance.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page with jobs listed inline (?job=NNN, paginated) | High | Management Trainee, Credit Manager seen"
+ },
+ {
+  "name": "Cholamandalam Investment & Finance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://cholajobs.zigtal.ai/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Zigtal (linked from cholamandalam.com/careers 'Chola Jobs') | High | "
+ },
+ {
+  "name": "Poonawalla Fincorp",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://career.poonawallafincorp.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Own-subdomain job portal, vendor not named (linked from poonawallafincorp.com/career) | High | "
+ },
+ {
+  "name": "HDFC Life",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.hdfclife.com/about-us/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "ICICI Prudential Life",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.iciciprulife.com/about-us/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "SBI Life",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.sbilife.co.in/en/about-us/careers-opportunity",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain | High | Mostly sales roles (Bancassurance, Retail Agency); currently no openings; job alert at sbilife.co.in/register-for-job-alert"
+ },
+ {
+  "name": "Axis Max Life Insurance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://career.axismaxlife.com/axismaxlife/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Own-subdomain portal, vendor not named (linked from axismaxlife.com/careers) | High | "
+ },
+ {
+  "name": "Tata AIA Life",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tataaia.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (careers page body not exposed) | Low | Verify openings link manually"
+ },
+ {
+  "name": "Bajaj Allianz (Bajaj General / Bajaj Life)",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bajajallianz.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch; brands renamed Bajaj General Insurance / Bajaj Life, life arm at bajajallianzlife.com/careers.html) | Low | Verify both URLs manually"
+ },
+ {
+  "name": "HDFC ERGO",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.hdfcergo.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "ICICI Lombard",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.icicilombard.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "Star Health",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.starhealth.in/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Next.js page, 'Explore job opportunities' link not exposed | Low | Mostly sales/telecaller roles"
+ },
+ {
+  "name": "Niva Bupa",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.nivabupa.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "Care Health Insurance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.careinsurance.com/careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify openings link manually"
+ },
+ {
+  "name": "Tata Asset Management",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tatamutualfund.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Roles also posted on iimjobs (e.g. Product Manager)"
+ },
+ {
+  "name": "HDFC AMC",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://zingnext.zinghr.com/portal/embed/career-website?CareerClientKey=AHJ12-BAJCV-BAHAQ",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "ZingHR (linked from hdfcfund.com/about-us/careers 'View Open Positions') | High | "
+ },
+ {
+  "name": "ICICI Prudential AMC",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.icicipruamc.com/about-us/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Campus/internship drives via college portals"
+ },
+ {
+  "name": "SBI Funds Management",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://app1397.workline.hr/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Workline HR (linked from sbimf.com/careers 'Join Us'; careers.sbimf.com also linked) | Medium | "
+ },
+ {
+  "name": "Nippon Life India Asset Management",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://mf.nipponindiaim.com/about-us/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify URL and openings link manually"
+ },
+ {
+  "name": "Axis AMC",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://axismf.ripplehire.com/candidate/?token=gGtjuEsWfCb0FxsKXRNG&source=CAREERSITE#list",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "RippleHire (linked from axismf.com/careers 'Apply Now') | High | "
+ },
+ {
+  "name": "Kotak Mahindra AMC",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.kotakmf.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain | Medium | Showed 'No Jobs available For Now'; Kotak group roles may also appear on Kotak Mahindra Bank careers"
+ },
+ {
+  "name": "Mirae Asset India",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.miraeassetmf.co.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain, 'Openings' section is in-page | Medium | "
+ },
+ {
+  "name": "Motilal Oswal",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.motilaloswalgroup.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (robots blocked fetch) | Low | Trainee/fresher drives seen on Prosple"
+ },
+ {
+  "name": "Nuvama Wealth",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.linkedin.com/company/nuvama-group/jobs/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "No own job board; nuvama.com/careers 'Join Nuvama' links only to LinkedIn Jobs | High | LinkedIn pages may need login for scraping",
+  "enabled": false
+ },
+ {
+  "name": "IIFL Finance",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://iifl.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from iifl.com/careers 'Find Jobs') | High | Beware fake site ifflglobalcompany.in flagged by IIFL"
+ },
+ {
+  "name": "ICICI Securities",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.icicisecurities.com/careers-current-opening",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain | High | Mostly Sales/Relationship Manager roles"
+ },
+ {
+  "name": "JM Financial",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.jmfl.com/careers/career-space",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain (career-space likely holds openings, unconfirmed) | Low | "
+ },
+ {
+  "name": "Avendus",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.avendus.com/india/careers/students-and-graduates",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page (WAF blocked fetch) | Low | Associate Program for graduates at avendus.com/india/careers/students-and-graduates/programs/associate-program"
+ },
+ {
+  "name": "Houlihan Lokey India",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://hl.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Likely Workday but tenant/site not confirmed | Low | Financial Analyst roles (valuation, FVA, real estate) in Mumbai seen on aggregators; switch to workday adapter once tenant verified"
+ },
+ {
+  "name": "NSE (National Stock Exchange)",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.nseindia.com/careers-at-nse/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on own domain | High | Currently 'no active vacancies'; resumes to career@nse.co.in"
+ },
+ {
+  "name": "BSE",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bseindia.com/static/about/careers.aspx",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom 'Positions Vacant' page on own domain | Medium | No listings visible at fetch time"
+ },
+ {
+  "name": "NSDL",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://nsdl.co.in/about/careers.php",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (robots blocked fetch) | Low | Verify URL manually"
+ },
+ {
+  "name": "CDSL",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.cdslindia.com/Careers/Careers.html",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (site blocked fetch) | Low | Verify URL manually"
+ },
+ {
+  "name": "NPCI",
+  "category": "Indian Banks, NBFCs, Insurance & Markets",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.npci.org.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (robots blocked fetch) | Low | Verify URL and ATS manually"
+ },
+ {
+  "name": "Cashfree Payments",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.cashfree.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom careers page, no ATS link found; 'How to Apply' says email resume | Low | Check LinkedIn jobs as primary source",
+  "enabled": false
+ },
+ {
+  "name": "PayU India",
+  "category": "Fintech & SaaS",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.payu.in/PayU",
+  "location": "India",
+  "fallback_url": "https://careers.payu.in/PayU/search/?locationsearch=India",
+  "note": "SAP SuccessFactors (jobs2web, rmkcdn.successfactors.com assets; payu.in/careers redirects to careers.payu.in/PayU/go/_/514880) | Medium | Seen: Intern (Gurgaon), Associate Risk Analyst (Mumbai), Senior Risk Analyst, P3 Asst Manager - Automation & Transformation, Data Scientist"
+ },
+ {
+  "name": "BharatPe",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://bharatpe.darwinbox.in/ms/candidatev2/main/careers/allJobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from bharatpe.com/career) | High | Programmes: Sales Trainee, Tech Trainee, Internship, iBegin campus hiring"
+ },
+ {
+  "name": "MobiKwik",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.mobikwik.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Careers page is JS-rendered, ATS not identified | Low | Mostly field-sales hiring visible on aggregators; verify in browser"
+ },
+ {
+  "name": "smallcase",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.smallcase.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Careers page fetch failed, ATS not identified | Low | Past off-campus Business Operations Associate drives; verify platform in browser"
+ },
+ {
+  "name": "Dhan (Raise Securities)",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://dhan.keka.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Keka (linked as 'Explore Careers at Raise' from dhan.co/career/), also LinkedIn | Medium | Raise Financial Services group board"
+ },
+ {
+  "name": "ET Money",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.etmoney.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Site blocked to fetcher, ATS not identified | Low | Interns (equity research, KYC analyst) seen on aggregators"
+ },
+ {
+  "name": "Jar",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://changejar.applytojob.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "JazzHR (changejar.applytojob.com, linked from myjar.app/careers) | High | Seen: Associate Product Manager - Nek (Entry Level), Growth Intern - Gold, Performance Marketing Executive; ~11 openings"
+ },
+ {
+  "name": "OneCard (FPL Technologies)",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.getonecard.app/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Careers page fetch failed, ATS not identified | Low | Product Management Intern (Pune) seen on aggregators; Product Analyst - Credit Cards seen"
+ },
+ {
+  "name": "Uni Cards",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.uni.cards/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Careers page fetch failed, ATS not identified | Low | Also listed on jobs.accel.com/companies/uni-cards-2"
+ },
+ {
+  "name": "Lendingkart",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.lendingkart.com/job/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom WordPress job listing (department/location filters) | Medium | Departments: Credit, Risk Management, Sales"
+ },
+ {
+  "name": "Money View",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://moneyview.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from moneyview.in/careers) | High | Also career@moneyview.in"
+ },
+ {
+  "name": "Kissht",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://kissht.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Careers page fetch failed, ATS not identified | Low | Verify in browser"
+ },
+ {
+  "name": "Perfios",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.perfios.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page, 'Current Openings' empty/JS-rendered, ATS not identified | Low | Hires via LinkedIn/eLitmus too"
+ },
+ {
+  "name": "HyperVerge",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://hyperverge.co/careers/#jobOpenings",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom listing on site; apply links go to LinkedIn Jobs / Google Forms | High | Seen: ML Intern, BD - MEA, Customer Success Manager - BFSI, Content Strategist"
+ },
+ {
+  "name": "IDfy",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://idfy.turbohire.co/careerpage/e73676a8-bc5a-4b43-b9c6-d3fc7a60b572",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "TurboHire (linked from idfy.com/careers) | High | No titles captured"
+ },
+ {
+  "name": "M2P Fintech",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.m2pfintech.com/view-jobs/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom careers site (careers.m2pfintech.com) | Medium | No ATS identified"
+ },
+ {
+  "name": "Khatabook",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://khatabook.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page, categories only (Frontend/Backend/Data Engineering), no ATS link | Low | Mostly engineering; verify in browser"
+ },
+ {
+  "name": "Vyapar",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://vyaparapp.keka.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Keka (embedded on vyaparapp.in/careers via vyaparapp.keka.com embedjobs) | High | -"
+ },
+ {
+  "name": "Instamojo",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://recruiterflow.com/instamojo/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Recruiterflow (instamojo.com/careers redirects here) | High | Departments: Business Operations, Growth Marketing, Risk & Compliance, Support; Bangalore"
+ },
+ {
+  "name": "Easebuzz",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://easebuzz.hire.trakstar.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Trakstar Hire (linked from easebuzz.in/careers) | High | -"
+ },
+ {
+  "name": "BrowserStack",
+  "category": "Fintech & SaaS",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "browserstack",
+  "pod": "wd3",
+  "site": "External",
+  "facets": {},
+  "fallback_url": "https://browserstack.wd3.myworkdayjobs.com/External",
+  "note": "Workday (linked as 'View open positions' from browserstack.com/careers) | High | Mumbai/Bengaluru hubs"
+ },
+ {
+  "name": "Darwinbox",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://dbx.darwinbox.in/ms/candidatev2/main/careers/allJobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Darwinbox own portal (linked from darwinbox.com/careers) | High | Marketing/Product Specialist trainee roles seen historically"
+ },
+ {
+  "name": "Whatfix",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://whatfix101.recruiterbox.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Recruiterbox/Trakstar (linked from whatfix.com/careers) | High | Locations Bengaluru, Gurugram, San Jose"
+ },
+ {
+  "name": "MoEngage",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://moengage.hire.trakstar.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Trakstar Hire (linked from moengage.com/careers) | High | Team filter e.g. Finance & Strategy ?team_id=38235, Product ?team_id=11996"
+ },
+ {
+  "name": "CleverTap",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.kula.ai/clevertap",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Kula ATS (careers.kula.ai/clevertap, also clevertap.com/current-openings/) | High | -"
+ },
+ {
+  "name": "WebEngage",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://webengage.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Static custom page, no ATS link | Medium | Only 4 roles listed (Java/JS devs, Director UI/UX, Enterprise Sales Mgr), Mumbai"
+ },
+ {
+  "name": "LeadSquared",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://leadsquaredhrms.darwinbox.in/ms/candidatev2/main/careers/home",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from leadsquared.com/careers) | High | -"
+ },
+ {
+  "name": "Sprinklr",
+  "category": "Fintech & SaaS",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "sprinklr",
+  "pod": "wd1",
+  "site": "careers",
+  "facets": {},
+  "fallback_url": "https://sprinklr.wd1.myworkdayjobs.com/careers",
+  "note": "Workday (linked as 'Explore jobs' from sprinklr.com/careers) | High | Large Gurugram/Bengaluru presence; Product Analyst/Associate roles appear periodically"
+ },
+ {
+  "name": "Icertis",
+  "category": "Fintech & SaaS",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://iaaviz.fa.ocs.oraclecloud.com",
+  "site": "Jobs-at-Icertis",
+  "fallback_url": "https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Jobs-at-Icertis/jobs?location=India",
+  "note": "Oracle Cloud HCM Candidate Experience (linked from icertis.com/company/careers) | Medium | Site value is the URL site name 'Jobs-at-Icertis'; internal CX site id not verified; India filter param unverified"
+ },
+ {
+  "name": "Druva",
+  "category": "Fintech & SaaS",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "druva",
+  "note": "Greenhouse (boards-api returned 34 jobs; careers page uses gh_jid) | High | 12 Pune roles incl. Senior Data Analyst, Senior Product Manager"
+ },
+ {
+  "name": "Mindtickle",
+  "category": "Fintech & SaaS",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "mindtickle",
+  "note": "Lever (mindtickle.com/careers redirects to jobs.lever.co/mindtickle; API returned postings) | High | Pune/Bengaluru roles incl. AI Product Engineer, Customer Success Engineer"
+ },
+ {
+  "name": "Capillary Technologies",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.capillarytech.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Careers page says new careers experience 'live soon', no listings/ATS | Low | Use LinkedIn meanwhile; recheck later"
+ },
+ {
+  "name": "Unicommerce",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://unicommerce.com/careers/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Static custom page; apply by email hrteam@unicommerce.com | Medium | Seen: Product Manager, Key Account Manager, Customer Success Manager, Pre-Sales Manager"
+ },
+ {
+  "name": "Innovaccer",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://innovaccer.com/careers/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Workable (custom listing at innovaccer.com/careers/jobs, apply via apply.workable.com) | High | Noida roles e.g. Apprentice - Talent Acquisition"
+ },
+ {
+  "name": "Zluri",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.zluri.com/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Freshteam (careers.zluri.com) | Medium | Software Engineer Intern drives seen historically"
+ },
+ {
+  "name": "Rocketlane",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.rocketlane.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Careers page fetch failed, ATS not identified | Low | Chennai-based; inbound SDR internships seen historically"
+ },
+ {
+  "name": "Hasura",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.gem.com/promptql",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Gem (hasura.io/careers now redirects to promptql.io/careers -> jobs.gem.com/promptql; Hasura rebranded to PromptQL) | High | No India-specific titles captured"
+ },
+ {
+  "name": "Atlan",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.ashbyhq.com/atlan",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Ashby (jobs.ashbyhq.com/atlan exists, JS-rendered; atlan.com/careers loads positions dynamically) | Medium | No Ashby adapter in schema, so browser"
+ },
+ {
+  "name": "Exotel",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://exotel.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom careers page, listings JS-rendered, ATS not identified | Low | Verify in browser"
+ },
+ {
+  "name": "Gupshup",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.gupshup.ai/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "gupshup.io/careers redirects to gupshup.ai/careers; 'Explore Opportunities' opens WhatsApp chat, no ATS | Low | Departments incl. Strategy, Operations, Product",
+  "enabled": false
+ },
+ {
+  "name": "Yellow.ai",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://yellow.ai/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page, openings section (#we-re-hiring) JS-rendered, ATS not identified | Low | Verify in browser"
+ },
+ {
+  "name": "Haptik",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://haptik.freshteam.com/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Freshteam (linked from haptik.ai/careers) | High | -"
+ },
+ {
+  "name": "Uniphore",
+  "category": "Fintech & SaaS",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "uniphore",
+  "pod": "wd503",
+  "site": "Uniphore",
+  "facets": {},
+  "fallback_url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore",
+  "note": "Workday (linked from uniphore.com/careers) | High | Chennai/Bengaluru presence"
+ },
+ {
+  "name": "Observe.AI",
+  "category": "Fintech & SaaS",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "observeai",
+  "note": "Greenhouse (boards-api returned 9 jobs) | High | India roles in Bengaluru/Hyderabad (AI Agent Engineer, GSI Partner Lead)"
+ },
+ {
+  "name": "Sarvam AI",
+  "category": "Fintech & SaaS",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.sarvam.ai/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom listing on own site (/careers/jobs/{id}) | High | Seen: Product Manager - Model APIs, Agent Engineer (Bengaluru); mostly senior/engineering"
+ },
+ {
+  "name": "Spinny",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://spinzone.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from spinny.com/careers 'See Job Openings') | High | testimonial mentions Operations Analyst; ops/analyst roles typical"
+ },
+ {
+  "name": "CarDekho (GirnarSoft)",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://cardekho.darwinbox.in/ms/candidate/606876f7e2c79/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from careers.cardekho.com 'View Openings') | High | covers CarDekho group (InsuranceDekho/Rupyy may post here)"
+ },
+ {
+  "name": "CarTrade Tech",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.cartradetech.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL could not be fetched and cartradetech.com nav shows no careers link; CarWale/BikeWale/OLX India group - verify URL manually; OLX India has its own Qandle board"
+ },
+ {
+  "name": "OLX India",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://olx-in.qandle.com/#/jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Qandle (linked from careers.olx.in/join-us 'Check Out Open Roles') | High | owned by CarTrade Tech; SPA hash route, needs JS render"
+ },
+ {
+  "name": "Info Edge (Naukri/99acres)",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.infoedge.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page (linked from infoedge.in) | Medium | landing page showed no listings in static fetch; openings also mirrored at companies.naukri.com/infoedge-jobs; known for campus Product Analyst / Associate Product Manager hiring"
+ },
+ {
+  "name": "Square Yards",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.squareyards.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL not verified (fetch failed, homepage has no careers link); most visible postings are sales/BD on jobhai.com"
+ },
+ {
+  "name": "Pocket FM",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "pocketfm",
+  "note": "Lever (api.lever.co/v0/postings/pocketfm returned 9 postings) | High | Bangalore roles seen: Director - Analytics, Manager - Business Finance; many postings are Japan/Mexico/US, filter India"
+ },
+ {
+  "name": "Kuku FM",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://kukufm.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | kukufm.com/careers blocked by robots; lever slug kukufm not found; Management Trainee roles seen on weekday.works aggregator"
+ },
+ {
+  "name": "Nazara Technologies",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.nazara.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown (JS-rendered SPA) | Low | static fetch returned only title; group has subsidiaries in India and abroad"
+ },
+ {
+  "name": "Yulu",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.yulu.bike/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-rendered SPA) | Low | static fetch returned no content; URL not verified"
+ },
+ {
+  "name": "Zoomcar",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.zoomcar.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-rendered) | Low | zoomcar.com/llms-full.txt lists this careers URL but no ATS link visible; PM/UX roles seen on instahyre"
+ },
+ {
+  "name": "Euler Motors",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.eulermotors.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; jobs also posted on wellfound.com/company/euler-motors-2/jobs"
+ },
+ {
+  "name": "River (EV)",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.rideriver.com/careers/current-openings",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page on rideriver.com (linked from /careers 'Put Me on the Team') | Medium | listings load dynamically; individual jobs at /careers/job-openings/<id>"
+ },
+ {
+  "name": "Ultraviolette",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.ultraviolette.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | /careers returned 404 and homepage has no careers link; likely LinkedIn-only hiring - consider disabling if poller finds nothing"
+ },
+ {
+  "name": "Simple Energy",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.simpleenergy.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; mostly core battery/design engineering roles"
+ },
+ {
+  "name": "Log9 Materials",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.log9materials.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; operations interns seen on aggregators"
+ },
+ {
+  "name": "Battery Smart",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.batterysmart.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page, no ATS link | Medium | careers page lists no openings or ATS links; hiring appears to run via LinkedIn (linkedin.com/company/batterysmart)"
+ },
+ {
+  "name": "Bounce",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://bounce.bike/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | page blocked by robots; URL not verified"
+ },
+ {
+  "name": "ChargeZone",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.chargezone.co/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | page blocked by robots; URL not verified"
+ },
+ {
+  "name": "Bizongo",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.bizongo.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom/unknown (linked from bizongo.com/careers 'Show Job Listing') | Medium | listing page blocked by robots so ATS unconfirmed"
+ },
+ {
+  "name": "Jumbotail",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.jumbotail.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | page blocked by robots; URL not verified"
+ },
+ {
+  "name": "Ninjacart",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ninjacart.darwinbox.in/ms/candidatev2/main/careers/home",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from ninjacart.com/careers) | High | secondary board at ninjacart.freshteam.com/jobs"
+ },
+ {
+  "name": "ElasticRun",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://elastic.run/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | static fetch returned only homepage metadata; URL not verified"
+ },
+ {
+  "name": "Shadowfax",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.shadowfax.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page with CV-upload talent pool | Medium | said 'No job openings available at the moment' on 2026-10-21"
+ },
+ {
+  "name": "Rivigo",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://rivigo.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page ('Explore Opportunities' CTA, target not visible) | Low | ATS unknown"
+ },
+ {
+  "name": "LogiNext",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://loginext.hire.trakstar.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Trakstar Hire (linked from loginextsolutions.com/careers) | High | global offices, filter India"
+ },
+ {
+  "name": "Locus",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://locus.darwinbox.in/ms/candidate/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from locus.sh/careers) | High | hiring across engineering, product, data science, sales, ops"
+ },
+ {
+  "name": "FarEye",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://fareye.darwinbox.in/ms/candidate/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Darwinbox (linked from fareye.com/careers) | High | role families incl. Product manager, Revenue operations"
+ },
+ {
+  "name": "Pando",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://pando.ai/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; URL not verified"
+ },
+ {
+  "name": "Fleetx",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.fleetx.ai/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page, jobs embedded with email-to-apply (fleetx.io redirects to fleetx.ai) | High | Data Analyst, City Head, ERP Implementation Manager seen"
+ },
+ {
+  "name": "Loadshare",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://loadshare.net/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | homepage shows no careers link; URL not verified, possibly LinkedIn-only"
+ },
+ {
+  "name": "Ekart",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ekartlogistics.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "Unknown | Low | page returned an unrelated 'EKL Grocery Dashboards' shell; Ekart is a Flipkart group company and corporate roles likely post on Flipkart's board - disable if Flipkart already covered"
+ },
+ {
+  "name": "Snapdeal",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.snapdeal.com/page/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; openings mirrored at companies.naukri.com/snapdealnew-jobs/jobs; product analysis internships seen"
+ },
+ {
+  "name": "ShopDeck",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://app.pyjamahr.com/careers?company=ShopDeck&company_uuid=AA7DCF5D05",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "PyjamaHR (linked from shopdeck.com/careers) | High | -"
+ },
+ {
+  "name": "DeHaat",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://agrevolution.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page titled 'Dehaat - Current Openings' on agrevolution.in (dehaat.com domain is parked) | Medium | ATS not visible in static fetch"
+ },
+ {
+  "name": "Country Delight",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.countrydelight.in/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers subdomain exists but blocked by robots; main site has no careers link"
+ },
+ {
+  "name": "FreshToHome",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.freshtohome.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown | Low | careers URL fetch failed; URL not verified"
+ },
+ {
+  "name": "Apna.co",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.apna.co/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Workable (custom domain careers.apna.co, subdomain 'apna') | High | Workable JSON may be at apply.workable.com/api/v1/widget/accounts/apna"
+ },
+ {
+  "name": "Eruditus",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.eruditus.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown | Low | page blocked by robots; global company, filter India"
+ },
+ {
+  "name": "Great Learning",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.mygreatlearning.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page | Low | static fetch showed no listings or ATS link"
+ },
+ {
+  "name": "Simplilearn",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.simplilearn.com/job-openings/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Ceipal widget (jobsapi.ceipal.com) | High | linked from simplilearn.com/careers; needs JS render"
+ },
+ {
+  "name": "Testbook",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://testbook.hire.trakstar.com/?q=&sort_by=most_recent&limit=25",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Trakstar Hire (linked from testbook.com/careers) | High | teams include Product, Business Development, CEO - Office"
+ },
+ {
+  "name": "Classplus",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://classplusapp.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-only React app) | Low | needs JS render to find ATS"
+ },
+ {
+  "name": "Leap Scholar",
+  "category": "Product, Mobility & Supply-chain Tech",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.leapfinance.com",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom Webflow page with on-page #job-openings section (linked from leapscholar.com footer) | Medium | ATS widget not visible in static fetch"
+ },
+ {
+  "name": "Synchrony India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "synchronyfinancial",
+  "pod": "wd5",
+  "site": "careers",
+  "facets": {},
+  "fallback_url": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers",
+  "note": "workday | High | WebFetch confirmed the Synchrony Workday site; India GCC roles (Hyderabad/Bengaluru) such as Analyst/Sr Analyst Data Analytics (L08) and Capacity Planning were seen on aggregators; filter Location=India"
+ },
+ {
+  "name": "Vanguard India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "vanguard",
+  "pod": "wd5",
+  "site": "vanguard_external",
+  "facets": {},
+  "fallback_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external",
+  "note": "workday | High | canonical URL confirmed; the Hyderabad GCC opened in 2025-26 with about 2,500 planned jobs; titles seen: Application Engineer I/II, Technical Product Manager"
+ },
+ {
+  "name": "T. Rowe Price India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "troweprice",
+  "pod": "wd5",
+  "site": "TRowePrice",
+  "facets": {},
+  "fallback_url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice",
+  "note": "workday | High | canonical URL confirmed; global board, so filter to India (Hyderabad/Mumbai); 'Associate Analyst' titles exist globally"
+ },
+ {
+  "name": "Principal Global Services",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.principal.com/careers-home/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Jibe (cms.jibecdn.com) | Medium | Principal's global board; India/PGS Pune page is https://careers.principal.com/in; no listings rendered without JS; PGS also hires freshers via eLitmus (Process Specialist, Pune)"
+ },
+ {
+  "name": "Ameriprise Financial India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.ameriprise.com",
+  "location": "India",
+  "list_path": "/search-jobs/India",
+  "fallback_url": "https://careers.ameriprise.com/search-jobs/India",
+  "note": "Radancy-style /search-jobs/ URL (robots blocked full check) | Medium | listing showed India roles: Analyst Financial Advisory Support (Noida), Performance & Analytics Associate, Sr Analyst Operational Risk; India info at ameriprise.com/careers/india-jobs"
+ },
+ {
+  "name": "Bread Financial India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.breadfinancial.com/en/careers.html",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "unknown (Incapsula-protected; Workday tenant guesses failed) | Low | India entity is Bread Financial Global Solutions India LLP, Bengaluru; Credit Analytics Analyst 2 (Bangalore) seen on aggregators; swap in the ATS URL if found"
+ },
+ {
+  "name": "Truist (TIIC)",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "truist",
+  "pod": "wd1",
+  "site": "Careers",
+  "facets": {},
+  "fallback_url": "https://truist.wd1.myworkdayjobs.com/Careers",
+  "note": "workday | Medium | canonical URL confirmed; Truist India (TIIC) roles should appear under Location=India, but India postings were not seen directly"
+ },
+ {
+  "name": "Optum / UnitedHealth Group India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://careers.unitedhealthgroup.com",
+  "location": "India",
+  "list_path": "/search-jobs/India",
+  "fallback_url": "https://careers.unitedhealthgroup.com/search-jobs/India",
+  "note": "Radancy/TalentBrew (category-style URLs such as /optum-jobs; robots blocked verification) | Medium | Optum India hubs in Gurugram, Noida, Hyderabad and Bengaluru; optum.in is the India site"
+ },
+ {
+  "name": "Carelon (Elevance Health)",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "elevancehealth",
+  "pod": "wd1",
+  "site": "ANT",
+  "facets": {},
+  "fallback_url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT",
+  "note": "workday | Medium-High | canonical URL confirmed (Elevance board ANT); Carelon Global Solutions India (Bengaluru/Gurugram/Hyderabad) roles post here; filter Location=India"
+ },
+ {
+  "name": "Evernorth / Cigna India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "cigna",
+  "pod": "wd5",
+  "site": "cignacareers",
+  "facets": {},
+  "fallback_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers",
+  "note": "workday | High | canonical URL confirmed; covers Cigna Healthcare and Evernorth (Hyderabad ITC); filter Location=India"
+ },
+ {
+  "name": "AB InBev GCC Bengaluru",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.ab-inbev.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "unknown (robots blocked; Workday guess failed) | Low | GCC titles seen on aggregators: Finance Operations Apprentice, Sr Analyst FP&A, Sr Analyst Credit & Collections (Bengaluru); verify the board manually"
+ },
+ {
+  "name": "General Mills India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "genmills",
+  "pod": "wd1",
+  "site": "GMI_External_Careers",
+  "facets": {},
+  "fallback_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers",
+  "note": "workday | High | Workday URL taken from careers.generalmills.com; University & Internships filter workerSubType=69985ce51bb0017aa821ab591648e6b3; India Mumbai GCC"
+ },
+ {
+  "name": "Mars India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "mars",
+  "pod": "wd3",
+  "site": "External",
+  "facets": {},
+  "fallback_url": "https://mars.wd3.myworkdayjobs.com/External",
+  "note": "workday | High | canonical URL confirmed; India mostly sales/officer roles plus Mars Global Services and APMEA strategic sourcing roles; filter Location=India"
+ },
+ {
+  "name": "Maersk India (GSC)",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.maersk.com/careers/vacancies",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom maersk.com vacancies page (robots blocked filter URL) | Low-Medium | Maersk GSC Pune/Mumbai/Chennai/Bengaluru; filter by India in the UI"
+ },
+ {
+  "name": "DHL Global Business Services India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.dhl.com/global/en/search-results?keywords=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom (cdn.phenompeople.com) | Medium | DHL group-wide board; GBS Chennai/Mumbai/Kuala Lumpur; search 'GBS India' or filter Country=India"
+ },
+ {
+  "name": "FedEx India (Hyderabad/Mumbai)",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.fedex.com/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom careers.fedex.com with a Paradox backend | Low | India is not in the visible country filter; the FedEx ACC Hyderabad hub ($100M, 2026) may post elsewhere; recheck"
+ },
+ {
+  "name": "UPS India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.jobs-ups.com/global/en/search-results?keywords=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom (cdn.phenompeople.com) | Medium | page meta says 'India job openings at United Parcel Service', but listings render via JS"
+ },
+ {
+  "name": "Kuehne+Nagel India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.kuehne-nagel.com/global/en/search-results?keywords=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom (cdn.phenompeople.com) | Medium | locations page https://jobs.kuehne-nagel.com/global/en/locations; India includes Pune/Gurugram/Chennai shared service roles"
+ },
+ {
+  "name": "Ford Business Solutions India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://www.careers.ford.com",
+  "location": "India",
+  "list_path": "/en/search-jobs/India",
+  "fallback_url": "https://www.careers.ford.com/en/search-jobs/India",
+  "note": "Radancy/TalentBrew-style URLs (/en/job/<city>/<title>/48560/<id>); apply via Oracle apply.ford.com CX_1 | Medium | 'Global Technology & Business Center - India' (Chennai) listed as a location"
+ },
+ {
+  "name": "General Motors Technical Centre India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "generalmotors",
+  "pod": "wd5",
+  "site": "Careers_GM",
+  "facets": {},
+  "fallback_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM",
+  "note": "workday | High | canonical URL confirmed; GMTCI Bengaluru; filter Location=India; mostly engineering/software, with some analytics roles"
+ },
+ {
+  "name": "Caterpillar India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "cat",
+  "pod": "wd5",
+  "site": "CaterpillarCareers",
+  "facets": {},
+  "fallback_url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers",
+  "note": "workday | High | canonical URL confirmed; Chennai/Bengaluru GCC; filter Location=India; analyst/supply-chain titles appear periodically"
+ },
+ {
+  "name": "John Deere India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.deere.com",
+  "location": "India",
+  "fallback_url": "https://jobs.deere.com/search/?locationsearch=India",
+  "note": "SuccessFactors (jobs.deere.com/go/... pages) | Medium | JDTCI Pune plus Dewas/Sirhind plants; much of the hiring is core engineering, so filter for analyst roles"
+ },
+ {
+  "name": "Cummins India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://cummins.jobs/india/jobs/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "DirectEmployers .jobs front (cummins.jobs), underlying ATS not seen | Low | cummins.com links to cummins.jobs; Pune GCC (CTCI/Global Business Services)"
+ },
+ {
+  "name": "Eaton India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://eaton.eightfold.ai",
+  "domain": "eaton.com",
+  "location": "India",
+  "fallback_url": "https://eaton.eightfold.ai/careers?location=India",
+  "note": "eightfold | High | link from eaton.com careers; Pune EIIC and Global Business Services"
+ },
+ {
+  "name": "Marks & Spencer India (Bengaluru)",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.marksandspencer.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom site; apply via Oracle HCM fa-eqid-saasfaprod1.fa.ocs.oraclecloud.com (site id not seen) | Low | no Bengaluru/M&S Technology India jobs seen on the main board; India tech may hire via LinkedIn"
+ },
+ {
+  "name": "IKEA India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "radancy",
+  "base": "https://jobs.ikea.com",
+  "location": "India",
+  "list_path": "/en/search-jobs/India",
+  "fallback_url": "https://jobs.ikea.com/en/search-jobs/India",
+  "note": "Radancy/TalentBrew (tbcdn.talentbrew.com) | Medium | IKEA India mostly retail store roles (Hyderabad/Navi Mumbai/Bengaluru); IKEA's Bengaluru tech hub (Ingka) may be included"
+ },
+ {
+  "name": "Deutsche Telekom Digital Labs",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.telekom.com/en/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom (Storyblok) DT group board | Low | DTDL Gurugram roles post on the DT group board (filter Country=India in the UI) or on Instahyre/LinkedIn"
+ },
+ {
+  "name": "Ericsson India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://jobs.ericsson.com",
+  "domain": "ericsson.com",
+  "location": "India",
+  "fallback_url": "https://jobs.ericsson.com/careers?location=India",
+  "note": "eightfold on a custom domain ('Powered by eightfold.ai') | Medium | GSC/GCC Bengaluru/Chennai/Noida/Gurugram"
+ },
+ {
+  "name": "Nokia India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "fallback_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=India",
+  "note": "Oracle Candidate Experience behind jobs.nokia.com | Medium | Chennai/Bengaluru/Noida GCC"
+ },
+ {
+  "name": "BP Business Solutions India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "bpinternational",
+  "pod": "wd3",
+  "site": "bpCareers",
+  "facets": {},
+  "fallback_url": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers",
+  "note": "workday (SmartDreamers front careers.bp.com/listing) | High | canonical URL confirmed; Pune BSI; graduates page https://careers.bp.com/early-careers/graduates"
+ },
+ {
+  "name": "Chevron ENGINE Bengaluru",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "chevron",
+  "pod": "wd5",
+  "site": "jobs",
+  "facets": {},
+  "fallback_url": "https://chevron.wd5.myworkdayjobs.com/jobs",
+  "note": "workday | High | canonical URL confirmed; ENGINE Bengaluru; filter Location=India"
+ },
+ {
+  "name": "ExxonMobil India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.exxonmobil.com",
+  "location": "India",
+  "fallback_url": "https://jobs.exxonmobil.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn.successfactors.com) | Medium-High | Bengaluru Technology & Business Centre"
+ },
+ {
+  "name": "Thomson Reuters India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "thomsonreuters",
+  "pod": "wd5",
+  "site": "External_Career_Site",
+  "facets": {},
+  "fallback_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site",
+  "note": "workday | High | canonical URL confirmed; Bengaluru/Hyderabad; filter Location=India"
+ },
+ {
+  "name": "Wolters Kluwer India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "wk",
+  "pod": "wd3",
+  "site": "External",
+  "facets": {},
+  "fallback_url": "https://wk.wd3.myworkdayjobs.com/External",
+  "note": "workday | High | canonical URL confirmed; Pune/Bengaluru/Chennai"
+ },
+ {
+  "name": "RELX / LexisNexis India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "relx",
+  "pod": "wd3",
+  "site": "relx",
+  "facets": {},
+  "fallback_url": "https://relx.wd3.myworkdayjobs.com/relx",
+  "note": "workday | High | canonical URL confirmed; covers LexisNexis, Elsevier, LexisNexis Risk and RELX India (Gurugram/Chennai)"
+ },
+ {
+  "name": "Pearson India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://hccz.fa.em3.oraclecloud.com",
+  "site": "CX_2",
+  "fallback_url": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?location=India",
+  "note": "Oracle Candidate Experience (login link from pearson.jobs) | Medium | human board https://pearson.jobs/jobs/; Pearson India in Noida/Chennai/Bengaluru"
+ },
+ {
+  "name": "ADP India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.adp.com/en/jobs/?orderby=0&pagesize=20&page=1&mylocation=India&radius=100&rType=0",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom (Happydance) | Medium | India page https://jobs.adp.com/en/locations/apac/india/; Hyderabad/Pune/Chennai; the mylocation=India URL was inferred from the page's pattern"
+ },
+ {
+  "name": "HP Inc India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "hp",
+  "pod": "wd5",
+  "site": "ExternalCareerSite",
+  "facets": {},
+  "fallback_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+  "note": "workday | High | canonical URL confirmed; Bengaluru/Chennai GCC; filter Location=India"
+ },
+ {
+  "name": "Carrier India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "carrier",
+  "pod": "wd5",
+  "site": "jobs",
+  "facets": {},
+  "fallback_url": "https://carrier.wd5.myworkdayjobs.com/jobs",
+  "note": "workday | High | canonical URL confirmed; Hyderabad Carrier Technology Centre/GBS; filter Location=India"
+ },
+ {
+  "name": "Volvo Group India",
+  "category": "Global Capability Centres",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.volvogroup.com",
+  "location": "India",
+  "fallback_url": "https://jobs.volvogroup.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn.successfactors.com) | Medium | Bengaluru GCC/Volvo Group India; locations page https://jobs.volvogroup.com/content/Locations-of-jobs-posted/?locale=en_US"
+ },
+ {
+  "name": "Daimler Truck Innovation Center India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobsearch.daimlertruck.com/index.php?ac=search_result",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom Daimler Truck portal (JS-rendered, country param not seen) | Low | DTICI Bengaluru; also listed on jobstairs.de; filter Land/Region=India in the UI"
+ },
+ {
+  "name": "Mercedes-Benz Research & Development India",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.mercedes-benz.com/en",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom Mercedes-Benz portal (JS-rendered) | Low | MBRDI Bengaluru/Pune; filter location India in the UI; mostly software/engineering roles"
+ },
+ {
+  "name": "Whirlpool India (GCC)",
+  "category": "Global Capability Centres",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.whirlpoolcareers.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "custom whirlpoolcareers.com (robots blocked whirlpoolcorp.com; Workday guess failed) | Low | listings mirrored on dejobs.org (Pune GCC, Gurugram Global Finance Center: Analyst Procurement, Executive Global Finance Center)"
+ },
+ {
+  "name": "IQVIA India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "iqvia",
+  "pod": "wd1",
+  "site": "IQVIA",
+  "facets": {},
+  "fallback_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA",
+  "note": "Workday (front-end jobs.iqvia.com is TalentBrew-style, applications on Workday) | Medium-High | canonical iqvia.wd1.myworkdayjobs.com/IQVIA; India Analyst/Consultant roles in Bengaluru seen; India tech & analytics page jobs.iqvia.com/en/technology-analytics-jobs-india"
+ },
+ {
+  "name": "Indegene",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.indegene.com",
+  "location": "India",
+  "fallback_url": "https://careers.indegene.com/search/?locationsearch=India",
+  "note": "SAP SuccessFactors (RMK, company=indegenepr) | High | linked from indegene.com/careers 'Explore Open Roles'; Bengaluru-heavy, medical writing + commercial analytics roles"
+ },
+ {
+  "name": "Merkle India (incl. Ugam)",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.merkle.com/en/careers/jobs.html",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom merkle.com job search (dentsu group; JS 'Load More', India checkbox filter) | Medium | ATS not exposed; Ugam folded into Merkle so no separate board; Senior Analyst roles in Bengaluru/Mumbai seen on aggregators"
+ },
+ {
+  "name": "dunnhumby India",
+  "category": "Analytics, Research & KPO",
+  "tier": 1,
+  "adapter": "greenhouse",
+  "token": "dunnhumby",
+  "note": "Greenhouse | High | API returned 58 jobs, 14 in Gurgaon (Media Performance Analyst, Product Manager - Retail & Insights, Sr Applied Data Scientist)"
+ },
+ {
+  "name": "Circana India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "eightfold",
+  "base": "https://circana.eightfold.ai",
+  "domain": "circana.com",
+  "location": "India",
+  "fallback_url": "https://circana.eightfold.ai/careers?location=India",
+  "note": "Eightfold (custom domain jobs.circana.com; circana.eightfold.ai canonical, domain circana.com) | High | Pune analyst fresher hiring reported"
+ },
+ {
+  "name": "Straive (incl. Gramener)",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.straive.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "enabled": false,
+  "note": "No job board - careers page has only a general application form + email INCareers@straive.com; hiring via Naukri/LinkedIn/walk-ins | High | Gramener is part of Straive, no separate board"
+ },
+ {
+  "name": "Polestar Solutions",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.polestaranalytics.com/career",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page (now Polestar Analytics) | Medium | showed 'Current Openings (0)' on 21-Oct-2026; mostly hires via LinkedIn/Naukri; Power BI analyst fresher roles reported"
+ },
+ {
+  "name": "Affine",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://affine.sensehq.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "SenseHQ hosted board (linked from affine.ai/careers) | Medium | Bengaluru; Business Analyst roles historically"
+ },
+ {
+  "name": "Decimal Point Analytics",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.decimalpointanalytics.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page (could not load) | Low | Mumbai/Nashik; check Indeed/Naukri too"
+ },
+ {
+  "name": "Ganit",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ganitinc.zohorecruit.in/jobs/Careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Zoho Recruit | Medium | only Sr Executive - Sales (Delhi) listed; internships via MS Form https://forms.office.com/r/mYraXs4Pxr; careers page ganitinc.com/careers"
+ },
+ {
+  "name": "ProcDNA",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.procdna.com/careers/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom procdna.com listing (4 pages) | High | Gurugram/Pune/Bengaluru; Power BI Developer, Assistant Program Manager, analytics engagement roles"
+ },
+ {
+  "name": "Beghou Consulting",
+  "category": "Analytics, Research & KPO",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "beghouconsulting",
+  "note": "Lever | High | API returns data; India roles in Bangalore/Pune/Hyderabad e.g. Associate - Advanced Analytics, Associate Consultant"
+ },
+ {
+  "name": "Trinity Life Sciences India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "trinitylifesciences",
+  "pod": "wd108",
+  "site": "Trinity",
+  "facets": {},
+  "fallback_url": "https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity",
+  "note": "Workday | High | linked from trinitylifesciences.com/careers; Gurugram roles e.g. Associate Consultant, Research Analyst HEOR/RWE"
+ },
+ {
+  "name": "Clarivate India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "clarivate",
+  "pod": "wd3",
+  "site": "Clarivate_Careers",
+  "facets": {},
+  "fallback_url": "https://clarivate.wd3.myworkdayjobs.com/Clarivate_Careers",
+  "note": "Workday | High | canonical confirmed; Bengaluru/Noida data analyst + healthcare analyst roles reported"
+ },
+ {
+  "name": "Verisk India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "oracle",
+  "host": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "fallback_url": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=India",
+  "note": "Oracle Recruiting Cloud | High | linked from verisk.com/company/careers; Hyderabad hub, NewGen fresher drives"
+ },
+ {
+  "name": "Dun & Bradstreet India",
+  "category": "Analytics, Research & KPO",
+  "tier": 1,
+  "adapter": "lever",
+  "slug": "dnb",
+  "note": "Lever | High | API returns data; India: Analyst II - Operations (Navi Mumbai), Apprentice (Mumbai)"
+ },
+ {
+  "name": "TransUnion CIBIL / TransUnion GCC",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "transunion",
+  "pod": "wd5",
+  "site": "TransUnion",
+  "facets": {},
+  "fallback_url": "https://transunion.wd5.myworkdayjobs.com/TransUnion",
+  "note": "Workday | High | canonical confirmed; covers CIBIL and Chennai/Pune/Bengaluru GCC"
+ },
+ {
+  "name": "Experian India",
+  "category": "Analytics, Research & KPO",
+  "tier": 1,
+  "adapter": "smartrecruiters",
+  "company_id": "Experian",
+  "country": "in",
+  "note": "SmartRecruiters (front-end jobs.experian.com) | Medium-High | careers.smartrecruiters.com/Experian live; jobs.experian.com showed 37 India listings (Hyderabad etc.)"
+ },
+ {
+  "name": "Equifax India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "equifax",
+  "pod": "wd5",
+  "site": "External",
+  "facets": {},
+  "fallback_url": "https://equifax.wd5.myworkdayjobs.com/External",
+  "note": "Workday | High | 'Careers at Equifax' canonical confirmed; Pune/Mumbai/Trivandrum"
+ },
+ {
+  "name": "CRIF High Mark",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.crif.com",
+  "location": "India",
+  "fallback_url": "https://careers.crif.com/search/?locationsearch=India",
+  "note": "SAP SuccessFactors (rmkcdn) | Medium | global CRIF board; India filter not verified; also companies.naukri.com/crif-jobs"
+ },
+ {
+  "name": "Aranca",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www2.aranca.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom WordPress listing | High | Mumbai/Gurgaon; Analyst - Equity Research, Data Visualization Specialist seen"
+ },
+ {
+  "name": "Netscribes",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.netscribes.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom form-based careers page, no listings | Low | hiring mainly via TeamLease/Naukri/Instahyre (Kolkata/Mumbai/Gurgaon associates)"
+ },
+ {
+  "name": "MarketsandMarkets",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.marketsandmarkets.com/Career.asp",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page (Job_Vacancy.asp?id=NN) | High | Pune; Research Analyst/Senior Analyst, Client Success Associate seen"
+ },
+ {
+  "name": "Mordor Intelligence",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://mordorintelligence.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox | High | Hyderabad; Research Associate/Analyst roles"
+ },
+ {
+  "name": "GlobalData India",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.globaldata.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom (Talos ATS) | Medium | Hyderabad Associate Analyst postings seen (careers.globaldata.com/job/NNN); also companies.naukri.com/globaldatanew-jobs"
+ },
+ {
+  "name": "Wood Mackenzie India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "woodmac",
+  "pod": "wd3",
+  "site": "woodmaccareers",
+  "facets": {},
+  "fallback_url": "https://woodmac.wd3.myworkdayjobs.com/woodmaccareers",
+  "note": "Workday | High | linked from woodmac.com/careers; Gurugram/Hyderabad/Bengaluru Research Analyst roles"
+ },
+ {
+  "name": "The Smart Cube",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.thesmartcube.com/about-us/careers/current-vacancies/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page, ATS not visible (now part of WNS) | Low | Noida/Gurugram; student hires page /about-us/careers/student-hires"
+ },
+ {
+  "name": "GEP Worldwide",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobsindia-apac-gep.icims.com/jobs/search?ss=1",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "iCIMS (India/APAC portal) | High | Navi Mumbai/Hyderabad; Analyst - TSO, Senior Analyst - Consulting seen"
+ },
+ {
+  "name": "Xceedance",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://xceedance.com/career/current-opportunities",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom xceedance.com listing (India filter available) | High | Gurugram/Pune; Business Analyst, CAT Risk Analyst seen"
+ },
+ {
+  "name": "TresVista",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tresvista.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page, ATS not identified | Low | Mumbai/Pune/Bengaluru Analyst programme; mostly campus hiring"
+ },
+ {
+  "name": "Firstsource",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.firstsource.com",
+  "location": "India",
+  "fallback_url": "https://careers.firstsource.com/search/?locationsearch=India",
+  "note": "SAP SuccessFactors (/go/ paths) | High | India list page https://careers.firstsource.com/India/go/India-Jobs/655444/"
+ },
+ {
+  "name": "HGS (Hinduja Global Solutions)",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://hgs.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown (site redirects hgs.cx -> hgs.com, page not loadable) | Low | mostly volume BPO hiring via TeamLease/Indeed"
+ },
+ {
+  "name": "Kanerika",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://kanerika.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page, ATS not visible | Low | Hyderabad; fresher software trainee drives historically"
+ },
+ {
+  "name": "Lumiq",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://lumiq.zohorecruit.in/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Zoho Recruit | High | linked from lumiq.ai/careers; Noida"
+ },
+ {
+  "name": "Algonomy (Manthan)",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://algonomy.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page with 'Search Job Openings' button, ATS not visible | Low | Bengaluru"
+ },
+ {
+  "name": "Infogain",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tenarai.com/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom listing - infogain.com/careers now redirects to tenarai.com (rebrand) | Medium | India roles e.g. Forward Deployed Engineer; Noida/Pune/Bengaluru"
+ },
+ {
+  "name": "Ascendion",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ascendion.com/who-we-are/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Careers page with no listings/ATS visible | Low | hires heavily via LinkedIn/Naukri"
+ },
+ {
+  "name": "CitiusTech",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://citiustech.ripplehire.com/candidate/?token=bCKlfz3OO8vQIgiM2vuI&source=CAREERSITE#list",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "RippleHire | High | linked from citiustech.com/careers"
+ },
+ {
+  "name": "Tata Strategic Management Group",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tata.com/careers/jobs/joblisting",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Tata group job listing (tsmg.com redirects to tata.com/tsmg) | Low | filter by company TSMG; mostly campus (MBA) hiring"
+ },
+ {
+  "name": "Gallagher India (GCC)",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jobs.ajg.com/ajg-home/jobs?location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "iCIMS Jibe (cms.jibecdn.com) | Medium | India & APAC landing https://jobs.ajg.com/ajg-india; Recent Graduates/Internships pages exist"
+ },
+ {
+  "name": "Kroll India",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.kroll.com/en/listing-page?keyword=&location=India",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom Next.js/TalentBrew assets | Medium | early careers filter experiencelevel=EarlyCareers; Mumbai/Hyderabad/Delhi"
+ },
+ {
+  "name": "Nexdigm",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://companies.naukri.com/nexdigm-jobs/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Naukri-hosted career site | Medium | Pune/Mumbai/Noida"
+ },
+ {
+  "name": "RSM US India",
+  "category": "Analytics, Research & KPO",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "rsm",
+  "pod": "wd1",
+  "site": "RSMCareers",
+  "facets": {},
+  "fallback_url": "https://rsm.wd1.myworkdayjobs.com/RSMCareers",
+  "note": "Workday (front-end jobs.rsmus.com) | Medium-High | sign-in link rsm.wd1.myworkdayjobs.com/RSMCareers; India filter https://jobs.rsmus.com/?country=India"
+ },
+ {
+  "name": "Lumenore",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.lumenore.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom page (could not load) | Low | Netscribes group BI product co"
+ },
+ {
+  "name": "Cognitio Analytics",
+  "category": "Analytics, Research & KPO",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://cognitioanalytics.com/careers/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom single page + hr@cognitioanalytics.com | High | Gurugram; Sr DA/Early Assistant Manager (2-5 yrs), data science roles"
+ },
+ {
+  "name": "Hyperpure (Eternal)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.eternal.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Eternal/Zomato group careers | Medium | No separate Hyperpure job board found (hyperpure.com is a JS storefront, no careers link); Hyperpure roles are posted on the Eternal/Zomato careers board, so enable that parent board instead",
+  "enabled": false
+ },
+ {
+  "name": "District (Eternal)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.eternal.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Eternal/Zomato group careers | Medium | No separate District careers page found (district.in/careers errored); District roles are posted on the Eternal/Zomato careers board, so enable that parent board instead",
+  "enabled": false
+ },
+ {
+  "name": "Tata CLiQ",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tatacliq.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-only page, no ATS link visible) | Low | Could not confirm a listing page; Tata CLiQ mostly posts on LinkedIn/Naukri. Verify the URL manually"
+ },
+ {
+  "name": "Trent (Westside/Zudio)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.trentlimited.com",
+  "location": "India",
+  "fallback_url": "https://careers.trentlimited.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn.successfactors.com assets on careers.trentlimited.com, linked from trentlimited.com/pages/careers) | Medium | Listings did not render in the fetch; India-only employer"
+ },
+ {
+  "name": "Titan Company",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.titan.in/in/en/search-results",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Phenom (cdn.phenompeople.com, TVPTITIN) | High | Linked from titancompany.in/careers. Early-careers pages: titancompany.in/careers/management-trainee-program and /titan-elevate-b-schools"
+ },
+ {
+  "name": "Avenue Supermarts (DMart)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.dmartindia.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-only app) | Low | No ATS link visible in the fetch; most DMart roles are store/ops roles seen on job aggregators. Verify manually"
+ },
+ {
+  "name": "Landmark Group India (Lifestyle/Max)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.landmarkgroup.com/en/careers",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown | Low | landmarkgroup.com/en/careers shows no listings or ATS link (only a partner form); India Lifestyle/Max roles appear mainly on Naukri/LinkedIn. Verify manually"
+ },
+ {
+  "name": "Shoppers Stop",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.shoppersstop.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (careers.shoppersstop.com exists but blocks crawlers) | Medium | Could not see the platform; check the listing path manually"
+ },
+ {
+  "name": "Bata India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.bata.com/",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown (careers.bata.com exists but blocks crawlers; global site) | Low | India filter not confirmed"
+ },
+ {
+  "name": "Decathlon India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.decathlon.in/page/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (blocks crawlers) | Low | decathlon.in/careers is a 404; most India roles are sports-advisor/retail roles on aggregators. Verify manually"
+ },
+ {
+  "name": "Puma India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://about.puma.com/en/careers/job-openings",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "PUMA global job search (custom front end; R-prefixed job IDs, ATS not confirmed) | Medium | Bengaluru roles are posted here, e.g. Intern Performance Marketing, Intern Product Buying, Associate Catalogue. Filter to India/Bengaluru in the browser"
+ },
+ {
+  "name": "Adidas India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://jobs.adidas-group.com",
+  "location": "India",
+  "fallback_url": "https://jobs.adidas-group.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn.successfactors.com, jobs.adidas-group.com) | High | 12 India results on 21 Oct, including Sourcing Associate (Management Trainee Program) and Associate - SLM. Gurgaon hub: careers.adidas-group.com/locations/hubs/gurgaon-1"
+ },
+ {
+  "name": "Sugar Cosmetics",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.linkedin.com/company/sugar-cosmetics/jobs/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "None found | Low | The careers URL redirects to the shop (in.sugarcosmetics.com/pages/careers to /collections/all-makeup); hires via LinkedIn and aggregators",
+  "enabled": false
+ },
+ {
+  "name": "Wakefit",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.wakefit.co/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (JS-only page) | Low | No ATS link visible; the Lever board was not reachable. Verify manually"
+ },
+ {
+  "name": "The Souled Store",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.thesouledstore.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom careers page | Low | The page exists but no ATS or apply link was visible; internships and category roles are mostly posted on aggregators"
+ },
+ {
+  "name": "Haldiram's",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.haldirams.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page | Medium | Lists a few openings (e.g. eCommerce Operations Executive in Nagpur, Process Auditor) with no ATS; mostly ops roles"
+ },
+ {
+  "name": "Reckitt India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.reckitt.com",
+  "location": "India",
+  "fallback_url": "https://careers.reckitt.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn, career2.successfactors.eu); /search-jobs/India does NOT filter, use /search/?locationsearch=India | High | 56 India results on 21 Oct, incl. Tax Compliance Analyst, IT&D Senior Business Analyst (Hyderabad GBS). Grad page: reckitt.com/careers/students-and-graduates/"
+ },
+ {
+  "name": "Diageo India (United Spirits)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "diageo",
+  "pod": "wd3",
+  "site": "Diageo_Careers",
+  "facets": {},
+  "fallback_url": "https://diageo.wd3.myworkdayjobs.com/en-US/Diageo_Careers",
+  "note": "Workday (diageo.wd3.myworkdayjobs.com/Diageo_Careers; JR job IDs on diageo.com/en/careers/search-and-apply) | Medium | Needs an India location facet (not captured). Bengaluru hub posts Analyst roles, e.g. Commercial Insights Analyst, Analyst RTR, Senior Analyst T&E"
+ },
+ {
+  "name": "Pernod Ricard India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.pernod-ricard.com/en/careers/find-your-job",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Unknown | Low | jobs.smartrecruiters.com/PernodRicard exists but showed no jobs, so it is not confirmed as an adapter source; the find-your-job page failed to fetch. Filter to India manually"
+ },
+ {
+  "name": "United Breweries (Heineken)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.theheinekencompany.com/Job-Listing",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom Drupal front end with SuccessFactors backend (career5.successfactors.eu) | Medium | The country=India URL parameter does not filter; use the Location=India / Operating Company='United Breweries Limited' or 'Heineken Business Services India' filters in the browser"
+ },
+ {
+  "name": "Jubilant FoodWorks",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.jubilantfoodworks.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (fetch failed) | Low | Could not confirm the listing page or ATS; verify manually"
+ },
+ {
+  "name": "Devyani International",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.dil-rjcorp.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (fetch failed) | Low | Could not confirm the listing page; Business Analyst roles have appeared on Instahyre. Verify manually"
+ },
+ {
+  "name": "Zydus Wellness",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.zyduswellness.com/careers.php",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom page with a resume form | Medium | Only 1 listing seen (Lead Factory Finance, Sitarganj); low volume"
+ },
+ {
+  "name": "Pidilite",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://pidilitecareers.peoplestrong.com/home",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "PeopleStrong | High | Linked from pidilite.com/careers/current-openings (after a consent dialog)"
+ },
+ {
+  "name": "Berger Paints",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.bergerpaints.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (fetch returned an empty shell or errors) | Low | Verify the listing URL manually"
+ },
+ {
+  "name": "Havells",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.havells.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (careers.havells.com exists but blocks crawlers) | Medium | Platform not identified"
+ },
+ {
+  "name": "Voltas",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.voltas.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (fetch failed) | Low | Verify manually; Voltas may also post via the Tata group channels"
+ },
+ {
+  "name": "Samsung India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "workday",
+  "tenant": "sec",
+  "pod": "wd3",
+  "site": "Samsung_Careers",
+  "facets": {},
+  "fallback_url": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers",
+  "note": "Workday (linked from samsung.com/in/about-us/careers 'Search jobs') | Medium | Global Samsung tenant; add an India locationCountry facet or filter titles by India locations in post-processing"
+ },
+ {
+  "name": "LG Electronics India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://globalcareers.lge.com/jobs",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Custom Next.js portal (globalcareers.lge.com; lg.com/in careers redirects to /locations/IN) | Medium | Jobs load via JS; select Locations=India in the browser"
+ },
+ {
+  "name": "Godrej & Boyce (Godrej Enterprises)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careeropportunities.godrejenterprises.com/CareerWEB/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom (CareerWEB, vacancy-details?SRNO=) | High | Listing table also at godrejenterprises.com/about-us/careers/openings"
+ },
+ {
+  "name": "Hyundai Motor India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.hyundai.com/in/en/hyundai-story/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (fetch failed) | Low | Verify the listing URL manually"
+ },
+ {
+  "name": "Toyota Kirloskar Motor",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.toyotabharat.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Not found | Low | toyotabharat.com/careers/ and /about-us/careers/ both return 404; hiring is visible only through aggregators and campus drives. Find the URL manually before enabling",
+  "enabled": false
+ },
+ {
+  "name": "MG Motor India",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://mgmhr.darwinbox.in/ms/candidate/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox | High | Linked from mgmotor.co.in/careers 'Apply Now'"
+ },
+ {
+  "name": "Ashok Leyland",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://ashokleyland.darwinbox.in/ms/candidatev2/a61cb038c35a54/careers/allJobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox | High | Linked from ashokleyland.com/in/careers 'Job Openings'"
+ },
+ {
+  "name": "Eicher Motors / Royal Enfield",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.royalenfield.com/us/en/search-results",
+  "india_only": false,
+  "scrolls": 6,
+  "note": "Phenom (cdn.phenompeople.com) | High | Royal Enfield board; eicher.in/careers also links VECV at careers.vecv.in (add separately if wanted)"
+ },
+ {
+  "name": "Escorts Kubota",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.escortskubota.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (careers page fetch failed; no careers link on the homepage) | Low | Verify manually"
+ },
+ {
+  "name": "Tata Steel",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://tatasteel.ripplehire.com/candidate/?token=kYAz91uy1lFDi6FeSiRZ&lang=en&source=CAREERSITE#list",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "RippleHire | High | Experienced-hire board linked from tatasteel.com/careers/work-with-us/tata-steel-india-careers/; hiring drives at tslhr.tatasteel.co.in/recruit/AppAdv.aspx"
+ },
+ {
+  "name": "Tata Power",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.tatapower.com",
+  "location": "India",
+  "fallback_url": "https://careers.tatapower.com/search/?locationsearch=India",
+  "note": "SuccessFactors career site (/go/ category paths, career44.sapsf.com company=tatapower) | Medium | Fresher/Experienced/Intern hub: careers.tatapower.com/TataPowerMumbai/go/TataPower/756744/"
+ },
+ {
+  "name": "JSW Group",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://jswgroup.turbohire.co/careerpage/9b510aa7-a9f2-46a7-aeb7-8853d81bcf10",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "TurboHire | High | Linked from jsw.in/careers 'Apply Now'; covers all JSW group companies"
+ },
+ {
+  "name": "Vedanta",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.vedantalimited.com/",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Unknown (careers.vedantalimited.com exists but blocks crawlers) | Medium | Platform not identified"
+ },
+ {
+  "name": "Hindalco",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.adityabirla.com/nf-metals",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Aditya Birla Group careers (custom) | High | Linked from hindalco.com/work-with-us 'Apply now'; shares the group portal with ABFRL (different business slug)"
+ },
+ {
+  "name": "ReNew",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 2,
+  "adapter": "successfactors",
+  "base": "https://careers.renew.com",
+  "location": "India",
+  "fallback_url": "https://careers.renew.com/search/?locationsearch=India",
+  "note": "SuccessFactors (rmkcdn assets, /go/ and /talentcommunity paths) | High | View all: careers.renew.com/viewalljobs/; departments include Corporate Planning and Strategy"
+ },
+ {
+  "name": "Blue Dart",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://careers.dhl.com/global/en/blue-dart-jobs",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Phenom (DHL careers, cdn.phenompeople.com) | High | bluedart.com/careers1 redirects here. If DHL is already in your list, its board also covers Blue Dart"
+ },
+ {
+  "name": "Allcargo",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://allcargologistics.darwinbox.in/ms/candidatev2/main/careers/home",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Darwinbox | High | Linked from allcargologistics.com/about-us/careers"
+ },
+ {
+  "name": "TCI (Transport Corporation of India)",
+  "category": "Consumer, Retail, Auto & Industrial",
+  "tier": 3,
+  "adapter": "browser",
+  "url": "https://www.tcil.com/careers",
+  "india_only": true,
+  "scrolls": 6,
+  "note": "Custom (tcil.com job pages; resume via /work-with-us/?jtitle=) | Medium | About 12 listings, e.g. Officer - Logistics Operations; mostly ops roles"
  }
 ]
