@@ -92,7 +92,7 @@ def main(argv=None):
     # browser jobs are heavier; run them with fewer threads
     light = [c for c in companies if c["adapter"] != "browser"]
     heavy = [c for c in companies if c["adapter"] == "browser"]
-    for group, workers in ((light, args.workers), (heavy, 3)):
+    for group, workers in ((light, args.workers), (heavy, 5)):
         if not group:
             continue
         with ThreadPoolExecutor(max_workers=workers) as ex:
