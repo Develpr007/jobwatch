@@ -2,7 +2,7 @@ name: jobwatch
 
 on:
   schedule:
-    - cron: "17 */4 * * *"      # every 4 hours (UTC); runs at 00:17, 04:17 ... IST +5:30
+    - cron: "17 */6 * * *"      # every 6 hours: 05:47, 11:47, 17:47, 23:47 IST
   workflow_dispatch:            # lets you press "Run workflow" manually
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 110
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
 
