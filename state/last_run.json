@@ -1,5 +1,5 @@
 {
- "when": "2026-10-20 15:59 IST",
+ "when": "2026-10-20 19:03 IST",
  "sources_ok": 95,
  "sources_failed": [
   [
@@ -12,7 +12,7 @@
   ],
   [
    "Accenture India",
-   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"DE02E8MVGJTQDA\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"7A81F1MVGQGHPY\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "McKinsey & Company",
@@ -44,39 +44,121 @@
   "Ola",
   "Cars24",
   "Delhivery",
+  "PhysicsWallah",
   "Nestle India"
  ],
- "relevant_open": 326,
+ "relevant_open": 332,
  "new": [
   {
-   "company": "Deloitte India",
-   "title": "Associate Analyst | FS Operate | Bengaluru | Customer Strategy & Design",
-   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-Associate-Analyst-FS-Operate-Bengaluru-Customer-Strategy-&-Design/60823544/",
-   "location": "Bengaluru, IN",
+   "company": "Barclays",
+   "title": "Analyst IB Finance",
+   "url": "https://search.jobs.barclays/job/chennai/analyst-ib-finance/13015/101941262000",
+   "location": "Chennai, India",
    "posted": "",
-   "source": "html",
+   "source": "radancy",
    "extra": {
-    "category": "Consulting & Analytics",
+    "category": "Banks & FS",
     "found": "2026-10-20",
     "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "ce31e9e7d2d7e139"
-  },
-  {
-   "company": "Razorpay",
-   "title": "Data Analyst, Business Finance",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-   "location": "Bengaluru",
-   "posted": "2026-10-20T02:27:03-04:00",
-   "source": "greenhouse",
-   "extra": {
-    "category": "Indian Startups",
-    "found": "2026-10-20",
-    "posted": "2026-10-20",
     "verdict": "fresher-friendly"
    },
-   "key": "73d2a07a9ac64582"
+   "key": "36d2135eb37b7cf3"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "KGS-Analyst-Bangalore",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050890",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "2026-10-20",
+   "source": "oracle",
+   "extra": {
+    "id": "30050890",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": ""
+   },
+   "key": "96c49631c7b06127"
+  },
+  {
+   "company": "Genpact",
+   "title": "Interns",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-14-45-Uppal-STPI-Hyderabad/Interns_JR10031765",
+   "location": "1401-G-India: 14-45, Uppal, STPI, Hyderabad",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-14-45-Uppal-STPI-Hyderabad/Interns_JR10031765",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": "no experience stated"
+   },
+   "key": "781d97e1196a7d0d"
+  },
+  {
+   "company": "Genpact",
+   "title": "Interns",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-Ph-V--STPI-Gurgaon/Interns_JR10031766-2",
+   "location": "1401-G-India: Ph V,  STPI, Gurgaon",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-Ph-V--STPI-Gurgaon/Interns_JR10031766-2",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": "no experience stated"
+   },
+   "key": "ac4ba588c715d017"
+  },
+  {
+   "company": "Genpact",
+   "title": "Analyst - Business Data Services 5B",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10031959",
+   "location": "1401-G-India: 2-3 FL, 22A, STPI, Gurgaon",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10031959",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": "no experience stated"
+   },
+   "key": "d5114d459a30fb95"
+  },
+  {
+   "company": "Genpact",
+   "title": "Analyst - Business Data Services 5B",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10032088",
+   "location": "1401-G-India: 2-3 FL, 22A, STPI, Gurgaon",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-2-3-FL-22A-STPI-Gurgaon/Analyst---Business-Data-Services-5B_JR10032088",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": "no experience stated"
+   },
+   "key": "f98438acf81a4924"
+  },
+  {
+   "company": "Genpact",
+   "title": "Analyst - Process Analytics - SCM 5B",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10031969",
+   "location": "1401-G-India: 1-6 FL, Surya Park, STPI, Bangalore",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10031969",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-20",
+    "posted": "2026-10-20",
+    "verdict": "no experience stated"
+   },
+   "key": "50a0954b4c62a511"
   }
  ],
  "dropped_after_reading": [],
@@ -1343,6 +1425,60 @@
   },
   {
    "company": "Barclays",
+   "title": "VP - APAC Liquid Financing Production Support Lead",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Credit Risk Data Analyst",
+   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "London, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'London, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Ways of working - Transformation & Execution-  Director",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Product Controller FIF",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Security Engineer - CIAM XDP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Legal Asia Equities",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Hedge Accounting Analyst",
+   "location": "Noida, India; Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Clearing Product Manager",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
    "title": "AI Engineer",
    "location": "Pune, India",
    "why": "excluded keyword"
@@ -1836,12 +1972,6 @@
   {
    "company": "Barclays",
    "title": "Associate – TMT",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Security Engineer - CIAM XDP",
    "location": "London, United Kingdom",
    "why": "location 'London, United Kingdom' not India"
   },
@@ -2432,54 +2562,6 @@
    "title": "Planning and Stress Testing Model Execution AVP",
    "location": "New York, United States",
    "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineer",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Transaction Monitoring Barclays UK Quality Assurance Analyst",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assistant Vice President - Treasury Hedge Accounting",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "VP Liquidity Methodology Implementation",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Test Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "DevOps Engineer (EDP Analytics Portal)",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP Regulatory Assurance",
-   "location": "Chennai, India; Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Red Team Operator",
-   "location": "United Kingdom",
-   "why": "location 'United Kingdom' not India"
   }
  ]
 }
