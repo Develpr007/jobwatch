@@ -1,5 +1,5 @@
 {
- "when": "2026-10-20 10:20 IST",
+ "when": "2026-10-20 15:59 IST",
  "sources_ok": 95,
  "sources_failed": [
   [
@@ -12,7 +12,7 @@
   ],
   [
    "Accenture India",
-   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"7A81F1MVG7TJDI\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
+   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"DE02E8MVGJTQDA\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "McKinsey & Company",
@@ -37,313 +37,50 @@
   "LatentView Analytics",
   "Zomato / Blinkit (Eternal)",
   "Flipkart",
-  "Nykaa",
   "Swiggy",
+  "Nykaa",
   "Zerodha",
   "Navi",
   "Ola",
-  "Delhivery",
   "Cars24",
-  "PhysicsWallah",
+  "Delhivery",
   "Nestle India"
  ],
- "relevant_open": 337,
+ "relevant_open": 326,
  "new": [
   {
-   "company": "EY India",
-   "title": "Associate Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-560001/1428997333/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "company": "Deloitte India",
+   "title": "Associate Analyst | FS Operate | Bengaluru | Customer Strategy & Design",
+   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-Associate-Analyst-FS-Operate-Bengaluru-Customer-Strategy-&-Design/60823544/",
+   "location": "Bengaluru, IN",
    "posted": "",
-   "source": "successfactors",
+   "source": "html",
    "extra": {
     "category": "Consulting & Analytics",
     "found": "2026-10-20",
     "posted": "",
-    "verdict": "fresher-friendly"
+    "verdict": "no experience stated"
    },
-   "key": "0c343baf158cd78c"
+   "key": "ce31e9e7d2d7e139"
   },
   {
-   "company": "EY India",
-   "title": "Associate Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-560001/1428997333/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0c343baf158cd78c"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439275633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8a8bbeb352bed445"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439275633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8a8bbeb352bed445"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439274333/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6d32f5774aa35acc"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439274333/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6d32f5774aa35acc"
-  },
-  {
-   "company": "EY India",
-   "title": "Physical AI - PMO - Growth and Innovation- Supervising Associate",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Physical-AI-PMO-Growth-and-Innovation-Supervising-Associate-KA-560048/1439265733/",
-   "location": "Bengaluru, KA, IN, 560048 +4 more…",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "651f217f97db5f01"
-  },
-  {
-   "company": "EY India",
-   "title": "Physical AI - PMO - Growth and Innovation- Supervising Associate",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Physical-AI-PMO-Growth-and-Innovation-Supervising-Associate-KA-560048/1439265733/",
-   "location": "Bengaluru, KA, IN, 560048 +4 more…",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "651f217f97db5f01"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1439474833/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f2561775c4434b3c"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1439474833/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f2561775c4434b3c"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439277533/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6a6b68cd2ff553db"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1439277533/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6a6b68cd2ff553db"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1439488533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "16f310778f21b893"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1439488533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-20",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "16f310778f21b893"
-  },
-  {
-   "company": "PhonePe",
-   "title": "Bengaluru Consumer Payments Business Business Operations Analyst Full-time 6 days ago",
-   "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566-business-operations-analyst",
-   "location": "Tirupati",
-   "posted": "",
-   "source": "browser",
+   "company": "Razorpay",
+   "title": "Data Analyst, Business Finance",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
+   "location": "Bengaluru",
+   "posted": "2026-10-20T02:27:03-04:00",
+   "source": "greenhouse",
    "extra": {
     "category": "Indian Startups",
     "found": "2026-10-20",
-    "posted": "",
-    "verdict": ""
+    "posted": "2026-10-20",
+    "verdict": "fresher-friendly"
    },
-   "key": "9cfbc27ac74b800c"
+   "key": "73d2a07a9ac64582"
   }
  ],
- "dropped_after_reading": [
-  {
-   "company": "Deloitte India",
-   "title": "T&T- HC- HRT- Kronos- Consultant- PAN India",
-   "url": "https://southasiacareers.deloitte.com/job/Ahmedabad-T&T-HC-HRT-Kronos-Consultant-PAN-India/59960744/",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Global Incentive Compensation Analyst",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Indianapolis/Global-Incentive-Compensation-Analyst---Plan-Operations_JR302303",
-   "why": "asks 3+ years"
-  }
- ],
+ "dropped_after_reading": [],
  "rejected_sample": [
-  {
-   "company": "HSBC",
-   "title": "Python, Gen AI , Agentic AI/Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Analyst, Control Manager",
-   "location": "Hyderabad, Telangana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Manager - Finance Operations",
-   "location": "Hyderabad, Telangana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Premier Relationship Manager -Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager - Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager-Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Production Officer - Research",
-   "location": "Bangalore, Karnataka, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Assistant Vice President, Valuations Analytics Reporting",
-   "location": "Bangalore, Karnataka, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Vice President, Regulatory Compliance IWPB HSBC IBU",
-   "location": "Gandhinagar, Gujarat, India",
-   "why": "excluded keyword"
-  },
   {
    "company": "Citi",
    "title": "Banamex  Cajero - Mexicali",
@@ -1545,6 +1282,66 @@
    "why": "location 'Multiple Locations' not India"
   },
   {
+   "company": "HSBC",
+   "title": "Governance and Programme Management Lead/Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Python, Gen AI , Agentic AI/Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Analyst, Control Manager",
+   "location": "Hyderabad, Telangana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager - Finance Operations",
+   "location": "Hyderabad, Telangana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Teller Supervisor",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Universal Banker",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Premier Relationship Manager -Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP Premier Relationship Manager - Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP Premier Relationship Manager-Ludhiana",
+   "location": "Noida, Uttar Pradesh, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Production Officer - Research",
+   "location": "Bangalore, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
    "company": "Barclays",
    "title": "AI Engineer",
    "location": "Pune, India",
@@ -1921,12 +1718,6 @@
    "title": "AVP - Airlines Partnership Segment Lead",
    "location": "Wilmington, United States",
    "why": "location 'Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Market Surveillance VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
   },
   {
    "company": "Barclays",
@@ -2362,12 +2153,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Senior Propositions Manager",
-   "location": "London, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Senior Software Engineer – UI Platform Lead",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -2392,12 +2177,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Digital Acquisitions Lead AVP",
-   "location": "Wilmington, United States",
-   "why": "location 'Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Social Media Manager - 12 month FTC",
    "location": "London, United Kingdom",
    "why": "location 'London, United Kingdom' not India"
@@ -2419,12 +2198,6 @@
    "title": "VP Liquidity Methodology Implementation",
    "location": "Gurugram, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Lead Data Analyst",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -2464,21 +2237,9 @@
   },
   {
    "company": "Barclays",
-   "title": "Advocacy Creation CX Manager",
-   "location": "London, United Kingdom; Greater Manchester, United Kingdom",
-   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Investment Banking Financial Crime Officer",
    "location": "Hong Kong, Hong Kong China",
    "why": "location 'Hong Kong, Hong Kong China' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "ISDA Negotiator - AVP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -2500,21 +2261,9 @@
   },
   {
    "company": "Barclays",
-   "title": "Product and Proposition Manager - Payables",
-   "location": "London, United Kingdom; Northampton, United Kingdom; Greater Manchester, United ",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Greater Manchester, United ' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Senior Analyst  AP Ops - Invoice Management  Procurement",
    "location": "Noida, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Screening (FCS) Head of Workflow – Screening Alert Management",
-   "location": "Bournemouth, United Kingdom",
-   "why": "location 'Bournemouth, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -2566,12 +2315,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Collections Strategy Analyst",
-   "location": "Wilmington, United States",
-   "why": "location 'Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Toolchain Extension Software Engineer",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -2590,12 +2333,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Wealth Management - Planning and Advice Executive",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Compliance Assurance Review Lead VP",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -2605,12 +2342,6 @@
    "title": "Innovation Research & Service Designer",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Product & Proposition Manager",
-   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom; Gr",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom; Gr' not India"
   },
   {
    "company": "Barclays",
@@ -2641,12 +2372,6 @@
    "title": "Private Banker",
    "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
    "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Workday Specialist (HCM Consultant) AVP - FTC until the end of December 2027",
-   "location": "London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -2689,6 +2414,72 @@
    "title": "Avaloq Developer",
    "location": "Pune, India",
    "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Quantitative Analyst AVP - Treasury",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Funds & Asset Managers Coverage, Americas",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Planning and Stress Testing Model Execution AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Transaction Monitoring Barclays UK Quality Assurance Analyst",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President - Treasury Hedge Accounting",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "VP Liquidity Methodology Implementation",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "DevOps Engineer (EDP Analytics Portal)",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP Regulatory Assurance",
+   "location": "Chennai, India; Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Red Team Operator",
+   "location": "United Kingdom",
+   "why": "location 'United Kingdom' not India"
   }
  ]
 }
