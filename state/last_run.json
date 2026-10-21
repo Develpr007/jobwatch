@@ -1,18 +1,14 @@
 {
- "when": "2026-10-21 10:22 IST",
- "sources_ok": 512,
+ "when": "2026-10-21 17:23 IST",
+ "sources_ok": 513,
  "sources_failed": [
-  [
-   "Accenture India",
-   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"C192E9MVHN4CQJ\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
-  ],
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
   ],
   [
-   "FirstCry",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
+   "Accenture India",
+   "RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"A57283MVI2ERNI\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
   ],
   [
    "SBI Card",
@@ -23,8 +19,8 @@
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
   ],
   [
-   "Niva Bupa",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
+   "NSDL",
+   "RuntimeError: Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://nsdl.co.in/about/careers.php\nCall log:\n  - navigating to \"https://nsdl.co.in/about/careers.php\", waiting until"
   ],
   [
    "NSE (National Stock Exchange)",
@@ -69,8 +65,8 @@
   "KPMG India",
   "LatentView Analytics",
   "Myntra",
-  "Zomato / Blinkit / Hyperpure / District (Eternal)",
   "Zepto",
+  "Zomato / Blinkit / Hyperpure / District (Eternal)",
   "Nykaa",
   "Flipkart",
   "Swiggy",
@@ -90,17 +86,19 @@
   "Hexaware",
   "Reliance Industries",
   "Tata Motors",
+  "Asian Paints",
   "Marico",
-  "Dabur",
   "TVS Motor",
+  "Dabur",
   "Emami",
   "Britannia",
   "Schneider Electric India",
   "Credit Agricole CIB",
+  "AXA India",
   "Levi Strauss India",
   "FactSet",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Kotak Mahindra Bank",
+  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
@@ -109,31 +107,36 @@
   "INDmoney",
   "Pepperfry",
   "Porter",
+  "Rapido",
   "Ecom Express",
-  "ixigo",
   "XpressBees",
+  "ixigo",
   "Games24x7",
   "MPL",
-  "Practo",
   "Dailyhunt (VerSe)",
+  "Practo",
   "PharmEasy",
   "NoBroker",
-  "Moglix",
   "Infra.Market",
+  "Moglix",
   "OfBusiness",
   "upGrad",
+  "Unacademy",
   "Ather Energy",
   "IndusInd Bank",
   "L&T Finance",
+  "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
-  "HDFC Life",
   "ICICI Prudential Life",
+  "HDFC Life",
   "SBI Life",
-  "Bajaj Allianz (Bajaj General / Bajaj Life)",
+  "Tata AIA Life",
   "ICICI Lombard",
+  "Bajaj Allianz (Bajaj General / Bajaj Life)",
   "Axis Max Life Insurance",
   "HDFC ERGO",
   "Care Health Insurance",
+  "Niva Bupa",
   "Star Health",
   "Tata Asset Management",
   "HDFC AMC",
@@ -145,37 +148,38 @@
   "ICICI Securities",
   "BSE",
   "CDSL",
-  "NPCI",
-  "NSDL",
   "smallcase",
   "Uni Cards",
-  "M2P Fintech",
+  "Money View",
   "IDfy",
   "CleverTap",
   "WebEngage",
-  "Unicommerce",
   "Zluri",
   "Capillary Technologies",
+  "Unicommerce",
   "Rocketlane",
   "Atlan",
+  "Spinny",
   "CarTrade Tech",
   "Info Edge (Naukri/99acres)",
   "Square Yards",
   "Nazara Technologies",
   "OLX India",
   "Euler Motors",
+  "Yulu",
   "Ultraviolette",
   "Simple Energy",
-  "Yulu",
   "ChargeZone",
   "Jumbotail",
   "Battery Smart",
   "Log9 Materials",
+  "Ninjacart",
   "Shadowfax",
   "Fleetx",
   "Pando",
-  "FarEye",
+  "Locus",
   "Loadshare",
+  "FarEye",
   "Snapdeal",
   "DeHaat",
   "FreshToHome",
@@ -196,146 +200,91 @@
   "Nexdigm",
   "Lumenore",
   "Cognitio Analytics",
-  "Wakefit",
   "Decathlon India",
-  "The Souled Store",
+  "Wakefit",
   "Haldiram's",
+  "The Souled Store",
   "Pernod Ricard India",
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
   "Godrej & Boyce (Godrej Enterprises)",
+  "MG Motor India",
   "Escorts Kubota",
+  "Ashok Leyland",
   "Vedanta",
   "JSW Group",
-  "TCI (Transport Corporation of India)"
+  "TCI (Transport Corporation of India)",
+  "Allcargo"
  ],
- "relevant_open": 930,
+ "relevant_open": 904,
  "new": [
   {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1404399533/",
-   "location": "Mumbai, MH, IN, 400028",
+   "company": "Barclays",
+   "title": "Margin Data & Analytics",
+   "url": "https://search.jobs.barclays/job/pune/margin-data-and-analytics/13015/99338946016",
+   "location": "Pune, India",
    "posted": "",
-   "source": "successfactors",
+   "source": "radancy",
    "extra": {
-    "category": "Consulting & Analytics",
+    "category": "Banks & FS",
     "found": "2026-10-21",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "10774935a0ddd8b8"
+   "key": "04d730f897aaf323"
   },
   {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1404399533/",
-   "location": "Mumbai, MH, IN, 400028",
+   "company": "American Express",
+   "title": "Financial Analyst",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014244",
+   "location": "Bengaluru, KA, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
+   "extra": {
+    "id": "26014244",
+    "category": "Banks & FS",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": ""
+   },
+   "key": "6f348f9bcbfcdc41"
+  },
+  {
+   "company": "American Express",
+   "title": "Analyst-Control Management",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015424",
+   "location": "Gurugram, HR, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
+   "extra": {
+    "id": "26015424",
+    "category": "Banks & FS",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": ""
+   },
+   "key": "0db64c60629d4ba9"
+  },
+  {
+   "company": "Deloitte India",
+   "title": "Analyst | AI / ML | Chennai | Artificial Intelligence & Data | AI Insights & Engagement",
+   "url": "https://southasiacareers.deloitte.com/job/Chennai-Analyst-AI-ML-Chennai-Artificial-Intelligence-&-Data-AI-Insights-&-Engagement/60849244/",
+   "location": "Chennai, IN",
    "posted": "",
-   "source": "successfactors",
+   "source": "html",
    "extra": {
     "category": "Consulting & Analytics",
     "found": "2026-10-21",
     "posted": "",
-    "verdict": "fresher-friendly"
+    "verdict": "no experience stated"
    },
-   "key": "10774935a0ddd8b8"
+   "key": "4a50e4c631353b71"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429308933/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dbd11618611d4e11"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429308933/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dbd11618611d4e11"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429243933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "be5a42db21e668bb"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429243933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "be5a42db21e668bb"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Pune",
-   "url": "https://careers.ey.com/ey/job/Pune-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Pune-MH-411001/1429381733/",
-   "location": "Pune, MH, IN, 411001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "fd18693811f6bc16"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Pune",
-   "url": "https://careers.ey.com/ey/job/Pune-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Pune-MH-411001/1429381733/",
-   "location": "Pune, MH, IN, 411001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "fd18693811f6bc16"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439844933/",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-New-Delhi-Nati-110037/1449660033/",
    "location": "New Delhi, National Capital Territory, IN, 110037",
    "posted": "",
    "source": "successfactors",
@@ -345,12 +294,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d601cc7deb8e7456"
+   "key": "77984c9bd7cf9c09"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439844933/",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-New-Delhi-Nati-110037/1449660033/",
    "location": "New Delhi, National Capital Territory, IN, 110037",
    "posted": "",
    "source": "successfactors",
@@ -360,192 +309,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d601cc7deb8e7456"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - PROCESS & CONTROLS - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-PROCESS-&-CONTROLS-Gurgaon-HR-122003/1429097533/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "e5b30bc184ea561d"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - PROCESS & CONTROLS - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-PROCESS-&-CONTROLS-Gurgaon-HR-122003/1429097533/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "e5b30bc184ea561d"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-New-Delhi-Nati-110037/1408604833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bd1e2b6f028eaf52"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-New-Delhi-Nati-110037/1408604833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bd1e2b6f028eaf52"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429236033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "42934f143169b521"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429236033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "42934f143169b521"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429283233/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b2f7b452e0709cbc"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429283233/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b2f7b452e0709cbc"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440071233/",
-   "location": "Jaipur, RJ, IN, 302018",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "83fac0cc0070ef01"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440071233/",
-   "location": "Jaipur, RJ, IN, 302018",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "83fac0cc0070ef01"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Chennai-TN-600113/1439993233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "14ca6ca3e9735763"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Chennai-TN-600113/1439993233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "14ca6ca3e9735763"
+   "key": "77984c9bd7cf9c09"
   },
   {
    "company": "EY India",
    "title": "Associate Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1439979833/",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449697133/",
    "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
@@ -555,12 +324,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "f9becf31d27381d5"
+   "key": "8062fb5e677e0035"
   },
   {
    "company": "EY India",
    "title": "Associate Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1439979833/",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449697133/",
    "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
@@ -570,13 +339,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "f9becf31d27381d5"
+   "key": "8062fb5e677e0035"
   },
   {
    "company": "EY India",
-   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440008933/",
-   "location": "Mumbai, MH, IN, 400028",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449684333/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -585,13 +354,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "fc1cda84e194fb34"
+   "key": "ea740b5b777bf8f1"
   },
   {
    "company": "EY India",
-   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440008933/",
-   "location": "Mumbai, MH, IN, 400028",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449684333/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -600,13 +369,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "fc1cda84e194fb34"
+   "key": "ea740b5b777bf8f1"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1429210033/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449679033/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -615,13 +384,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e6e30b6967444a58"
+   "key": "8d846df16af551ac"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1429210033/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449679033/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -630,13 +399,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e6e30b6967444a58"
+   "key": "8d846df16af551ac"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429300733/",
-   "location": "Gurugram, HR, IN, 122003",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449681133/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -645,13 +414,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4b37250499073357"
+   "key": "3ba182232b5230c6"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429300733/",
-   "location": "Gurugram, HR, IN, 122003",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449681133/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -660,13 +429,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4b37250499073357"
+   "key": "3ba182232b5230c6"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440075033/",
-   "location": "Jaipur, RJ, IN, 302018",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bangalore-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-561229/1449708333/",
+   "location": "Bangalore, KA, IN, 561229",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -675,13 +444,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "54edf56cf50f1a81"
+   "key": "2e1b2277462d474f"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440075033/",
-   "location": "Jaipur, RJ, IN, 302018",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bangalore-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-561229/1449708333/",
+   "location": "Bangalore, KA, IN, 561229",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -690,148 +459,60 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "54edf56cf50f1a81"
+   "key": "2e1b2277462d474f"
   },
   {
-   "company": "Genpact",
-   "title": "Analyst - Process Analytics - FCRM 5B",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-INFOSPACE-IT-PARK-TOWER--4-JHARSA-Gurgaon/Analyst---Process-Analytics---FCRM-5B_JR10032429",
-   "location": "1401-G-India: INFOSPACE IT PARK, TOWER -4, JHARSA, Gurgaon",
-   "posted": "Posted Today",
-   "source": "workday",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Associate Consultant S&O",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049598",
+   "location": "Gurgaon, Haryana, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
    "extra": {
-    "externalPath": "/job/1401-G-India-INFOSPACE-IT-PARK-TOWER--4-JHARSA-Gurgaon/Analyst---Process-Analytics---FCRM-5B_JR10032429",
+    "id": "30049598",
     "category": "Consulting & Analytics",
     "found": "2026-10-21",
     "posted": "2026-10-21",
     "verdict": "no experience stated"
    },
-   "key": "eb58df31c53a176c"
+   "key": "90cdf7f1a9723f99"
   },
   {
-   "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1404399533/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
+   "company": "WNS",
+   "title": "Analyst - Operations",
+   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000156714399",
+   "location": "Pune, MH, in",
+   "posted": "2026-10-21T06:00:58.812Z",
+   "source": "smartrecruiters",
    "extra": {
-    "category": "Consulting, IT & Knowledge Services",
+    "id": "744000156714399",
+    "category": "Consulting & Analytics",
     "found": "2026-10-21",
-    "posted": "",
+    "posted": "2026-10-21",
+    "verdict": "no experience stated"
+   },
+   "key": "fbda2e056d30cb91"
+  },
+  {
+   "company": "Genpact",
+   "title": "Analyst - Process Analytics - SCM 5B",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10032536",
+   "location": "1401-G-India: 1-6 FL, Surya Park, STPI, Bangalore",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-G-India-1-6-FL-Surya-Park-STPI-Bangalore/Analyst---Process-Analytics---SCM-5B_JR10032536",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
     "verdict": "fresher-friendly"
    },
-   "key": "10774935a0ddd8b8"
+   "key": "d41834013400934b"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1404399533/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "10774935a0ddd8b8"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429308933/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dbd11618611d4e11"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429308933/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dbd11618611d4e11"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429243933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "be5a42db21e668bb"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429243933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "be5a42db21e668bb"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Pune",
-   "url": "https://careers.ey.com/ey/job/Pune-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Pune-MH-411001/1429381733/",
-   "location": "Pune, MH, IN, 411001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "fd18693811f6bc16"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Pune",
-   "url": "https://careers.ey.com/ey/job/Pune-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Pune-MH-411001/1429381733/",
-   "location": "Pune, MH, IN, 411001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "fd18693811f6bc16"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439844933/",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-New-Delhi-Nati-110037/1449660033/",
    "location": "New Delhi, National Capital Territory, IN, 110037",
    "posted": "",
    "source": "successfactors",
@@ -841,12 +522,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d601cc7deb8e7456"
+   "key": "77984c9bd7cf9c09"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1439844933/",
+   "title": "Project Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-New-Delhi-Nati-110037/1449660033/",
    "location": "New Delhi, National Capital Territory, IN, 110037",
    "posted": "",
    "source": "successfactors",
@@ -856,192 +537,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d601cc7deb8e7456"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - PROCESS & CONTROLS - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-PROCESS-&-CONTROLS-Gurgaon-HR-122003/1429097533/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "e5b30bc184ea561d"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - PROCESS & CONTROLS - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-PROCESS-&-CONTROLS-Gurgaon-HR-122003/1429097533/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "e5b30bc184ea561d"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-New-Delhi-Nati-110037/1408604833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bd1e2b6f028eaf52"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-New-Delhi-Nati-110037/1408604833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bd1e2b6f028eaf52"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429236033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "42934f143169b521"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1429236033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "42934f143169b521"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429283233/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b2f7b452e0709cbc"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429283233/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b2f7b452e0709cbc"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440071233/",
-   "location": "Jaipur, RJ, IN, 302018",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "83fac0cc0070ef01"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440071233/",
-   "location": "Jaipur, RJ, IN, 302018",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "83fac0cc0070ef01"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Chennai-TN-600113/1439993233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "14ca6ca3e9735763"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Chennai-TN-600113/1439993233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-21",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "14ca6ca3e9735763"
+   "key": "77984c9bd7cf9c09"
   },
   {
    "company": "EY GDS",
    "title": "Associate Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1439979833/",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449697133/",
    "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
@@ -1051,12 +552,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "f9becf31d27381d5"
+   "key": "8062fb5e677e0035"
   },
   {
    "company": "EY GDS",
    "title": "Associate Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1439979833/",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Associate-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449697133/",
    "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
@@ -1066,13 +567,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "f9becf31d27381d5"
+   "key": "8062fb5e677e0035"
   },
   {
    "company": "EY GDS",
-   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440008933/",
-   "location": "Mumbai, MH, IN, 400028",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449684333/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1081,13 +582,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "fc1cda84e194fb34"
+   "key": "ea740b5b777bf8f1"
   },
   {
    "company": "EY GDS",
-   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440008933/",
-   "location": "Mumbai, MH, IN, 400028",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449684333/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1096,13 +597,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "fc1cda84e194fb34"
+   "key": "ea740b5b777bf8f1"
   },
   {
    "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1429210033/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449679033/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1111,13 +612,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e6e30b6967444a58"
+   "key": "8d846df16af551ac"
   },
   {
    "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1429210033/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449679033/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1126,13 +627,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e6e30b6967444a58"
+   "key": "8d846df16af551ac"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429300733/",
-   "location": "Gurugram, HR, IN, 122003",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449681133/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1141,13 +642,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4b37250499073357"
+   "key": "3ba182232b5230c6"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Gurgaon-HR-122003/1429300733/",
-   "location": "Gurugram, HR, IN, 122003",
+   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Bangalore-KA-560001/1449681133/",
+   "location": "Bengaluru, KA, IN, 560001",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1156,13 +657,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4b37250499073357"
+   "key": "3ba182232b5230c6"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440075033/",
-   "location": "Jaipur, RJ, IN, 302018",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bangalore-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-561229/1449708333/",
+   "location": "Bangalore, KA, IN, 561229",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1171,13 +672,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "54edf56cf50f1a81"
+   "key": "2e1b2277462d474f"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - Jaipur",
-   "url": "https://careers.ey.com/ey/job/Jaipur-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-Jaipur-RJ-302018/1440075033/",
-   "location": "Jaipur, RJ, IN, 302018",
+   "title": "Project Consultant - PAS WKFA - National - CNS - PC - WORKFORCE ADVISORY - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bangalore-Project-Consultant-PAS-WKFA-National-CNS-PC-WORKFORCE-ADVISORY-Bangalore-KA-561229/1449708333/",
+   "location": "Bangalore, KA, IN, 561229",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -1186,12 +687,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "54edf56cf50f1a81"
+   "key": "2e1b2277462d474f"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Nainital-Apprentice-Utta-244715/54095180/",
+   "title": "DIWA Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-DIWA-Apprentice-TG-500016/54277080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1201,12 +702,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "413176f8f0e27f0b"
+   "key": "68d0e9cf08fe9cbf"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Nainital-Apprentice-Utta-244715/54095180/",
+   "title": "DIWA Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-DIWA-Apprentice-TG-500016/54277080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1216,12 +717,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "413176f8f0e27f0b"
+   "key": "68d0e9cf08fe9cbf"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Nainital-Apprentice-Utta-244715/54095180/",
+   "title": "DIWA Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-DIWA-Apprentice-TG-500016/54277080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1231,27 +732,349 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "413176f8f0e27f0b"
+   "key": "68d0e9cf08fe9cbf"
   },
   {
-   "company": "PepsiCo India",
-   "title": "R&D Digital Platforms Assoc Analyst",
-   "url": "https://www.pepsicojobs.com/main/jobs/461251?lang=en-us&previousLocale=en-US",
-   "location": "Location Hyderabad, Telangana\nIndia",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-Apprentice-TG-500016/54276580/",
+   "location": "",
    "posted": "",
-   "source": "browser",
+   "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4a4138716aa8ac42"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-Apprentice-TG-500016/54276580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4a4138716aa8ac42"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Hyderabad-Apprentice-TG-500016/54276580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4a4138716aa8ac42"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54277980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c4c4ba780f2b0994"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54277980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c4c4ba780f2b0994"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54277980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c4c4ba780f2b0994"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Electrical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/159838",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
+   "extra": {
+    "id": "159838",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0a7727479e117fce"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Electrical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/159848",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
+   "extra": {
+    "id": "159848",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "fresher-friendly"
+   },
+   "key": "16b4a29625fd7883"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Embedded Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/159858",
+   "location": "Hyderabad, Telangana, India",
+   "posted": "2026-10-21",
+   "source": "oracle",
+   "extra": {
+    "id": "159858",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "fresher-friendly"
+   },
+   "key": "71f12af033f670a5"
+  },
+  {
+   "company": "ANZ",
+   "title": "Business Analyst",
+   "url": "https://careers.anz.com/job/Bengaluru-Business-Analyst/1369186666/",
+   "location": "Bengaluru, IN",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Finance, Insurance & Research",
     "found": "2026-10-21",
     "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "7bf54f34cb287fec"
+   "key": "eb06ca204af9cf83"
   },
   {
-   "company": "Motilal Oswal",
-   "title": "Growth",
-   "url": "https://www.motilaloswal.com/careers/growth",
+   "company": "ANZ",
+   "title": "Business Analyst",
+   "url": "https://careers.anz.com/job/Bengaluru-Business-Analyst/1369186666/",
+   "location": "Bengaluru, IN",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "eb06ca204af9cf83"
+  },
+  {
+   "company": "ANZ",
+   "title": "Business Analyst",
+   "url": "https://careers.anz.com/job/Bengaluru-Business-Analyst/1369188766/",
+   "location": "Bengaluru, IN",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "23ec1d07e65a6632"
+  },
+  {
+   "company": "ANZ",
+   "title": "Business Analyst",
+   "url": "https://careers.anz.com/job/Bengaluru-Business-Analyst/1369188766/",
+   "location": "Bengaluru, IN",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "23ec1d07e65a6632"
+  },
+  {
+   "company": "Moody's",
+   "title": "Analyst-BI & Analytics Gurugram, India",
+   "url": "https://careers.moodys.com/en/job/gurugram/analyst-bi-and-analytics/49841/101609869472",
+   "location": "Gurugram, India",
+   "posted": "10/21/2026",
+   "source": "radancy",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2a20e2a9f45acedc"
+  },
+  {
+   "company": "Morningstar",
+   "title": "Associate Business Intelligence Analyst",
+   "url": "https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Associate-Business-Intelligence-Analyst_REQ-058861-1",
+   "location": "Mumbai",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Mumbai/Associate-Business-Intelligence-Analyst_REQ-058861-1",
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "no experience stated"
+   },
+   "key": "29629963c706f34b"
+  },
+  {
+   "company": "General Mills India",
+   "title": "Data Associate, Sales & Commercial Capabilities",
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Associate--Sales---Commercial-Capabilities_10131106",
+   "location": "Powai, Mumbai, MH",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Powai-Mumbai-MH/Data-Associate--Sales---Commercial-Capabilities_10131106",
+    "category": "Global Capability Centres",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": ""
+   },
+   "key": "509f7b3230aa4d92"
+  },
+  {
+   "company": "ExxonMobil India",
+   "title": "Bangalore Career Fair 21 & 22 November - Planning Analyst",
+   "url": "https://jobs.exxonmobil.com/job/Bangalore-Bangalore-Career-Fair-21-&-22-November-Planning-Analyst-KA-560066/1380409700/",
+   "location": "Bangalore, KA, IN, 560066",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "bc7d2457f4f023e2"
+  },
+  {
+   "company": "ExxonMobil India",
+   "title": "Bangalore Career Fair 21 & 22 November - Planning Analyst",
+   "url": "https://jobs.exxonmobil.com/job/Bangalore-Bangalore-Career-Fair-21-&-22-November-Planning-Analyst-KA-560066/1380409700/",
+   "location": "Bangalore, KA, IN, 560066",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "bc7d2457f4f023e2"
+  },
+  {
+   "company": "ExxonMobil India",
+   "title": "Bangalore Career Fair 21 & 22 November - Planning Analyst",
+   "url": "https://jobs.exxonmobil.com/job/Bangalore-Bangalore-Career-Fair-21-&-22-November-Planning-Analyst-KA-560066/1380409700/",
+   "location": "Bangalore, KA, IN, 560066",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "bc7d2457f4f023e2"
+  },
+  {
+   "company": "ExxonMobil India",
+   "title": "Bangalore Career Fair 21 & 22 November - Planning Analyst",
+   "url": "https://jobs.exxonmobil.com/job/Bangalore-Bangalore-Career-Fair-21-&-22-November-Planning-Analyst-KA-560066/1380409700/",
+   "location": "Bangalore, KA, IN, 560066",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "bc7d2457f4f023e2"
+  },
+  {
+   "company": "Dun & Bradstreet India",
+   "title": "Apprentice (R-20077)",
+   "url": "https://jobs.lever.co/dnb/fa0a5dc9-1217-4e73-978e-aa503a00ca4b",
+   "location": "Mumbai - India",
+   "posted": "1792569299287",
+   "source": "lever",
+   "extra": {
+    "team": "Operations",
+    "commitment": "Apprentice",
+    "category": "Analytics, Research & KPO",
+    "found": "2026-10-21",
+    "posted": "2026-10-21",
+    "verdict": "fresher-friendly"
+   },
+   "key": "99282a7a7c9f2fde"
+  },
+  {
+   "company": "ZS Associates",
+   "title": "Decision Analytics Consultant - Value & Access (Market Access)",
+   "url": "https://jobs.zs.com/jobs/33799?lang=en-us",
+   "location": "Location Pune, Maharashtra\nIndia",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "description not readable (unverified)"
+   },
+   "key": "a81d04eb4fc1630d"
+  },
+  {
+   "company": "NPCI",
+   "title": "Associate Product Design",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000001558340/Associate-Product-Design?source=CareerSite",
    "location": "",
    "posted": "",
    "source": "browser",
@@ -1261,33 +1084,729 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d179b231243f545e"
+   "key": "26cf71fa99f793fe"
   },
   {
-   "company": "Voltas",
-   "title": "Stories of Growth",
-   "url": "https://www.voltas.com/careers/stories-growth",
+   "company": "NPCI",
+   "title": "Deputy Incharge Credit Card Portfolio & Analytics",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000004017994/Deputy-Incharge-Credit-Card-Portfolio-Analytics?source=CareerSite",
    "location": "",
    "posted": "",
    "source": "browser",
    "extra": {
-    "category": "Consumer, Retail, Auto & Industrial",
+    "category": "Indian Banks, NBFCs, Insurance & Markets",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "6de1444c17cc8b7c"
+  },
+  {
+   "company": "NPCI",
+   "title": "Associate Data Science",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000001652226/Associate-Data-Science?source=CareerSite",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Indian Banks, NBFCs, Insurance & Markets",
     "found": "2026-10-21",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "360617ef407efe05"
+   "key": "720c424ab6778b5a"
+  },
+  {
+   "company": "NPCI",
+   "title": "Associate Data Science",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000002557979/Associate-Data-Science?source=CareerSite",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Indian Banks, NBFCs, Insurance & Markets",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9d545d0608078066"
+  },
+  {
+   "company": "NPCI",
+   "title": "Associate Data Science",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000001656043/Associate-Data-Science?source=CareerSite",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Indian Banks, NBFCs, Insurance & Markets",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "21af7e61a1247ade"
+  },
+  {
+   "company": "NPCI",
+   "title": "Associate Data Science",
+   "url": "https://careers.npci.org.in/jobs/Careers/190737000001854007/Associate-Data-Science?source=CareerSite",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Indian Banks, NBFCs, Insurance & Markets",
+    "found": "2026-10-21",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "f4071752e728186b"
   }
  ],
  "dropped_after_reading": [
   {
-   "company": "Deloitte India",
-   "title": "T&T | Customer| S&S|  Consultant| Conga- CPQ | Delhi",
-   "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-Customer-S&S-Consultant-Conga-CPQ-Delhi/59141444/",
+   "company": "Citi",
+   "title": "Business Analytics Analyst - Python SQL",
+   "url": "https://jobs.citi.com/job/pune/business-analytics-analyst-python-sql/287/102236309120",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Intermediat Programmer Analyst",
+   "url": "https://jobs.citi.com/job/pune/applications-development-intermediat-programmer-analyst/287/102236305696",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Intermediate Programmer Analyst",
+   "url": "https://jobs.citi.com/job/pune/applications-development-intermediate-programmer-analyst/287/102236305664",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "American Express",
+   "title": "Analyst-Control Management",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015259",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Business Associate",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049394",
+   "why": "requires POST GRADUATION"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Business Associate",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049393",
+   "why": "requires POST GRADUATION"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - FDD",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051168",
+   "why": "requires MBA"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - FDD",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051167",
+   "why": "requires MBA"
+  },
+  {
+   "company": "Amazon",
+   "title": "DSP - Pricing Analyst , AMZL",
+   "url": "https://www.amazon.jobs/en/jobs/10537743/dsp-pricing-analyst-amzl",
    "why": "asks 3+ years"
+  },
+  {
+   "company": "Invesco",
+   "title": "Quantitative Analyst",
+   "url": "https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Quantitative-Analyst_R-15490",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "Morningstar",
+   "title": "Operations Analyst",
+   "url": "https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Operations-Analyst_REQ-058752",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "Dun & Bradstreet India",
+   "title": "Apprentice (R-20025)",
+   "url": "https://jobs.lever.co/dnb/a61b6368-4c4f-4e1b-b125-d0d7ba7f8278",
+   "why": "requires MBA"
+  },
+  {
+   "company": "RSM US India",
+   "title": "FP&A Analyst 1",
+   "url": "https://rsm.wd1.myworkdayjobs.com/en-US/RSMCareers/job/Bengaluru/FP-A-Analyst-1_JR120948",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "ADP India",
+   "title": "GPT Interns Hyd 163704",
+   "url": "https://jobs.adp.com/en/jobs/ind163704/gpt-interns-hyd-163704/",
+   "why": "requires MBA"
   }
  ],
  "rejected_sample": [
+  {
+   "company": "HSBC",
+   "title": "Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Governance and Programme Management Lead/Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager - Client Services",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager - Finance Operations",
+   "location": "Hyderabad, Telangana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Associate - Front Office",
+   "location": "Bangalore, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Assistant Manager-OI business",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "PREMIER SERVICE MANAGER (Rajkot)",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Teller Supervisor",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Universal Banker",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "HSBC",
+   "title": "Premier Service Manager",
+   "location": "Hyderabad, Telangana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": ".NET Senior Developer - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "재무관리부 Financial Reporting Analyst",
+   "location": "Seoul, Seoul, South Korea",
+   "why": "location 'Seoul, Seoul, South Korea' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Cash Securities Operations, Foreign Securities, Markets Operations",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Customer Service Specialist - Train On-Site Home Office Program - Salary up to $21/hour",
+   "location": "Florence, Kentucky, United States",
+   "why": "location 'Florence, Kentucky, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Fraud Ops Senior Analyst  (Mandarin & Cantonese Proficient)",
+   "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+   "why": "location 'Kuala Lumpur, Kuala Lumpur, Malaysia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Functions - Internal Audit, Summer Analyst - London, 2027",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Infrastructure Engineer – Application Delivery & Cloud Load Balancing",
+   "location": "Budapest, Budapest, Hungary",
+   "why": "location 'Budapest, Budapest, Hungary' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Analyst 2 - C10 - PUNE",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Fullstack Developer- Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Production Management - Equities Trading",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Risk Reporting Analyst",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Project/Program Manager - Vice President - GURUGRAM",
+   "location": "Haryana, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Developer Intermediate Programmer Analyst",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Director, Custody Sanctions Product Management- Investor Services",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "HR Benefits Analyst",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Support Senior Analyst",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Credit Analysis - Greater China Coverage - Assistant Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Credit Analysis - Greater China Coverage - Officer",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Credit Analysis - Greater China Coverage - Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "AI Lead Engineer, Technical Lead - Services AI Platform",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Software Engineer- Automation",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Database Developer- Oracle PLSQL",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "FX Risk Tech - Senior Java Analyst Developer (Assistant Vice President)",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Credit Analysis - Australia Portfolio - Assistant Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Machine Learning Data Scientist - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Quality Analyst",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Full Stack Engineer - C13 - PUNE",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Securities & Derivatives Intermediate Analyst, Markets Operations",
+   "location": "Naha, Okinawa, Japan",
+   "why": "location 'Naha, Okinawa, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Vice President, Customer Service Manager – Fixed Income Settlements Operations",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Securities & Derivatives Analyst, Markets Operations",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Securities & Derivatives Analyst, Markets Operations",
+   "location": "Naha, Okinawa, Japan",
+   "why": "location 'Naha, Okinawa, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Securities & Derivatives Analyst, Markets Operations",
+   "location": "Naha, Okinawa, Japan",
+   "why": "location 'Naha, Okinawa, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Securities & Derivatives Analyst, Markets Operations",
+   "location": "Naha, Okinawa, Japan",
+   "why": "location 'Naha, Okinawa, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX OPERADOR CAJERO",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Cajero Iztapalapa y Aeropuerto",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Head of Production Management, Equities Trading, Director",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex | Cajero Integral",
+   "location": "Morelia, Michoacán, Mexico",
+   "why": "location 'Morelia, Michoacán, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Consumer Product Sales Lead Analyst, Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Consumer Product Sales Lead Analyst, Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Cloud & Risk Platform Engineer - Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Production Support Manager – Senior Vice President",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Development Lead Java Back-End Engineer - Vice President",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Intmd Assoc Exec Resp Analyst - B11",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "VP – Rewards Reengineering - Strategy and Analytics",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Cash Trade Process Representative",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX - Lending IT Business Intmd Analyst",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Development Lead Analyst - Vice President",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Disaster Recovery Continuity of Business Coordinator",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Head del Centro de Inteligencia de Ciberseguridad",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Service Intmd Analyst",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Program Security Sr. Analyst",
+   "location": "Zapopan, Jalisco, Mexico",
+   "why": "location 'Zapopan, Jalisco, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Labor Relations Sr. Manager / VP",
+   "location": "Bogotá, Bogota D.C., Colombia",
+   "why": "location 'Bogotá, Bogota D.C., Colombia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex  Asesor de Tarjetas de Crédito Zona Metropolitana",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Cajero Metropolitana Sur | CDMX",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Value, Lending & Commerce Tech Book of Work and Funding Management, Senior Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part-Time Universal Banker (20 Hours) - Port Jefferson Station Branch",
+   "location": "Port Jefferson Station, New York, United States",
+   "why": "location 'Port Jefferson Station, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part - Time Teller (20 Hours) - Citicorp Center Branch",
+   "location": "Chicago, Illinois, United States",
+   "why": "location 'Chicago, Illinois, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part Time Universal Banker (20 hours) - Clark & Wrightwood Branch",
+   "location": "Chicago, Illinois, United States",
+   "why": "location 'Chicago, Illinois, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Dev Tech Lead Analyst - Vice President",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Universal Banker Part-Time (20 Hours) - Lexington/59th Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Universal Banker Part-Time (20 Hours) - 3rd/64th Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Universal Banker - 3rd/64th Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Universal Banker Part-Time (20 Hours) - 3rd/42nd Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Agency and Trust Officer - CIUDAD DE MEXICO",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Sr Programmer Analyst -AVP",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Mortgage Lending Officer SAFE Act - ALISO VIEJO",
+   "location": "Aliso Viejo, California, United States",
+   "why": "location 'Aliso Viejo, California, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Lead Counsel 1 - Product - SVP",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Business Analyst - Assistant Vice President",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Development Sr Programmer Analyst - Assistant Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Development Lead Analyst - Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Apps Development Lead Analyst - Senior Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part-Time Universal Banker (20 Hours)- Franklin and Adams Branch",
+   "location": "Chicago, Illinois, United States",
+   "why": "location 'Chicago, Illinois, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Banquero de Apoyo Banca Patrimonial GDL Andares",
+   "location": "Zapopan, Jalisco, Mexico",
+   "why": "location 'Zapopan, Jalisco, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Sr  Investment Counselor - LEON",
+   "location": "León, Guanajuato, Mexico",
+   "why": "location 'León, Guanajuato, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Cajero (a) Bancario Mérida, Yuc.",
+   "location": "Mérida, Yucatán, Mexico",
+   "why": "location 'Mérida, Yucatán, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Business Lead Analyst - C13 - SIOUX FALLS",
+   "location": "Sioux Falls, South Dakota, United States",
+   "why": "location 'Sioux Falls, South Dakota, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banquero de Relación Ciudad Obregón Son",
+   "location": "Ciudad Obregón, Sonora, Mexico",
+   "why": "location 'Ciudad Obregón, Sonora, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Wealth Relationship Manager SAFE Act - RANCHO PARK/ LOS ANGELES",
+   "location": "Los Angeles, California, United States",
+   "why": "location 'Los Angeles, California, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Senior Group Manager",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior .Net Developer - Vice President",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Head Universal Banker, Los Angeles - Wilshire Westwood Branch",
+   "location": "Los Angeles, California, United States",
+   "why": "location 'Los Angeles, California, United States' not India"
+  },
   {
    "company": "Citi",
    "title": "BANAMEX- Desarrollador Junior Adobe Experience Manager",
@@ -1458,12 +1977,6 @@
   },
   {
    "company": "Citi",
-   "title": "Head of Audit - Zambia",
-   "location": "Lusaka, Lusaka Province, Zambia",
-   "why": "location 'Lusaka, Lusaka Province, Zambia' not India"
-  },
-  {
-   "company": "Citi",
    "title": "BANAMEX Especialista Senior de Partes Relacionadas en Contraloria Interna",
    "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
    "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
@@ -1497,12 +2010,6 @@
    "title": "Personal Banker SAFE Act - Rye Branch",
    "location": "Rye, New York, United States",
    "why": "location 'Rye, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "CHOFER CORPORATIVO",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
   },
   {
    "company": "Citi",
@@ -1623,12 +2130,6 @@
    "title": "Securities & Derivatives Analyst 2",
    "location": "Multiple Locations",
    "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Backend Java Developer, Officer",
-   "location": "Irving, Texas, United States",
-   "why": "location 'Irving, Texas, United States' not India"
   },
   {
    "company": "Citi",
@@ -1806,12 +2307,6 @@
   },
   {
    "company": "Citi",
-   "title": "Banamex Nte Distrito Monterrey Oriente Banquero Integral sucursal 4477 Centro Apodaca",
-   "location": "Apodaca, Nuevo León, Mexico",
-   "why": "location 'Apodaca, Nuevo León, Mexico' not India"
-  },
-  {
-   "company": "Citi",
    "title": "BANAMEX CAJERO (A) MAZATLAN, SIN",
    "location": "Mazatlán, Sinaloa, Mexico",
    "why": "location 'Mazatlán, Sinaloa, Mexico' not India"
@@ -1985,556 +2480,130 @@
    "why": "location 'Multiple Locations' not India"
   },
   {
-   "company": "Citi",
-   "title": "Hospitality Operations Assistant Manager（ホスピタリティ運営 アシスタントマネージャー）",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of AI Solutions, COO Technology - MD (C16)",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Citi Commercial Bank - Relationship Associate – AVP",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Digital PM Analyst, Assistant Vice President",
-   "location": "Irving, Texas, United States",
-   "why": "location 'Irving, Texas, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "ACH Product Lead, US Domestic Payments - SVP",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Functions - Internal Audit, Summer Analyst - Mississauga, ON 2027",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Apps Development Senior Manager (AML)",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Support Sr Analyst",
-   "location": "Heredia, Provincia de Heredia, Costa Rica",
-   "why": "location 'Heredia, Provincia de Heredia, Costa Rica' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Lead Apps Dev Tech Analyst, Senior Vice President",
-   "location": "Jersey City, New Jersey, United States",
-   "why": "location 'Jersey City, New Jersey, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act - Armonk Branch",
-   "location": "Armonk, New York, United States",
-   "why": "location 'Armonk, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Angular Developer / Frontend Engineer (Entry-Level)",
-   "location": "Irving, Texas, United States",
-   "why": "location 'Irving, Texas, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Application Support Analyst",
-   "location": "Houston, Texas, United States",
-   "why": "location 'Houston, Texas, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Analista Sr de Tarjetas de Crédito",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part-Time Universal Banker (20 Hours) - Somers Branch",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act -  Morris Park Branch",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Apps Development Sr Lead Analyst - Senior Vice President",
-   "location": "Charlotte, North Carolina, United States",
-   "why": "location 'Charlotte, North Carolina, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX  EJECUTIVO PYME HERMOSILLO",
-   "location": "Hermosillo, Sonora, Mexico",
-   "why": "location 'Hermosillo, Sonora, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Banker, Vice President– Public Sector: Defense & Development Organizations",
-   "location": "Reston, Virginia, United States",
-   "why": "location 'Reston, Virginia, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banker, Vice President - U.S. Federal Government Sector",
-   "location": "Washington, DC, United States",
-   "why": "location 'Washington, DC, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "VP, Coverage Banker, Investment Banking (China Securities NewCo)",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Analyst/Associate, Coverage/ECM Banker, Investment Banking(China Securities NewCo)",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director, Coverage Banker, Investment Banking(China Securities NewCo)",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director, ECM Banker, Investment Banking (China Securities NewCo)",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Associate/VP, Quality Control, Investment Banking(China Securities NewCo)",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Sr Associate - Real Estate",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Sr. Associate - Power",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banking Associate - Metals & Mining (UK Industrials)",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Executive Assistant - A04 - SEOUL",
-   "location": "Seoul, Seoul, South Korea",
-   "why": "location 'Seoul, Seoul, South Korea' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex PM - Transformación de Canal Digital",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex PO Mobile Delivery & AI Transformation",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "VP, Sr Relationship Manager, Corporate Banking (Energy, Power and Chemical Sector)",
-   "location": "Beijing, Beijing Municipality, China",
-   "why": "location 'Beijing, Beijing Municipality, China' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Subdirector Markets Model Governance - CIUDAD DE MEXICO",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex -Banquero  Gobierno",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Global Network Banking (GNB) Japan Desk - Amsterdam",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "why": "location 'Amsterdam, North Holland, Netherlands' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Financial Institutions Group / 금융기관본부 – Sr. Relationship Manager - Director",
-   "location": "Seoul, Seoul, South Korea",
-   "why": "location 'Seoul, Seoul, South Korea' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamaex - Banquero de Gobierno",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Banquero de Relación CIB",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - COO / Execution",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Managing Director, Head of European Financial Institutions Group (FIG), Corporate Banking: Paris, Frankfurt, Milan, Madrid",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Director Banca Corporativa Guadalajara",
-   "location": "Zapopan, Jalisco, Mexico",
-   "why": "location 'Zapopan, Jalisco, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Equity Capital Markets",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "HR Business Execution Lead, Senior Manager",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant, Investment Banking",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Job Posting Title Managing Director – Head of Technology and Communications (T&C) Corporate Banking, Asia North & Australia and Asia South",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Syndicate Banker, Director",
-   "location": "Panama City, Provincia de Panamá, Panama",
-   "why": "location 'Panama City, Provincia de Panamá, Panama' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Strategic Planning and Business Management (VP/SVP)",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Business Execution Lead, Assistant Vice President",
-   "location": "Taipei, Taiwan, Taiwan",
-   "why": "location 'Taipei, Taiwan, Taiwan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex MD Financiamiento Estructurado",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director Instituciones Financieras",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A\")",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Retail Banking Analytics Leader - Charlotte",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Executive Assistant",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Jovem Aprendiz | Legal - Apprentice, São Paulo – Brazil, 2026",
-   "location": "São Paulo, São Paulo, Brazil",
-   "why": "location 'São Paulo, São Paulo, Brazil' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Jovem Aprendiz | Legal - Apprentice, São Paulo – Brazil, 2026",
-   "location": "São Paulo, São Paulo, Brazil",
-   "why": "location 'São Paulo, São Paulo, Brazil' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Jovem Aprendiz | Operations - Apprentice, São Paulo – Brazil, 2026",
-   "location": "São Paulo, São Paulo, Brazil",
-   "why": "location 'São Paulo, São Paulo, Brazil' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Business Senior Analyst - Assistant Vice President",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "2027 Australia Coop Placement",
-   "location": "Sydney, New South Wales, Australia",
-   "why": "location 'Sydney, New South Wales, Australia' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Associate, Public Sector Group, Asia",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - C12 - Ciudad De Mexico",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Senior Associate - Healthcare",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Long Term Internship – Investment Banking, Turkey – Istanbul, 2027",
-   "location": "Istanbul, Istanbul, Turkey",
-   "why": "location 'Istanbul, Istanbul, Turkey' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Productivity AVP",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate, M&A",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Assistant Vice President",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Early ID Program – Corporate Banking (Technology), Fall 2026 – San Francisco",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Early ID Program – Corporate Banking (Energy),  Fall 2026 – Houston",
-   "location": "Houston, Texas, United States",
-   "why": "location 'Houston, Texas, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Early ID Program – Corporate Banking,  Fall 2026 – New York",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Process Engineer / VP",
-   "location": "Jacksonville, Florida, United States",
-   "why": "location 'Jacksonville, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant , Government Affairs Japan, Australia, Asia North (JANA) and Asia South (AS)",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "San Francisco, California, United States",
-   "why": "location 'San Francisco, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Communications",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of Wealth Investment Planning, Business Process Optimization and Value Assurance, MD, C16",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of AI Customer Experience",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate Banker - Global Capital Management - Vice President",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of Product Strategy, Research & Partner Engagement | U.S. Consumer Cards",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Business Senior Analyst - Assistant Vice President",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Executive Assistant",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Relationship Manager (Assistant Vice President - C12), Astana, Kazakhstan",
-   "location": "Almaty, Almaty, Kazakhstan",
-   "why": "location 'Almaty, Almaty, Kazakhstan' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Business Associate - Assistant Vice President - LONDON",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Jovem Aprendiz | Operations - Apprentice, São Paulo – Brazil, 2026",
-   "location": "São Paulo, São Paulo, Brazil",
-   "why": "location 'São Paulo, São Paulo, Brazil' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "AVP, Client Manager - Global Network Banking (UAE NATIONALS ONLY)",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
-  },
-  {
-   "company": "HSBC",
-   "title": "Governance and Programme Management Lead/Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "Manager - Finance Operations",
-   "location": "Hyderabad, Telangana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Teller Supervisor",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "HSBC",
-   "title": "Universal Banker",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Premier Relationship Manager -Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager - Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Premier Relationship Manager-Ludhiana",
-   "location": "Noida, Uttar Pradesh, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Assistant Vice President, Valuations Analytics Reporting",
-   "location": "Bangalore, Karnataka, India",
+   "company": "Barclays",
+   "title": "Transaction Monitoring analytics - AVP",
+   "location": "Gurugram, India",
    "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "Trade and Position Management Processor",
-   "location": "Bangalore, Karnataka, India",
-   "why": "no role phrase"
+   "company": "Barclays",
+   "title": "AVP Finance Chief Controls Office",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "Senior Vice President, Regulatory Compliance IWPB HSBC IBU",
-   "location": "Gandhinagar, Gujarat, India",
+   "company": "Barclays",
+   "title": "Full Stack Developer",
+   "location": "Pune, India; Chennai, India",
    "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "GTSM - Site Reliability Engineer - CB&P",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Data Analyst -AVP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Digital Product Manager -VP",
+   "location": "Pune, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "IFC Data - CDD Sub-Data Domain - Data AVP",
+   "location": "Noida, India; Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Banking UCRM Salesforce Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President - Global Markets Liquid Financing Quantitative Analyst",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "BA4 - Global Markets",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Team - North Wales & Shires – Mid Corporate",
+   "location": "Wolverhampton, United Kingdom; Hanley Swan, United Kingdom",
+   "why": "location 'Wolverhampton, United Kingdom; Hanley Swan, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President - Treasury Financial Control",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Retirement Plans - DC Specialist - 18 Months Fixed Term Contract",
+   "location": "Glasgow, United Kingdom; London, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Process & Requirements Analyst - VP",
+   "location": "Chennai, India; Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Automation Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Oversight Compliance - Rates, FX and Emerging Markets VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "BOC - BX Functions - COO",
+   "location": "Singapore, Singapore",
+   "why": "location 'Singapore, Singapore' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fraud Operations - Team Manager",
+   "location": "Noida, India",
+   "why": "manager-level"
   },
   {
    "company": "Barclays",
@@ -2730,21 +2799,9 @@
   },
   {
    "company": "Barclays",
-   "title": "AI Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
    "title": "Data Integration Developer",
    "location": "Prague, Czechia",
    "why": "location 'Prague, Czechia' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "API Software Engineer",
-   "location": "Glasgow, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom; Northampton, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -3378,21 +3435,9 @@
   },
   {
    "company": "Barclays",
-   "title": "Market Platform Solutions AVP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "AVP, Financial Institutions Group, Cash Management Sales Associate",
    "location": "New York, United States",
    "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Transaction Monitoring Analyst",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -3516,12 +3561,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Social Media Manager - 12 month FTC",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Lead Full-Stack Java Engineer",
    "location": "Knutsford, United Kingdom",
    "why": "location 'Knutsford, United Kingdom' not India"
@@ -3581,112 +3620,34 @@
    "why": "manager-level"
   },
   {
-   "company": "Barclays",
-   "title": "Credit Risk Data Analyst",
-   "location": "Glasgow, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom; Northampton, United Kingdom' not India"
+   "company": "Macquarie",
+   "title": "Macquarie Group Home Page",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Credit Risk Business Analyst",
-   "location": "Glasgow, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom; Northampton, United Kingdom' not India"
+   "company": "Macquarie",
+   "title": "Find out more",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Senior Analyst  AP Ops - Invoice Management  Procurement",
-   "location": "Noida, India",
-   "why": "excluded keyword"
+   "company": "Macquarie",
+   "title": "Featured jobs",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Credit Quantitative Developer",
-   "location": "Prague, Czechia",
-   "why": "location 'Prague, Czechia' not India"
+   "company": "Macquarie",
+   "title": "Set up a job alert",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Senior UX Researcher",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Markets Trade Data Models",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Data Engineer with Snowflake - Market Data Platform",
-   "location": "Prague, Czechia",
-   "why": "location 'Prague, Czechia' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Integrated Financial Crime - Machine Learning Engineer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Vulnerability Management SME – VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Innovation Product & Experience Designer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior UI Engineer - Design Systems Team Lead",
-   "location": "Prague, Czechia",
-   "why": "location 'Prague, Czechia' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Toolchain Extension Software Engineer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Investment Bank Associate",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Business Relationship Manager",
-   "location": "Sunderland, United Kingdom; Knutsford, United Kingdom",
-   "why": "location 'Sunderland, United Kingdom; Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Compliance Assurance Review Lead VP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Innovation Research & Service Designer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "IFC - Cloud Data Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "BA4 - Research Operations",
-   "location": "Mumbai, India",
-   "why": "no role phrase"
+   "company": "Macquarie",
+   "title": "Associate/Vice President - QIS Sales",
+   "location": "",
+   "why": "location '' not India"
   }
  ]
 }
