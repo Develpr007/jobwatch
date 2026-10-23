@@ -39,10 +39,8 @@ American Express,Analyst - Data Science,"Gurugram, HR, India",https://egug.fa.us
 American Express,Analyst-Compliance,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013840,2026-10-23,oracle
 American Express,Analyst-Control Management,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015259,2026-10-21,oracle
 American Express,Analyst-Control Management,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015424,2026-10-21,oracle
-American Express,Apprentice,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014866,2026-10-21,oracle
 American Express,Apprentice,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014753,2026-10-19,oracle
 American Express,Apprentice,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015493,2026-10-19,oracle
-American Express,Apprentice,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014507,2026-10-16,oracle
 American Express,Apprentice - Enterprise Technology Services,"Bengaluru, KA, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009713,2026-10-19,oracle
 American Express,Financial Analyst,"Bengaluru, KA, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014244,2026-10-21,oracle
 American Express,Financial Analyst,"Gurugram, HR, India",https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015491,2026-10-19,oracle
@@ -58,7 +56,9 @@ Barclays,Analyst - Treasury PC,"Chennai, India",https://search.jobs.barclays/job
 Barclays,Analyst IB Finance,"Chennai, India",https://search.jobs.barclays/job/chennai/analyst-ib-finance/13015/101941262000,,radancy
 Barclays,Data Analyst,"Pune, India",https://search.jobs.barclays/job/pune/data-analyst/13015/101573461360,,radancy
 Barclays,Fraud & Dispute Analyst,"Pune, India",https://search.jobs.barclays/job/pune/fraud-and-dispute-analyst/13015/101255665792,,radancy
+Barclays,KYC Analyst,"Noida, India",https://search.jobs.barclays/job/noida/kyc-analyst/13015/102338246720,,radancy
 Barclays,Margin Data & Analytics,"Pune, India",https://search.jobs.barclays/job/pune/margin-data-and-analytics/13015/99338946016,,radancy
+Barclays,Operations Analyst - Enhanced Due Diligence/Exits,"Chennai, India",https://search.jobs.barclays/job/chennai/operations-analyst-enhanced-due-diligence-exits/13015/102338246624,,radancy
 Barclays,PC Equities Analyst,"Pune, India; Chennai, India",https://search.jobs.barclays/job/pune/pc-equities-analyst/13015/101573469024,,radancy
 Barclays,Wholesale Credit Risk Sanctioning - LevFin - Analyst,"Mumbai, India",https://search.jobs.barclays/job/mumbai/wholesale-credit-risk-sanctioning-levfin-analyst/13015/102281361552,,radancy
 Beghou Consulting,Associate - Advanced Analytics,Bangalore,https://jobs.lever.co/beghouconsulting/88b4cdc4-6207-46b8-ba99-735bfe1269b5,1788971700202,lever
@@ -146,6 +146,7 @@ Deloitte India,Analyst | Onestream: All | Ahmedabad | Finance Transformation | B
 Deloitte India,Analyst | Onestream: All | Ahmedabad | Finance Transformation | Business Finance,"Ahmedabad, IN",https://southasiacareers.deloitte.com/job/Ahmedabad-Analyst-Onestream-All-Ahmedabad-Finance-Transformation-Business-Finance/60081344/,,html
 Deloitte India,Consultant | Apex | Mumbai | Oracle,"Mumbai, IN",https://southasiacareers.deloitte.com/job/Mumbai-Consultant-Apex-Mumbai-Oracle/60081044/,,html
 Deloitte India,Consultant | Financial Risk | Bengaluru | Regulatory & Financial Risk,"Bengaluru, IN",https://southasiacareers.deloitte.com/job/Bengaluru-Consultant-Financial-Risk-Bengaluru-Regulatory-&-Financial-Risk/58296144/,,html
+Deloitte India,Consultant | Financial Services | Bengaluru | Finance Transformation | Finance Strategy,"Bengaluru, IN",https://southasiacareers.deloitte.com/job/Bengaluru-Consultant-Financial-Services-Bengaluru-Finance-Transformation-Finance-Strategy/60055544/,,html
 Deloitte India,Consultant | OCRP - Peoplesoft | Bengaluru | Oracle,"Bengaluru, IN",https://southasiacareers.deloitte.com/job/Bengaluru-Consultant-OCRP-Peoplesoft-Bengaluru-Oracle/60090544/,,html
 Deloitte India,Consultant | Oracle Planning | Delhi | Finance Transformation | Business Finance,"Delhi, IN",https://southasiacareers.deloitte.com/job/Delhi-Consultant-Oracle-Planning-Delhi-Finance-Transformation-Business-Finance/60080644/,,html
 Deloitte India,Consultant | Primavera | Delhi | Oracle,"Delhi, IN",https://southasiacareers.deloitte.com/job/Delhi-Consultant-Primavera-Delhi-Oracle/60090444/,,html
@@ -184,6 +185,8 @@ EY GDS,Associate Consultant - Business Consulting Risk - National - CNS - Risk -
 EY GDS,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Mumbai-MH-400028/1430050633/,,successfactors
 EY GDS,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1440605433/,,successfactors
 EY GDS,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1440605433/,,successfactors
+EY GDS,Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1419472233/,,successfactors
+EY GDS,Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1419472233/,,successfactors
 EY GDS,Business Analyst,"Kochi, KL, IN, 682303 +3 more…",https://careers.ey.com/ey/job/Kochi-Business-Analyst-KL-682303/1427250233/,,successfactors
 EY GDS,Business Analyst,"Kochi, KL, IN, 682303 +3 more…",https://careers.ey.com/ey/job/Kochi-Business-Analyst-KL-682303/1427250233/,,successfactors
 EY GDS,Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1430503233/,,successfactors
@@ -202,8 +205,10 @@ EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Co
 EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1450880133/,,successfactors
 EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440396933/,,successfactors
 EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440396933/,,successfactors
-EY GDS,ET SIC Reporting Analyst,"Kochi, KL, IN, 682303",https://careers.ey.com/ey/job/Kochi-ET-SIC-Reporting-Analyst-KL-682303/1438353133/,,successfactors
-EY GDS,ET SIC Reporting Analyst,"Kochi, KL, IN, 682303",https://careers.ey.com/ey/job/Kochi-ET-SIC-Reporting-Analyst-KL-682303/1438353133/,,successfactors
+EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1419404933/,,successfactors
+EY GDS,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1419404933/,,successfactors
+EY GDS,Consultant - PAS WKFA - National - CNS - PC - TALENT - Bangalore,"Bengaluru, KA, IN, 560001",https://careers.ey.com/ey/job/Bengaluru-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Bangalore-KA-560001/1419057433/,,successfactors
+EY GDS,Consultant - PAS WKFA - National - CNS - PC - TALENT - Bangalore,"Bengaluru, KA, IN, 560001",https://careers.ey.com/ey/job/Bengaluru-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Bangalore-KA-560001/1419057433/,,successfactors
 EY GDS,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450764633/,,successfactors
 EY GDS,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450764633/,,successfactors
 EY GDS,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450744033/,,successfactors
@@ -276,6 +281,8 @@ EY India,Associate Consultant - Business Consulting Risk - National - CNS - Risk
 EY India,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Mumbai-MH-400028/1430050633/,,successfactors
 EY India,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1440605433/,,successfactors
 EY India,Associate Consultant - Business Consulting Risk - National - CNS - Risk - Risk Management - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Risk-Management-Noida-UP-201304/1440605433/,,successfactors
+EY India,Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1419472233/,,successfactors
+EY India,Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1419472233/,,successfactors
 EY India,Business Analyst,"Kochi, KL, IN, 682303 +3 more…",https://careers.ey.com/ey/job/Kochi-Business-Analyst-KL-682303/1427250233/,,successfactors
 EY India,Business Analyst,"Kochi, KL, IN, 682303 +3 more…",https://careers.ey.com/ey/job/Kochi-Business-Analyst-KL-682303/1427250233/,,successfactors
 EY India,Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1430503233/,,successfactors
@@ -294,8 +301,10 @@ EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & 
 EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1450880133/,,successfactors
 EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440396933/,,successfactors
 EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1440396933/,,successfactors
-EY India,ET SIC Reporting Analyst,"Kochi, KL, IN, 682303",https://careers.ey.com/ey/job/Kochi-ET-SIC-Reporting-Analyst-KL-682303/1438353133/,,successfactors
-EY India,ET SIC Reporting Analyst,"Kochi, KL, IN, 682303",https://careers.ey.com/ey/job/Kochi-ET-SIC-Reporting-Analyst-KL-682303/1438353133/,,successfactors
+EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1419404933/,,successfactors
+EY India,Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai,"Mumbai, MH, IN, 400028",https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1419404933/,,successfactors
+EY India,Consultant - PAS WKFA - National - CNS - PC - TALENT - Bangalore,"Bengaluru, KA, IN, 560001",https://careers.ey.com/ey/job/Bengaluru-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Bangalore-KA-560001/1419057433/,,successfactors
+EY India,Consultant - PAS WKFA - National - CNS - PC - TALENT - Bangalore,"Bengaluru, KA, IN, 560001",https://careers.ey.com/ey/job/Bengaluru-Consultant-PAS-WKFA-National-CNS-PC-TALENT-Bangalore-KA-560001/1419057433/,,successfactors
 EY India,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450764633/,,successfactors
 EY India,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450764633/,,successfactors
 EY India,Project Analyst - Forensics - National - ASU - Forensics - Discovery - Noida,"Noida, UP, IN, 201304",https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Discovery-Noida-UP-201304/1450744033/,,successfactors
@@ -396,7 +405,6 @@ Firstsource,Analyst - Quality,"Bangalore, KA, IN",https://careers.firstsource.co
 Firstsource,Analyst - Quality,"Bangalore, KA, IN",https://careers.firstsource.com/job/Bangalore-Analyst-Quality-KA/60631044/,,successfactors
 Firstsource,Apprentice,"Bangalore, KA, IN",https://careers.firstsource.com/job/Bangalore-Apprentice-KA/58454244/,,successfactors
 Firstsource,Apprentice,"Bangalore, KA, IN",https://careers.firstsource.com/job/Bangalore-Apprentice-KA/58454244/,,successfactors
-Ford Business Solutions India,Logistics Analyst – Alliance Programs India,India,https://www.careers.ford.com/en/job/india/logistics-analyst-alliance-programs/48560/102286293088,10/22/2026,radancy
 Ford Business Solutions India,Purchasing Analyst India,India,https://www.careers.ford.com/en/job/india/purchasing-analyst/48560/102333924656,10/23/2026,radancy
 Ford Business Solutions India,Supplier Capacity Planning Analyst India,India,https://www.careers.ford.com/en/job/india/supplier-capacity-planning-analyst/48560/102323458608,10/23/2026,radancy
 Freshworks,Deal Desk Strategist ,"Chennai, in",https://jobs.smartrecruiters.com/Freshworks/744000144466115,2026-08-20T06:51:19.692Z,smartrecruiters
@@ -468,6 +476,7 @@ HP Inc India,Financial Analyst-Lease Enablement,"Bengaluru, Karnataka, India",ht
 HP Inc India,Opportunity Consultant - Managed Print Services,"Bengaluru, Karnataka, India",https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Opportunity-Consultant---Managed-Print-Services_3169312-2,Posted 4 Days Ago,workday
 HP Inc India,Procurement Analyst,"Bengaluru, Karnataka, India",https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Procurement-Analyst_3167314,Posted Today,workday
 HP Inc India,Supply Chain Financial Analyst,"Bengaluru, Karnataka, India",https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Supply-Chain-Finance-Specialist_3166198-1,Posted 17 Days Ago,workday
+HSBC,Technology Learning Consultant,"Pune, Maharashtra, India",https://portal.careers.hsbc.com/careers/job/563774612526617,1792754788,eightfold
 Haptik,"Implementation Analyst Mumbai, Maharashtra Contract","Mumbai, Maharashtra Contract",https://haptik.freshteam.com/jobs/oT8q_OZbG3MY/implementation-analyst,,browser
 Honeywell India,Intern Bachelors AI,"Bengaluru, Karnataka, India",https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160473,2026-10-22,oracle
 Honeywell India,Intern Bachelors AI,"Bengaluru, Karnataka, India",https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160430,2026-10-22,oracle
@@ -563,7 +572,6 @@ IHCL (Taj),DIWA Apprentice,,https://careers.ihcltata.com/IHCL/job/Hyderabad-DIWA
 IHCL (Taj),DIWA Apprentice,,https://careers.ihcltata.com/IHCL/job/Hyderabad-DIWA-Apprentice-TG-500016/54277080/,,successfactors
 IKEA India,"View job Home Furnishing Consultant - Jaipur Jaipur, Rajasthan, India Interior Design & Visual Merchandising Full time","Jaipur, Rajasthan, India",https://jobs.ikea.com/en/job/jaipur/home-furnishing-consultant-jaipur/24107/102337076352,,radancy
 IKEA India,"View job Home Furnishing Consultant Pune, Maharashtra, India Interior Design & Visual Merchandising Full time","Pune, Maharashtra, India",https://jobs.ikea.com/en/job/pune/home-furnishing-consultant/24107/102337076976,,radancy
-IQVIA India,Business Systems Analyst,"Bangalore, India",https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Bangalore-India/Business-Systems-Analyst_R1568059,Posted Today,workday
 ITC Limited,Analyst,,https://recruitment.itcportal.com/jobs/Careers/48611000072923839/Analyst?source=CareerSite,,browser
 ITC Limited,Junior Research Associate - Consumer And Sensory Sciences,,https://recruitment.itcportal.com/jobs/Careers/48611000010366188/Junior-Research-Associate---Consumer-And-Sensory-Sciences?source=CareerSite,,browser
 ITC Limited,Research Associate,,https://recruitment.itcportal.com/jobs/Careers/48611000014863233/Research-Associate?source=CareerSite,,browser
@@ -575,7 +583,6 @@ Instamojo,Risk Analyst,,https://recruiterflow.com/instamojo/jobs/132,,browser
 Invesco,Adv Analyst-Bus Cont,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Adv-Analyst-Bus-Cont_R-15031-1,Posted 30+ Days Ago,workday
 Invesco,Analyst - Proxy Voting,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Analyst---Proxy-Voting_R-12298,Posted 16 Days Ago,workday
 Invesco,Analyst - Proxy Voting,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Analyst---Proxy-Voting_R-12296,Posted 16 Days Ago,workday
-Invesco,Business Trainee,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Business-Trainee_R-15609,Posted Today,workday
 Invesco,Compliance Analyst,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Compliance-Analyst_R-14816,Posted 17 Days Ago,workday
 Invesco,Quantitative Analyst,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Quantitative-Analyst_R-15490,Posted 2 Days Ago,workday
 Invesco,Quantitative Analyst,"Hyderabad, Telangana",https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Hyderabad-Telangana/Quantitative-Analyst_R-15492,Posted 8 Days Ago,workday
@@ -598,9 +605,7 @@ KPMG Delivery Network (KDN),Associate Consultant KDNI,"Bangalore, Karnataka, Ind
 KPMG Delivery Network (KDN),Associate Consultant-KDNI CAT_LX,"Mumbai, Maharashtra, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30038177,2026-10-14,oracle
 KPMG Delivery Network (KDN),Consultant,India,https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30050277,2026-10-19,oracle
 KPMG Delivery Network (KDN),Consultant - KDNI Capital Projects Pool (MUM),"Mumbai, Maharashtra, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30049554,2026-10-12,oracle
-KPMG Delivery Network (KDN),Consultant - KDNI Capital Projects pool (GGN),"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30049557,2026-10-19,oracle
 KPMG Delivery Network (KDN),Consultant - Technology Risk,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30041060,2026-10-14,oracle
-KPMG Delivery Network (KDN),KDNI CAT Consultant,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30049564,2026-10-12,oracle
 KPMG Delivery Network (KDN),Power Platform Consultant-KDNI,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/30051341,2026-10-23,oracle
 KPMG Global Services (KGS),Actuarial Analyst - Life,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050804,2026-10-12,oracle
 KPMG Global Services (KGS),Associate Consultant,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050816,2026-10-14,oracle
@@ -608,6 +613,8 @@ KPMG Global Services (KGS),Associate Consultant - CPAM,"Mumbai, Maharashtra, Ind
 KPMG Global Services (KGS),Associate Consultant - FDD,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050798,2026-10-12,oracle
 KPMG Global Services (KGS),Associate Consultant - FDD,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050800,2026-10-12,oracle
 KPMG Global Services (KGS),Associate Consultant - FDD,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050799,2026-10-12,oracle
+KPMG Global Services (KGS),Associate Consultant - FDD,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30048661,2026-10-07,oracle
+KPMG Global Services (KGS),Associate Consultant - Real Estate,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30046768,2026-10-07,oracle
 KPMG Global Services (KGS),Associate Consultant - S&O,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051257,2026-10-22,oracle
 KPMG Global Services (KGS),Associate Consultant Fund,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051015,2026-10-19,oracle
 KPMG Global Services (KGS),Associate Consultant Fund,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051016,2026-10-19,oracle
@@ -644,14 +651,12 @@ KPMG Global Services (KGS),Consultant-DLP,"Bangalore, Karnataka, India",https://
 KPMG Global Services (KGS),Consultant-DLP,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050716,2026-10-14,oracle
 KPMG Global Services (KGS),Identity Defense - Consultant,"Noida, Uttar Pradesh, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050969,2026-10-23,oracle
 KPMG Global Services (KGS),Identity Defense - Consultant,"Noida, Uttar Pradesh, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050974,2026-10-13,oracle
-KPMG Global Services (KGS),KGS-Analyst-Bangalore,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050890,2026-10-23,oracle
 KPMG Global Services (KGS),LINK Go BA Client Implementation - Consultant,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049993,2026-10-19,oracle
 KPMG Global Services (KGS),ODD - Associate Consultant,"Gurgaon, Haryana, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050687,2026-10-19,oracle
 KPMG Global Services (KGS),PE Oracle CSD - HCM Functional Consultant,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30048852,2026-10-22,oracle
 KPMG Global Services (KGS),Workday Integration/Studio - Consultant - Backup,"Bangalore, Karnataka, India",https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30046491,2026-10-16,oracle
 LSEG,Cash Applications Analyst,"IND-Bangalore-TowerE,RMZ Infin",https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-Bangalore-TowerERMZ-Infin/Cash-Applications-Analyst_R0124248-1,Posted 4 Days Ago,workday
 LSEG,Compliance Analyst,IND-BLR-Divyasree Technopolis,https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Compliance-Analyst_R0119458-1,Posted 30+ Days Ago,workday
-LSEG,Content Analyst,IND-BLR-Divyasree Technopolis,https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0124260,Posted Today,workday
 LSEG,Content Analyst,IND-BLR-Divyasree Technopolis,https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0122576,Posted Today,workday
 LSEG,Content Analyst,IND-BLR-Divyasree Technopolis,https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0123349,Posted 3 Days Ago,workday
 LSEG,Content Analyst,"IND-Bangalore-A, RMZ Infinity",https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-Bangalore-A-RMZ-Infinity/Content-Analyst_R0111254-1,Posted 30+ Days Ago,workday
@@ -738,7 +743,6 @@ Morningstar,Associate Business Intelligence Analyst,Mumbai,https://morningstar.w
 Morningstar,Compliance Analyst,Mumbai,https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Compliance-Analyst_REQ-058381-1,Posted Today,workday
 Morningstar,Operations Analyst,Mumbai,https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Operations-Analyst_REQ-058752,Posted 2 Days Ago,workday
 Morningstar,Product Consultant,Mumbai,https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Product-Consultant_REQ-057250,Posted 30+ Days Ago,workday
-Motilal Oswal,Growth,,https://www.motilaloswal.com/careers/growth,,browser
 Nasdaq,Analyst - Business Development,India - Mumbai - Maharashtra,https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/India---Mumbai---Maharashtra/Analyst---Business-Development_R0027090,Posted 14 Days Ago,workday
 Nasdaq,Analyst - Client Managed Services - Business Services,India - Mumbai - Maharashtra,https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/India---Mumbai---Maharashtra/Analyst---Client-Managed-Services---Business-Services_R0026937,Posted 25 Days Ago,workday
 Nasdaq,Nasdaq Campus Program  - 2027,India - Bangalore - Karnataka,https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/India---Bangalore---Karnataka/Nasdaq-Campus-Program----2027_R0027122-2,Posted Yesterday,workday
@@ -792,15 +796,10 @@ Nomura,eFI Strategy P,"Mumbai, IN, 400076",https://careers.nomura.com/Nomura/job
 Nomura,eFI Strategy P,"Mumbai, IN, 400076",https://careers.nomura.com/Nomura/job/Mumbai-eFI-Strategy-P-400076/1369898900/,,successfactors
 Northern Trust,"Analyst - Vulnerability Management, Qualys VMDR/Wiz/Aqua","Pune, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Analyst---Vulnerability-Management--Qualys-VMDR-Wiz-Aqua_R162207,Posted 23 Days Ago,workday
 Northern Trust,"Assct Spclst, Data Analytics","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Assct-Spclst--Data-Analytics_R154002,Posted 30+ Days Ago,workday
-Northern Trust,Associate Consultant,"Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Associate-Consultant_R158354-1,Posted 8 Days Ago,workday
-Northern Trust,Associate Consultant,"Pune, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Associate-Consultant_R161498-1,Posted 8 Days Ago,workday
 Northern Trust,"Associate, Consultant BPA","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Associate--Consultant-BPA_R153780-1,Posted Yesterday,workday
-Northern Trust,"BPA Consultant, Transformation","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/BPA-Consultant--Transformation_R155083-1,Posted 2 Days Ago,workday
 Northern Trust,"Client Payment Liaison Consultant, Global Banking","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Client-Payment-Liaison-Consultant--Global-Banking_R159044-1,Posted 11 Days Ago,workday
-Northern Trust,Consultant,"Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant_R162151-1,Posted 8 Days Ago,workday
 Northern Trust,Consultant India BPA,"Pune, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Consultant-India-BPA_R157733-1,Posted Yesterday,workday
 Northern Trust,"Consultant, Data Analytics","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Data-Product_R158087-1,Posted 4 Days Ago,workday
-Northern Trust,"Consultant, Issues Management - Bangalore (Multiple Posts)","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Issues-Management---Bangalore--Multiple-Posts-_R162001-1,Posted 4 Days Ago,workday
 Northern Trust,"Consultant, MO Asset Svcg, HFS","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--MO-Asset-Svcg--HFS_R161084,Posted 15 Days Ago,workday
 Northern Trust,"Consultant, Vendor Management","Bangalore, India",https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Vendor-Management_R162818-1,Posted 4 Days Ago,workday
 Novartis India,Business Analyst - AI Content Engine,Hyderabad (Office),https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Hyderabad-Office/Business-Analyst---AI-Content-Engine_REQ-10089858,Posted 9 Days Ago,workday
@@ -853,6 +852,7 @@ Paytm,PPSL - Growth Management - DGM/GM - P4B,"Noida, Uttar Pradesh",https://job
 Paytm,Product Management - Associate Product Manager - Travel.,"Noida, Uttar Pradesh",https://jobs.lever.co/paytm/cf1076c8-e8be-4fc4-8112-aa55051de742,1790767080704,lever
 Paytm,Product Management- Product Analyst- Telco,"Noida, Uttar Pradesh",https://jobs.lever.co/paytm/2294c39e-0394-472b-8ba0-736857fa24a8,1753099736682,lever
 Paytm,Program Management – Lending(Sales Planning & Distribution Strategy),"Mumbai, Maharashtra",https://jobs.lever.co/paytm/041dc595-2d0b-45d7-9729-f0ac7c0e1764,1788253616683,lever
+Pearson India,"Apprentice, Portfolio Management","Bangalore, Karnataka, India",https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26049,2026-10-23,oracle
 PepsiCo India,R&D Digital Platforms Asst Analyst,"Location Hyderabad, Telangana
 India",https://www.pepsicojobs.com/main/jobs/400046?lang=en-us&previousLocale=en-US,,browser
 PhonePe,Bengaluru Consumer Payments Business Business Operations Analyst Full-time 9 days ago,Tirupati,https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566-business-operations-analyst,,browser
@@ -919,6 +919,7 @@ Swiss Re,"Global Graduate Underwriting Analyst,
 																	Mumbai (MH, IN)","Location Mumbai,  IN",https://www.swissre.com/careers/job/Global-Graduate-Underwriting-Analyst/1444769733,,browser
 Target India,Analyst PIM Ops job id: R0000473632 job family: Inventory Management,,https://indiajobs.target.com/job/bengaluru/analyst-pim-ops/34386/101322708528,,radancy
 Target India,Analyst Pricing Ops Target Plus job id: R0000433861 job family: Pricing & Promotions,,https://indiajobs.target.com/job/bengaluru/analyst-pricing-ops-target-plus/34386/96044891280,,radancy
+Target India,Data Analyst job id: R0000431066 job family: Business Intelligence Reporting & Analytics,,https://indiajobs.target.com/job/bengaluru/data-analyst/34386/92314580080,,radancy
 Target India,Media Analyst TPA job id: R0000476014 job family: Digital Marketing,,https://indiajobs.target.com/job/bengaluru/media-analyst-tpa/34386/102298918288,,radancy
 Target India,Media Analyst job id: R0000453264 job family: Digital Marketing,,https://indiajobs.target.com/job/bengaluru/media-analyst/34386/100818435376,,radancy
 Target India,Product Content Analyst job id: R0000478189 job family: Product Content Management,,https://indiajobs.target.com/job/bengaluru/product-content-analyst/34386/102298918240,,radancy
@@ -941,11 +942,9 @@ Vyapar,TA- Intern Bengaluru 0-1 Full Time,,https://vyaparapp.keka.com/careers/jo
 WNS, REF116265P-Associate (Accounts Payable)-Thane (WFO Only)- Shift (Rotational Shift)- Freshers Only - Operations,"Mumbai, MH, in",https://jobs.smartrecruiters.com/WNSGlobalServices144/744000157403459,2026-10-23T07:42:39.714Z,smartrecruiters
 WNS,Analyst - Operations,"Pune, MH, in",https://jobs.smartrecruiters.com/WNSGlobalServices144/744000156714399,2026-10-21T06:00:58.812Z,smartrecruiters
 WNS,Business Analyst- Retail & Consumer Process Goods,"Mysuru, KA, in",https://jobs.smartrecruiters.com/WNSGlobalServices144/744000070036115,2025-07-11T12:20:33.895Z,smartrecruiters
-WTW,Analyst,"Mumbai, Maharashtra, India",https://careers.wtwco.com/jobs/analyst-mumbai-maharashtra-india-587470e2-a974-4813-bbde-fac9bc83c4c2,,browser
 Whatfix,"Digital Adoption Consultant (Client Onboarding) - 19609 Bengaluru , Karnataka , India GCSS Full-time",Bengaluru,https://whatfix101.recruiterbox.com/jobs/fk0zzim/,,browser
 Whatfix,"Digital Adoption Consultant | A19971 Bengaluru , Karnataka , India GCSS Full-time",Bengaluru,https://whatfix101.recruiterbox.com/jobs/fk0zl6i/,,browser
 Wolters Kluwer India,Consultant - LBA,IND-Pune-Smartworks,https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Consultant---LBA_R0060739,Posted Yesterday,workday
-Wolters Kluwer India,Consultant - LBA,IND-Pune-Smartworks,https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Consultant_R0059943,Posted 7 Days Ago,workday
 Wolters Kluwer India,Financial Systems Analyst,IND-Pune-Smartworks,https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Financial-Systems-Analyst_R0056600,Posted 30+ Days Ago,workday
 Wood Mackenzie India,Research Analyst - Oil & Chemicals,"Gurugram, IN",https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Analyst---Oil---Chemicals_JR3444,Posted Today,workday
 Wood Mackenzie India,Research Analyst - Power Market,"Gurugram, IN",https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Analyst---Power-Market_JR3402,Posted 18 Days Ago,workday
