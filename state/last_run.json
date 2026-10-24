@@ -1,10 +1,14 @@
 {
- "when": "2026-10-24 16:35 IST",
- "sources_ok": 509,
+ "when": "2026-10-24 21:29 IST",
+ "sources_ok": 510,
  "sources_failed": [
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
+  ],
+  [
+   "MetLife",
+   "ConnectTimeout: HTTPSConnectionPool(host='jobs.metlife.com', port=443): Max retries exceeded with url: /search/?q=&locationsearch=India&startrow=0&sortColumn=referencedate&sort"
   ],
   [
    "FirstCry",
@@ -17,10 +21,6 @@
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
-  ],
-  [
-   "Niva Bupa",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
   ],
   [
    "Motilal Oswal",
@@ -67,10 +67,6 @@
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.havells.com/\nCall log:\n  - navigating to \"https://careers.havells.com/\", waiting until \"commit\"\n"
   ],
   [
-   "Voltas",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.voltas.com/careers\nCall log:\n  - navigating to \"https://www.voltas.com/careers\", waiting until \"commit\"\n"
-  ],
-  [
    "Eicher Motors / Royal Enfield",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.royalenfield.com/us/en/search-results\nCall log:\n  - navigating to \"https://careers.royalenfield.com/us/"
   ]
@@ -92,6 +88,7 @@
   "Cars24",
   "Delhivery",
   "Tata 1mg",
+  "PhysicsWallah",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -112,34 +109,40 @@
   "Britannia",
   "Schneider Electric India",
   "Credit Agricole CIB",
-  "Levi Strauss India",
   "Allianz India",
+  "Levi Strauss India",
   "FactSet",
   "Kotak Mahindra Bank",
+  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
   "Angel One",
-  "INDmoney",
   "Acko",
+  "INDmoney",
+  "Go Digit Insurance",
+  "BigBasket",
   "Pepperfry",
   "Porter",
-  "BigBasket",
+  "Rapido",
   "Ecom Express",
   "ixigo",
   "Games24x7",
-  "XpressBees",
   "MPL",
+  "XpressBees",
   "Dailyhunt (VerSe)",
   "Practo",
   "PharmEasy",
   "NoBroker",
+  "HealthifyMe",
+  "Moglix",
   "Infra.Market",
   "OfBusiness",
-  "Moglix",
   "upGrad",
+  "Unacademy",
   "Ather Energy",
   "IndusInd Bank",
+  "AU Small Finance Bank",
   "L&T Finance",
   "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
@@ -152,25 +155,28 @@
   "HDFC ERGO",
   "Axis Max Life Insurance",
   "Care Health Insurance",
-  "Star Health",
+  "Niva Bupa",
   "Tata Asset Management",
+  "Star Health",
   "HDFC AMC",
-  "Nippon Life India Asset Management",
   "SBI Funds Management",
+  "Nippon Life India Asset Management",
   "ICICI Prudential AMC",
+  "Mirae Asset India",
   "Kotak Mahindra AMC",
   "IIFL Finance",
   "ICICI Securities",
-  "Mirae Asset India",
   "BSE",
   "CDSL",
-  "NPCI",
+  "BharatPe",
   "smallcase",
   "Uni Cards",
-  "M2P Fintech",
+  "Money View",
   "IDfy",
   "WebEngage",
+  "Darwinbox",
   "CleverTap",
+  "LeadSquared",
   "Unicommerce",
   "Zluri",
   "Capillary Technologies",
@@ -183,34 +189,37 @@
   "Square Yards",
   "Nazara Technologies",
   "OLX India",
-  "Zoomcar",
   "Euler Motors",
-  "Ultraviolette",
   "Yulu",
+  "Ultraviolette",
   "Simple Energy",
   "ChargeZone",
+  "Jumbotail",
   "Battery Smart",
   "Log9 Materials",
-  "Jumbotail",
+  "Ninjacart",
   "Shadowfax",
   "Fleetx",
   "FarEye",
-  "Pando",
+  "Locus",
   "Loadshare",
+  "Pando",
   "Snapdeal",
   "DeHaat",
   "FreshToHome",
   "Testbook",
   "Eruditus",
   "Simplilearn",
+  "Leap Scholar",
   "Bread Financial India",
   "Maersk India (GSC)",
   "Daimler Truck Innovation Center India",
   "Mercedes-Benz Research & Development India",
   "Affine",
   "GEP Worldwide",
-  "HGS (Hinduja Global Solutions)",
+  "Mordor Intelligence",
   "GlobalData India",
+  "HGS (Hinduja Global Solutions)",
   "Algonomy (Manthan)",
   "Kroll India",
   "Nexdigm",
@@ -224,235 +233,352 @@
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
-  "Godrej & Boyce (Godrej Enterprises)",
+  "MG Motor India",
   "Escorts Kubota",
-  "Vedanta",
+  "Godrej & Boyce (Godrej Enterprises)",
+  "Ashok Leyland",
   "JSW Group",
-  "TCI (Transport Corporation of India)"
+  "Vedanta",
+  "TCI (Transport Corporation of India)",
+  "Allcargo"
  ],
- "relevant_open": 883,
+ "relevant_open": 892,
  "new": [
   {
-   "company": "NielsenIQ India",
-   "title": "Research Associate",
-   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157616078",
-   "location": "Vadodara, GJ, in",
-   "posted": "2026-10-24T06:56:32.243Z",
-   "source": "smartrecruiters",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54292280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
    "extra": {
-    "id": "744000157616078",
-    "category": "Consulting, IT & Knowledge Services",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e04c828efeff2abc"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54292280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e04c828efeff2abc"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54292280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e04c828efeff2abc"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4afbed652a44ef8c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4afbed652a44ef8c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4afbed652a44ef8c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292180/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "91a95d08d6940571"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292180/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "91a95d08d6940571"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292180/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "91a95d08d6940571"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "cba6af07010b005f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "cba6af07010b005f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54292380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "cba6af07010b005f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600034/54292480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c7c6433b4278684f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600034/54292480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c7c6433b4278684f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600034/54292480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c7c6433b4278684f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Darjeeling-Apprentice-Job-WB-734203/54292580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2bc5980bc3c3c793"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Darjeeling-Apprentice-Job-WB-734203/54292580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2bc5980bc3c3c793"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Darjeeling-Apprentice-Job-WB-734203/54292580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2bc5980bc3c3c793"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors AI",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160494",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-24",
+   "source": "oracle",
+   "extra": {
+    "id": "160494",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
     "found": "2026-10-24",
     "posted": "2026-10-24",
+    "verdict": "fresher-friendly"
+   },
+   "key": "288c2b6d579b4782"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors AI",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160490",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-24",
+   "source": "oracle",
+   "extra": {
+    "id": "160490",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "2026-10-24",
+    "verdict": "fresher-friendly"
+   },
+   "key": "feb11635b9f6e0da"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors AI",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160493",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-24",
+   "source": "oracle",
+   "extra": {
+    "id": "160493",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "2026-10-24",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d093c39d2862ef80"
+  },
+  {
+   "company": "Johnson & Johnson India",
+   "title": "Analyst Learning & Development",
+   "url": "https://www.careers.jnj.com/en/jobs/r-093362/analyst-learning-development/",
+   "location": "Bangalore",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-24",
+    "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "68208d3a36636b04"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coimbatore-Apprentice-Job-TN-641018/54289680/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0eab59d44d7a6aad"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coimbatore-Apprentice-Job-TN-641018/54289680/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0eab59d44d7a6aad"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coimbatore-Apprentice-Job-TN-641018/54289680/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0eab59d44d7a6aad"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coorg-Apprentice-KA-571201/54290780/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "21a993e2ddd30b87"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coorg-Apprentice-KA-571201/54290780/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "21a993e2ddd30b87"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Coorg-Apprentice-KA-571201/54290780/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "21a993e2ddd30b87"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1370942d66652c4b"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1370942d66652c4b"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1370942d66652c4b"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291280/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b1b21ba30d597863"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291280/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b1b21ba30d597863"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice Job",
-   "url": "https://careers.ihcltata.com/IHCL/job/South-Goa-Apprentice-Job-GA-403702/54291280/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-24",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b1b21ba30d597863"
-  },
-  {
-   "company": "HP Inc India",
-   "title": "Financial Analyst",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Financial-Analyst_3165405-1",
-   "location": "Bengaluru, Karnataka, India",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bengaluru-Karnataka-India/Financial-Analyst_3165405-1",
-    "category": "Global Capability Centres",
-    "found": "2026-10-24",
-    "posted": "2026-10-24",
-    "verdict": "fresher-friendly"
-   },
-   "key": "de3217860e58fcaa"
+   "key": "86eb21e8a7cfbed0"
   }
  ],
- "dropped_after_reading": [
-  {
-   "company": "IQVIA India",
-   "title": "External Consultant",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Mumbai-India/External-Consultant_R1412408",
-   "why": "requires MBBS"
-  }
- ],
+ "dropped_after_reading": [],
  "rejected_sample": [
   {
    "company": "HSBC",
@@ -1662,6 +1788,12 @@
   },
   {
    "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
    "title": "Process, Control and Revenue Optimization Product Manager",
    "location": "New York, United States",
    "why": "location 'New York, United States' not India"
@@ -2795,12 +2927,6 @@
    "why": "excluded keyword"
   },
   {
-   "company": "Barclays",
-   "title": "Liquidity Risk Reporting - Assistant Vice President",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
    "company": "JPMorgan Chase",
    "title": "Associate Banker, 30 Hours, Laredo, TX - International and Loop 20 Branch",
    "location": "Laredo, TX, United States",
@@ -2817,6 +2943,12 @@
    "title": "Applied AI ML Lead",
    "location": "Jersey City, NJ, United States",
    "why": "location 'Jersey City, NJ, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Retail Fraud Specialist II Bilingual English and Spanish Required",
+   "location": "San Antonio, TX, United States",
+   "why": "location 'San Antonio, TX, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -2847,12 +2979,6 @@
    "title": "Senior Home Lending Advisor- Round Lake Beach, IL",
    "location": "Round Lake, IL, United States",
    "why": "location 'Round Lake, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Java/Spring Boot/Kafka",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
   }
  ]
 }
