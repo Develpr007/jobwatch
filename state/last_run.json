@@ -1,6 +1,6 @@
 {
- "when": "2026-10-25 10:15 IST",
- "sources_ok": 511,
+ "when": "2026-10-25 17:05 IST",
+ "sources_ok": 509,
  "sources_failed": [
   [
    "Ameriprise Financial India",
@@ -11,12 +11,20 @@
    "RuntimeError: Page.goto: net::ERR_EMPTY_RESPONSE at https://apply.deloitte.com/en_US/careers/SearchJobs\nCall log:\n  - navigating to \"https://apply.deloitte.com/en_US/careers/"
   ],
   [
+   "FirstCry",
+   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
+  ],
+  [
    "SBI Card",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sbicards.thetalentpool.co.in/web/#/home/open-positions/list\nCall log:\n  - navigating to \"https://sbicards.theta"
   ],
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
+  ],
+  [
+   "Niva Bupa",
+   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
   ],
   [
    "Motilal Oswal",
@@ -82,10 +90,8 @@
   "Navi",
   "Ola",
   "Cars24",
-  "Delhivery",
-  "PhysicsWallah",
-  "Nestle India",
   "Grant Thornton Bharat",
+  "Nestle India",
   "Sattva Consulting",
   "Arthur D. Little India",
   "Frost & Sullivan India",
@@ -104,11 +110,10 @@
   "Britannia",
   "Schneider Electric India",
   "Credit Agricole CIB",
-  "Allianz India",
   "Levi Strauss India",
+  "Allianz India",
   "FactSet",
   "Kotak Mahindra Bank",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
@@ -119,35 +124,30 @@
   "Porter",
   "BigBasket",
   "Ecom Express",
-  "Games24x7",
   "ixigo",
+  "Games24x7",
   "XpressBees",
   "MPL",
   "Dailyhunt (VerSe)",
   "Practo",
-  "PharmEasy",
   "NoBroker",
-  "HealthifyMe",
   "Moglix",
-  "OfBusiness",
   "Infra.Market",
+  "OfBusiness",
   "upGrad",
-  "Unacademy",
   "Ather Energy",
   "IndusInd Bank",
-  "AU Small Finance Bank",
   "L&T Finance",
   "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
-  "HDFC Life",
   "ICICI Prudential Life",
+  "HDFC Life",
   "SBI Life",
   "Tata AIA Life",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
-  "HDFC ERGO",
   "ICICI Lombard",
   "Axis Max Life Insurance",
-  "Niva Bupa",
+  "HDFC ERGO",
   "Care Health Insurance",
   "Star Health",
   "Tata Asset Management",
@@ -160,25 +160,21 @@
   "ICICI Securities",
   "BSE",
   "CDSL",
-  "NPCI",
   "smallcase",
   "Uni Cards",
-  "Money View",
-  "M2P Fintech",
   "IDfy",
-  "Darwinbox",
-  "CleverTap",
   "WebEngage",
+  "CleverTap",
   "Unicommerce",
   "Zluri",
   "Capillary Technologies",
   "Atlan",
   "Rocketlane",
-  "Spinny",
   "CarTrade Tech",
   "Info Edge (Naukri/99acres)",
   "Square Yards",
   "Nazara Technologies",
+  "Zoomcar",
   "OLX India",
   "Euler Motors",
   "Yulu",
@@ -204,677 +200,163 @@
   "Daimler Truck Innovation Center India",
   "Mercedes-Benz Research & Development India",
   "Affine",
+  "Mordor Intelligence",
   "GEP Worldwide",
   "HGS (Hinduja Global Solutions)",
   "GlobalData India",
   "Algonomy (Manthan)",
-  "Kroll India",
   "Nexdigm",
+  "Kroll India",
   "Lumenore",
   "Cognitio Analytics",
-  "Decathlon India",
   "Wakefit",
+  "Decathlon India",
   "Haldiram's",
-  "The Souled Store",
   "Pernod Ricard India",
+  "The Souled Store",
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
-  "Escorts Kubota",
-  "Ashok Leyland",
   "Godrej & Boyce (Godrej Enterprises)",
+  "MG Motor India",
+  "Escorts Kubota",
   "Vedanta",
   "JSW Group",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 913,
+ "relevant_open": 919,
  "new": [
   {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Hyderabad-Assurance-Consultant-TG-500081/1431449033/",
-   "location": "Hyderabad, TG, IN, 500081",
-   "posted": "",
-   "source": "successfactors",
+   "company": "WNS",
+   "title": "Associate - WFO (Mumbai) - B.com/BBA/BAF Freshers Only - US Shifts",
+   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000157667338",
+   "location": "Mumbai, MH, in",
+   "posted": "2026-10-25T08:29:27.340Z",
+   "source": "smartrecruiters",
    "extra": {
+    "id": "744000157667338",
     "category": "Consulting & Analytics",
     "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
+    "posted": "2026-10-25",
+    "verdict": "no experience stated"
    },
-   "key": "6c32e4254ffabde5"
+   "key": "0c2cf8f83e3bbb1a"
   },
   {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Hyderabad-Assurance-Consultant-TG-500081/1431449033/",
-   "location": "Hyderabad, TG, IN, 500081",
-   "posted": "",
-   "source": "successfactors",
+   "company": "WNS",
+   "title": "Associate - WFO (Thane) - B.com/BBA/BAF Freshers Only - US Shifts",
+   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000157667278",
+   "location": "Mumbai, MH, in",
+   "posted": "2026-10-25T08:27:21.631Z",
+   "source": "smartrecruiters",
    "extra": {
+    "id": "744000157667278",
     "category": "Consulting & Analytics",
     "found": "2026-10-25",
-    "posted": "",
+    "posted": "2026-10-25",
     "verdict": "fresher-friendly"
    },
-   "key": "6c32e4254ffabde5"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Gurgaon-Assurance-Consultant-HR-122010/1431560833/",
-   "location": "Gurgaon, HR, IN, 122010",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dc3f753701d22322"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Gurgaon-Assurance-Consultant-HR-122010/1431560833/",
-   "location": "Gurgaon, HR, IN, 122010",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dc3f753701d22322"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Pune-Assurance-Consultant-MH-411014/1431562533/",
-   "location": "Pune, MH, IN, 411014",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "02dcd01f2acdd347"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Pune-Assurance-Consultant-MH-411014/1431562533/",
-   "location": "Pune, MH, IN, 411014",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "02dcd01f2acdd347"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Kolkata-Assurance-Consultant-WB-700091/1431561133/",
-   "location": "Kolkata, WB, IN, 700091",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7c78a83594e41501"
-  },
-  {
-   "company": "EY India",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Kolkata-Assurance-Consultant-WB-700091/1431561133/",
-   "location": "Kolkata, WB, IN, 700091",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7c78a83594e41501"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420961433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1d6789a90f5fa354"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420961433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1d6789a90f5fa354"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420958533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a5af068c16858978"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420958533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a5af068c16858978"
-  },
-  {
-   "company": "EY India",
-   "title": "Industrial Trainee - SaT - National - SaT - TCF - Valuation - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Valuation-Mumbai-MH-400028/1420901233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "78e8e10435469e35"
-  },
-  {
-   "company": "EY India",
-   "title": "Industrial Trainee - SaT - National - SaT - TCF - Valuation - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Valuation-Mumbai-MH-400028/1420901233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "78e8e10435469e35"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420963433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "3c8faf47debeca9e"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420963433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "3c8faf47debeca9e"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1431357933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2f11ef5288665c45"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1431357933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2f11ef5288665c45"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Hyderabad-Assurance-Consultant-TG-500081/1431449033/",
-   "location": "Hyderabad, TG, IN, 500081",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c32e4254ffabde5"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Hyderabad-Assurance-Consultant-TG-500081/1431449033/",
-   "location": "Hyderabad, TG, IN, 500081",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c32e4254ffabde5"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Gurgaon-Assurance-Consultant-HR-122010/1431560833/",
-   "location": "Gurgaon, HR, IN, 122010",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dc3f753701d22322"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Gurgaon-Assurance-Consultant-HR-122010/1431560833/",
-   "location": "Gurgaon, HR, IN, 122010",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dc3f753701d22322"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Pune-Assurance-Consultant-MH-411014/1431562533/",
-   "location": "Pune, MH, IN, 411014",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "02dcd01f2acdd347"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Pune-Assurance-Consultant-MH-411014/1431562533/",
-   "location": "Pune, MH, IN, 411014",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "02dcd01f2acdd347"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Kolkata-Assurance-Consultant-WB-700091/1431561133/",
-   "location": "Kolkata, WB, IN, 700091",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7c78a83594e41501"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Assurance Consultant",
-   "url": "https://careers.ey.com/ey/job/Kolkata-Assurance-Consultant-WB-700091/1431561133/",
-   "location": "Kolkata, WB, IN, 700091",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7c78a83594e41501"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420961433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1d6789a90f5fa354"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420961433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1d6789a90f5fa354"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420958533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a5af068c16858978"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420958533/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a5af068c16858978"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Industrial Trainee - SaT - National - SaT - TCF - Valuation - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Valuation-Mumbai-MH-400028/1420901233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "78e8e10435469e35"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Industrial Trainee - SaT - National - SaT - TCF - Valuation - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Valuation-Mumbai-MH-400028/1420901233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "78e8e10435469e35"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420963433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "3c8faf47debeca9e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Noida",
-   "url": "https://careers.ey.com/ey/job/Noida-Project-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1420963433/",
-   "location": "Noida, UP, IN, 201304",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "3c8faf47debeca9e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1431357933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2f11ef5288665c45"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1431357933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2f11ef5288665c45"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400001/53320180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "38ca36a41998c8e4"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400001/53320180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "38ca36a41998c8e4"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400001/53320180/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "38ca36a41998c8e4"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600002/53455080/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5bbfe0d695310365"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600002/53455080/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5bbfe0d695310365"
-  },
-  {
-   "company": "IHCL (Taj)",
-   "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Chennai-Apprentice-TN-600002/53455080/",
-   "location": "",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-25",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5bbfe0d695310365"
+   "key": "0898f7020a8d243d"
   }
  ],
- "dropped_after_reading": [
-  {
-   "company": "Deloitte India",
-   "title": "Consultant | Business Central | Delhi | Emerging ERP Solutions",
-   "url": "https://southasiacareers.deloitte.com/job/Delhi-Consultant-Business-Central-Delhi-Emerging-ERP-Solutions/57461544/",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "T&T- Customer - CS&D - Telecom - Bengaluru - Consultant",
-   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-T&T-Customer-CS&D-Telecom-Bengaluru-Consultant/58378444/",
-   "why": "asks 3+ years"
-  }
- ],
+ "dropped_after_reading": [],
  "rejected_sample": [
+  {
+   "company": "HSBC",
+   "title": "ORMB, SQL, Java / Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Vice President and Branch Head",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "MS CRM Customization, Power Platform / Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Java, Microservice, RDBMS / Senior Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Vice President, Relationship Manager IVB",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Assistant Vice President - Management Reporting, Cost",
+   "location": "Gurugram, Haryana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "VP - Relationship Manager - BB",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP - Revenue Management",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "AVP Senior Premier Relationship Manager",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Assistant Vice President Liabilities and Demat Operations",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Vice President, Payments Cluster Product Management – Industry & Regulatory Liaison",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineer - Core Java and Equities Tech - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineer - Core Java and Equities Tech - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineer - Core Java and Equities Tech - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineer - Core Java and Equities Tech - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Angular Full Stack Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
   {
    "company": "Citi",
    "title": "Banamex Analista de Vigilancia de Cumplimiento- Surveillance",
@@ -1998,96 +1480,6 @@
    "why": "location 'Los Reyes de Salgado, Michoacán, Mexico' not India"
   },
   {
-   "company": "Citi",
-   "title": "Banamex Analista Junior de Estrategia Comercial",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Analista de Procesos Operativos",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part-Time Teller (20 Hours), Las Vegas, Tropicana Branch",
-   "location": "Las Vegas, Nevada, United States",
-   "why": "location 'Las Vegas, Nevada, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX VOLANTE SR | DISTRITO HERMOSILLO",
-   "location": "Hermosillo, Sonora, Mexico",
-   "why": "location 'Hermosillo, Sonora, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX  VILLAHERMOSA EJECUTIVO PYME",
-   "location": "Villahermosa, Tabasco, Mexico",
-   "why": "location 'Villahermosa, Tabasco, Mexico' not India"
-  },
-  {
-   "company": "HSBC",
-   "title": "ORMB, SQL, Java / Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Vice President and Branch Head",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "MS CRM Customization, Power Platform / Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Java, Microservice, RDBMS / Senior Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Senior Vice President, Relationship Manager IVB",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Assistant Vice President - Management Reporting, Cost",
-   "location": "Gurugram, Haryana, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "VP - Relationship Manager - BB",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP - Revenue Management",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Senior Premier Relationship Manager",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Assistant Vice President Liabilities and Demat Operations",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
    "company": "Barclays",
    "title": "Full Stack Engineer",
    "location": "Pune, India",
@@ -2098,12 +1490,6 @@
    "title": "Process, Control and Revenue Optimization Product Manager",
    "location": "New York, United States",
    "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Scrum Master - VP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
   },
   {
    "company": "Barclays",
@@ -3228,6 +2614,12 @@
    "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
+   "company": "Barclays",
+   "title": "Agency CMO Trading Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
    "company": "JPMorgan Chase",
    "title": "Associate Banker, 30 Hours, Summerville, SC Area - Multiple Locations",
    "location": "Summerville, SC, United States",
@@ -3268,12 +2660,6 @@
    "title": "Associate Banker, 20 Hours, Hixson, TN - Highway 153 Branch",
    "location": "Hixson, TN, United States",
    "why": "location 'Hixson, TN, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Laredo, TX - International and Loop 20 Branch",
-   "location": "Laredo, TX, United States",
-   "why": "location 'Laredo, TX, United States' not India"
   }
  ]
 }
