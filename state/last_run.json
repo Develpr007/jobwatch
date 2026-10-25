@@ -1,11 +1,7 @@
 {
- "when": "2026-10-25 21:55 IST",
- "sources_ok": 509,
+ "when": "2026-10-26 02:23 IST",
+ "sources_ok": 510,
  "sources_failed": [
-  [
-   "Alvarez & Marsal India",
-   "RuntimeError: html 403 for https://careers.alvarezandmarsal.com/search/jobs?location=India"
-  ],
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
@@ -59,12 +55,12 @@
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.ab-inbev.com/\nCall log:\n  - navigating to \"https://careers.ab-inbev.com/\", waiting until \"commit\"\n"
   ],
   [
-   "Shoppers Stop",
-   "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.shoppersstop.com/\nCall log:\n  - navigating to \"https://careers.shoppersstop.com/\", waiting until \"commi"
-  ],
-  [
    "Bata India",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.bata.com/\nCall log:\n  - navigating to \"https://careers.bata.com/\", waiting until \"commit\"\n"
+  ],
+  [
+   "Shoppers Stop",
+   "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.shoppersstop.com/\nCall log:\n  - navigating to \"https://careers.shoppersstop.com/\", waiting until \"commi"
   ],
   [
    "Havells",
@@ -83,16 +79,14 @@
   "Myntra",
   "Zepto",
   "Zomato / Blinkit / Hyperpure / District (Eternal)",
-  "Nykaa",
   "Flipkart",
+  "Nykaa",
   "Swiggy",
   "Zerodha",
   "Navi",
   "Ola",
   "Cars24",
-  "Delhivery",
   "Tata 1mg",
-  "PhysicsWallah",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -116,26 +110,22 @@
   "Levi Strauss India",
   "FactSet",
   "Kotak Mahindra Bank",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
   "Angel One",
-  "INDmoney",
   "Acko",
-  "Go Digit Insurance",
+  "INDmoney",
   "Pepperfry",
-  "BigBasket",
   "Porter",
   "Rapido",
   "Ecom Express",
   "Games24x7",
   "ixigo",
-  "XpressBees",
   "MPL",
+  "XpressBees",
   "Dailyhunt (VerSe)",
   "Practo",
-  "PharmEasy",
   "NoBroker",
   "HealthifyMe",
   "Moglix",
@@ -143,19 +133,18 @@
   "OfBusiness",
   "upGrad",
   "Unacademy",
-  "IndusInd Bank",
   "Ather Energy",
-  "AU Small Finance Bank",
+  "IndusInd Bank",
+  "Bandhan Bank",
   "L&T Finance",
-  "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
-  "HDFC Life",
   "ICICI Prudential Life",
+  "HDFC Life",
   "SBI Life",
   "Tata AIA Life",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
-  "HDFC ERGO",
   "ICICI Lombard",
+  "HDFC ERGO",
   "Axis Max Life Insurance",
   "Niva Bupa",
   "Care Health Insurance",
@@ -171,42 +160,36 @@
   "ICICI Securities",
   "BSE",
   "CDSL",
-  "BharatPe",
   "smallcase",
   "Uni Cards",
-  "Money View",
   "M2P Fintech",
   "IDfy",
-  "CleverTap",
   "WebEngage",
-  "Darwinbox",
-  "LeadSquared",
+  "CleverTap",
   "Unicommerce",
   "Zluri",
+  "LeadSquared",
   "Capillary Technologies",
   "Rocketlane",
   "Atlan",
-  "Spinny",
   "CarTrade Tech",
   "Info Edge (Naukri/99acres)",
-  "CarDekho (GirnarSoft)",
   "Square Yards",
   "Nazara Technologies",
   "OLX India",
+  "Zoomcar",
   "Euler Motors",
-  "Yulu",
   "Ultraviolette",
   "Simple Energy",
+  "Yulu",
   "ChargeZone",
-  "Jumbotail",
   "Battery Smart",
   "Log9 Materials",
-  "Ninjacart",
+  "Jumbotail",
   "Shadowfax",
   "Fleetx",
-  "Pando",
   "FarEye",
-  "Locus",
+  "Pando",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
@@ -219,7 +202,6 @@
   "Daimler Truck Innovation Center India",
   "Mercedes-Benz Research & Development India",
   "Affine",
-  "Mordor Intelligence",
   "MarketsandMarkets",
   "GEP Worldwide",
   "GlobalData India",
@@ -228,91 +210,73 @@
   "Kroll India",
   "Nexdigm",
   "Lumenore",
+  "Tata CLiQ",
   "Cognitio Analytics",
   "Decathlon India",
-  "Wakefit",
-  "Haldiram's",
   "The Souled Store",
   "Pernod Ricard India",
+  "Haldiram's",
+  "Wakefit",
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
-  "Escorts Kubota",
-  "Godrej & Boyce (Godrej Enterprises)",
   "MG Motor India",
+  "Escorts Kubota",
   "Ashok Leyland",
+  "Godrej & Boyce (Godrej Enterprises)",
   "Vedanta",
   "JSW Group",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 922,
+ "relevant_open": 919,
  "new": [
   {
-   "company": "Oracle",
-   "title": "Oracle Fusion HCM Functional/ Techno-Functional Consultant (Contractor to Hire Role)",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/340333",
-   "location": "BENGALURU, KARNATAKA, India",
-   "posted": "2026-10-25",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Business Associate",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050603",
+   "location": "Gurgaon, Haryana, India",
+   "posted": "2026-10-06",
    "source": "oracle",
    "extra": {
-    "id": "340333",
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-25",
-    "posted": "2026-10-25",
+    "id": "30050603",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "2026-10-06",
     "verdict": "no experience stated"
    },
-   "key": "de56bfbfbd56163e"
+   "key": "a395088d6826eb13"
   },
   {
-   "company": "Oracle",
-   "title": "Financial Business Analyst 01– Order Management / Quote-to-Order",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/346181",
-   "location": "BENGALURU, KARNATAKA, India",
-   "posted": "2026-10-25",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant – Value Creation",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30037680",
+   "location": "Gurgaon, Haryana, India",
+   "posted": "2026-10-05",
    "source": "oracle",
    "extra": {
-    "id": "346181",
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-25",
-    "posted": "2026-10-25",
+    "id": "30037680",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "2026-10-05",
     "verdict": "no experience stated"
    },
-   "key": "4a699aa2078a0ad9"
-  },
-  {
-   "company": "Oracle",
-   "title": "Financial Business Analyst 02– Order Management / Quote-to-Order",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/346183",
-   "location": "BENGALURU, KARNATAKA, India",
-   "posted": "2026-10-25",
-   "source": "oracle",
-   "extra": {
-    "id": "346183",
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-25",
-    "posted": "2026-10-25",
-    "verdict": "no experience stated"
-   },
-   "key": "fc76c035d6ac1362"
-  },
-  {
-   "company": "Oracle",
-   "title": "Oracle Fusion SCM Instructor  -(Contract to Hire) - OTM & GTM",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/347682",
-   "location": "BENGALURU, KARNATAKA, India",
-   "posted": "2026-10-25",
-   "source": "oracle",
-   "extra": {
-    "id": "347682",
-    "category": "Global Tech & FMCG",
-    "found": "2026-10-25",
-    "posted": "2026-10-25",
-    "verdict": "no experience stated"
-   },
-   "key": "4bb9a0947caeca81"
+   "key": "e1af0db16b39acbe"
   }
  ],
- "dropped_after_reading": [],
+ "dropped_after_reading": [
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - Pricing US",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30047456",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - Personal property valuation",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050302",
+   "why": "requires MBA"
+  }
+ ],
  "rejected_sample": [
   {
    "company": "HSBC",
@@ -329,12 +293,6 @@
   {
    "company": "HSBC",
    "title": "MS CRM Customization, Power Platform / Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Java, Microservice, RDBMS / Senior Consultant Specialist",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
   },
@@ -373,6 +331,12 @@
    "title": "Assistant Vice President Liabilities and Demat Operations",
    "location": "Mumbai, Maharashtra, India",
    "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Manager - Fixed Income, Alternatives and Structured Products",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
   },
   {
    "company": "Citi",
@@ -1162,12 +1126,6 @@
   },
   {
    "company": "Citi",
-   "title": "Appication Development Intermediate Programmer Analyst",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Angular/ Front End Technical Specialist",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
@@ -1291,12 +1249,6 @@
    "title": "Sr. Back-End Developer, Vice President",
    "location": "Singapore, Singapore, Singapore",
    "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "IT Quality Senior Analyst - Assistant Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
   },
   {
    "company": "Citi",
@@ -1531,6 +1483,42 @@
    "title": "Banamex | Distrito Zamora | Volante Foraneo | Suc Los Reyes",
    "location": "Los Reyes de Salgado, Michoacán, Mexico",
    "why": "location 'Los Reyes de Salgado, Michoacán, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Analista Junior de Estrategia Comercial",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Analista de Procesos Operativos",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part-Time Teller (20 Hours), Las Vegas, Tropicana Branch",
+   "location": "Las Vegas, Nevada, United States",
+   "why": "location 'Las Vegas, Nevada, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX VOLANTE SR | DISTRITO HERMOSILLO",
+   "location": "Hermosillo, Sonora, Mexico",
+   "why": "location 'Hermosillo, Sonora, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX  VILLAHERMOSA EJECUTIVO PYME",
+   "location": "Villahermosa, Tabasco, Mexico",
+   "why": "location 'Villahermosa, Tabasco, Mexico' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Talent Vendor Management Strategy Lead – Vice President",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
   },
   {
    "company": "Barclays",
@@ -2667,52 +2655,28 @@
    "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Agency CMO Trading Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
+   "company": "JPMorgan Chase",
+   "title": "Personalization Product Manager - Vice President",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Summerville, SC Area - Multiple Locations",
-   "location": "Summerville, SC, United States",
-   "why": "location 'Summerville, SC, United States' not India"
+   "title": "Associate Banker, 30 Hours, Arvada, CO Area - Multiple Locations",
+   "location": "Arvada, CO, United States",
+   "why": "location 'Arvada, CO, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Global Clearing Product Control – Associate",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
+   "title": "Associate Banker, 30 Hours, South Seattle, WA Area - Multiple Locations",
+   "location": "Tukwila, WA, United States",
+   "why": "location 'Tukwila, WA, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Winston Salem, NC - University Pkwy Branch",
-   "location": "Winston Salem, NC, United States",
-   "why": "location 'Winston Salem, NC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Nashville, TN - West End Nashville Branch",
-   "location": "Nashville, TN, United States",
-   "why": "location 'Nashville, TN, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, West Palm Beach/Palm Beach Gardens, FL Area - Multiple Locations",
-   "location": "West Palm Beach, FL, United States",
-   "why": "location 'West Palm Beach, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Greenville, SC - Main St and Falls Park Dr Branch",
-   "location": "Greenville, SC, United States",
-   "why": "location 'Greenville, SC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Hixson, TN - Highway 153 Branch",
-   "location": "Hixson, TN, United States",
-   "why": "location 'Hixson, TN, United States' not India"
+   "title": "Associate Banker, 30 Hours, North Washington State Area - Multiple Locations",
+   "location": "Marysville, WA, United States",
+   "why": "location 'Marysville, WA, United States' not India"
   }
  ]
 }
