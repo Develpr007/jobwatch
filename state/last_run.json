@@ -1,6 +1,6 @@
 {
- "when": "2026-10-26 02:23 IST",
- "sources_ok": 510,
+ "when": "2026-10-26 10:21 IST",
+ "sources_ok": 511,
  "sources_failed": [
   [
    "Ameriprise Financial India",
@@ -21,10 +21,6 @@
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
-  ],
-  [
-   "Motilal Oswal",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.motilaloswalgroup.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "NSDL",
@@ -55,12 +51,12 @@
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.ab-inbev.com/\nCall log:\n  - navigating to \"https://careers.ab-inbev.com/\", waiting until \"commit\"\n"
   ],
   [
-   "Bata India",
-   "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.bata.com/\nCall log:\n  - navigating to \"https://careers.bata.com/\", waiting until \"commit\"\n"
-  ],
-  [
    "Shoppers Stop",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.shoppersstop.com/\nCall log:\n  - navigating to \"https://careers.shoppersstop.com/\", waiting until \"commi"
+  ],
+  [
+   "Bata India",
+   "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.bata.com/\nCall log:\n  - navigating to \"https://careers.bata.com/\", waiting until \"commit\"\n"
   ],
   [
    "Havells",
@@ -79,14 +75,14 @@
   "Myntra",
   "Zepto",
   "Zomato / Blinkit / Hyperpure / District (Eternal)",
-  "Flipkart",
   "Nykaa",
+  "Flipkart",
   "Swiggy",
   "Zerodha",
   "Navi",
   "Ola",
   "Cars24",
-  "Tata 1mg",
+  "Delhivery",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -108,67 +104,64 @@
   "Schneider Electric India",
   "Credit Agricole CIB",
   "Levi Strauss India",
+  "Allianz India",
   "FactSet",
   "Kotak Mahindra Bank",
+  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
   "Angel One",
-  "Acko",
   "INDmoney",
+  "Acko",
   "Pepperfry",
   "Porter",
-  "Rapido",
   "Ecom Express",
-  "Games24x7",
   "ixigo",
+  "Games24x7",
   "MPL",
   "XpressBees",
   "Dailyhunt (VerSe)",
   "Practo",
   "NoBroker",
-  "HealthifyMe",
   "Moglix",
   "Infra.Market",
   "OfBusiness",
   "upGrad",
-  "Unacademy",
   "Ather Energy",
   "IndusInd Bank",
-  "Bandhan Bank",
   "L&T Finance",
   "Cholamandalam Investment & Finance",
-  "ICICI Prudential Life",
   "HDFC Life",
+  "ICICI Prudential Life",
   "SBI Life",
   "Tata AIA Life",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
   "ICICI Lombard",
   "HDFC ERGO",
   "Axis Max Life Insurance",
-  "Niva Bupa",
   "Care Health Insurance",
+  "Niva Bupa",
   "Tata Asset Management",
-  "Star Health",
   "HDFC AMC",
+  "Star Health",
   "SBI Funds Management",
   "Nippon Life India Asset Management",
   "ICICI Prudential AMC",
   "Kotak Mahindra AMC",
   "Mirae Asset India",
-  "IIFL Finance",
   "ICICI Securities",
   "BSE",
   "CDSL",
+  "NPCI",
   "smallcase",
   "Uni Cards",
   "M2P Fintech",
   "IDfy",
-  "WebEngage",
   "CleverTap",
+  "WebEngage",
   "Unicommerce",
   "Zluri",
-  "LeadSquared",
   "Capillary Technologies",
   "Rocketlane",
   "Atlan",
@@ -177,19 +170,18 @@
   "Square Yards",
   "Nazara Technologies",
   "OLX India",
-  "Zoomcar",
   "Euler Motors",
   "Ultraviolette",
   "Simple Energy",
   "Yulu",
   "ChargeZone",
-  "Battery Smart",
   "Log9 Materials",
+  "Battery Smart",
   "Jumbotail",
   "Shadowfax",
+  "Pando",
   "Fleetx",
   "FarEye",
-  "Pando",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
@@ -210,71 +202,294 @@
   "Kroll India",
   "Nexdigm",
   "Lumenore",
-  "Tata CLiQ",
   "Cognitio Analytics",
   "Decathlon India",
+  "Wakefit",
   "The Souled Store",
   "Pernod Ricard India",
   "Haldiram's",
-  "Wakefit",
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
-  "MG Motor India",
   "Escorts Kubota",
-  "Ashok Leyland",
   "Godrej & Boyce (Godrej Enterprises)",
+  "MG Motor India",
   "Vedanta",
   "JSW Group",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 919,
+ "relevant_open": 916,
  "new": [
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Business Associate",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050603",
-   "location": "Gurgaon, Haryana, India",
-   "posted": "2026-10-06",
-   "source": "oracle",
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
    "extra": {
-    "id": "30050603",
     "category": "Consulting & Analytics",
     "found": "2026-10-26",
-    "posted": "2026-10-06",
-    "verdict": "no experience stated"
+    "posted": "",
+    "verdict": "fresher-friendly"
    },
-   "key": "a395088d6826eb13"
+   "key": "a96657a4524cbf20"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a96657a4524cbf20"
+  },
+  {
+   "company": "EY India",
+   "title": "Production Services Analyst",
+   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
+   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4829f0f23ff4d238"
+  },
+  {
+   "company": "EY India",
+   "title": "Production Services Analyst",
+   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
+   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4829f0f23ff4d238"
   },
   {
    "company": "KPMG Global Services (KGS)",
-   "title": "Consultant – Value Creation",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30037680",
-   "location": "Gurgaon, Haryana, India",
-   "posted": "2026-10-05",
+   "title": "Consultant – Procurement Technology - Bangalore",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050594",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "2026-10-26",
    "source": "oracle",
    "extra": {
-    "id": "30037680",
+    "id": "30050594",
     "category": "Consulting & Analytics",
     "found": "2026-10-26",
-    "posted": "2026-10-05",
+    "posted": "2026-10-26",
     "verdict": "no experience stated"
    },
-   "key": "e1af0db16b39acbe"
+   "key": "cb334028644eb082"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - Procurement Transformation - Bangalore",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050749",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "30050749",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "no experience stated"
+   },
+   "key": "55c0fbc4c2fcf1cb"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a96657a4524cbf20"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a96657a4524cbf20"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Production Services Analyst",
+   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
+   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4829f0f23ff4d238"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Production Services Analyst",
+   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
+   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "4829f0f23ff4d238"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "61e77fc245237619"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "61e77fc245237619"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "61e77fc245237619"
+  },
+  {
+   "company": "Volvo Group India",
+   "title": "Graduate Apprentice Trainee - Customs & Trade Compliance",
+   "url": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-Customs-&-Trade-Compliance-562122/1373877255/",
+   "location": "Bangalore, IN, 562122",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "a3db1b30272d4f35"
+  },
+  {
+   "company": "Volvo Group India",
+   "title": "Graduate Apprentice Trainee - Customs & Trade Compliance",
+   "url": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-Customs-&-Trade-Compliance-562122/1373877255/",
+   "location": "Bangalore, IN, 562122",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Global Capability Centres",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "a3db1b30272d4f35"
   }
  ],
  "dropped_after_reading": [
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Consultant - Pricing US",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30047456",
+   "company": "Amazon",
+   "title": "Financial Analyst I, GAR QC and Governance",
+   "url": "https://www.amazon.jobs/en/jobs/10588313/financial-analyst-i-gar-qc-and-governance",
+   "why": "requires MASTER'S DEGREE"
+  },
+  {
+   "company": "Oracle",
+   "title": "EPM Consultant (PBCS)",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/340185",
+   "why": "asks 10+ years"
+  },
+  {
+   "company": "Bajaj Auto",
+   "title": "MGR (SERVICE ANALYTICS & DIGITIZATION - PB)",
+   "url": "https://careers.bajajauto.com/job/Akurdi-MGR-%28SERVICE-ANALYTICS-&-DIGITIZATION-PB%29-Maha/1390195833/",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "Bajaj Auto",
+   "title": "MGR (SERVICE ANALYTICS & DIGITIZATION - PB)",
+   "url": "https://careers.bajajauto.com/job/Akurdi-MGR-%28SERVICE-ANALYTICS-&-DIGITIZATION-PB%29-Maha/1390195833/",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "Caterpillar India",
+   "title": "Inventory Analyst",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/Inventory-Analyst_R0000400936-1",
    "why": "asks 2+ years"
   },
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Consultant - Personal property valuation",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050302",
-   "why": "requires MBA"
+   "company": "Caterpillar India",
+   "title": "IT Techno Functional Analyst",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/IT-Techno-Functional-Analyst_R0000400900",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "HP Inc India",
+   "title": "Pre Sales Consultant",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Pre-Sales-Consultant_3170008-1",
+   "why": "asks 7+ years"
   }
  ],
  "rejected_sample": [
@@ -1192,12 +1407,6 @@
   },
   {
    "company": "Citi",
-   "title": "Private Credit/ Direct Lending, AVP",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Service Analyst (UAE Nationals Only) - DUBAI",
    "location": "Dubai, Dubai, United Arab Emirates",
    "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
@@ -1456,12 +1665,6 @@
   },
   {
    "company": "Citi",
-   "title": "ABS Financing & Securitisation, VP",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Senior Java Developer - Assistant Vice President",
    "location": "Multiple Locations",
    "why": "location 'Multiple Locations' not India"
@@ -1513,6 +1716,18 @@
    "title": "BANAMEX  VILLAHERMOSA EJECUTIVO PYME",
    "location": "Villahermosa, Tabasco, Mexico",
    "why": "location 'Villahermosa, Tabasco, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Executive Team Leader - Director",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Director - Business Execution Lead - Global Network Banking",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
   },
   {
    "company": "Barclays",
@@ -1993,12 +2208,6 @@
    "title": "Data Product Manager",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI/ML Data Scientist",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
   },
   {
    "company": "Barclays",
@@ -2655,28 +2864,34 @@
    "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
+   "company": "Barclays",
+   "title": "Agency CMO Trading Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
    "company": "JPMorgan Chase",
-   "title": "Personalization Product Manager - Vice President",
+   "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
    "location": "New York, NY, United States",
    "why": "location 'New York, NY, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Arvada, CO Area - Multiple Locations",
-   "location": "Arvada, CO, United States",
-   "why": "location 'Arvada, CO, United States' not India"
+   "title": "AI Associate Engineer for Sales Assistant Platform Technology - Software Engineer III",
+   "location": "Jersey City, NJ, United States",
+   "why": "location 'Jersey City, NJ, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, South Seattle, WA Area - Multiple Locations",
-   "location": "Tukwila, WA, United States",
-   "why": "location 'Tukwila, WA, United States' not India"
+   "title": "Branch Manager - Georgia Central West Market - Smyrna , GA",
+   "location": "Smyrna, GA, United States",
+   "why": "location 'Smyrna, GA, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, North Washington State Area - Multiple Locations",
-   "location": "Marysville, WA, United States",
-   "why": "location 'Marysville, WA, United States' not India"
+   "title": "Relationship Banker - Georgia South - South Dekalb, Decatur, GA",
+   "location": "Decatur, GA, United States",
+   "why": "location 'Decatur, GA, United States' not India"
   }
  ]
 }
