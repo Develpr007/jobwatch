@@ -1,6 +1,6 @@
 {
- "when": "2026-10-26 10:21 IST",
- "sources_ok": 511,
+ "when": "2026-10-26 18:38 IST",
+ "sources_ok": 510,
  "sources_failed": [
   [
    "Ameriprise Financial India",
@@ -21,6 +21,10 @@
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
+  ],
+  [
+   "Motilal Oswal",
+   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.motilaloswalgroup.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "NSDL",
@@ -103,34 +107,35 @@
   "Britannia",
   "Schneider Electric India",
   "Credit Agricole CIB",
-  "Levi Strauss India",
   "Allianz India",
+  "Levi Strauss India",
   "FactSet",
   "Kotak Mahindra Bank",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
   "Angel One",
-  "INDmoney",
   "Acko",
+  "INDmoney",
   "Pepperfry",
   "Porter",
   "Ecom Express",
   "ixigo",
+  "XpressBees",
   "Games24x7",
   "MPL",
-  "XpressBees",
-  "Dailyhunt (VerSe)",
   "Practo",
+  "Dailyhunt (VerSe)",
   "NoBroker",
   "Moglix",
   "Infra.Market",
   "OfBusiness",
   "upGrad",
-  "Ather Energy",
   "IndusInd Bank",
+  "Ather Energy",
   "L&T Finance",
+  "Shriram Finance",
+  "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
   "HDFC Life",
   "ICICI Prudential Life",
@@ -140,14 +145,14 @@
   "ICICI Lombard",
   "HDFC ERGO",
   "Axis Max Life Insurance",
-  "Care Health Insurance",
   "Niva Bupa",
+  "Care Health Insurance",
   "Tata Asset Management",
-  "HDFC AMC",
   "Star Health",
+  "HDFC AMC",
   "SBI Funds Management",
-  "Nippon Life India Asset Management",
   "ICICI Prudential AMC",
+  "Nippon Life India Asset Management",
   "Kotak Mahindra AMC",
   "Mirae Asset India",
   "ICICI Securities",
@@ -156,13 +161,11 @@
   "NPCI",
   "smallcase",
   "Uni Cards",
-  "M2P Fintech",
   "IDfy",
   "CleverTap",
   "WebEngage",
   "Unicommerce",
   "Zluri",
-  "Capillary Technologies",
   "Rocketlane",
   "Atlan",
   "CarTrade Tech",
@@ -179,11 +182,11 @@
   "Battery Smart",
   "Jumbotail",
   "Shadowfax",
-  "Pando",
   "Fleetx",
   "FarEye",
   "Loadshare",
   "Snapdeal",
+  "Pando",
   "DeHaat",
   "FreshToHome",
   "Testbook",
@@ -202,28 +205,299 @@
   "Kroll India",
   "Nexdigm",
   "Lumenore",
+  "Tata CLiQ",
   "Cognitio Analytics",
   "Decathlon India",
-  "Wakefit",
   "The Souled Store",
-  "Pernod Ricard India",
   "Haldiram's",
+  "Wakefit",
+  "Pernod Ricard India",
   "Jubilant FoodWorks",
   "Zydus Wellness",
   "LG Electronics India",
   "Escorts Kubota",
-  "Godrej & Boyce (Godrej Enterprises)",
   "MG Motor India",
+  "Godrej & Boyce (Godrej Enterprises)",
   "Vedanta",
   "JSW Group",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 916,
+ "relevant_open": 988,
  "new": [
   {
+   "company": "Citi",
+   "title": "Young Apprentice - C00 - CHENNAI",
+   "url": "https://jobs.citi.com/job/chennai/young-apprentice-c00-chennai/287/102455451072",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9f8dbd506c4ed2cc"
+  },
+  {
+   "company": "Citi",
+   "title": "Cash and Trade Proc Analyst",
+   "url": "https://jobs.citi.com/job/mumbai/cash-and-trade-proc-analyst/287/102455432352",
+   "location": "Mumbai, Maharashtra, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "bf43179392aa10ea"
+  },
+  {
+   "company": "Citi",
+   "title": "Data Analyst with SQL/Python/Data visualization",
+   "url": "https://jobs.citi.com/job/haryana/data-analyst-with-sql-python-data-visualization/287/102455431792",
+   "location": "Haryana, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c56f064cb5a37d5f"
+  },
+  {
+   "company": "Citi",
+   "title": "Business Analytics Analyst",
+   "url": "https://jobs.citi.com/job/bengaluru/business-analytics-analyst/287/102455431648",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d4ca3a2e44ace97c"
+  },
+  {
+   "company": "Citi",
+   "title": "Business Analytics Analyst with  SQL, Pythonl",
+   "url": "https://jobs.citi.com/job/haryana/business-analytics-analyst-with-sql-pythonl/287/102455431504",
+   "location": "Haryana, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "989ed2163387fdec"
+  },
+  {
+   "company": "Citi",
+   "title": "Data Analyst with SQL, Python, Data visualization",
+   "url": "https://jobs.citi.com/job/haryana/data-analyst-with-sql-python-data-visualization/287/102455431184",
+   "location": "Haryana, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5a1bcc6b46c08412"
+  },
+  {
+   "company": "Citi",
+   "title": "Data Analyst with SQL, Python, Data visualization",
+   "url": "https://jobs.citi.com/job/haryana/data-analyst-with-sql-python-data-visualization/287/102455431024",
+   "location": "Haryana, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "6b9dd09672f0ec0a"
+  },
+  {
+   "company": "Citi",
+   "title": "Business Analytics Analyst with  SQL, Python",
+   "url": "https://jobs.citi.com/job/haryana/business-analytics-analyst-with-sql-python/287/102455431008",
+   "location": "Haryana, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5d6c6b97b803d4c2"
+  },
+  {
+   "company": "Barclays",
+   "title": "FLM LRR Analyst",
+   "url": "https://search.jobs.barclays/job/noida/flm-lrr-analyst/13015/96518931520",
+   "location": "Noida, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0832ec8eae88838e"
+  },
+  {
+   "company": "Barclays",
+   "title": "KYC Analyst",
+   "url": "https://search.jobs.barclays/job/chennai/kyc-analyst/13015/102457960752",
+   "location": "Chennai, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "77d62e01847e49b3"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://search.jobs.barclays/job/pune/business-analyst/13015/100335879456",
+   "location": "Pune, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "798141ae16298e53"
+  },
+  {
+   "company": "Deloitte India",
+   "title": "Associate Analyst | Digital | Delhi | Operations, Industry & Domain Solutions | DigiGov",
+   "url": "https://southasiacareers.deloitte.com/job/Delhi-Associate-Analyst-Digital-Delhi-Operations%2C-Industry-&-Domain-Solutions-DigiGov/60961044/",
+   "location": "Delhi, IN",
+   "posted": "",
+   "source": "html",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "36835936759516c0"
+  },
+  {
    "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451056833/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d43a0529f7779703"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451056833/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d43a0529f7779703"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451059133/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5833451a5a045781"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451059133/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5833451a5a045781"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451053633/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "32f61981619787ea"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451053633/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "32f61981619787ea"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451057433/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -233,12 +507,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "a96657a4524cbf20"
+   "key": "7bf4d13d1393c9ce"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451057433/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -248,13 +522,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "a96657a4524cbf20"
+   "key": "7bf4d13d1393c9ce"
   },
   {
    "company": "EY India",
-   "title": "Production Services Analyst",
-   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
-   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451068333/",
+   "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -263,13 +537,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4829f0f23ff4d238"
+   "key": "f66125a95e6e4a93"
   },
   {
    "company": "EY India",
-   "title": "Production Services Analyst",
-   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
-   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451068333/",
+   "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -278,44 +552,675 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4829f0f23ff4d238"
+   "key": "f66125a95e6e4a93"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451089833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a6caac247916c388"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451089833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a6caac247916c388"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451085133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c56b3fd95fb4b11b"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451085133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c56b3fd95fb4b11b"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451080133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0ec5b0c7894241d1"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451080133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0ec5b0c7894241d1"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451063233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a9bc0ed003eb0fc8"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451063233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a9bc0ed003eb0fc8"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451051833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "824455b21ad59cd2"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451051833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "824455b21ad59cd2"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451049333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d1b2ee9a9edfc53c"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451049333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d1b2ee9a9edfc53c"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451100433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0fef1536b97692b9"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451100433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0fef1536b97692b9"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451047433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "99c9fe25288d612d"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451047433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "99c9fe25288d612d"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451071533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2e861fae405fcf83"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451071533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2e861fae405fcf83"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451060133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d49adbe381bb92c2"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451060133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d49adbe381bb92c2"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451054533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ff4482a3ecc76c0"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451054533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ff4482a3ecc76c0"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451075233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "38a7524fd2a03f99"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451075233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "38a7524fd2a03f99"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451111933/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f0a9c331fd7762b9"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451111933/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f0a9c331fd7762b9"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451095233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ba84b895ddf1163"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451095233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ba84b895ddf1163"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451105833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b46fdf183686d219"
+  },
+  {
+   "company": "EY India",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451105833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b46fdf183686d219"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451241333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c2291144529cd13e"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451241333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c2291144529cd13e"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451233533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "8b4da6d5c6a09e68"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451233533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "8b4da6d5c6a09e68"
   },
   {
    "company": "KPMG Global Services (KGS)",
-   "title": "Consultant – Procurement Technology - Bangalore",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050594",
+   "title": "Consultant - Databricks Azure",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30049496",
    "location": "Bangalore, Karnataka, India",
    "posted": "2026-10-26",
    "source": "oracle",
    "extra": {
-    "id": "30050594",
+    "id": "30049496",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": ""
+   },
+   "key": "811e4599f5a29f52"
+  },
+  {
+   "company": "EXL Service",
+   "title": "Business Analyst",
+   "url": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/21809",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "21809",
     "category": "Consulting & Analytics",
     "found": "2026-10-26",
     "posted": "2026-10-26",
     "verdict": "no experience stated"
    },
-   "key": "cb334028644eb082"
+   "key": "4467d3dab4bb73d7"
   },
   {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Consultant - Procurement Transformation - Bangalore",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050749",
-   "location": "Bangalore, Karnataka, India",
+   "company": "Razorpay",
+   "title": "Associate Business Analyst ",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736957005",
+   "location": "Bengaluru",
+   "posted": "2026-10-26T05:13:37-04:00",
+   "source": "greenhouse",
+   "extra": {
+    "category": "Indian Startups",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9cf831d223adca12"
+  },
+  {
+   "company": "Oracle",
+   "title": "EPM Consultant (ARCS)-Contractor role",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/340186",
+   "location": "India",
    "posted": "2026-10-26",
    "source": "oracle",
    "extra": {
-    "id": "30050749",
-    "category": "Consulting & Analytics",
+    "id": "340186",
+    "category": "Global Tech & FMCG",
     "found": "2026-10-26",
     "posted": "2026-10-26",
     "verdict": "no experience stated"
    },
-   "key": "55c0fbc4c2fcf1cb"
+   "key": "03bf4c9ae13ad845"
   },
   {
    "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451056833/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d43a0529f7779703"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451056833/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d43a0529f7779703"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451059133/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5833451a5a045781"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451059133/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5833451a5a045781"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451053633/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "32f61981619787ea"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-Risk-Process-&-Controls-Mumbai-400079/1451053633/",
+   "location": "Mumbai, IN, 400079",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "32f61981619787ea"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451057433/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -325,12 +1230,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "a96657a4524cbf20"
+   "key": "7bf4d13d1393c9ce"
   },
   {
    "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - National - CNS - Risk - Digital Risk - Pune",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-National-CNS-Risk-Digital-Risk-Pune-MH-400028/1421475733/",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451057433/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -340,13 +1245,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "a96657a4524cbf20"
+   "key": "7bf4d13d1393c9ce"
   },
   {
    "company": "EY GDS",
-   "title": "Production Services Analyst",
-   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
-   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451068333/",
+   "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -355,13 +1260,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4829f0f23ff4d238"
+   "key": "f66125a95e6e4a93"
   },
   {
    "company": "EY GDS",
-   "title": "Production Services Analyst",
-   "url": "https://careers.ey.com/ey/job/Kochi-Production-Services-Analyst-KL-682303/1451027833/",
-   "location": "Kochi, KL, IN, 682303 +3 more…",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451068333/",
+   "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -370,12 +1275,522 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4829f0f23ff4d238"
+   "key": "f66125a95e6e4a93"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451089833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a6caac247916c388"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451089833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a6caac247916c388"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451085133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c56b3fd95fb4b11b"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451085133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c56b3fd95fb4b11b"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451080133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0ec5b0c7894241d1"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451080133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0ec5b0c7894241d1"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451063233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a9bc0ed003eb0fc8"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451063233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "a9bc0ed003eb0fc8"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451051833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "824455b21ad59cd2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451051833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "824455b21ad59cd2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451049333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d1b2ee9a9edfc53c"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451049333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d1b2ee9a9edfc53c"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451100433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0fef1536b97692b9"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451100433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0fef1536b97692b9"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451047433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "99c9fe25288d612d"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451047433/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "99c9fe25288d612d"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451071533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2e861fae405fcf83"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451071533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2e861fae405fcf83"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451060133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d49adbe381bb92c2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451060133/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d49adbe381bb92c2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451054533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ff4482a3ecc76c0"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451054533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ff4482a3ecc76c0"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451075233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "38a7524fd2a03f99"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451075233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "38a7524fd2a03f99"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451111933/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f0a9c331fd7762b9"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451111933/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f0a9c331fd7762b9"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451095233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ba84b895ddf1163"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451095233/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "5ba84b895ddf1163"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451105833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b46fdf183686d219"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-Business-Consulting-Risk-National-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1451105833/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b46fdf183686d219"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451241333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c2291144529cd13e"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451241333/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c2291144529cd13e"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451233533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "8b4da6d5c6a09e68"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Mumbai-MH-400028/1451233533/",
+   "location": "Mumbai, MH, IN, 400028",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "8b4da6d5c6a09e68"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Kolkata-Apprentice-WB-700156/54295080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -385,12 +1800,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "61e77fc245237619"
+   "key": "1add5a281bbd813f"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Kolkata-Apprentice-WB-700156/54295080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -400,12 +1815,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "61e77fc245237619"
+   "key": "1add5a281bbd813f"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/job/North-Goa-Apprentice-GA-403519/53460780/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Kolkata-Apprentice-WB-700156/54295080/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -415,81 +1830,381 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "61e77fc245237619"
+   "key": "1add5a281bbd813f"
   },
   {
-   "company": "Volvo Group India",
-   "title": "Graduate Apprentice Trainee - Customs & Trade Compliance",
-   "url": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-Customs-&-Trade-Compliance-562122/1373877255/",
-   "location": "Bangalore, IN, 562122",
-   "posted": "",
-   "source": "successfactors",
+   "company": "Shell India",
+   "title": "Trading Settlements Analyst",
+   "url": "https://shell.wd3.myworkdayjobs.com/en-US/ShellCareers/job/SHELL-CENTRE--CHENNAI/Trading-Settlements-Analyst_R211501",
+   "location": "SHELL CENTRE – CHENNAI",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/SHELL-CENTRE--CHENNAI/Trading-Settlements-Analyst_R211501",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3e95be5dc80bf98c"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors App Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160815",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "160815",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "2ea9e4e146e42382"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Data Science",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160942",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "160942",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "174bcd07a875028d"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Systems Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160859",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "160859",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "87060df2c05078dc"
+  },
+  {
+   "company": "Moody's",
+   "title": "Assc Analytics & Model Analyst Greater Noida, Uttar Pradesh",
+   "url": "https://careers.moodys.com/en/job/greater-noida/assc-analytics-and-model-analyst/49841/102455322992",
+   "location": "Greater Noida, Uttar Pradesh",
+   "posted": "10/26/2026",
+   "source": "radancy",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "923e330750ccf497"
+  },
+  {
+   "company": "eClerx",
+   "title": "Analyst",
+   "url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/85171",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "85171",
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "no experience stated"
+   },
+   "key": "515720ed3c92b824"
+  },
+  {
+   "company": "eClerx",
+   "title": "Analyst",
+   "url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/85614",
+   "location": "Mumbai, Maharashtra, India",
+   "posted": "2026-10-26",
+   "source": "oracle",
+   "extra": {
+    "id": "85614",
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "no experience stated"
+   },
+   "key": "39bd4478632bb764"
+  },
+  {
+   "company": "eClerx",
+   "title": "Analyst",
+   "url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/85625",
+   "location": "Mumbai, Maharashtra, India",
+   "posted": "2026-10-23",
+   "source": "oracle",
+   "extra": {
+    "id": "85625",
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-26",
+    "posted": "2026-10-23",
+    "verdict": ""
+   },
+   "key": "a453b81534aedc84"
+  },
+  {
+   "company": "LSEG",
+   "title": "Content Analyst",
+   "url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0124317",
+   "location": "IND-BLR-Divyasree Technopolis",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0124317",
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": "no experience stated"
+   },
+   "key": "6d6879b7280c10e4"
+  },
+  {
+   "company": "Ford Business Solutions India",
+   "title": "Analyst - Customs & Trade India",
+   "url": "https://www.careers.ford.com/en/job/india/analyst-customs-and-trade/48560/102453376464",
+   "location": "India",
+   "posted": "10/26/2026",
+   "source": "radancy",
    "extra": {
     "category": "Global Capability Centres",
     "found": "2026-10-26",
-    "posted": "",
+    "posted": "2026-10-26",
     "verdict": "no experience stated"
    },
-   "key": "a3db1b30272d4f35"
+   "key": "35fac702d6b46148"
   },
   {
-   "company": "Volvo Group India",
-   "title": "Graduate Apprentice Trainee - Customs & Trade Compliance",
-   "url": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-Customs-&-Trade-Compliance-562122/1373877255/",
-   "location": "Bangalore, IN, 562122",
+   "company": "Evernorth / Cigna India",
+   "title": "Machine Learning Analyst - HIH - Evernorth",
+   "url": "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/Hyderabad-India/Machine-Learning-Analyst---HIH---Evernorth_26012652",
+   "location": "Hyderabad, India",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Hyderabad-India/Machine-Learning-Analyst---HIH---Evernorth_26012652",
+    "category": "Global Capability Centres",
+    "found": "2026-10-26",
+    "posted": "2026-10-26",
+    "verdict": ""
+   },
+   "key": "8df598319a0ab61a"
+  },
+  {
+   "company": "Reckitt India",
+   "title": "RTR Analyst 1",
+   "url": "https://careers.reckitt.com/job/Hyderabad-RTR-Analyst-1-Tela-NA/1451045933/",
+   "location": "Hyderabad, Telangana, IN, N/A",
    "posted": "",
    "source": "successfactors",
    "extra": {
-    "category": "Global Capability Centres",
+    "category": "Consumer, Retail, Auto & Industrial",
     "found": "2026-10-26",
     "posted": "",
-    "verdict": "no experience stated"
+    "verdict": "fresher-friendly"
    },
-   "key": "a3db1b30272d4f35"
+   "key": "fd2b1875d64ce9a4"
+  },
+  {
+   "company": "Reckitt India",
+   "title": "RTR Analyst 1",
+   "url": "https://careers.reckitt.com/job/Hyderabad-RTR-Analyst-1-Tela-NA/1451045933/",
+   "location": "Hyderabad, Telangana, IN, N/A",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consumer, Retail, Auto & Industrial",
+    "found": "2026-10-26",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "fd2b1875d64ce9a4"
   }
  ],
  "dropped_after_reading": [
   {
-   "company": "Amazon",
-   "title": "Financial Analyst I, GAR QC and Governance",
-   "url": "https://www.amazon.jobs/en/jobs/10588313/financial-analyst-i-gar-qc-and-governance",
+   "company": "Citi",
+   "title": "Applications Support Intermediate Analyst",
+   "url": "https://jobs.citi.com/job/pune/applications-support-intermediate-analyst/287/100756159536",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "BlackRock",
+   "title": "Associate – Data Analytics Mumbai, Maharashtra",
+   "url": "https://careers.blackrock.com/job/mumbai/associate-data-analytics/45831/102461308160",
+   "why": "asks 5+ years"
+  },
+  {
+   "company": "BlackRock",
+   "title": "Analyst/Associate – Middle Office Operations (Public Credit) Mumbai, Maharashtra",
+   "url": "https://careers.blackrock.com/job/mumbai/analyst-associate-middle-office-operations-public-credit/45831/102461307632",
    "why": "requires MASTER'S DEGREE"
   },
   {
-   "company": "Oracle",
-   "title": "EPM Consultant (PBCS)",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/340185",
-   "why": "asks 10+ years"
+   "company": "American Express",
+   "title": "Financial Systems Analyst I",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014558",
+   "why": "asks 3+ years"
   },
   {
-   "company": "Bajaj Auto",
-   "title": "MGR (SERVICE ANALYTICS & DIGITIZATION - PB)",
-   "url": "https://careers.bajajauto.com/job/Akurdi-MGR-%28SERVICE-ANALYTICS-&-DIGITIZATION-PB%29-Maha/1390195833/",
+   "company": "American Express",
+   "title": "Analyst-Compliance",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015409",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "American Express",
+   "title": "Associate-Digital Product Operations",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015621",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "American Express",
+   "title": "Process Analyst -Procurement I",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015639",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "American Express",
+   "title": "Financial Analyst",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015726",
+   "why": "requires MBA"
+  },
+  {
+   "company": "Deloitte India",
+   "title": "Consultant | Research Analysis | Gurugram | Operations, Industry & Domain Solutions | DigiG",
+   "url": "https://southasiacareers.deloitte.com/job/Gurugram-Consultant-Research-Analysis-Gurugram-Operations%2C-Industry-&-Domain-Solutions-DigiG/60961844/",
    "why": "asks 5+ years"
   },
   {
-   "company": "Bajaj Auto",
-   "title": "MGR (SERVICE ANALYTICS & DIGITIZATION - PB)",
-   "url": "https://careers.bajajauto.com/job/Akurdi-MGR-%28SERVICE-ANALYTICS-&-DIGITIZATION-PB%29-Maha/1390195833/",
-   "why": "asks 5+ years"
+   "company": "Deloitte India",
+   "title": "Consultant | Government Advisory | Mumbai | Operations, Industry & Domain Solutions | GPS Industry S",
+   "url": "https://southasiacareers.deloitte.com/job/Mumbai-Consultant-Government-Advisory-Mumbai-Operations%2C-Industry-&-Domain-Solutions-GPS-Industry-S/60975544/",
+   "why": "asks 3+ years"
   },
   {
-   "company": "Caterpillar India",
-   "title": "Inventory Analyst",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/Inventory-Analyst_R0000400936-1",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant - FDD (UK)",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30047796",
+   "why": "requires MBA"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050356",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051382",
+   "why": "requires MBA"
+  },
+  {
+   "company": "EXL Service",
+   "title": "Associate - Business Analyst",
+   "url": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/20753",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "PwC India",
+   "title": "IN_Senior Associate_Gen AI_OC Data & Analytics (D&A)_Advisory_Bangalore",
+   "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-Gen-AI-CEDA-Central-Advisory-Bangalore_751099WD-1",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "Amazon",
+   "title": "Business Analyst - ATS INSC",
+   "url": "https://www.amazon.jobs/en/jobs/10588366/business-analyst-ats-insc",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "PwC Acceleration Centers India",
+   "title": "IN_Senior Associate_Gen AI_OC Data & Analytics (D&A)_Advisory_Bangalore",
+   "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-Gen-AI-CEDA-Central-Advisory-Bangalore_751099WD-1",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "Shell India",
+   "title": "Subsidiary Governance Analyst",
+   "url": "https://shell.wd3.myworkdayjobs.com/en-US/ShellCareers/job/SHELL-CENTRE--CHENNAI/Subsidiary-Governance-Analyst_R213010-1",
+   "why": "requires COMPANY SECRETARY"
+  },
+  {
+   "company": "Swiss Re",
+   "title": "Financial Risk Analyst,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBangalore (KA, IN)",
+   "url": "https://www.swissre.com/careers/job/Financial-Risk-Analyst/1451046933",
+   "why": "asks 2+ years"
+  },
+  {
+   "company": "Moody's",
+   "title": "Assc Analytics & Model Analyst Greater Noida, Uttar Pradesh",
+   "url": "https://careers.moodys.com/en/job/greater-noida/assc-analytics-and-model-analyst/49841/102455322976",
+   "why": "requires PHD"
+  },
+  {
+   "company": "Optum / UnitedHealth Group India",
+   "title": "Data Analyst 2383957 | Bengaluru, Karnataka",
+   "url": "https://careers.unitedhealthgroup.com/job/bengaluru/data-analyst/34088/100102546864",
+   "why": "asks 4+ years"
+  },
+  {
+   "company": "Ford Business Solutions India",
+   "title": "Analyst PPM Codification Chennai, Tamil Nadu",
+   "url": "https://www.careers.ford.com/en/job/chennai/analyst-ppm-codification/48560/102453363696",
    "why": "asks 2+ years"
   },
   {
    "company": "Caterpillar India",
-   "title": "IT Techno Functional Analyst",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/IT-Techno-Functional-Analyst_R0000400900",
+   "title": "Material Planning Analyst",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chhatrapati-Sambhaji-Nagar--Maharashtra/Material-Planning-Analyst_R0000401926",
+   "why": "asks 10+ years"
+  },
+  {
+   "company": "Carrier India",
+   "title": "Analyst",
+   "url": "https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/Building-No-12C-Floor-91011-Building-No-12B--Stilt-floor-Raheja-Mindspace-Cyberabad-Madhapur-Hyderabad---500081-Telangana-India/Analyst_30221087",
    "why": "asks 4+ years"
   },
   {
    "company": "HP Inc India",
-   "title": "Pre Sales Consultant",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Pre-Sales-Consultant_3170008-1",
-   "why": "asks 7+ years"
+   "title": "Financial Analyst-Controllership",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Bengaluru-Karnataka-India/Finance-Controller-Analyst_3158653",
+   "why": "requires CHARTERED ACCOUNTANT"
+  },
+  {
+   "company": "Dun & Bradstreet India",
+   "title": "Strategic Account Planner (R-20080)",
+   "url": "https://jobs.lever.co/dnb/243abcaa-c083-4fb0-b28c-ce904cf9bbaf",
+   "why": "asks 3+ years"
+  },
+  {
+   "company": "TransUnion CIBIL / TransUnion GCC",
+   "title": "Analytics Consultant",
+   "url": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Pune/Analytics-Consultant_19042876",
+   "why": "asks 6+ years"
+  },
+  {
+   "company": "IQVIA India",
+   "title": "Patient Analytics Consultant",
+   "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Bangalore-India/Strategy-Consultant_R1544707",
+   "why": "asks 4+ years"
   }
  ],
  "rejected_sample": [
@@ -513,9 +2228,33 @@
   },
   {
    "company": "HSBC",
+   "title": "Third Party Management Senior Manager",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
    "title": "Senior Vice President, Relationship Manager IVB",
    "location": "Mumbai, Maharashtra, India",
    "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Assistant Director - Automation and Artificial Intelligence",
+   "location": "Bangalore, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Manager Payment Services",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "HSBC",
+   "title": "Lead Data management",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
   },
   {
    "company": "HSBC",
@@ -524,34 +2263,214 @@
    "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "VP - Relationship Manager - BB",
+   "company": "Citi",
+   "title": "Settlements Reference Data Services Junior Analyst - APAC Shift - 6 months Fixed Contract",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior .NET Full Stack Developer - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking & International Controls - Financial Crimes SVP (UK & EMEA Coverage)",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Citi",
+   "title": "Program Advisory, Consulting & Execution Senior Manager, Vice President",
    "location": "Mumbai, Maharashtra, India",
    "why": "manager-level"
   },
   {
-   "company": "HSBC",
-   "title": "AVP - Revenue Management",
+   "company": "Citi",
+   "title": "Program Advisory, Consulting & Execution, Senior Vice President",
    "location": "Mumbai, Maharashtra, India",
    "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "AVP Senior Premier Relationship Manager",
+   "company": "Citi",
+   "title": "FX Corporate Salesperson - Officer / AVP",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Operations Support Analyst 1",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking Support Analyst",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Credit Portfolio Officer",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Credit Risk Senior Analyst, Assistant Vice President",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Counselor - Assistant Vice President (AVP)",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "AVP Productivity CitiLean Reengineering",
+   "location": "Haryana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Program Advisory, Consulting & Execution Senior Manager, Vice President",
    "location": "Mumbai, Maharashtra, India",
    "why": "manager-level"
   },
   {
-   "company": "HSBC",
-   "title": "Assistant Vice President Liabilities and Demat Operations",
+   "company": "Citi",
+   "title": "Technology- Cyber Security, Full Time Analyst, Philippines 2027",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Officer - Collections Recovery Management",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Technology-Infrastructure, Full Time Analyst, Philippines 2027",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Support Senior Analyst - FX, Assistant Vice President",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Asset Servicing Analyst",
+   "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+   "why": "location 'Kuala Lumpur, Kuala Lumpur, Malaysia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Vice President - Business Analytics",
+   "location": "Bengaluru, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Frontend Engineer (React.js / TypeScript)",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Business Analyst - Assistant Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Quality Analyst",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development - Assistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Digital S/W Eng Sr Analyst - C12 - PUNE",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Data Engineer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Reference Data Management Junior Analyst  - APAC Shift",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Fullstack Developer",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Analyst, Coverage Banker, Investment Banking",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer Tax Information Analyst",
    "location": "Mumbai, Maharashtra, India",
    "why": "excluded keyword"
   },
   {
-   "company": "HSBC",
-   "title": "Senior Manager - Fixed Income, Alternatives and Structured Products",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
+   "company": "Citi",
+   "title": "Applications Development - Assistant Vice President",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Associate, Investment Banking, Taiwan",
+   "location": "Taipei, Taiwan, Taiwan",
+   "why": "location 'Taipei, Taiwan, Taiwan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Principal Engineer - Digital Software Engineer - Senior Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Counterparty Credit Risk Quant Technology Lead (Python/C++)",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Development Senior Programmer- Assistant Vice President.",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
   },
   {
    "company": "Citi",
@@ -588,12 +2507,6 @@
    "title": "Angular Full Stack Developer",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Analista de Vigilancia de Cumplimiento- Surveillance",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
   },
   {
    "company": "Citi",
@@ -1335,12 +3248,6 @@
   },
   {
    "company": "Citi",
-   "title": "Credit Officer",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Angular/ Front End Technical Specialist",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
@@ -1490,244 +3397,82 @@
    "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
   },
   {
-   "company": "Citi",
-   "title": "Operations -Markets Operations Fulltime Analyst , Boston Career Forum in 2026, Tokyo - Japan, 2027",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+   "company": "Barclays",
+   "title": "Agile Coach",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Java Developer",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
+   "company": "Barclays",
+   "title": "DevOps Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Associate Banker - Taiwan Offshore Team",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Credit Risk Analytics - Collections and Recovery - Assistant Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
+   "company": "Barclays",
+   "title": "Head of Execution & Oversight for USCB IB Markets CISO",
+   "location": "Wilmington, United States; Whippany, United States",
+   "why": "location 'Wilmington, United States; Whippany, United States' not India"
   },
   {
-   "company": "Citi",
-   "title": "Associate, Subsidiary Account Manager, China Desk, Corporate Banking",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
+   "company": "Barclays",
+   "title": "Sterling Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Associate, Top Tier Local Corporates and Public Sector, Citi Corporate Bank",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
+   "company": "Barclays",
+   "title": "International Corporate Banking Graduate Programme 2027 Madrid",
+   "location": "Madrid, Spain",
+   "why": "location 'Madrid, Spain' not India"
   },
   {
-   "company": "Citi",
-   "title": "Quality Intermediate Analyst",
-   "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
-   "why": "location 'Kuala Lumpur, Kuala Lumpur, Malaysia' not India"
+   "company": "Barclays",
+   "title": "Lead Engineer, Applied AI",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Technology - Application Development, Placement Analyst, Belfast 2027",
-   "location": "Belfast, Northern Ireland, United Kingdom",
-   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+   "company": "Barclays",
+   "title": "AVP - Model risk Conformance",
+   "location": "Noida, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "IT Quality Senior Manager - Vice President",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Product Manager",
+   "location": "Gurugram, India",
    "why": "manager-level"
   },
   {
-   "company": "Citi",
-   "title": "Sr Business Associate -  MUMBAI",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "DevOps Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Service Senior Supervisor - US Retail Banking - NAM Shift",
-   "location": "City of Taguig, Metro Manila, Philippines",
-   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Low Latency Java Lead -Vice President",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "AI/ML Data Scientist",
+   "location": "Gurugram, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Labour Relations Senior and HR Local Partner",
-   "location": "Milano, Lombardy, Italy",
-   "why": "location 'Milano, Lombardy, Italy' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Third Party Risk Analyst, Assistant Vice President",
-   "location": "City of Taguig, Metro Manila, Philippines",
-   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Manager – Senior Vice President",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology Project Lead, Asia Markets Technology, Vice President",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Java FullStack",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Controls Assurance - AVP",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Full Stack  Developer (Java/React)",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Vice President _ Fraud Ops",
+   "location": "Pune, India; Noida, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Developer",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Fullstack Developer",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Engineer - Assistant Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Full Stack Java Developer - Assistant Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Data Governance and quality with Gen AI/AI",
-   "location": "Bengaluru, Karnataka, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Development - Assistant Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Developer",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Python Software Engineer",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Solution Architect- Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Fullstack Developer",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Digital Assets Screening Lead Analyst/Manager (1LOD)",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Developer - Assistant Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Securities & Derivatives Sr Manager - C13 - PUNE",
-   "location": "Pune, Maharashtra, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX  QROO EJECUTIVO PYME, COZUMEL",
-   "location": "San Miguel de Cozumel, Quintana Roo, Mexico",
-   "why": "location 'San Miguel de Cozumel, Quintana Roo, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex | Distrito Zamora | Volante Foraneo | Suc Los Reyes",
-   "location": "Los Reyes de Salgado, Michoacán, Mexico",
-   "why": "location 'Los Reyes de Salgado, Michoacán, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Analista Junior de Estrategia Comercial",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Analista de Procesos Operativos",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part-Time Teller (20 Hours), Las Vegas, Tropicana Branch",
-   "location": "Las Vegas, Nevada, United States",
-   "why": "location 'Las Vegas, Nevada, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX VOLANTE SR | DISTRITO HERMOSILLO",
-   "location": "Hermosillo, Sonora, Mexico",
-   "why": "location 'Hermosillo, Sonora, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX  VILLAHERMOSA EJECUTIVO PYME",
-   "location": "Villahermosa, Tabasco, Mexico",
-   "why": "location 'Villahermosa, Tabasco, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Client Executive Team Leader - Director",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Director - Business Execution Lead - Global Network Banking",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
   },
   {
    "company": "Barclays",
@@ -2571,12 +4316,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Lead Data Analyst",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Event Coordinator - 12 Months Fixed Term Contract",
    "location": "London, United Kingdom",
    "why": "location 'London, United Kingdom' not India"
@@ -2586,12 +4325,6 @@
    "title": "BPL - Business Development Manager - Barclaycard Payments",
    "location": "Northampton, United Kingdom; Sunderland, United Kingdom",
    "why": "location 'Northampton, United Kingdom; Sunderland, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Residential Warehouse Trader Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
   },
   {
    "company": "Barclays",
@@ -2763,12 +4496,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Agency CMO Trader/Structurer AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Principle Engineer - Director",
    "location": "London, United Kingdom; Glasgow, United Kingdom",
    "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
@@ -2786,94 +4513,40 @@
    "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Financial Crime Programme Manager / Change",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior AI Engineer",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI Engineer",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Tax",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Kickstart Product Owner",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "End User Device Product Owner",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Journey Labs Software Engineer - BA4",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Economic Crime Product Lifecycle Manager",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Core Banking AVP Service Engg (Support & Devops)",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Tax",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Liquidity Risk Reporting - Assistant Vice President",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Liquidity Risk Reporting - Assistant Vice President",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "PBWM Platforms Principal Architect",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Agency CMO Trading Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
    "company": "JPMorgan Chase",
    "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
    "location": "New York, NY, United States",
    "why": "location 'New York, NY, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, Downtown Boston, MA Area - Multiple Locations",
+   "location": "Boston, MA, United States",
+   "why": "location 'Boston, MA, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, North Virginia/DC Area - Multiple Locations",
+   "location": "Arlington, VA, United States",
+   "why": "location 'Arlington, VA, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, Chicago Far North Area - Multiple locations",
+   "location": "Chicago, IL, United States",
+   "why": "location 'Chicago, IL, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, Chicago Northshore  Area - Multiple locations",
+   "location": "Northbrook, IL, United States",
+   "why": "location 'Northbrook, IL, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, Chicago Northwest Suburbs Area - Multiple locations",
+   "location": "Glenview, IL, United States",
+   "why": "location 'Glenview, IL, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -2883,15 +4556,57 @@
   },
   {
    "company": "JPMorgan Chase",
+   "title": "Payment Lifecycle Analyst - Transaction Screening Escalation",
+   "location": "Tampa, FL, United States",
+   "why": "location 'Tampa, FL, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "J. P. Morgan Advisor- Investment Associate - Dallas, TX",
+   "location": "Dallas, TX, United States",
+   "why": "location 'Dallas, TX, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
    "title": "Branch Manager - Georgia Central West Market - Smyrna , GA",
    "location": "Smyrna, GA, United States",
    "why": "location 'Smyrna, GA, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Georgia South - South Dekalb, Decatur, GA",
-   "location": "Decatur, GA, United States",
-   "why": "location 'Decatur, GA, United States' not India"
+   "title": "Part Time (20 Hour) Associate Banker - (New Build) Burlington Branch - Burlington, NC",
+   "location": "Burlington, NC, United States",
+   "why": "location 'Burlington, NC, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Public Relations Vice President, Technology",
+   "location": "NY, United States",
+   "why": "location 'NY, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 20 Hours, Ijamsville, Maryland - Lake Linganore Branch",
+   "location": "Ijamsville, MD, United States",
+   "why": "location 'Ijamsville, MD, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Business Relationship Manager I- Officer",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Vice President, Product Management - Financial Applications",
+   "location": "Plano, TX, United States",
+   "why": "location 'Plano, TX, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Marketing Strategy - Customer Deepening, Senior Associate",
+   "location": "Columbus, OH, United States",
+   "why": "location 'Columbus, OH, United States' not India"
   }
  ]
 }
