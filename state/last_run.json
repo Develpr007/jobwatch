@@ -1,18 +1,10 @@
 {
- "when": "2026-10-27 23:44 IST",
- "sources_ok": 508,
+ "when": "2026-10-28 03:47 IST",
+ "sources_ok": 513,
  "sources_failed": [
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
-  ],
-  [
-   "MetLife",
-   "ConnectTimeout: HTTPSConnectionPool(host='jobs.metlife.com', port=443): Max retries exceeded with url: /search/?q=&locationsearch=India&startrow=0&sortColumn=referencedate&sort"
-  ],
-  [
-   "FirstCry",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "SBI Card",
@@ -21,14 +13,6 @@
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
-  ],
-  [
-   "Niva Bupa",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
-  ],
-  [
-   "Motilal Oswal",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.motilaloswalgroup.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "NSDL",
@@ -71,10 +55,6 @@
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.havells.com/\nCall log:\n  - navigating to \"https://careers.havells.com/\", waiting until \"commit\"\n"
   ],
   [
-   "Voltas",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.voltas.com/careers\nCall log:\n  - navigating to \"https://www.voltas.com/careers\", waiting until \"commit\"\n"
-  ],
-  [
    "Eicher Motors / Royal Enfield",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.royalenfield.com/us/en/search-results\nCall log:\n  - navigating to \"https://careers.royalenfield.com/us/"
   ]
@@ -85,18 +65,16 @@
   "KPMG India",
   "LatentView Analytics",
   "Myntra",
-  "Nykaa",
   "Zepto",
   "Zomato / Blinkit / Hyperpure / District (Eternal)",
+  "Nykaa",
   "Flipkart",
   "Swiggy",
   "Zerodha",
   "Navi",
   "Ola",
-  "Delhivery",
   "Cars24",
-  "Tata 1mg",
-  "PhysicsWallah",
+  "Delhivery",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -117,8 +95,8 @@
   "Britannia",
   "Schneider Electric India",
   "Credit Agricole CIB",
-  "Allianz India",
   "Levi Strauss India",
+  "Allianz India",
   "FactSet",
   "Kotak Mahindra Bank",
   "Acuity Analytics (Acuity Knowledge Partners)",
@@ -128,39 +106,39 @@
   "Angel One",
   "Acko",
   "INDmoney",
-  "BigBasket",
   "Pepperfry",
-  "Rapido",
+  "BigBasket",
   "Porter",
   "Ecom Express",
   "ixigo",
-  "Games24x7",
   "XpressBees",
+  "Games24x7",
   "MPL",
   "Practo",
   "Dailyhunt (VerSe)",
-  "PharmEasy",
   "NoBroker",
   "Moglix",
   "Infra.Market",
   "OfBusiness",
   "upGrad",
-  "Ather Energy",
   "IndusInd Bank",
+  "Ather Energy",
   "L&T Finance",
   "Cholamandalam Investment & Finance",
+  "Poonawalla Fincorp",
   "ICICI Prudential Life",
   "HDFC Life",
   "SBI Life",
   "Tata AIA Life",
-  "ICICI Lombard",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
-  "HDFC ERGO",
+  "ICICI Lombard",
   "Axis Max Life Insurance",
+  "HDFC ERGO",
+  "Niva Bupa",
   "Care Health Insurance",
+  "Star Health",
   "Tata Asset Management",
   "HDFC AMC",
-  "Star Health",
   "SBI Funds Management",
   "Nippon Life India Asset Management",
   "ICICI Prudential AMC",
@@ -169,17 +147,18 @@
   "Mirae Asset India",
   "BSE",
   "CDSL",
+  "NPCI",
   "smallcase",
   "Uni Cards",
-  "M2P Fintech",
   "IDfy",
   "WebEngage",
   "CleverTap",
   "Unicommerce",
+  "LeadSquared",
   "Zluri",
   "Capillary Technologies",
-  "Atlan",
   "Rocketlane",
+  "Atlan",
   "CarTrade Tech",
   "Info Edge (Naukri/99acres)",
   "Square Yards",
@@ -191,19 +170,18 @@
   "Simple Energy",
   "ChargeZone",
   "Jumbotail",
-  "Log9 Materials",
   "Battery Smart",
+  "Log9 Materials",
   "Shadowfax",
   "Fleetx",
-  "Locus",
-  "FarEye",
   "Pando",
+  "FarEye",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
   "FreshToHome",
-  "Testbook",
   "Eruditus",
+  "Testbook",
   "Simplilearn",
   "Bread Financial India",
   "Maersk India (GSC)",
@@ -211,8 +189,8 @@
   "Mercedes-Benz Research & Development India",
   "Affine",
   "MarketsandMarkets",
-  "GEP Worldwide",
   "GlobalData India",
+  "GEP Worldwide",
   "HGS (Hinduja Global Solutions)",
   "Algonomy (Manthan)",
   "Kroll India",
@@ -221,8 +199,8 @@
   "Cognitio Analytics",
   "Decathlon India",
   "Haldiram's",
-  "Wakefit",
   "Pernod Ricard India",
+  "Wakefit",
   "The Souled Store",
   "Jubilant FoodWorks",
   "Zydus Wellness",
@@ -233,471 +211,161 @@
   "JSW Group",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 1006,
+ "relevant_open": 1002,
  "new": [
   {
-   "company": "Barclays",
-   "title": "Data Analyst",
-   "url": "https://search.jobs.barclays/job/pune/data-analyst/13015/99433631856",
-   "location": "Pune, India",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "3fb933c0f1df66bc"
-  },
-  {
-   "company": "Barclays",
-   "title": "Business Analyst",
-   "url": "https://search.jobs.barclays/job/bengaluru/business-analyst/13015/102514202368",
-   "location": "Bengaluru, India",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bb9977f5965c0730"
-  },
-  {
-   "company": "Barclays",
-   "title": "Payment Analyst",
-   "url": "https://search.jobs.barclays/job/chennai/payment-analyst/13015/102514201824",
-   "location": "Chennai, India",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c903a8099b3c6724"
-  },
-  {
-   "company": "Barclays",
-   "title": "Operations Analyst Payment",
-   "url": "https://search.jobs.barclays/job/pune/operations-analyst-payment/13015/102514189968",
-   "location": "Pune, India",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "41591a4024cdeda3"
-  },
-  {
-   "company": "Barclays",
-   "title": "Banking Fraud & Scams Insight Analyst",
-   "url": "https://search.jobs.barclays/job/gurugram/banking-fraud-and-scams-insight-analyst/13015/102514172208",
-   "location": "Gurugram, India",
-   "posted": "",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "09389391a19bda19"
-  },
-  {
-   "company": "BlackRock",
-   "title": "Analyst, Data Management Bengaluru, Karnataka",
-   "url": "https://careers.blackrock.com/job/bengaluru/analyst-data-management/45831/101125155520",
-   "location": "Bengaluru, Karnataka",
-   "posted": "10/27/2026",
-   "source": "radancy",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "no experience stated"
-   },
-   "key": "66a7c8f64f532cf9"
-  },
-  {
-   "company": "KPMG Global Services (KGS)",
-   "title": "Analyst",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30050719",
-   "location": "Bangalore, Karnataka, India",
-   "posted": "2026-10-27",
-   "source": "oracle",
-   "extra": {
-    "id": "30050719",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": ""
-   },
-   "key": "b68346d5649e58f0"
-  },
-  {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451839633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Industrial Trainee - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Industrial-Trainee-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1451881033/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting & Analytics",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b74bbe6841b75876"
+   "key": "3108884adeb40f65"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451839633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Industrial Trainee - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Industrial-Trainee-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1451881033/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting & Analytics",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b74bbe6841b75876"
+   "key": "3108884adeb40f65"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451843133/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Associate Consultant - Assurance - National - ASU - TR - Technology Risk - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Assurance-National-ASU-TR-Technology-Risk-Chennai-TN-600113/1451891333/",
+   "location": "Chennai, TN, IN, 600113",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting & Analytics",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "219913c8e8a92553"
+   "key": "c8830cdbd1ab97bc"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451843133/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Associate Consultant - Assurance - National - ASU - TR - Technology Risk - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Assurance-National-ASU-TR-Technology-Risk-Chennai-TN-600113/1451891333/",
+   "location": "Chennai, TN, IN, 600113",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting & Analytics",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "219913c8e8a92553"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451833733/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "af2346b36c1e4c5b"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451833733/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "af2346b36c1e4c5b"
-  },
-  {
-   "company": "EXL Service",
-   "title": "Business Analyst (IC)",
-   "url": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/21846",
-   "location": "Tamil Nadu, India",
-   "posted": "2026-10-27",
-   "source": "oracle",
-   "extra": {
-    "id": "21846",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5afc9acf045c7a66"
-  },
-  {
-   "company": "Genpact",
-   "title": "Analyst - Enterprise Risk Advisory 5A",
-   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1415-G-ERC-Uppal-Habsiguda-Hyderabad-Telangana/Analyst---Enterprise-Risk-Advisory-5A_JR10025489",
-   "location": "1415-G ERC: Uppal, Habsiguda, Hyderabad, Telangana",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/1415-G-ERC-Uppal-Habsiguda-Hyderabad-Telangana/Analyst---Enterprise-Risk-Advisory-5A_JR10025489",
-    "category": "Consulting & Analytics",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "no experience stated"
-   },
-   "key": "f3eeef279e550c87"
+   "key": "c8830cdbd1ab97bc"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451839633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Industrial Trainee - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Industrial-Trainee-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1451881033/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b74bbe6841b75876"
+   "key": "3108884adeb40f65"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451839633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Industrial Trainee - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Industrial-Trainee-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1451881033/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b74bbe6841b75876"
+   "key": "3108884adeb40f65"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451843133/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Associate Consultant - Assurance - National - ASU - TR - Technology Risk - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Assurance-National-ASU-TR-Technology-Risk-Chennai-TN-600113/1451891333/",
+   "location": "Chennai, TN, IN, 600113",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "219913c8e8a92553"
+   "key": "c8830cdbd1ab97bc"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451843133/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Associate Consultant - Assurance - National - ASU - TR - Technology Risk - Chennai",
+   "url": "https://careers.ey.com/ey/job/Chennai-Associate-Consultant-Assurance-National-ASU-TR-Technology-Risk-Chennai-TN-600113/1451891333/",
+   "location": "Chennai, TN, IN, 600113",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "219913c8e8a92553"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451833733/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "af2346b36c1e4c5b"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Bangalore-KA-560001/1451833733/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "af2346b36c1e4c5b"
-  },
-  {
-   "company": "Novartis India",
-   "title": "Generic Role Profile for Interns",
-   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Telangana/Generic-Role-Profile-for-Interns_REQ-10090671-1",
-   "location": "Telangana",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Telangana/Generic-Role-Profile-for-Interns_REQ-10090671-1",
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "no experience stated"
-   },
-   "key": "d289e1b066f5e7c9"
-  },
-  {
-   "company": "Pfizer India",
-   "title": "Intern",
-   "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Chennai/Intern_4965781",
-   "location": "India - Chennai",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/India---Chennai/Intern_4965781",
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "no experience stated"
-   },
-   "key": "3a1d3b62dde4aa6b"
-  },
-  {
-   "company": "Moody's",
-   "title": "Financial Data Analyst Bengaluru, Karnataka",
-   "url": "https://careers.moodys.com/en/job/bengaluru/financial-data-analyst/49841/102506119536",
-   "location": "Bengaluru, Karnataka",
-   "posted": "10/27/2026",
-   "source": "radancy",
-   "extra": {
-    "category": "Finance, Insurance & Research",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "fresher-friendly"
-   },
-   "key": "21b881e13f052049"
-  },
-  {
-   "company": "Caterpillar India",
-   "title": "Material Availibility Analyst",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/Material-Availibility-Analyst_R0000401991",
-   "location": "Bangalore, Karnataka",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-Karnataka/Material-Availibility-Analyst_R0000401991",
-    "category": "Global Capability Centres",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b543b8bfb439224d"
-  },
-  {
-   "company": "Wolters Kluwer India",
-   "title": "Financial Planning Analyst",
-   "url": "https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Financial-Planning-Analyst_R0060705",
-   "location": "IND-Pune-Smartworks",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/IND-Pune-Smartworks/Financial-Planning-Analyst_R0060705",
-    "category": "Global Capability Centres",
-    "found": "2026-10-27",
-    "posted": "2026-10-27",
-    "verdict": "no experience stated"
-   },
-   "key": "536c12b82d1abb4e"
-  },
-  {
-   "company": "Marsh McLennan India",
-   "title": "Oliver Wyman - Business Analyst (SQL & Excel) - Hyderabad",
-   "url": "https://careers.marsh.com/global/en/job/R_332336/Oliver-Wyman-Business-Analyst-SQL-Excel-Hyderabad",
-   "location": "Location Kondapur Main Road, Laxmi Cyber City, Hyderabad- 500081, India",
-   "posted": "",
-   "source": "browser",
-   "extra": {
-    "category": "Finance, Insurance & Research",
-    "found": "2026-10-27",
-    "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "eca4c4343a992390"
+   "key": "c8830cdbd1ab97bc"
   },
   {
    "company": "Axis Bank",
-   "title": "FCI:DTM - Analyst",
-   "url": "https://axisbank.ripplehire.com/candidate/?token=WIXhCuz0XRZ7H0GZCwjJ&source=CAREERSITE#detail/job/777286",
+   "title": "FCI:DTM - NCRP Analyst",
+   "url": "https://axisbank.ripplehire.com/candidate/?token=WIXhCuz0XRZ7H0GZCwjJ&source=CAREERSITE#detail/job/777394",
    "location": "Mumbai",
    "posted": "",
    "source": "browser",
    "extra": {
     "category": "Finance, Insurance & Research",
-    "found": "2026-10-27",
+    "found": "2026-10-28",
     "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "3ac941a44308c6ac"
+   "key": "458988f919519f67"
   }
  ],
  "dropped_after_reading": [
   {
+   "company": "Deloitte India",
+   "title": "Consultant | ITDA - TPA | Bengaluru | Controls | IT Controls,AI, Data Analytics",
+   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-Consultant-ITDA-TPA-Bengaluru-Controls-IT-Controls%2CAI%2C-Data-Analytics/61002344/",
+   "why": "asks 2+ years"
+  },
+  {
    "company": "Bosch India",
-   "title": "IN_RBAI_Business Analyst - Product Controlling_IN",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
-   "why": "requires CA"
+   "title": "AI Strategy and Adoption Consultant",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157961739",
+   "why": "asks 10+ years"
   },
   {
-   "company": "Tata Capital",
-   "title": "Associate - Partnerships & Alliances - RFB - Mumbai - Lodha (I-Think Techno Campus) - JM",
-   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/56306",
-   "why": "requires POST GRADUATE"
-  },
-  {
-   "company": "General Mills India",
-   "title": "Continuous Improvement & Transformation Consultant",
-   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Continuous-Improvement---Transformation-Consultant_10130876-1",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Caterpillar India",
-   "title": "IT Analyst Applications",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/IT-Analyst-Applications_R0000401545",
-   "why": "asks 5+ years"
-  },
-  {
-   "company": "Caterpillar India",
-   "title": "Material Availability Analyst 1",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/Material-Availability-Analyst-1_R0000401385",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Experian India",
-   "title": "Risk Analyst – Data Science & Analytics",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000158014104",
+   "company": "Ford Business Solutions India",
+   "title": "Analyst - N TIER COE India",
+   "url": "https://www.careers.ford.com/en/job/india/analyst-n-tier-coe/48560/102524325360",
    "why": "asks 3+ years"
   }
  ],
@@ -761,6 +429,312 @@
    "title": "Premier Service Manager",
    "location": "Coimbatore, Tamil Nadu, India",
    "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Analista de Ventanilla Fiduciario",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Recepcionista de Accesos y Seguridad",
+   "location": "Monterrey, Nuevo León, Mexico",
+   "why": "location 'Monterrey, Nuevo León, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Asociado de Gobierno CIB",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Payments and Accounts Payables Product Manager - VP",
+   "location": "Buenos Aires, Buenos Aires F.D., Argentina",
+   "why": "location 'Buenos Aires, Buenos Aires F.D., Argentina' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Wealth Lending AI Product Manager - Director",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Field Sales Credit Manager - MI Telecommuter",
+   "location": "Michigan, United States",
+   "why": "location 'Michigan, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Markets Treasury – Lead Business Analyst, Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Full Stack Software Engineer - Vice President",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part Time Universal Banker (20 Hours) - Bilingual Spanish preferred - Metro Square Branch",
+   "location": "Washington, DC, United States",
+   "why": "location 'Washington, DC, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Head Universal Banker - Clarendon Branch",
+   "location": "Arlington, Virginia, United States",
+   "why": "location 'Arlington, Virginia, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Audit Director – Technology Enterprise Resilience",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Manhasset Branch",
+   "location": "Manhasset, New York, United States",
+   "why": "location 'Manhasset, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act, Bilingual: English/Mandarin Preferred, Fresh Meadows Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Yonkers Branch",
+   "location": "Yonkers, New York, United States",
+   "why": "location 'Yonkers, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Manager-  First Line Client Specialist Hybrid",
+   "location": "Getzville, New York, United States",
+   "why": "location 'Getzville, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Cross-Disciplinary Controls Senior Manager",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior AI Application Development Lead, Senior Vice President",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Analista de Documentación y Procesamiento de Préstamos",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex | Cajero Integral",
+   "location": "Morelia, Michoacán, Mexico",
+   "why": "location 'Morelia, Michoacán, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Stakeholder Engagement and Reporting - Community Investing and Development",
+   "location": "Charlotte, North Carolina, United States",
+   "why": "location 'Charlotte, North Carolina, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Coordinador de Ventas Afore",
+   "location": "Pachuca, Hidalgo, Mexico",
+   "why": "location 'Pachuca, Hidalgo, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Banquero Integral Monterrey Norte",
+   "location": "San Nicolás de los Garza, Nuevo León, Mexico",
+   "why": "location 'San Nicolás de los Garza, Nuevo León, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Teller Part-Time (20 Hours) - Avenue of the Americas/23rd Street Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Software Application Developer",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex- Analista Soporte a Ventas Empresarial CDMX",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Analista Operativo de Conciliaciones Contables",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Quality Group Manager",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Banquero Patrimonial  - Cuernavaca",
+   "location": "Cuernavaca, Morelos, Mexico",
+   "why": "location 'Cuernavaca, Morelos, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Assistant Vice President Loan Documentation and Processing Team Coordinator",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Banquero de Relación Empresarial Sr",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Ejecutivo Cash Management Empresarial Ciudad de México",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX BANAMEX UI DESIGNER C12 Canales Digitales AFORECDMX",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX - Ejecutivo Telefónico de Cobranza",
+   "location": "Metepec, México, Mexico",
+   "why": "location 'Metepec, México, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Head del Centro de Inteligencia de Ciberseguridad",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Analista Sr de Procesos e Implementación - Hipotecario",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Analista jr Hipotecario - Servicios Postventa",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Fraud Operations Senior Supervisor",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Fraud Operations Senior Supervisor",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Functions - Human Resources, Summer Analyst, Tampa - USA, 2027",
+   "location": "Tampa, Florida, United States",
+   "why": "location 'Tampa, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Reference Data Services Intermediate Associate Analyst",
+   "location": "Getzville, New York, United States",
+   "why": "location 'Getzville, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Development Lead, Vice President",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Transaction Capture Analyst",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Applications Development Tech Lead Analyst - VP",
+   "location": "Mississauga, Ontario, Canada",
+   "why": "location 'Mississauga, Ontario, Canada' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Huntington Village Branch",
+   "location": "Huntington, New York, United States",
+   "why": "location 'Huntington, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Chappaqua Branch",
+   "location": "Chappaqua, New York, United States",
+   "why": "location 'Chappaqua, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Bedford Village Branch",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Mohegan Lake Branch",
+   "location": "Mohegan Lake, New York, United States",
+   "why": "location 'Mohegan Lake, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Part Time Universal Banker (20 Hours),  Westchester Branch",
+   "location": "Los Angeles, California, United States",
+   "why": "location 'Los Angeles, California, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Engineering Lead Analyst",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Personal Banker SAFE Act - Bilingual English/Spanish Preferred - Hunts Point Branch",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Transaction Capture Analyst",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
   },
   {
    "company": "Citi",
@@ -1004,12 +978,6 @@
   },
   {
    "company": "Citi",
-   "title": "Quality Analyst",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
    "title": "Fraud Operations Specialist",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
@@ -1115,12 +1083,6 @@
    "title": "Business Senior Analyst",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology Lead Business Analyst - Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
   },
   {
    "company": "Citi",
@@ -1621,291 +1583,1101 @@
    "why": "location 'Florence, Kentucky, United States' not India"
   },
   {
-   "company": "Citi",
-   "title": "Futures Clearing Production Management - Vice President",
-   "location": "Belfast, Northern Ireland, United Kingdom",
-   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+   "company": "Barclays",
+   "title": "Banking Off Cycle Internship Programme 2027 Dubai",
+   "location": "United Arab Emirates",
+   "why": "location 'United Arab Emirates' not India"
   },
   {
-   "company": "Citi",
-   "title": "Vice President, Corporate Banking",
-   "location": "Cairo, Cairo Governorate, Egypt",
-   "why": "location 'Cairo, Cairo Governorate, Egypt' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Sales Surveillance Assessor",
-   "location": "Heredia, Provincia de Heredia, Costa Rica",
-   "why": "location 'Heredia, Provincia de Heredia, Costa Rica' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Equity Exotics Trader, Vice President",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Client Onboarding Analyst",
-   "location": "Belfast, Northern Ireland, United Kingdom",
-   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "CPC Relationship Banker - C12 - DUBAI",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of Early Career Talent for Banking",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of Controls – CTO & Technology Infrastructure",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Infrastructure Technology Lead Analyst - Vice President",
-   "location": "Chennai, Tamil Nadu, India",
+   "company": "Barclays",
+   "title": "Application Developer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Fixed Income E-Trading Senior Java Developer - Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
+   "company": "Barclays",
+   "title": "Residential Warehouse Trader Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
   },
   {
-   "company": "Citi",
-   "title": "Applications Development Senior Analyst - Assistant Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology Lead Business Analyst - Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Fullstack Developer",
-   "location": "Chennai, Tamil Nadu, India",
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Senior FX Java and AI Engineer (Cross Border Payments) - Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Payments Tech Business Execution Lead - Senior Vice President",
-   "location": "Jersey City, New Jersey, United States",
-   "why": "location 'Jersey City, New Jersey, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Młodszy Analityk / Młodsza Analityczka ds. Wdrożeń Klientów",
-   "location": "Olsztyn, Warmia-Masuria, Poland",
-   "why": "location 'Olsztyn, Warmia-Masuria, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Customer Specialist",
-   "location": "Chennai, Tamil Nadu, India",
+   "company": "Barclays",
+   "title": "Cloud Test Automation Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Applications Support Analyst  - Assistant Vice President",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
+   "company": "Barclays",
+   "title": "Corporate FP&A Senior Analyst - BPL",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Loan Operations Analyst - Entry Level",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
+   "company": "Barclays",
+   "title": "ISDA Negotiator - AVP",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Reference Data Services Analyst 2 - C10 - BOGOTA",
-   "location": "Bogotá, Bogota D.C., Colombia",
-   "why": "location 'Bogotá, Bogota D.C., Colombia' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Vice President (SVP) - NAV Oversight",
-   "location": "Dublin, Leinster, Ireland",
-   "why": "location 'Dublin, Leinster, Ireland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Cash and Trade Proc Rep - C05 - NEWARK",
-   "location": "Newark, Delaware, United States",
-   "why": "location 'Newark, Delaware, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Java FullStack Developer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Market Surveillance Optimization - VP",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Java Developer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "FinCrime Agile Testing Data Analyst",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "IT Project Senior Manager - VP",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Senior Java Fullstack Developer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Data Product Manager",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equities Derivatives Strat, VP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equity Research Aerospace & Defense/Defense Tech, AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Data Analyst - AVP",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Client Service Executive",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Internal Audit Prudential Regulatory Reporting VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director, Solution Architect Cash Settlement",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Services and Payments Operations Head - South Africa",
-   "location": "Johannesburg, Gauteng, South Africa",
-   "why": "location 'Johannesburg, Gauteng, South Africa' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Java Spark Developer",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Director of Engineering Trade & Working Capital Solutions",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Generative AI Data Scientist - Deep Learning and LLM",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of the Global Fraud Fusion Center, MD, C16",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Generative AI and Deep Learning Data Scientist",
-   "location": "Bengaluru, Karnataka, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Quantitative Analyst - Commodities, VP",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Regulatory Reporting Senior Analyst",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Investment Banking Associate - Power",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act, Bilingual: English/Mandarin Preferred, Flushing Branch",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Funds Service Lead Analyst",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banking, Investment Banking, Full Time Analyst, London – United Kingdom 2027 - (Applicable for 2026 Citi Summer interns only)",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Custody Service Lead Analyst",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Business Analyst",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Head of FP&A Model Development – C16",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Development Senior Programmer Analyst",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Corporate FX Sales - Director",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Settlements Reference Data Services Junior Analyst - APAC Shift - 6 months Fixed Contract",
-   "location": "City of Taguig, Metro Manila, Philippines",
-   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior .NET Full Stack Developer - Assistant Vice President",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Banking & International Controls - Financial Crimes SVP (UK & EMEA Coverage)",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Citi",
-   "title": "Program Advisory, Consulting & Execution Senior Manager, Vice President",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Engineering Manager - Vice President",
+   "location": "Pune, India",
    "why": "manager-level"
   },
   {
-   "company": "Citi",
-   "title": "Program Advisory, Consulting & Execution, Senior Vice President",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "AI Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Engineer - AI Platform",
+   "location": "Bengaluru, India; Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Analyst",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Europe Country Compliance",
+   "location": "Paris, France",
+   "why": "location 'Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Automation Engineer",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Solution Architect",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Personal Assistant",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Personal Assistant",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Specialist",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Team Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Specialist",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Manufacturing, Transport & Logistics",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Hospitality & Leisure",
+   "location": "London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King",
+   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Sales Specialist – Transactional Banking",
+   "location": "London, United Kingdom; Greater Manchester, United Kingdom",
+   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Retail & Wholesale",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Abinitio + Big data Dev",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "FX- Trade Floor Application Support",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Automation Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Model Risk Management-BA3",
+   "location": "Noida, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "BA4 - Research Operations",
+   "location": "Mumbai, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Specialist",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Fraud Strategy Manager VP",
+   "location": "Wilmington, United States",
+   "why": "location 'Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Payments Regulatory Lawyer - VP",
+   "location": "Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni",
+   "why": "location 'Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Markets Strats - AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Developer Advocate - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Cyber Risk Service Manager - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "VP - Transaction Banking Product Manager",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP- CRES Commercial (Transport)",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "BPL - Risk Assessment Unit Analyst",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Solution Architect - VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Commercial Analytics Manager - BPL",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "DevOps Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Execution & Oversight for USCB IB Markets CISO",
+   "location": "Wilmington, United States; Whippany, United States",
+   "why": "location 'Wilmington, United States; Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Azure Infra Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Digital Product Owner",
+   "location": "London, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Engineering Lead",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Sterling Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Audit Director – Head of Audit Ireland",
+   "location": "Dublin, Ireland; Paris, France",
+   "why": "location 'Dublin, Ireland; Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Commodities, Diversified Energy & Infrastructure, Trade & Working Capital",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Supplier Manager - French/Spanish Speaking",
+   "location": "Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Devops Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Scrum Master - AVP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Scrum Master",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "IB SR Refresh SME",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "International Corporate Banking Graduate Programme 2027 Madrid",
+   "location": "Madrid, Spain",
+   "why": "location 'Madrid, Spain' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Engineer, Applied AI",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Model risk Conformance",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Manager",
+   "location": "Gurugram, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "DevOps Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Product Manager",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI/ML Data Scientist",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "KYC Processing Analyst",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "KYC Processing Analyst",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP, Financial Institutions Group, Cash Management Sales Associate",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Controls Assurance - AVP",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Transformation Lead, PBWM India",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service / Personal Banker",
+   "location": "Aberdeen, United Kingdom",
+   "why": "location 'Aberdeen, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior AI Product Owner - VP",
+   "location": "Whippany, United States; Wilmington, United States",
+   "why": "location 'Whippany, United States; Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Corporate Governance Director – Fixed Term Contract",
+   "location": "Paris, France",
+   "why": "location 'Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI SRE Lead (Lead AI Platform Engineer)",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President _ Fraud Ops",
+   "location": "Pune, India; Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Talent Vendor Management Strategy Lead – Vice President",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Process, Control and Revenue Optimization Product Manager",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Technical Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Merchant Acquiring Financial Crime Policy & Advisory VP",
+   "location": "London, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Resilience Lead",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Screening Oversight & Wire Transfer Regulation Manager",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Manager",
+   "location": "Gurugram, India; Noida, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Recon Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Internal Audit - Markets - Credit AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Native iOS Engineer",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Penetration Tester",
+   "location": "Knutsford, United Kingdom; Greater Manchester, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Data Engineer",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Relationship Director- International Corporates",
+   "location": "Frankfurt am Main, Germany",
+   "why": "location 'Frankfurt am Main, Germany' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Java Full Stack Developer  - Vice President",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager – VP",
+   "location": "Pune, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Service Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior AWS Cloud Engineering Lead - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Agency CMO Trader",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Journey - Software Engineer - AVP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service Advisor",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Project Arthur Controls Testing",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fraud Analytics - Data Scientist",
+   "location": "Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "KYC Senior Analyst",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer - JAVA",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer - JAVA",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer - JAVA",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Payments & Cash Management Origination",
+   "location": "Amsterdam, Netherlands",
+   "why": "location 'Amsterdam, Netherlands' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Resilience Ops Recovery Lead - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "VP, Financial Crime Compliance – UK Corporate Bank",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP Fraud Analytics",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assitant Manager Fraud Analytics",
+   "location": "Gurugram, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care - Mortgages CME",
+   "location": "Liverpool, United Kingdom",
+   "why": "location 'Liverpool, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Training and Accreditation Manager",
+   "location": "Glasgow, United Kingdom; Greater Manchester, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom; Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Payments & Cash Management Specialist",
+   "location": "Madrid, Spain",
+   "why": "location 'Madrid, Spain' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Cloud Adoption & Scalability",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Sanctioning - LevFin - VP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Digital Assets Strategy - VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Risk Sanctioning - LevFin - VP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Manager Fraud Analytics",
+   "location": "Noida, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Fraud Strategy Manager",
+   "location": "Gurugram, India; Noida, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP- Controls Assurance",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Associate – TMT",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Regional Economist, Emerging Asia",
+   "location": "Singapore, Singapore",
+   "why": "location 'Singapore, Singapore' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Caching SRE",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Oversight Compliance Specialist (Macro) - AVP",
+   "location": "Singapore, Singapore",
+   "why": "location 'Singapore, Singapore' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "GTSM - Site Reliability Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Workday Specialist (HCM Consultant) AVP - FTC until the end of December 2027",
+   "location": "London, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Europe Card Issuing Sales Manager",
+   "location": "Amsterdam, Netherlands",
+   "why": "location 'Amsterdam, Netherlands' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner - AI Products",
+   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Group Strategy VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Institutions - Cash Sales Manager",
+   "location": "Frankfurt am Main, Germany",
+   "why": "location 'Frankfurt am Main, Germany' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Endpoint Security Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Engineer - M365 Unified Collaboration & Gen AI",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Group Strategy AVP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Technical Specialist Practitioner",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Governance and Control Manager – Quality Assurance AVP",
+   "location": "Gurugram, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Derivative Confirmations Manager (Operations) – Assistant Vice President",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Infrastructure Engineer VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior PostgreSQL SRE",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Journey Excellence and Transformation",
+   "location": "Gurugram, India; Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Technical Product Owner, Core Processor - AVP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Support Worker",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "BPL - International Corporate Banking Relationship Manager - Europe",
+   "location": "Luxembourg, Luxembourg",
+   "why": "location 'Luxembourg, Luxembourg' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Platforms-API Software Engineer - BA4",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "API Software Engineer - AVP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "BIIC Executive Assistant and Team Admin",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP Barclaycard",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Product Manager - APAC",
+   "location": "Mumbai, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Private Bank and Wealth Management Graduate Programme 2027 Jersey",
+   "location": "Saint Helier, Jersey",
+   "why": "location 'Saint Helier, Jersey' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Private Bank and Wealth Management Summer Internship Programme 2027 Jersey",
+   "location": "Saint Helier, Jersey",
+   "why": "location 'Saint Helier, Jersey' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director - Global Markets",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director - Global Markets",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Sanctioning - LevFin - AVP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Sanctioning - LevFin - AVP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Risk Sanctioning - LevFin - AVP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service - Personal Banker",
+   "location": "Sunderland, United Kingdom",
+   "why": "location 'Sunderland, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Resilience Recovery Engineer - Software",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Engineer - VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Engineer - VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Anti-Money Laundering Analyst - 12 Month Fixed Term Contract",
+   "location": "Douglas, Isle of Man",
+   "why": "location 'Douglas, Isle of Man' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Principal Forward Deployed Data Scientist",
+   "location": "Whippany, United States; Henderson, United States",
+   "why": "location 'Whippany, United States; Henderson, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Legacy Review Analyst 6-month Secondment/FTC",
+   "location": "Cardiff, United Kingdom",
+   "why": "location 'Cardiff, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Excellence Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "US Bank Regulatory Legal - Director",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President Financial Crime Risk Transaction Monitoring Control Owner",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President Financial Crime Risk Transaction Monitoring Control Owner",
+   "location": "Hong Kong, Hong Kong China",
+   "why": "location 'Hong Kong, Hong Kong China' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP Finance Chief Controls Office",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Risk Data Modeller",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Developer",
+   "location": "Pune, India; Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Data Analyst -AVP",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
@@ -1934,9 +2706,9 @@
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Software Engineer III- Python / AWS / AI Enablement",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
+   "title": "Associate Banker- Multinational Corporations- Associate",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -1949,6 +2721,18 @@
    "title": "Software Engineer III - Python/ AI",
    "location": "Jersey City, NJ, United States",
    "why": "location 'Jersey City, NJ, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Lead Software Engineer - Python and Spark",
+   "location": "NY, United States",
+   "why": "location 'NY, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Investments Business Manager-Associate",
+   "location": "Miami, FL, United States",
+   "why": "location 'Miami, FL, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -1982,1125 +2766,9 @@
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, South Seattle, WA Area - Multiple Locations",
-   "location": "Tukwila, WA, United States",
-   "why": "location 'Tukwila, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Client Skills Training Program Strategy & Management Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Newport Beach Area - Multiple locations",
-   "location": "Newport Beach, CA, United States",
-   "why": "location 'Newport Beach, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Growth & Entrepreneurship, Global Philanthropy, Vice President",
-   "location": "Washington, DC, United States",
-   "why": "location 'Washington, DC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "AI Governance-Senior Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Virtual Banker II - Columbus, OH",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Cloud Lead Infrastructure Engineer - Technical Solutions Engineering",
+   "title": "Finance & Business Management-Associate",
    "location": "Jersey City, NJ, United States",
    "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Vice President- Finance & Business Management, Subsidiary Banking",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Wholesale Credit Risk Associate - Stress Testing",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Data Scientist, Senior Associate",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Full Stack",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Experience Design Senior Associate",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Granbury Branch - Granbury, TX.",
-   "location": "Granbury, TX, United States",
-   "why": "location 'Granbury, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Equity Middle Office - Alternative Investments, Vice President",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer - Full Stack",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Overland Park, KS - Bluhawk Branch",
-   "location": "Overland Park, KS, United States",
-   "why": "location 'Overland Park, KS, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Card Strategic Analytics - Consumer & Community Banking - Vice President",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Auto - Underwriter III - Private Label",
-   "location": "Tampa, FL, United States",
-   "why": "location 'Tampa, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Backend",
-   "location": "Palo Alto, CA, United States",
-   "why": "location 'Palo Alto, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Executive Administrative Assisitant",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Finance & Business Management - Internal Audit, Associate",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker, Westwood University Ave Branch, Westwood, MA",
-   "location": "Boston, MA, United States",
-   "why": "location 'Boston, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker, Westwood University Ave Branch, Westwood, MA",
-   "location": "Boston, MA, United States",
-   "why": "location 'Boston, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Executive Director, Consumer Bank Northeast Division Business Manager",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Executive Director - CTO Tech Resiliency Lead",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Community Business Development Manager - Commercial Relationships",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Executive Administrative Assistant - Digital & Platform Services",
-   "location": "Palo Alto, CA, United States",
-   "why": "location 'Palo Alto, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Product Associate [Multiple Positions Available]",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - Fort Worth Market - Fort Worth, TX.",
-   "location": "Fort Worth, TX, United States",
-   "why": "location 'Fort Worth, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "PT (30 Hours) Associate Banker - Lancaster Branch (New Build) - Lancaster, PA",
-   "location": "Lancaster, PA, United States",
-   "why": "location 'Lancaster, PA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Grafton, WI - Grafton Branch",
-   "location": "Grafton, WI, United States",
-   "why": "location 'Grafton, WI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Green Bay, WI - Green Bay West Branch",
-   "location": "Green Bay, WI, United States",
-   "why": "location 'Green Bay, WI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Data Scientist – Process Intelligence Analytics",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Full Stack Sr Lead Software Engineer",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Chase Travel - UCF Career Fair - October 28, 2026",
-   "location": "Heathrow, FL, United States",
-   "why": "location 'Heathrow, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Finance & Business Management",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Omaha, NE - Dodge St Branch",
-   "location": "Omaha, NE, United States",
-   "why": "location 'Omaha, NE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Assistant Branch Manager (Bilingual English and Spanish Required) Ridgewood Myrtle - Ridgewood, NY",
-   "location": "Ridgewood, NY, United States",
-   "why": "location 'Ridgewood, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Public Relations Vice President, Technology",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Ijamsville, Maryland - Lake Linganore Branch",
-   "location": "Ijamsville, MD, United States",
-   "why": "location 'Ijamsville, MD, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Ijamsville, Maryland - Lake Linganore Branch",
-   "location": "Ijamsville, MD, United States",
-   "why": "location 'Ijamsville, MD, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 20 Hours, Ijamsville, Maryland - Lake Linganore Branch",
-   "location": "Ijamsville, MD, United States",
-   "why": "location 'Ijamsville, MD, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Capital & Liquidity Policy, Vice President",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Infrastructure Engineer III - MDS",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Auburn College St - Auburn, AL",
-   "location": "Auburn, AL, United States",
-   "why": "location 'Auburn, AL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Dealer Relationship Manager",
-   "location": "Los Angeles, CA, United States",
-   "why": "location 'Los Angeles, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Technology Support Lead",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Product Controls Strategy - Insurance",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Cumming, GA - Hwy 20 and Tribble Rd Branch",
-   "location": "Cumming, GA, United States",
-   "why": "location 'Cumming, GA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lending Solutions Specialist Senior",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Associate, Process Manager",
-   "location": "OH, United States",
-   "why": "location 'OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Infrastructure Engineer",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Janesville, WI - Janesville Westside Branch",
-   "location": "Janesville, WI, United States",
-   "why": "location 'Janesville, WI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hourse) Associate Banker, Coon Rapids Branch, Coon Rapids, MN",
-   "location": "Coon Rapids, MN, United States",
-   "why": "location 'Coon Rapids, MN, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Security Operations Sr Associate",
-   "location": "Seattle, WA, United States",
-   "why": "location 'Seattle, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operation Lead - Bellmore Ave and Peach - East Meadow, NY",
-   "location": "East Meadow, NY, United States",
-   "why": "location 'East Meadow, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - Bellmore Ave and Peach - East Meadow, NY",
-   "location": "East Meadow, NY, United States",
-   "why": "location 'East Meadow, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Digital Product Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Commercial & Investment Bank Risk Analyst",
-   "location": "Houston, TX, United States",
-   "why": "location 'Houston, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Data Scientist Lead - Vice President – Payments Data and Analytic",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Assistant Branch Manager Sales - Huntington,  NY",
-   "location": "Huntington, NY, United States",
-   "why": "location 'Huntington, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Delivery & Transformation Lead - Marketing Channels - Vice President",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker, South Sycamore Branch, Sioux Falls, SD",
-   "location": "Sioux Falls, SD, United States",
-   "why": "location 'Sioux Falls, SD, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker, St Louis Hills Branch, St Louis, MO",
-   "location": "St Louis, MO, United States",
-   "why": "location 'St Louis, MO, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Commercial Banker - Emerging Middle Market Banking - Vice President",
-   "location": "Tacoma, WA, United States",
-   "why": "location 'Tacoma, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Analyst - Global Fund Services Fund Valuation",
-   "location": "Boston, MA, United States",
-   "why": "location 'Boston, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Huntsville Market - Huntsville AL",
-   "location": "Huntsville, AL, United States",
-   "why": "location 'Huntsville, AL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Gold Star Blvd, Worcester, MA",
-   "location": "Worcester, MA, United States",
-   "why": "location 'Worcester, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - South San Jose Market - San Jose, CA",
-   "location": "San Jose, CA, United States",
-   "why": "location 'San Jose, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Nederland, TX - Nederland Branch",
-   "location": "Nederland, TX, United States",
-   "why": "location 'Nederland, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Relationship Manager Senior Deepening - Vice President",
-   "location": "Fort Worth, TX, United States",
-   "why": "location 'Fort Worth, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Client Service Account Manager - Vice President",
-   "location": "Tampa, FL, United States",
-   "why": "location 'Tampa, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Machine Learning Engineer-MLOps Vice President",
-   "location": "Palo Alto, CA, United States",
-   "why": "location 'Palo Alto, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Data Product Manager - Vice President",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Full-Stack Java React Software Engineer III",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Manager, Senior Associate - AI for Operations",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (20 Hour) Associate Banker - (New Build) New Bern Branch - Raleigh, NC",
-   "location": "Raleigh, NC, United States",
-   "why": "location 'Raleigh, NC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Administrative Assistant - Inland Empire",
-   "location": "Corona, CA, United States",
-   "why": "location 'Corona, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Executive Administrative Assistant",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - Millburn, NJ",
-   "location": "Millburn, NJ, United States",
-   "why": "location 'Millburn, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Quant Modeling Associate - Model Risk Governance Review - Senior Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Private Client Advisor - Fresno, CA (Shaw)",
-   "location": "Fresno, CA, United States",
-   "why": "location 'Fresno, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (20 Hour) - Associate Banker - (New Build) Fort Mill Branch - Fort Mill, SC",
-   "location": "Fort Mill, SC, United States",
-   "why": "location 'Fort Mill, SC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Relationship Banker - Fitchburg Branch - Fitchburg, WI",
-   "location": "Fitchburg, WI, United States",
-   "why": "location 'Fitchburg, WI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operations Lead - Clift Farms - Madison, AL",
-   "location": "Madison, AL, United States",
-   "why": "location 'Madison, AL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - Greater Arlington Market - Arlington, TX.",
-   "location": "Arlington, TX, United States",
-   "why": "location 'Arlington, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - SE Wisconsin/Northern IL Market - Grayslake, IL",
-   "location": "Grayslake, IL, United States",
-   "why": "location 'Grayslake, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Lynnfield, MA",
-   "location": "Lynnfield, MA, United States",
-   "why": "location 'Lynnfield, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Relationship Banker - Woburn, MA",
-   "location": "Woburn, MA, United States",
-   "why": "location 'Woburn, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part-Time (30 Hours) Associate Banker, Spring Hill South Branch (New Build), Spring Hill, TN",
-   "location": "Spring Hill, TN, United States",
-   "why": "location 'Spring Hill, TN, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part-Time (20 Hours) Associate Banker, Spring Hill South Branch (New Build), Spring Hill, TN",
-   "location": "Spring Hill, TN, United States",
-   "why": "location 'Spring Hill, TN, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Arden Woods Branch (New Build) - Greenville, SC",
-   "location": "Greenville, SC, United States",
-   "why": "location 'Greenville, SC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Arden Woods Branch (New Build) - Greenville, SC",
-   "location": "Greenville, SC, United States",
-   "why": "location 'Greenville, SC, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time Associate Banker (30 Hours) Hayden (New Build) - Hayden Lake, ID",
-   "location": "Spokane, WA, United States",
-   "why": "location 'Spokane, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time Associate Banker (20 Hours) Hayden (New Build) - Hayden Lake, ID",
-   "location": "Spokane, WA, United States",
-   "why": "location 'Spokane, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Greater Milwaukee Market - Mequon,WI",
-   "location": "Mequon, WI, United States",
-   "why": "location 'Mequon, WI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Vice President - Card Acquisition Credit Strategy",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Alabama Campus Dr - Tuscaloosa, AL",
-   "location": "Tuscaloosa, AL, United States",
-   "why": "location 'Tuscaloosa, AL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Investment Banking - Climate Advisory - Analyst",
-   "location": "NY, United States",
-   "why": "location 'NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management – Private Client Advisor - New Orleans, LA",
-   "location": "New Orleans, LA, United States",
-   "why": "location 'New Orleans, LA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Client Tax Associate - Trusts and Estates",
-   "location": "Newark, DE, United States",
-   "why": "location 'Newark, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - Moccasin Wallow Rd West (New Build)- Palmetto, FL",
-   "location": "Palmetto, FL, United States",
-   "why": "location 'Palmetto, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Client Tax Operations Associate",
-   "location": "Newark, DE, United States",
-   "why": "location 'Newark, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Portfolio Manager, Commercial Lending",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Structured Working Capital Transactor - Payments - Executive Director",
-   "location": "NY, United States",
-   "why": "location 'NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Structured Working Capital Transactor - Payments -Vice President",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Relationship Banker - Waukegan and Three Lakes Branch - Northbrook, IL",
-   "location": "Northbrook, IL, United States",
-   "why": "location 'Northbrook, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "2027 Machine Learning Center of Excellence - Time Series and Reinforcement Learning (TSRL) - Summer Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Waukegan and Three Lakes - Northbrook, IL",
-   "location": "Northbrook, IL, United States",
-   "why": "location 'Northbrook, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Market Director of Wealth - Newport Beach and Irvine, CA (Select Focused Market)",
-   "location": "Irvine, CA, United States",
-   "why": "location 'Irvine, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operations Lead - Sharon Greens - Cumming , GA",
-   "location": "Cumming, GA, United States",
-   "why": "location 'Cumming, GA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operations Lead - Chicago North Shore Market - Evanston, IL",
-   "location": "Evanston, IL, United States",
-   "why": "location 'Evanston, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Wappingers Falls, NY",
-   "location": "Wappingers Falls, NY, United States",
-   "why": "location 'Wappingers Falls, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Private Client Advisor - Winter Garden, FL",
-   "location": "Winter Garden, FL, United States",
-   "why": "location 'Winter Garden, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Private Client Advisor - Pleasantville, NY (Pleasantville)",
-   "location": "Pleasantville, NY, United States",
-   "why": "location 'Pleasantville, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Private Client Advisor in Licensing - Cedar Park, TX (Vista Ridge)",
-   "location": "Cedar Park, TX, United States",
-   "why": "location 'Cedar Park, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer Python GenAI",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Collections Specialist I - Auto",
-   "location": "Tempe, AZ, United States",
-   "why": "location 'Tempe, AZ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operations Lead - Wethersfield, CT",
-   "location": "Wethersfield, CT, United States",
-   "why": "location 'Wethersfield, CT, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Product Solutions Associate - Healthcare Payments",
-   "location": "Philadelphia, PA, United States",
-   "why": "location 'Philadelphia, PA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Client Onboarding Implementation Manager Senior Associate",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Commercial Real Estate - Community Development Banking Program Analyst",
-   "location": "San Francisco, CA, United States",
-   "why": "location 'San Francisco, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Auto - Booking and Funding Specialist I - Plano, TX",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "U.S. Private Bank - Private Banker - Managing Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management – Private Client Advisor - Torrance, Long Beach, CA and Surrounding Areas",
-   "location": "Torrance, CA, United States",
-   "why": "location 'Torrance, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management – Private Client Advisor - Castle Rock / Lone Tree / Parker, CO",
-   "location": "Castle Rock, CO, United States",
-   "why": "location 'Castle Rock, CO, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Payments Sales Manager - Broker Dealers & Market Structure - Executive Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management – Private Client Advisor - Woodland Park, CO - (Woodland Hwy)",
-   "location": "Woodland Park, CO, United States",
-   "why": "location 'Woodland Park, CO, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Payments Sales Manager- Asset Managers- Executive Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Product Associate",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Risk Management & Compliance - Technology Investment Governance Vice President",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Dev Ops Software Engineer II - .NET/C#",
-   "location": "Irvine, CA, United States",
-   "why": "location 'Irvine, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management – Private Client Advisor - West Windsor / Hamilton - New Jersey",
-   "location": "West Windsor, NJ, United States",
-   "why": "location 'West Windsor, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Strategic Execution Business Operations Team – Senior Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Global Banking Business Manager - Vice President",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "AI/ML Engineer - Senior Associate",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Global Technology COO- Strategy, Vice President",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Technology Support II",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior associate - Client Onboarding and Documentation",
-   "location": "Tampa, FL, United States",
-   "why": "location 'Tampa, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Downtown Boston, MA Area - Multiple Locations",
-   "location": "Boston, MA, United States",
-   "why": "location 'Boston, MA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Relationship Manager I - Officer",
-   "location": "Northridge, CA, United States",
-   "why": "location 'Northridge, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, North Virginia/DC Area - Multiple Locations",
-   "location": "Arlington, VA, United States",
-   "why": "location 'Arlington, VA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Far North Area - Multiple locations",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Northshore  Area - Multiple locations",
-   "location": "Northbrook, IL, United States",
-   "why": "location 'Northbrook, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Northwest Suburbs Area - Multiple locations",
-   "location": "Glenview, IL, United States",
-   "why": "location 'Glenview, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Northern IL Area - Multiple locations",
-   "location": "Round Lake Beach, IL, United States",
-   "why": "location 'Round Lake Beach, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer - Platform Lead",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Cook County NW Area - Multiple locations",
-   "location": "Arlington Heights, IL, United States",
-   "why": "location 'Arlington Heights, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Far South Area - Multiple locations",
-   "location": "Homewood, IL, United States",
-   "why": "location 'Homewood, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, O'Hare Suburbs/Oakbrook Area - Multiple locations",
-   "location": "Glen Ellyn, IL, United States",
-   "why": "location 'Glen Ellyn, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Will County Area - Multiple locations",
-   "location": "Romeoville, IL, United States",
-   "why": "location 'Romeoville, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Houston Gulf Coast Area - Multiple Locations",
-   "location": "Pasadena, TX, United States",
-   "why": "location 'Pasadena, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Python/Databricks/AWS",
-   "location": "Wilmington, DE, United States",
-   "why": "location 'Wilmington, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Cleveland West Area - Multiple Locations",
-   "location": "Cleveland, OH, United States",
-   "why": "location 'Cleveland, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Frisco, TX Area - Multiple Locations",
-   "location": "Frisco, TX, United States",
-   "why": "location 'Frisco, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, North Central San Diego Area - Multiple locations",
-   "location": "San Diego, CA, United States",
-   "why": "location 'San Diego, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "International Payments Sales Specialist - Commercial Bank - Executive Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Hiring Event - Part Time Associate Banker Palo Alto (30 Hours)",
-   "location": "San Mateo, CA, United States",
-   "why": "location 'San Mateo, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Virtual Banker III - Columbus, OH",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J.P. Morgan Wealth Management - Senior Product Associate",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Relationship Manager I- Officer",
-   "location": "Gresham, OR, United States",
-   "why": "location 'Gresham, OR, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Relationship Manager Senior Deepening- Vice President",
-   "location": "Vancouver, WA, United States",
-   "why": "location 'Vancouver, WA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Media Relations Associate - U.S. Wealth Management",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Relationship Banker - Western and 22nd - Oklahoma City, OK",
-   "location": "Oklahoma City, OK, United States",
-   "why": "location 'Oklahoma City, OK, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker (New Build) - Colerain - Cincinnati, OH",
-   "location": "Cincinnati, OH, United States",
-   "why": "location 'Cincinnati, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (20 hours) Associate Banker, Huntington Harbour Branch, Huntington Beach CA",
-   "location": "Huntington Beach, CA, United States",
-   "why": "location 'Huntington Beach, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "AI Associate Engineer for Sales Assistant Platform Technology - Software Engineer III",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Northern Utah",
-   "location": "Layton, UT, United States",
-   "why": "location 'Layton, UT, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Head of Auto Commercial Analytics-Executive Director",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Finance & Business Management Vice President - Affluent Branch Banking",
-   "location": "Jersey City, NJ, United States",
-   "why": "location 'Jersey City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Commercial Banking - Innovation Economy Chief Administrative Office - Senior Associate",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Business Relationship Manager I - Officer",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker - Elyson Square (New Build) - Cypress, TX",
-   "location": "Cypress, TX, United States",
-   "why": "location 'Cypress, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Loan Servicing Escrow Associate - Commercial Real Estate, Agency & Institutional Capital Loan Servicing and Asset Management - Senior Associate",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Balance Sheet & Capital Strategy Lead - Business Management Payments",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Payment Lifecycle Analyst - Transaction Screening Escalation",
-   "location": "Tampa, FL, United States",
-   "why": "location 'Tampa, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Operations Lead - Carpenter and Ellsworth - Ypsilanti, MI",
-   "location": "Ypsilanti, MI, United States",
-   "why": "location 'Ypsilanti, MI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Lexington Ave and 86th St - New York, NY",
-   "location": "New York, NY, United States",
-   "why": "location 'New York, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Administrative Assistant - Boroughs Region",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Site Reliability Engineer -EPAS",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Saint Peters, MO - Suemandy Dr Branch",
-   "location": "Saint Peters, MO, United States",
-   "why": "location 'Saint Peters, MO, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer - Python/Data/PySpark/AWS",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "J. P. Morgan Advisor- Investment Associate - Dallas, TX",
-   "location": "Dallas, TX, United States",
-   "why": "location 'Dallas, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Financial Analysis- Consumer Bank Real Estate Senior Associate",
-   "location": "Columbus, OH, United States",
-   "why": "location 'Columbus, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Servicing Travel Advisor IV - Chase Travel (Remote)",
-   "location": "FL, United States",
-   "why": "location 'FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - Georgia Central West Market - Smyrna , GA",
-   "location": "Smyrna, GA, United States",
-   "why": "location 'Smyrna, GA, United States' not India"
   }
  ]
 }
