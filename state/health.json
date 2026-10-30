@@ -2,367 +2,367 @@
  "Morgan Stanley": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: eightfold 403"
  },
  "HSBC": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Standard Chartered": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Citi": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Barclays": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "JPMorgan Chase": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Macquarie": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BlackRock": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "State Street": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"7D594AMVERN4IW\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Visa": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PayPal": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: eightfold 403"
  },
  "Deloitte India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "American Express": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Northern Trust": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "KPMG Delivery Network (KDN)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "KPMG Global Services (KGS)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Axtria": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Fractal Analytics": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"2BCFE7MVERN9OM\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Nomura": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tiger Analytics": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Genpact": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: workday 400: {\"errorCode\":\"HTTP_400\",\"errorCaseId\":\"C4A32BMVERNAVW\",\"httpStatus\":400,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "WNS": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Alvarez & Marsal India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-25 21:55 IST: RuntimeError: html 403 for https://careers.alvarezandmarsal.com/search/jobs?location=India"
  },
  "EXL Service": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Myntra": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-21 00:04 IST: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/myntra/jobs?content=true"
  },
  "Zepto": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-21 00:04 IST: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/zeptonow?mode=json"
  },
  "Gartner India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Razorpay": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "EY India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Meesho": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CRED": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Groww": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Paytm": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Google": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Salesforce": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-20 02:33 IST: RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"C2D01FMVFQUWTZ\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Oracle": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "SAP Labs India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Atlassian": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-27 10:39 IST: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/atlassian?mode=json"
  },
  "Amazon": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Walmart Global Tech": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: RuntimeError: workday 422: {\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"47F7BFMVERNHHN\",\"httpStatus\":422,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Target India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Intuit": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Expedia Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-28 18:29 IST: RuntimeError: html 403 for https://careers.expediagroup.com/jobs/?location=India"
  },
  "Freshworks": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Postman": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 10:10 IST: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true"
  },
  "Chargebee": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hindustan Unilever": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mahindra Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Microsoft": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-29 11:21 IST: SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /search/api/v1/search?lc=India&l=en_us&pg=1&pgSz=20&o=Re"
  },
  "Fidelity (FMR India)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PwC India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Accenture India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-24 02:56 IST: RuntimeError: workday 429: {\"errorCode\":\"HTTP_429\",\"errorCaseId\":\"8AA14BMVLHJANS\",\"httpStatus\":429,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Deutsche Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Wells Fargo": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Goldman Sachs": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bank of America": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "UBS": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BNP Paribas": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Societe Generale": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Franklin Templeton": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "NatWest Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "McKinsey & Company": {
@@ -374,85 +374,85 @@
  "Mastercard": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BCG": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bain & Company": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kearney": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Oliver Wyman": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "KPMG India": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LatentView Analytics": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tredence": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ZS Associates": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Capgemini India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Redseer": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Praxis Global Alliance": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Flipkart": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Swiggy": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zomato / Blinkit (Eternal)": {
@@ -463,68 +463,68 @@
  },
  "Nykaa": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PhonePe": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zerodha": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Navi": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ola": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Urban Company": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Uber India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lenskart": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dream11 (Dream Sports)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cars24": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Delhivery": {
   "fail_streak": 0,
-  "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 1,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Digital": {
@@ -536,7 +536,7 @@
  "Tata 1mg": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MakeMyTrip": {
@@ -547,8 +547,8 @@
  },
  "PhysicsWallah": {
   "fail_streak": 0,
-  "zero_streak": 2,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Udaan": {
@@ -560,295 +560,295 @@
  "Adobe": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lowe's India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tesco Bengaluru": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ITC Limited": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zoho": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Procter & Gamble India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nestle India": {
   "fail_streak": 0,
-  "zero_streak": 48,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 49,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Aditya Birla Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bajaj Finserv": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "EY GDS": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zinnov": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "NielsenIQ India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ipsos India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Sigmoid Analytics": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kantar India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nagarro": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Consumer Products": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Quantiphi": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hero MotoCorp": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bajaj Auto": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PwC Acceleration Centers India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Coca-Cola India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Publicis Sapient India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HCLTech": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Sun Pharma": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cipla": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lupin": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Novartis India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Colgate-Palmolive India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Vodafone Idea": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mondelez India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "GSK India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Air India": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pfizer India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Shell India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IHCL (Taj)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bosch India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Autodesk India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Honeywell India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Agoda": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Stripe India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BNY Mellon": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ANZ": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lloyds Technology Centre": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Commonwealth Bank of Australia": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Invesco": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "DBS Bank India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Munich Re": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Swiss Re": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IndiGo": {
@@ -860,127 +860,127 @@
  "Abbott India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Chubb": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Moody's": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Fitch Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FactSet": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 20:03 IST: RuntimeError: workday 422: {\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"6B23C9MVFCZTSE\",\"httpStatus\":422,\"locale\":\"en-IN,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}"
  },
  "Prudential": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "AIG": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Morningstar": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MUFG": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zeta": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "eClerx": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "InMobi": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LSEG": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nasdaq": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MetLife": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-28 18:29 IST: ConnectTimeout: HTTPSConnectionPool(host='jobs.metlife.com', port=443): Max retries exceeded with url: /search/?q=&locationsearch=India&startrow=0&sortColumn=referencedate&sort"
  },
  "Fi Money": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bain Capability Network (BCN)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Deloitte USI": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-26 18:38 IST: RuntimeError: Page.goto: net::ERR_EMPTY_RESPONSE at https://apply.deloitte.com/en_US/careers/SearchJobs\nCall log:\n  - navigating to \"https://apply.deloitte.com/en_US/careers/"
  },
  "Grant Thornton Bharat": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BDO India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FTI Consulting India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "McKinsey Knowledge Center India": {
@@ -992,25 +992,25 @@
  "Roland Berger India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "L.E.K. Consulting India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Arthur D. Little India": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dalberg Advisors": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Avalon Consulting": {
@@ -1022,55 +1022,55 @@
  "Everest Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Sattva Consulting": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Vector Consulting Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Frost & Sullivan India": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "1Lattice": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cartesian Consulting": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 20:03 IST: RuntimeError: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.cartesianconsulting.com/careers\nCall log:\n  - navigating to \"https://www.cartesianconsulting.com/car"
  },
  "Accordion (Merilytics)": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Course5 Intelligence": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MathCo": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "TCS": {
@@ -1082,43 +1082,43 @@
  "Wipro": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Crayon Data": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Infosys": {
   "fail_streak": 0,
-  "zero_streak": 24,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 25,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LTIMindtree": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cognizant India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hexaware": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mphasis": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Reliance Retail": {
@@ -1130,133 +1130,133 @@
  "Sutherland Global": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-25 02:23 IST: RuntimeError: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.jobs.sutherlandglobal.com/job-results#/india\nCall log:\n  - navigating to \"https://www.jobs.sutherlandglobal"
  },
  "Reliance Industries": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Jio": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Adani Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Maruti Suzuki": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Motors": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "TVS Motor": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Asian Paints": {
   "fail_streak": 0,
-  "zero_streak": 33,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 34,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Larsen & Toubro": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Marico": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dabur": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Godrej Consumer Products": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Emami": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PepsiCo India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Britannia": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dr. Reddy's": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Johnson & Johnson India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Siemens India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "GE Vernova India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 20:03 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.gevernova.com/global/en/search-results?keywords=&location=India\nCall log:\n  - navigating to \"https://jobs."
  },
  "GE HealthCare India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "GE Aerospace India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Schneider Electric India": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bharti Airtel": {
@@ -1268,151 +1268,151 @@
  "Dell Technologies India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Philips India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ABB India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cisco India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IBM India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nutanix India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ServiceNow India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LinkedIn India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Meta India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Booking.com": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Fiserv India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FIS Global India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nike India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Credit Agricole CIB": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Levi Strauss India": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Allianz India": {
   "fail_streak": 0,
-  "zero_streak": 3,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "AXA India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Aon": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "WTW": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Marsh McLennan India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "S&P Global": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MSCI": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-21 22:45 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.msci.com/job-search?production__mscicare2201__sort-rank%5BrefinementList%5D%5Btown_city_country%5D%5B0%"
  },
  "Bloomberg": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Evalueserve": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Acuity Analytics (Acuity Knowledge Partners)": {
   "fail_streak": 0,
-  "zero_streak": 1,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CRISIL": {
@@ -1423,44 +1423,44 @@
  },
  "Kotak Mahindra Bank": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HDFC Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ICICI Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Axis Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IDFC FIRST Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pine Labs": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Setu": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PolicyBazaar (PB Fintech)": {
@@ -1472,79 +1472,79 @@
  "Juspay": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Slice": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "KreditBee": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Jupiter": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Upstox": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Angel One": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "INDmoney": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Acko": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Go Digit Insurance": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BigBasket": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Licious": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pepperfry": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Rapido": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BlackBuck": {
@@ -1555,1694 +1555,1694 @@
  },
  "Porter": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ecom Express": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-19 20:03 IST: RuntimeError: Page.goto: net::ERR_CERT_DATE_INVALID at https://ecomexpress.in/career\nCall log:\n  - navigating to \"https://ecomexpress.in/career\", waiting until \"commit\"\n"
  },
  "XpressBees": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Shiprocket": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FirstCry": {
-  "fail_streak": 1,
+  "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 04:17 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
  },
  "ixigo": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Games24x7": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MPL": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ShareChat": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dailyhunt (VerSe)": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Practo": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PharmEasy": {
   "fail_streak": 0,
-  "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 1,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HealthifyMe": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "NoBroker": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cult.fit": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Moglix": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Infra.Market": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Housing.com": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "OfBusiness": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "upGrad": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zetwerk": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Scaler": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Unacademy": {
   "fail_streak": 0,
-  "zero_streak": 2,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ather Energy": {
   "fail_streak": 0,
-  "zero_streak": 36,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 37,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Capital": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "PayU India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Icertis": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Druva": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BrowserStack": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mindtickle": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Observe.AI": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pocket FM": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Sprinklr": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Uniphore": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Synchrony India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Optum / UnitedHealth Group India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "T. Rowe Price India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Carelon (Elevance Health)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Vanguard India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "General Mills India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ford Business Solutions India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mars India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ameriprise Financial India": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
+  "last_error": "2026-10-30 18:29 IST: SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
  },
  "Truist (TIIC)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Evernorth / Cigna India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IKEA India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "John Deere India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nokia India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ericsson India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Eaton India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Chevron ENGINE Bengaluru": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ExxonMobil India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "General Motors Technical Centre India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Caterpillar India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pearson India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BP Business Solutions India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Wolters Kluwer India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Thomson Reuters India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Volvo Group India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "RELX / LexisNexis India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "dunnhumby India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Indegene": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Beghou Consulting": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Trinity Life Sciences India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HP Inc India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Verisk India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dun & Bradstreet India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Clarivate India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Experian India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Circana India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CRIF High Mark": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Wood Mackenzie India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "TransUnion CIBIL / TransUnion GCC": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Firstsource": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Carrier India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Adidas India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Equifax India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Reckitt India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IQVIA India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Power": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ReNew": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Diageo India (United Spirits)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Trent (Westside/Zudio)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Samsung India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "RSM US India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zomato / Blinkit / Hyperpure / District (Eternal)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Federal Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IndusInd Bank": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "SBI Card": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sbicards.thetalentpool.co.in/web/#/home/open-positions/list\nCall log:\n  - navigating to \"https://sbicards.theta"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sbicards.thetalentpool.co.in/web/#/home/open-positions/list\nCall log:\n  - navigating to \"https://sbicards.theta"
  },
  "RBL Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-21 22:45 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rblcareers.peoplestrong.com/\", waiting until \"commit\"\n"
  },
  "AU Small Finance Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Yes Bank": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
  },
  "Bandhan Bank": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "L&T Finance": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Shriram Finance": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cholamandalam Investment & Finance": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ICICI Prudential Life": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Poonawalla Fincorp": {
   "fail_streak": 0,
-  "zero_streak": 6,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 7,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "SBI Life": {
   "fail_streak": 0,
-  "zero_streak": 34,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 35,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-29 18:35 IST: RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.sbilife.co.in/en/about-us/careers-opportunity\nCall log:\n  - navigating to \"https://www.sbilife.co.in/en/about-us/ca"
  },
  "HDFC Life": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata AIA Life": {
   "fail_streak": 0,
-  "zero_streak": 33,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 34,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bajaj Allianz (Bajaj General / Bajaj Life)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ICICI Lombard": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HDFC ERGO": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Axis Max Life Insurance": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Care Health Insurance": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Niva Bupa": {
   "fail_streak": 0,
-  "zero_streak": 21,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 22,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-30 04:17 IST: RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
  },
  "Tata Asset Management": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HDFC AMC": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Star Health": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "SBI Funds Management": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nippon Life India Asset Management": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ICICI Prudential AMC": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Axis AMC": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kotak Mahindra AMC": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IIFL Finance": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mirae Asset India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ICICI Securities": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Motilal Oswal": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-29 04:08 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.motilaloswalgroup.com/careers\", waiting until \"commit\"\n"
  },
  "JM Financial": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Houlihan Lokey India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BSE": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Avendus": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "NSDL": {
-  "fail_streak": 22,
+  "fail_streak": 23,
   "zero_streak": 10,
   "last_ok": "2026-10-24 02:56 IST",
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_CONNECTION_RESET at https://nsdl.co.in/about/careers.php\nCall log:\n  - navigating to \"https://nsdl.co.in/about/careers.php\", waiting until \""
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_CONNECTION_RESET at https://nsdl.co.in/about/careers.php\nCall log:\n  - navigating to \"https://nsdl.co.in/about/careers.php\", waiting until \""
  },
  "CDSL": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "NSE (National Stock Exchange)": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nseindia.com/careers-at-nse/jobs\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nseindia.com/careers-at-nse/jobs\", waiting until \"commit\"\n"
  },
  "NPCI": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "BharatPe": {
   "fail_streak": 0,
-  "zero_streak": 2,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MobiKwik": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Dhan (Raise Securities)": {
   "fail_streak": 0,
-  "zero_streak": 5,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 6,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "smallcase": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Jar": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ET Money": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "OneCard (FPL Technologies)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Uni Cards": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lendingkart": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Money View": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Perfios": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kissht": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HyperVerge": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "M2P Fintech": {
   "fail_streak": 0,
-  "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 1,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Vyapar": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "IDfy": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Instamojo": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Easebuzz": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Khatabook": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://khatabook.com/careers\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://khatabook.com/careers\", waiting until \"commit\"\n"
  },
  "Darwinbox": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Whatfix": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MoEngage": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CleverTap": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "WebEngage": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LeadSquared": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Innovaccer": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zluri": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Capillary Technologies": {
   "fail_streak": 0,
-  "zero_streak": 4,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 5,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Unicommerce": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Rocketlane": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hasura": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Atlan": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Sarvam AI": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Yellow.ai": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Exotel": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Haptik": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Spinny": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CarTrade Tech": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Info Edge (Naukri/99acres)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CarDekho (GirnarSoft)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Square Yards": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nazara Technologies": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kuku FM": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "OLX India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zoomcar": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Euler Motors": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "River (EV)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Yulu": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ultraviolette": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bounce": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bounce.bike/careers\nCall log:\n  - navigating to \"https://bounce.bike/careers\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bounce.bike/careers\nCall log:\n  - navigating to \"https://bounce.bike/careers\", waiting until \"commit\"\n"
  },
  "Bizongo": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://careers.bizongo.com/\nCall log:\n  - navigating to \"https://careers.bizongo.com/\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://careers.bizongo.com/\nCall log:\n  - navigating to \"https://careers.bizongo.com/\", waiting until \"commit\"\n"
  },
  "Simple Energy": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ChargeZone": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Jumbotail": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Log9 Materials": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Battery Smart": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ninjacart": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Rivigo": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ElasticRun": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Shadowfax": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "LogiNext": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Locus": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Fleetx": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pando": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FarEye": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Loadshare": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Country Delight": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.countrydelight.in/\nCall log:\n  - navigating to \"https://careers.countrydelight.in/\", waiting until \"com"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.countrydelight.in/\nCall log:\n  - navigating to \"https://careers.countrydelight.in/\", waiting until \"com"
  },
  "Snapdeal": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ShopDeck": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "DeHaat": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FreshToHome": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Apna.co": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Great Learning": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Testbook": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Eruditus": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Classplus": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "AB InBev GCC Bengaluru": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.ab-inbev.com/\nCall log:\n  - navigating to \"https://careers.ab-inbev.com/\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.ab-inbev.com/\nCall log:\n  - navigating to \"https://careers.ab-inbev.com/\", waiting until \"commit\"\n"
  },
  "Simplilearn": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Bread Financial India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Leap Scholar": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Principal Global Services": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "FedEx India (Hyderabad/Mumbai)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "UPS India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "DHL Global Business Services India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Marks & Spencer India (Bengaluru)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-21 22:45 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.marksandspencer.com/\nCall log:\n  - navigating to \"https://jobs.marksandspencer.com/\", waiting until \"commi"
  },
  "Cummins India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Maersk India (GSC)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kuehne+Nagel India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Deutsche Telekom Digital Labs": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ADP India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Daimler Truck Innovation Center India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Whirlpool India (GCC)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mercedes-Benz Research & Development India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Affine": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ganit": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Polestar Solutions": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Decimal Point Analytics": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Merkle India (incl. Ugam)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Netscribes": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "ProcDNA": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Aranca": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MarketsandMarkets": {
   "fail_streak": 0,
-  "zero_streak": 16,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 17,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Mordor Intelligence": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "GEP Worldwide": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Xceedance": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "The Smart Cube": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-23 17:18 IST: RuntimeError: Page.goto: net::ERR_EMPTY_RESPONSE at https://www.thesmartcube.com/about-us/careers/current-vacancies/\nCall log:\n  - navigating to \"https://www.thesmartcube.com"
  },
  "GlobalData India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kanerika": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "HGS (Hinduja Global Solutions)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lumiq": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Infogain": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "TresVista": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Algonomy (Manthan)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Kroll India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Ascendion": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Strategic Management Group": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "CitiusTech": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Gallagher India (GCC)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Nexdigm": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Lumenore": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Cognitio Analytics": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Shoppers Stop": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.shoppersstop.com/\nCall log:\n  - navigating to \"https://careers.shoppersstop.com/\", waiting until \"commi"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.shoppersstop.com/\nCall log:\n  - navigating to \"https://careers.shoppersstop.com/\", waiting until \"commi"
  },
  "Bata India": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.bata.com/\nCall log:\n  - navigating to \"https://careers.bata.com/\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.bata.com/\nCall log:\n  - navigating to \"https://careers.bata.com/\", waiting until \"commit\"\n"
  },
  "Avenue Supermarts (DMart)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata CLiQ": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Titan Company": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Landmark Group India (Lifestyle/Max)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Decathlon India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Puma India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Haldiram's": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "The Souled Store": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pernod Ricard India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Wakefit": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "United Breweries (Heineken)": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-23 03:08 IST: RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://careers.theheinekencompany.com/Job-Listing\", waiting until \"commit\"\n"
  },
  "Jubilant FoodWorks": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Havells": {
-  "fail_streak": 35,
+  "fail_streak": 36,
   "zero_streak": 0,
   "last_ok": null,
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.havells.com/\nCall log:\n  - navigating to \"https://careers.havells.com/\", waiting until \"commit\"\n"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.havells.com/\nCall log:\n  - navigating to \"https://careers.havells.com/\", waiting until \"commit\"\n"
  },
  "Devyani International": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Zydus Wellness": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Pidilite": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Berger Paints": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Voltas": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": "2026-10-30 04:17 IST: RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.voltas.com/careers\nCall log:\n  - navigating to \"https://www.voltas.com/careers\", waiting until \"commit\"\n"
  },
  "LG Electronics India": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hyundai Motor India": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Godrej & Boyce (Godrej Enterprises)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Escorts Kubota": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "MG Motor India": {
   "fail_streak": 0,
-  "zero_streak": 1,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 0,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Eicher Motors / Royal Enfield": {
-  "fail_streak": 21,
+  "fail_streak": 22,
   "zero_streak": 0,
   "last_ok": "2026-10-24 10:10 IST",
-  "last_error": "2026-10-30 11:23 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.royalenfield.com/us/en/search-results\nCall log:\n  - navigating to \"https://careers.royalenfield.com/us/"
+  "last_error": "2026-10-30 18:29 IST: RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.royalenfield.com/us/en/search-results\nCall log:\n  - navigating to \"https://careers.royalenfield.com/us/"
  },
  "Ashok Leyland": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Blue Dart": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Vedanta": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Hindalco": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Tata Steel": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "JSW Group": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "Allcargo": {
   "fail_streak": 0,
   "zero_streak": 0,
-  "last_ok": "2026-10-30 11:23 IST",
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  },
  "TCI (Transport Corporation of India)": {
   "fail_streak": 0,
-  "zero_streak": 35,
-  "last_ok": "2026-10-30 11:23 IST",
+  "zero_streak": 36,
+  "last_ok": "2026-10-30 18:29 IST",
   "last_error": null
  }
 }

@@ -1,14 +1,10 @@
 {
- "when": "2026-10-30 11:23 IST",
- "sources_ok": 512,
+ "when": "2026-10-30 18:29 IST",
+ "sources_ok": 513,
  "sources_failed": [
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
-  ],
-  [
-   "FirstCry",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "SBI Card",
@@ -78,7 +74,7 @@
   "Navi",
   "Ola",
   "Cars24",
-  "PhysicsWallah",
+  "Delhivery",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -100,10 +96,8 @@
   "Schneider Electric India",
   "Credit Agricole CIB",
   "Levi Strauss India",
-  "Allianz India",
   "FactSet",
   "Kotak Mahindra Bank",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Pine Labs",
   "Setu",
   "Slice",
@@ -113,20 +107,20 @@
   "Pepperfry",
   "Porter",
   "Ecom Express",
-  "ixigo",
   "Games24x7",
   "XpressBees",
+  "ixigo",
   "MPL",
-  "Dailyhunt (VerSe)",
   "Practo",
+  "Dailyhunt (VerSe)",
+  "PharmEasy",
   "NoBroker",
   "Moglix",
   "Infra.Market",
   "OfBusiness",
   "upGrad",
-  "Unacademy",
-  "IndusInd Bank",
   "Ather Energy",
+  "IndusInd Bank",
   "L&T Finance",
   "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
@@ -140,21 +134,21 @@
   "Axis Max Life Insurance",
   "Niva Bupa",
   "Care Health Insurance",
-  "Tata Asset Management",
   "Star Health",
+  "Tata Asset Management",
   "HDFC AMC",
   "SBI Funds Management",
   "Nippon Life India Asset Management",
   "ICICI Prudential AMC",
   "Kotak Mahindra AMC",
   "Mirae Asset India",
+  "ICICI Securities",
   "BSE",
   "CDSL",
-  "ICICI Securities",
-  "BharatPe",
-  "Dhan (Raise Securities)",
   "smallcase",
+  "Dhan (Raise Securities)",
   "Uni Cards",
+  "M2P Fintech",
   "IDfy",
   "CleverTap",
   "WebEngage",
@@ -168,18 +162,18 @@
   "Square Yards",
   "Nazara Technologies",
   "OLX India",
+  "Yulu",
   "Euler Motors",
   "Ultraviolette",
-  "Yulu",
   "Simple Energy",
   "ChargeZone",
   "Battery Smart",
-  "Log9 Materials",
   "Jumbotail",
+  "Log9 Materials",
   "Shadowfax",
   "Fleetx",
-  "FarEye",
   "Pando",
+  "FarEye",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
@@ -201,8 +195,8 @@
   "Lumenore",
   "Cognitio Analytics",
   "Decathlon India",
-  "Wakefit",
   "Haldiram's",
+  "Wakefit",
   "Pernod Ricard India",
   "The Souled Store",
   "Jubilant FoodWorks",
@@ -210,65 +204,80 @@
   "LG Electronics India",
   "Escorts Kubota",
   "Godrej & Boyce (Godrej Enterprises)",
-  "MG Motor India",
   "Vedanta",
-  "JSW Group",
-  "TCI (Transport Corporation of India)"
+  "TCI (Transport Corporation of India)",
+  "JSW Group"
  ],
- "relevant_open": 1022,
+ "relevant_open": 1069,
  "new": [
   {
-   "company": "Northern Trust",
-   "title": "KYC Analyst",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/KYC-Analyst_R162946",
-   "location": "Bangalore, India",
-   "posted": "Posted Today",
-   "source": "workday",
+   "company": "HSBC",
+   "title": "Analyst - Calculation Compliance",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612557539",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "1793258201",
+   "source": "eightfold",
    "extra": {
-    "externalPath": "/job/Bangalore-India/KYC-Analyst_R162946",
+    "id": 563774612557539,
     "category": "Banks & FS",
     "found": "2026-10-30",
-    "posted": "2026-10-30",
+    "posted": "2026-10-29",
     "verdict": "no experience stated"
    },
-   "key": "7d37ce8491210f37"
+   "key": "bffc2f2eddc60eda"
+  },
+  {
+   "company": "HSBC",
+   "title": "Governance Functional Business Analyst",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612556772",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "1793248618",
+   "source": "eightfold",
+   "extra": {
+    "id": 563774612556772,
+    "category": "Banks & FS",
+    "found": "2026-10-30",
+    "posted": "2026-10-29",
+    "verdict": "no experience stated"
+   },
+   "key": "c01414c0b5e25c2a"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Analyst - BA4",
+   "url": "https://search.jobs.barclays/job/mumbai/business-analyst-ba4/13015/102630302944",
+   "location": "Mumbai, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b4165f483a56c5a8"
   },
   {
    "company": "American Express",
-   "title": "Analyst-Data Science",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015735",
+   "title": "Apprentice",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015439",
    "location": "Gurugram, HR, India",
    "posted": "2026-10-30",
    "source": "oracle",
    "extra": {
-    "id": "26015735",
+    "id": "26015439",
     "category": "Banks & FS",
     "found": "2026-10-30",
     "posted": "2026-10-30",
-    "verdict": ""
+    "verdict": "fresher-friendly"
    },
-   "key": "ece6d8017601c2ab"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "T&T | Customer | S&S | Consultant | MS Dynamics CRM | Hyderabad",
-   "url": "https://southasiacareers.deloitte.com/job/Hyderabad-T&T-Customer-S&S-Consultant-MS-Dynamics-CRM-Hyderabad/59427344/",
-   "location": "Hyderabad, IN",
-   "posted": "",
-   "source": "html",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "33bc79353627a0d5"
+   "key": "fbca7e153b404ad6"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443438533/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452825933/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -277,13 +286,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "45f87300a1a8eeb6"
+   "key": "dce2707e6e157b52"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443438533/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452825933/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -292,13 +301,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "45f87300a1a8eeb6"
+   "key": "dce2707e6e157b52"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443459033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452822833/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -307,13 +316,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "ea16de92d7d5698b"
+   "key": "c36b500b3dab601e"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443459033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452822833/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -322,13 +331,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "ea16de92d7d5698b"
+   "key": "c36b500b3dab601e"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443441633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452810533/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -337,13 +346,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "8c2a701317875f15"
+   "key": "ada13cb6b668432d"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443441633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452810533/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -352,13 +361,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "8c2a701317875f15"
+   "key": "ada13cb6b668432d"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443464033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452819633/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -367,13 +376,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e879036ae63f9b3a"
+   "key": "51bc6a7262374d0d"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443464033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452819633/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -382,102 +391,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e879036ae63f9b3a"
+   "key": "51bc6a7262374d0d"
   },
   {
    "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443446033/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5f9dd3079d1ab66"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443446033/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5f9dd3079d1ab66"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443443933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dd5ed51458789823"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443443933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dd5ed51458789823"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Gurgaon-HR-122003/1411657033/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7349337ad3c18bc3"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Gurgaon-HR-122003/1411657033/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7349337ad3c18bc3"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1422346133/",
+   "title": "Industrial Trainee - SaT - National - SaT - TCF - Financial Diligence - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Financial-Diligence-Mumbai-MH-400028/1452896833/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -487,12 +406,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d64c7109e3d945eb"
+   "key": "a61b586acbc7d917"
   },
   {
    "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1422346133/",
+   "title": "Industrial Trainee - SaT - National - SaT - TCF - Financial Diligence - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Financial-Diligence-Mumbai-MH-400028/1452896833/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -502,149 +421,75 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d64c7109e3d945eb"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1422540833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b0126fe1f6f7197a"
-  },
-  {
-   "company": "EY India",
-   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1422540833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b0126fe1f6f7197a"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1441147033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a555d87567e10542"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1441147033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a555d87567e10542"
-  },
-  {
-   "company": "EY India",
-   "title": "ITTS - TP - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-ITTS-TP-Advanced-Analyst-KA-560016/1430628933/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c68d50efbf01f54"
-  },
-  {
-   "company": "EY India",
-   "title": "ITTS - TP - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-ITTS-TP-Advanced-Analyst-KA-560016/1430628933/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c68d50efbf01f54"
-  },
-  {
-   "company": "EY India",
-   "title": "Risk Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Risk-Analyst-KA-560048/1452752933/",
-   "location": "Bengaluru, KA, IN, 560048",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "669ec2bc394cf8f8"
-  },
-  {
-   "company": "EY India",
-   "title": "Risk Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Risk-Analyst-KA-560048/1452752933/",
-   "location": "Bengaluru, KA, IN, 560048",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "669ec2bc394cf8f8"
+   "key": "a61b586acbc7d917"
   },
   {
    "company": "KPMG Global Services (KGS)",
-   "title": "Analyst",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051307",
+   "title": "Analyst FTS",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051256",
    "location": "Gurgaon, Haryana, India",
    "posted": "2026-10-30",
    "source": "oracle",
    "extra": {
-    "id": "30051307",
+    "id": "30051256",
+    "category": "Consulting & Analytics",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "cf30c4eb90e24639"
+  },
+  {
+   "company": "Amazon",
+   "title": "Business Analyst - Payments, Business Analyst - Payments",
+   "url": "https://www.amazon.jobs/en/jobs/10593289/business-analyst-payments-business-analyst-payments",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted": "October 30, 2026",
+   "source": "amazon",
+   "extra": {
+    "category": "Global Tech & FMCG",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": ""
+   },
+   "key": "9a93dc4344f60e94"
+  },
+  {
+   "company": "Amazon",
+   "title": "FinOps Analyst- AP",
+   "url": "https://www.amazon.jobs/en/jobs/10592944/finops-analyst-ap",
+   "location": "Hyderabad, Telangana, IND",
+   "posted": "October 30, 2026",
+   "source": "amazon",
+   "extra": {
+    "category": "Global Tech & FMCG",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": ""
+   },
+   "key": "91c22be3316f31cb"
+  },
+  {
+   "company": "Genpact",
+   "title": "Analyst - Process Analytics - S&M 5B",
+   "url": "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-GIPL-301-Silver-Metropolis-3Fl-Mumbai/Analyst---Process-Analytics---S-M-5B_JR10033999",
+   "location": "1401-GIPL: 301, Silver Metropolis, 3Fl, Mumbai",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/1401-GIPL-301-Silver-Metropolis-3Fl-Mumbai/Analyst---Process-Analytics---S-M-5B_JR10033999",
     "category": "Consulting & Analytics",
     "found": "2026-10-30",
     "posted": "2026-10-30",
     "verdict": "no experience stated"
    },
-   "key": "5501a695382eb4b0"
+   "key": "3e68d45eb9e13ae0"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443438533/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452825933/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -653,13 +498,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "45f87300a1a8eeb6"
+   "key": "dce2707e6e157b52"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443438533/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452825933/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -668,13 +513,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "45f87300a1a8eeb6"
+   "key": "dce2707e6e157b52"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443459033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452822833/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -683,13 +528,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "ea16de92d7d5698b"
+   "key": "c36b500b3dab601e"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443459033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452822833/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -698,13 +543,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "ea16de92d7d5698b"
+   "key": "c36b500b3dab601e"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443441633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452810533/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -713,13 +558,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "8c2a701317875f15"
+   "key": "ada13cb6b668432d"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443441633/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452810533/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -728,13 +573,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "8c2a701317875f15"
+   "key": "ada13cb6b668432d"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443464033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452819633/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -743,13 +588,13 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e879036ae63f9b3a"
+   "key": "51bc6a7262374d0d"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443464033/",
-   "location": "Bengaluru, KA, IN, 560001",
+   "title": "Analyst - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Hyderabad",
+   "url": "https://careers.ey.com/ey/job/Hyderabad-Analyst-Business-Consulting-Risk-TMT-CNS-Risk-Process-&-Controls-Hyderabad-500032/1452819633/",
+   "location": "Hyderabad, IN, 500032",
    "posted": "",
    "source": "successfactors",
    "extra": {
@@ -758,102 +603,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "e879036ae63f9b3a"
+   "key": "51bc6a7262374d0d"
   },
   {
    "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443446033/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5f9dd3079d1ab66"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443446033/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5f9dd3079d1ab66"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443443933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dd5ed51458789823"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1443443933/",
-   "location": "Bengaluru, KA, IN, 560001",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dd5ed51458789823"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Gurgaon-HR-122003/1411657033/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7349337ad3c18bc3"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant-Forensics-National-ASU-Forensics-Investigations & Compliance-Gurgaon",
-   "url": "https://careers.ey.com/ey/job/Gurugram-Associate-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Gurgaon-HR-122003/1411657033/",
-   "location": "Gurugram, HR, IN, 122003",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7349337ad3c18bc3"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1422346133/",
+   "title": "Industrial Trainee - SaT - National - SaT - TCF - Financial Diligence - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Financial-Diligence-Mumbai-MH-400028/1452896833/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -863,12 +618,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d64c7109e3d945eb"
+   "key": "a61b586acbc7d917"
   },
   {
    "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Mumbai-MH-400028/1422346133/",
+   "title": "Industrial Trainee - SaT - National - SaT - TCF - Financial Diligence - Mumbai",
+   "url": "https://careers.ey.com/ey/job/Mumbai-Industrial-Trainee-SaT-National-SaT-TCF-Financial-Diligence-Mumbai-MH-400028/1452896833/",
    "location": "Mumbai, MH, IN, 400028",
    "posted": "",
    "source": "successfactors",
@@ -878,132 +633,88 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "d64c7109e3d945eb"
+   "key": "a61b586acbc7d917"
   },
   {
-   "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1422540833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
+   "company": "NielsenIQ India",
+   "title": "Data Operations Analyst (Non-Technical)",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000158678051",
+   "location": "Gurgaon, HR, in",
+   "posted": "2026-10-30T07:54:42.283Z",
+   "source": "smartrecruiters",
+   "extra": {
+    "id": "744000158678051",
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "no experience stated"
+   },
+   "key": "8321400cf0ab383b"
+  },
+  {
+   "company": "Sigmoid Analytics",
+   "title": "Resource Management Analyst Intern",
+   "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8921297002",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-10-30T06:41:51-04:00",
+   "source": "greenhouse",
    "extra": {
     "category": "Consulting, IT & Knowledge Services",
     "found": "2026-10-30",
-    "posted": "",
+    "posted": "2026-10-30",
     "verdict": "fresher-friendly"
    },
-   "key": "b0126fe1f6f7197a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Associate Consultant - Business Consulting Risk - GOV - CNS - Risk - Risk Management - New Delhi",
-   "url": "https://careers.ey.com/ey/job/New-Delhi-Associate-Consultant-Business-Consulting-Risk-GOV-CNS-Risk-Risk-Management-New-Delhi-Nati-110037/1422540833/",
-   "location": "New Delhi, National Capital Territory, IN, 110037",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b0126fe1f6f7197a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1441147033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a555d87567e10542"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - TMT - CNS - RISK - DIGITAL RISK - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-TMT-CNS-RISK-DIGITAL-RISK-Mumbai-MH-400028/1441147033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a555d87567e10542"
-  },
-  {
-   "company": "EY GDS",
-   "title": "ITTS - TP - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-ITTS-TP-Advanced-Analyst-KA-560016/1430628933/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c68d50efbf01f54"
-  },
-  {
-   "company": "EY GDS",
-   "title": "ITTS - TP - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-ITTS-TP-Advanced-Analyst-KA-560016/1430628933/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6c68d50efbf01f54"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Risk Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Risk-Analyst-KA-560048/1452752933/",
-   "location": "Bengaluru, KA, IN, 560048",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "669ec2bc394cf8f8"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Risk Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-Risk-Analyst-KA-560048/1452752933/",
-   "location": "Bengaluru, KA, IN, 560048",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-10-30",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "669ec2bc394cf8f8"
+   "key": "3f6ffbc6f4a31b1d"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Pune-Apprentice-MH-411001/53987680/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "3a873c9972c5d86d"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "3a873c9972c5d86d"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "3a873c9972c5d86d"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Pench-Apprentice-MP-480661/54317880/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1013,12 +724,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4c320864aa09ae92"
+   "key": "b3eb9379999516b1"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Pune-Apprentice-MH-411001/53987680/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Pench-Apprentice-MP-480661/54317880/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1028,12 +739,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4c320864aa09ae92"
+   "key": "b3eb9379999516b1"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Pune-Apprentice-MH-411001/53987680/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Pench-Apprentice-MP-480661/54317880/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1043,12 +754,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "4c320864aa09ae92"
+   "key": "b3eb9379999516b1"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54139880/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Lucknow-Apprentice-UP-226010/54316680/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1058,12 +769,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b206d8540eb1ecb3"
+   "key": "b49095ace237700e"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54139880/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Lucknow-Apprentice-UP-226010/54316680/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1073,12 +784,12 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b206d8540eb1ecb3"
+   "key": "b49095ace237700e"
   },
   {
    "company": "IHCL (Taj)",
    "title": "Apprentice",
-   "url": "https://careers.ihcltata.com/IHCL/job/Bhopal-Apprentice-MP-462003/54139880/",
+   "url": "https://careers.ihcltata.com/IHCL/job/Lucknow-Apprentice-UP-226010/54316680/",
    "location": "",
    "posted": "",
    "source": "successfactors",
@@ -1088,199 +799,762 @@
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "b206d8540eb1ecb3"
+   "key": "b49095ace237700e"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "1629b2de996c981a"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "1629b2de996c981a"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Bandhavgarh-Apprentice-MP-484661/54317580/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "1629b2de996c981a"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54318480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9f64d9a8073a990f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54318480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9f64d9a8073a990f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-Job-GA-403519/54318480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9f64d9a8073a990f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "07adc57417d4a9e9"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "07adc57417d4a9e9"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318680/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "07adc57417d4a9e9"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318880/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "385459cd07b7381f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318880/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "385459cd07b7381f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318880/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "385459cd07b7381f"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f6215ba5102f1ebe"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f6215ba5102f1ebe"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f6215ba5102f1ebe"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ca3a4d81a7e58ac2"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ca3a4d81a7e58ac2"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318280/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ca3a4d81a7e58ac2"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e3f2b659f73d530c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e3f2b659f73d530c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318780/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e3f2b659f73d530c"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0a6a3fb11db049ff"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0a6a3fb11db049ff"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54318980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0a6a3fb11db049ff"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54319080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ac160ce8f2585286"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54319080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ac160ce8f2585286"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/54319080/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ac160ce8f2585286"
   },
   {
    "company": "Honeywell India",
-   "title": "IP Analyst I",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161046",
-   "location": "Bengaluru, Karnataka, India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161051",
+   "location": "Gurugram, Haryana, India",
    "posted": "2026-10-30",
    "source": "oracle",
    "extra": {
-    "id": "161046",
+    "id": "161051",
     "category": "Corporates, FMCG, Pharma & Global Tech",
     "found": "2026-10-30",
     "posted": "2026-10-30",
-    "verdict": ""
-   },
-   "key": "691bd8c77d27dab3"
-  },
-  {
-   "company": "Goldman Sachs",
-   "title": "Global Banking & Markets Operations- BD Services -Analyst-Bengaluru Bengaluru · India · Analyst",
-   "url": "https://higher.gs.com/roles/187881",
-   "location": "",
-   "posted": "",
-   "source": "browser",
-   "extra": {
-    "category": "Banks & FS",
-    "found": "2026-10-30",
-    "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "1991415ea58ceaa0"
+   "key": "c14b47fcecead81d"
   },
   {
-   "company": "Goldman Sachs",
-   "title": "Global Banking & Markets Operations- Prime Brokerage & BD Ops-Analyst-Bengaluru Bengaluru · India · Analyst",
-   "url": "https://higher.gs.com/roles/187882",
-   "location": "",
-   "posted": "",
-   "source": "browser",
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161053",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
    "extra": {
-    "category": "Banks & FS",
+    "id": "161053",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
     "found": "2026-10-30",
-    "posted": "",
-    "verdict": "no experience stated"
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
    },
-   "key": "304c4225195818fe"
+   "key": "7ece7e02e5a9d120"
   },
   {
-   "company": "ADP India",
-   "title": "WWCO - Sales Data Analytics 172378",
-   "url": "https://jobs.adp.com/en/jobs/ind172378/wwco-sales-data-analytics-172378/",
-   "location": "Hyderabad, Telangana, India",
-   "posted": "",
-   "source": "browser",
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161055",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
    "extra": {
+    "id": "161055",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "d9f7f1d45336649f"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161056",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161056",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "bb8123966bad3be3"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161057",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161057",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0b512573ec4f34d0"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Mech Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161058",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161058",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "7511e6eabd032fc2"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Chemical Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161059",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161059",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "810bda34c4effa18"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Systems Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161060",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161060",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0649f0386f1702af"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Systems Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161063",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161063",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "87f57d1dde40e1c5"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors App Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161064",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161064",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9f5f0bf3b93a14ac"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors App Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161065",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161065",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "9c118f004bf68e66"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Systems Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161066",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161066",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "21828b35c5ca1aa5"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors App Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161067",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161067",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "abb6ee4ad196bd2e"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors App Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161068",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161068",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c59df24378b3d70d"
+  },
+  {
+   "company": "Honeywell India",
+   "title": "Intern Bachelors Systems Eng",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161069",
+   "location": "Pune, Maharashtra, India",
+   "posted": "2026-10-30",
+   "source": "oracle",
+   "extra": {
+    "id": "161069",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "fresher-friendly"
+   },
+   "key": "c37b89c5e2fc8bc4"
+  },
+  {
+   "company": "Caterpillar India",
+   "title": "Material Planning Analyst-1",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chhatrapati-Sambhaji-Nagar--Maharashtra/Material-Planning-Analyst-1_R0000402244",
+   "location": "Chhatrapati Sambhaji Nagar,  Maharashtra",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Chhatrapati-Sambhaji-Nagar--Maharashtra/Material-Planning-Analyst-1_R0000402244",
     "category": "Global Capability Centres",
     "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "no experience stated"
+   },
+   "key": "795ea491363a5c5c"
+  },
+  {
+   "company": "Caterpillar India",
+   "title": "Finance Analyst (Invoice to Cash)",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/Senior-Analyst---Invoice-to-Cash_R0000379714",
+   "location": "Bangalore, Karnataka",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Bangalore-Karnataka/Senior-Analyst---Invoice-to-Cash_R0000379714",
+    "category": "Global Capability Centres",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "no experience stated"
+   },
+   "key": "f04262c6118aa24d"
+  },
+  {
+   "company": "Caterpillar India",
+   "title": "IT Analyst Applications - File Transfer Administrator",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Bangalore-Karnataka/IT-Analyst-Applications---File-Transfer-Administrator_R0000402587",
+   "location": "Bangalore, Karnataka",
+   "posted": "Posted Today",
+   "source": "workday",
+   "extra": {
+    "externalPath": "/job/Bangalore-Karnataka/IT-Analyst-Applications---File-Transfer-Administrator_R0000402587",
+    "category": "Global Capability Centres",
+    "found": "2026-10-30",
+    "posted": "2026-10-30",
+    "verdict": "no experience stated"
+   },
+   "key": "d9591b2543a3ebdf"
+  },
+  {
+   "company": "Aon",
+   "title": "IND Analyst I Health - Broking",
+   "url": "https://jobs.aon.com/jobs/107301?lang=en-us&previousLocale=en-US",
+   "location": "Location Bengaluru, Karnataka\nIN",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-30",
     "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "782b70604ee55a3e"
+   "key": "66faeca31a2a9373"
+  },
+  {
+   "company": "Aon",
+   "title": "IND Data Analyst I",
+   "url": "https://jobs.aon.com/jobs/107298?lang=en-us&previousLocale=en-US",
+   "location": "Location Bengaluru, Karnataka\nIN",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "f03e9f22ac161d36"
+  },
+  {
+   "company": "ShareChat",
+   "title": "Marketing Intern",
+   "url": "https://sharechat.mynexthire.com/employer/jobs?src=careers&p=eyJwYWdlVHlwZSI6ImpkIiwiY3ZTb3VyY2UiOiJjYXJlZXJzIiwicmVxSWQiOjI0OTEsInJlcXVlc3RlciI6eyJpZCI6IiIsImNvZGUiOiIiLCJuYW1lIjoiIn0sInBhZ2UiOiJjYXJlZXJzIiwiYnVmaWx0ZXIiOi0xLCJjdXN0b21GaWVsZHMiOnt9fQ==",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Indian Startups & Consumer Internet",
+    "found": "2026-10-30",
+    "posted": "",
+    "verdict": "description not readable (unverified)"
+   },
+   "key": "26bb7ea2c9fc8aba"
   }
  ],
  "dropped_after_reading": [
   {
-   "company": "American Express",
-   "title": "Analyst-Data Science",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015813",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "Consultant | D365 F&O - Functional Finance | Mumbai | Emerging ERP Solutions",
-   "url": "https://southasiacareers.deloitte.com/job/Mumbai-Consultant-D365-F&O-Functional-Finance-Mumbai-Emerging-ERP-Solutions/58497244/",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "Consultant | D365 F&O - Functional Finance | Mumbai | Emerging ERP Solutions",
-   "url": "https://southasiacareers.deloitte.com/job/Mumbai-Consultant-D365-F&O-Functional-Finance-Mumbai-Emerging-ERP-Solutions/58497144/",
-   "why": "asks 4+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "Manager | APM: Asset Management PM | Delhi | Finance Transformation | Finance Strategy",
-   "url": "https://southasiacareers.deloitte.com/job/Delhi-Manager-APM-Asset-Management-PM-Delhi-Finance-Transformation-Finance-Strategy/59430244/",
-   "why": "asks 10+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "T&T | Consultant | Change Management | Bengaluru,Delhi,Mumbai | Organizational Transformation",
-   "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-Consultant-Change-Management-Bengaluru%2CDelhi%2CMumbai-Organizational-Transformation/60295444/",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "T&T | Consultant | Change Management (Learning) | Bengaluru | Organizational Transformation",
-   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-T&T-Consultant-Change-Management-%28Learning%29-Bengaluru-Organizational-Transformation/60283044/",
-   "why": "asks 2+ years"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "Consultant | PEGA | Bengaluru | Artificial Intelligence & Data | Robotics Process Automation",
-   "url": "https://southasiacareers.deloitte.com/job/Bengaluru-Consultant-PEGA-Bengaluru-Artificial-Intelligence-&-Data-Robotics-Process-Automation/61108844/",
-   "why": "asks 4+ years"
+   "company": "Morningstar",
+   "title": "Apprentice",
+   "url": "https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/Mumbai/Apprentice_REQ-059110-1",
+   "why": "requires CMA"
   },
   {
    "company": "Experian India",
-   "title": "Risk Analyst – Data Science & Analytics",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000158665909",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Experian India",
-   "title": "Risk Analyst – Data Science & Analytics",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000158665379",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Experian India",
-   "title": "Risk Analyst – Data Science & Analytics",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000158664969",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Experian India",
-   "title": "Analytics Consultant",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000158664304",
-   "why": "asks 8+ years"
+   "title": "Compliance Analyst",
+   "url": "https://jobs.smartrecruiters.com/Experian/744000158687715",
+   "why": "requires MBA"
   }
  ],
  "rejected_sample": [
-  {
-   "company": "HSBC",
-   "title": "Head of Fraud Business Intelligence and Insights",
-   "location": "Bangalore, Karnataka, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Microsoft Power Platform, Co-pilot studio / Consultant Specialist",
-   "location": "Hyderabad, Telangana, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Sales Manager, GNB, GPS",
-   "location": "Gurugram, Haryana, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "Devops, GCP, Docker, Kubernetes / Consultant Specialist",
-   "location": "Hyderabad, Telangana, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Java, Springboot, Docker / Consultant Specialist",
-   "location": "Hyderabad, Telangana, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "IBM, WebSphere, AEM Forms scripting / Senior Consultant Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Product Control",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "VP Product Control",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "HSBC",
-   "title": "Manager Sales and Distribution",
-   "location": "New Delhi, National Capital Territory, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "HSBC",
-   "title": "AVP Sales and Distribution",
-   "location": "Indore, Madhya Pradesh, India",
-   "why": "excluded keyword"
-  },
   {
    "company": "Citi",
    "title": "BANAMEX- Desarrollador Adobe Experience Manager - Desarrollador Web",
@@ -2440,6 +2714,108 @@
    "why": "location 'Mississauga, Ontario, Canada' not India"
   },
   {
+   "company": "HSBC",
+   "title": "Unix Shell Scripting/Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Avaloq / Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Quality Engineer / Senior Software Engineer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Senior Universal Banker",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Data and AI Engineering/Senior Associate Director, Data and Analytics",
+   "location": "Hyderabad, Telangana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "GCP, Bigquery, Python, Agentic AI/Senior Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Head of Fraud Business Intelligence and Insights",
+   "location": "Bangalore, Karnataka, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Microsoft Power Platform, Co-pilot studio / Consultant Specialist",
+   "location": "Hyderabad, Telangana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fraud Operations - Team Manager",
+   "location": "Pune, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Java Software Engineer -VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP FC TM Control Owner",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President - Treasury Financial Control",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Associate – TMT",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Financial Control",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Relationship Director - Correspondent Banking",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
    "company": "Barclays",
    "title": "Automation Tester",
    "location": "Pune, India",
@@ -3281,12 +3657,6 @@
   },
   {
    "company": "Barclays",
-   "title": "Scrum Master - AVP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
    "title": "Software Engineer",
    "location": "Pune, India",
    "why": "excluded keyword"
@@ -3455,6 +3825,12 @@
   },
   {
    "company": "Barclays",
+   "title": "Regional Program Manager, Field Sales",
+   "location": "United States",
+   "why": "location 'United States' not India"
+  },
+  {
+   "company": "Barclays",
    "title": "Customer Service Advisor",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -3514,112 +3890,70 @@
    "why": "location 'Glasgow, United Kingdom; Greater Manchester, United Kingdom' not India"
   },
   {
-   "company": "Barclays",
-   "title": "AVP - Cloud Adoption & Scalability",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
+   "company": "Macquarie",
+   "title": "Macquarie Group Home Page",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Digital Assets Strategy - VP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
+   "company": "Macquarie",
+   "title": "Find out more",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Wholesale Credit Risk Sanctioning - LevFin - VP",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
+   "company": "Macquarie",
+   "title": "Featured jobs",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Senior Regional Economist, Emerging Asia",
-   "location": "Singapore, Singapore",
-   "why": "location 'Singapore, Singapore' not India"
+   "company": "Macquarie",
+   "title": "Set up a job alert",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Business Oversight Compliance Specialist (Macro) - AVP",
-   "location": "Singapore, Singapore",
-   "why": "location 'Singapore, Singapore' not India"
+   "company": "Macquarie",
+   "title": "Resourcing Partner (Hudson Talent Solutions)",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "GTSM - Site Reliability Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
+   "company": "Macquarie",
+   "title": "Analyst, Personal Banking Third-Party Distribution Risk",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Workday Specialist (HCM Consultant) AVP - FTC until the end of December 2027",
-   "location": "London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
+   "company": "Macquarie",
+   "title": "Senior Manager, Personal Banking Third-Party Distribution Risk",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Product Owner - AI Products",
-   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+   "company": "Macquarie",
+   "title": "Service Delivery Manager",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Financial Institutions - Cash Sales Manager",
-   "location": "Frankfurt am Main, Germany",
-   "why": "location 'Frankfurt am Main, Germany' not India"
+   "company": "Macquarie",
+   "title": "Executive Assistant",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Technical Specialist Practitioner",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
+   "company": "Macquarie",
+   "title": "People Experience Support Lead",
+   "location": "",
+   "why": "location '' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Governance and Control Manager – Quality Assurance AVP",
-   "location": "Gurugram, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (20 Hours) Associate Banker, Euclid Lakeshore Branch, Euclid, OH",
-   "location": "Euclid, OH, United States",
-   "why": "location 'Euclid, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Simi Valley Market - Thousand Oaks, CA and Surrounding Areas",
-   "location": "Thousand Oaks, CA, United States",
-   "why": "location 'Thousand Oaks, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Portfolio & Performance Analyst",
-   "location": "Newark, DE, United States",
-   "why": "location 'Newark, DE, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (20 Hours) Associate Banker, Euclid Lakeshore Branch, Euclid, OH",
-   "location": "Euclid, OH, United States",
-   "why": "location 'Euclid, OH, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Private Client Banker - Medford and Clementon (New Builds) - South Jersey Market",
-   "location": "Medford, NJ, United States",
-   "why": "location 'Medford, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Relationship Banker - Medford and Clementon (New Builds) - South Jersey Market",
-   "location": "Medford, NJ, United States",
-   "why": "location 'Medford, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Baltimore, Maryland - Fells Point Branch",
-   "location": "Baltimore, MD, United States",
-   "why": "location 'Baltimore, MD, United States' not India"
+   "company": "Macquarie",
+   "title": "Manager, Group Finance Non-Financial Risk and Reporting",
+   "location": "",
+   "why": "location '' not India"
   }
  ]
 }
