@@ -1,18 +1,14 @@
 {
- "when": "2026-11-01 03:08 IST",
- "sources_ok": 509,
+ "when": "2026-11-01 11:40 IST",
+ "sources_ok": 508,
  "sources_failed": [
   [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
   ],
   [
-   "Johnson & Johnson India",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.careers.jnj.com/en/jobs/?country=India\", waiting until \"commit\"\n"
-  ],
-  [
-   "ServiceNow India",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://careers.servicenow.com/jobs/?location=India\", waiting until \"commit\"\n"
+   "FirstCry",
+   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "SBI Card",
@@ -21,6 +17,10 @@
   [
    "Yes Bank",
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
+  ],
+  [
+   "HDFC ERGO",
+   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.hdfcergo.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "Niva Bupa",
@@ -71,12 +71,17 @@
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.havells.com/\nCall log:\n  - navigating to \"https://careers.havells.com/\", waiting until \"commit\"\n"
   ],
   [
+   "Voltas",
+   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.voltas.com/careers\nCall log:\n  - navigating to \"https://www.voltas.com/careers\", waiting until \"commit\"\n"
+  ],
+  [
    "Eicher Motors / Royal Enfield",
    "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.royalenfield.com/us/en/search-results\nCall log:\n  - navigating to \"https://careers.royalenfield.com/us/"
   ]
  ],
  "sources_zero": [
   "Air India",
+  "Bank of America",
   "BNP Paribas",
   "KPMG India",
   "LatentView Analytics",
@@ -90,6 +95,7 @@
   "Navi",
   "Ola",
   "Cars24",
+  "Delhivery",
   "PhysicsWallah",
   "Nestle India",
   "Grant Thornton Bharat",
@@ -110,12 +116,12 @@
   "Dabur",
   "Emami",
   "Britannia",
-  "Dr. Reddy's",
   "Schneider Electric India",
   "Credit Agricole CIB",
-  "Allianz India",
   "Levi Strauss India",
+  "Allianz India",
   "FactSet",
+  "Acuity Analytics (Acuity Knowledge Partners)",
   "Kotak Mahindra Bank",
   "Pine Labs",
   "Setu",
@@ -123,27 +129,24 @@
   "Angel One",
   "INDmoney",
   "Acko",
-  "Go Digit Insurance",
   "Pepperfry",
   "Porter",
   "Ecom Express",
-  "Rapido",
-  "ixigo",
-  "XpressBees",
   "Games24x7",
+  "XpressBees",
+  "ixigo",
   "MPL",
-  "Dailyhunt (VerSe)",
   "Practo",
+  "Dailyhunt (VerSe)",
   "NoBroker",
-  "Moglix",
   "Infra.Market",
+  "Moglix",
   "OfBusiness",
   "upGrad",
   "Unacademy",
   "Ather Energy",
   "IndusInd Bank",
   "L&T Finance",
-  "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
   "ICICI Prudential Life",
   "HDFC Life",
@@ -151,32 +154,32 @@
   "Tata AIA Life",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
   "ICICI Lombard",
-  "HDFC ERGO",
   "Axis Max Life Insurance",
   "Care Health Insurance",
   "Tata Asset Management",
   "Star Health",
   "HDFC AMC",
-  "ICICI Prudential AMC",
   "SBI Funds Management",
   "Nippon Life India Asset Management",
+  "ICICI Prudential AMC",
   "Kotak Mahindra AMC",
   "Mirae Asset India",
   "ICICI Securities",
   "BSE",
   "CDSL",
-  "smallcase",
   "Dhan (Raise Securities)",
+  "smallcase",
   "Uni Cards",
   "M2P Fintech",
   "IDfy",
   "CleverTap",
   "WebEngage",
-  "Unicommerce",
   "Zluri",
+  "Unicommerce",
   "Capillary Technologies",
-  "Atlan",
   "Rocketlane",
+  "Atlan",
+  "Spinny",
   "CarTrade Tech",
   "Info Edge (Naukri/99acres)",
   "Square Yards",
@@ -187,13 +190,13 @@
   "Ultraviolette",
   "Simple Energy",
   "ChargeZone",
-  "Jumbotail",
   "Battery Smart",
+  "Jumbotail",
   "Log9 Materials",
   "Shadowfax",
   "Fleetx",
-  "Pando",
   "FarEye",
+  "Pando",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
@@ -208,16 +211,16 @@
   "Affine",
   "MarketsandMarkets",
   "GEP Worldwide",
-  "GlobalData India",
   "HGS (Hinduja Global Solutions)",
+  "GlobalData India",
   "Kroll India",
   "Nexdigm",
   "Lumenore",
   "Cognitio Analytics",
   "Decathlon India",
   "Wakefit",
-  "The Souled Store",
   "Haldiram's",
+  "The Souled Store",
   "Pernod Ricard India",
   "Jubilant FoodWorks",
   "Zydus Wellness",
@@ -225,45 +228,1001 @@
   "Godrej & Boyce (Godrej Enterprises)",
   "Escorts Kubota",
   "Vedanta",
-  "JSW Group",
-  "TCI (Transport Corporation of India)"
+  "TCI (Transport Corporation of India)",
+  "JSW Group"
  ],
- "relevant_open": 1022,
+ "relevant_open": 1024,
  "new": [
   {
-   "company": "LSEG",
-   "title": "Content Analyst",
-   "url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0124300",
-   "location": "IND-BLR-Divyasree Technopolis",
-   "posted": "Posted Today",
-   "source": "workday",
+   "company": "Deloitte India",
+   "title": "Technology & Transformation | OIDS | Consultant | Strategy Consultant (Oil and Gas) | Delhi",
+   "url": "https://southasiacareers.deloitte.com/job/Delhi-Technology-&-Transformation-OIDS-Consultant-Strategy-Consultant-%28Oil-and-Gas%29-Delhi/56303544/",
+   "location": "Delhi, IN",
+   "posted": "",
+   "source": "html",
    "extra": {
-    "externalPath": "/job/IND-BLR-Divyasree-Technopolis/Content-Analyst_R0124300",
-    "category": "Finance, Insurance & Research",
+    "category": "Consulting & Analytics",
     "found": "2026-11-01",
-    "posted": "2026-11-01",
+    "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "17c34573a784bf36"
+   "key": "487d6f77109203cb"
   },
   {
-   "company": "eClerx",
-   "title": "Analyst",
-   "url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/85713",
-   "location": "Mumbai, Maharashtra, India",
-   "posted": "2026-10-31",
-   "source": "oracle",
+   "company": "EY India",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Bangalore-KA-560001/1434098333/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
    "extra": {
-    "id": "85713",
-    "category": "Finance, Insurance & Research",
+    "category": "Consulting & Analytics",
     "found": "2026-11-01",
-    "posted": "2026-10-31",
-    "verdict": "no experience stated"
+    "posted": "",
+    "verdict": "fresher-friendly"
    },
-   "key": "e94a0c550cccf910"
+   "key": "3c7e5a1ecb309a9c"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Bangalore-KA-560001/1434098333/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3c7e5a1ecb309a9c"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1434107233/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0d70b14c21fd5f68"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1434107233/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0d70b14c21fd5f68"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1433280933/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f45333b9b77f0a25"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1433280933/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f45333b9b77f0a25"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433303333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3589b1da35ecfa02"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433303333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3589b1da35ecfa02"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433352333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e8ad470846b2acd2"
+  },
+  {
+   "company": "EY India",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433352333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e8ad470846b2acd2"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433626133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "75e3dcf28964a7ec"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433626133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "75e3dcf28964a7ec"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199933/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ebf631913390a00a"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199933/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ebf631913390a00a"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "574bb63f4b658af5"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "574bb63f4b658af5"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199433/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "569f504c3a10985b"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199433/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "569f504c3a10985b"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433333133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3d8f23004c88e378"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433333133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3d8f23004c88e378"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433202033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b8fcd43431850a29"
+  },
+  {
+   "company": "EY India",
+   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433202033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b8fcd43431850a29"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1433212733/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "7f5bac9c70515694"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1433212733/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "7f5bac9c70515694"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433628433/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "1395a7c919f05dfe"
+  },
+  {
+   "company": "EY India",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433628433/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting & Analytics",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "1395a7c919f05dfe"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Bangalore-KA-560001/1434098333/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3c7e5a1ecb309a9c"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Forensics - National - ASU - Forensics - Investigations & Compliance - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Bangalore-KA-560001/1434098333/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3c7e5a1ecb309a9c"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1434107233/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0d70b14c21fd5f68"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1434107233/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0d70b14c21fd5f68"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1433280933/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f45333b9b77f0a25"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Analyst - Forensics - National - ASU - Forensics - Investigations & Compliance - Noida",
+   "url": "https://careers.ey.com/ey/job/Noida-Project-Analyst-Forensics-National-ASU-Forensics-Investigations-&-Compliance-Noida-UP-201304/1433280933/",
+   "location": "Noida, UP, IN, 201304",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "f45333b9b77f0a25"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433303333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3589b1da35ecfa02"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433303333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3589b1da35ecfa02"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433352333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e8ad470846b2acd2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Project Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433352333/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "e8ad470846b2acd2"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433626133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "75e3dcf28964a7ec"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433626133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "75e3dcf28964a7ec"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199933/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ebf631913390a00a"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199933/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "ebf631913390a00a"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "574bb63f4b658af5"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "574bb63f4b658af5"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199433/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "569f504c3a10985b"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433199433/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "569f504c3a10985b"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433333133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3d8f23004c88e378"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433333133/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "3d8f23004c88e378"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433202033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b8fcd43431850a29"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Associate Consultant - Business Consulting Risk - AMI - CNS - Risk - Process & Controls - Ahmedabad",
+   "url": "https://careers.ey.com/ey/job/Ahmedabad-Associate-Consultant-Business-Consulting-Risk-AMI-CNS-Risk-Process-&-Controls-Ahmedabad-GJ-380059/1433202033/",
+   "location": "Ahmedabad, GJ, IN, 380059",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "b8fcd43431850a29"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1433212733/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "7f5bac9c70515694"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - TMT - CNS - BC - FINANCE - Bangalore",
+   "url": "https://careers.ey.com/ey/job/Bengaluru-Consultant-Business-Consulting-PI-TMT-CNS-BC-FINANCE-Bangalore-KA-560001/1433212733/",
+   "location": "Bengaluru, KA, IN, 560001",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "7f5bac9c70515694"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433628433/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "1395a7c919f05dfe"
+  },
+  {
+   "company": "EY GDS",
+   "title": "Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi",
+   "url": "https://careers.ey.com/ey/job/New-Delhi-Consultant-Business-Consulting-PI-GOV-CNS-BC-Transformation-Delivery-New-Delhi-Nati-110037/1433628433/",
+   "location": "New Delhi, National Capital Territory, IN, 110037",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Consulting, IT & Knowledge Services",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "1395a7c919f05dfe"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/53482980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "6b95a2d7220d1439"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/53482980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "6b95a2d7220d1439"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/North-Goa-Apprentice-GA-403519/53482980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "6b95a2d7220d1439"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "30499732ce55caef"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "30499732ce55caef"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "30499732ce55caef"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "64ef03538f186568"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "64ef03538f186568"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Cochin-Apprentice-KL-682009/54155980/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "64ef03538f186568"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Faridabad-Apprentice-HR-121009/54004480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0e129d453ff696d6"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Faridabad-Apprentice-HR-121009/54004480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0e129d453ff696d6"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Faridabad-Apprentice-HR-121009/54004480/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-01",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0e129d453ff696d6"
   }
  ],
- "dropped_after_reading": [],
+ "dropped_after_reading": [
+  {
+   "company": "Bajaj Auto",
+   "title": "Company Secretary Trainee - BACL",
+   "url": "https://careers.bajajauto.com/job/Pipariya-Shahnai%2C-India-Company-Secretary-Trainee-BACL-Maha/1412998133/",
+   "why": "requires COMPANY SECRETARY"
+  },
+  {
+   "company": "Bajaj Auto",
+   "title": "Company Secretary Trainee - BACL",
+   "url": "https://careers.bajajauto.com/job/Pipariya-Shahnai%2C-India-Company-Secretary-Trainee-BACL-Maha/1412998133/",
+   "why": "requires COMPANY SECRETARY"
+  }
+ ],
  "rejected_sample": [
   {
    "company": "HSBC",
@@ -320,1144 +1279,10 @@
    "why": "manager-level"
   },
   {
-   "company": "Barclays",
-   "title": "FullStack Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Rates Quantitative Analyst -VP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Fraud Operations - Team Manager",
-   "location": "Pune, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Supplier Manager - Barclaycard Payments (BPL)",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Cryptography Operations Engineer",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI Software Engineer",
-   "location": "Knutsford, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Lead Full Stack Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Java Software Engineer -VP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Securitized Product Business Oversight Compliance - VP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Administrative Assistant",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Executive Assistant",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Onboarding Business Partner",
-   "location": "Monaco, Monaco",
-   "why": "location 'Monaco, Monaco' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Chief Client Office - Client Data & Engineering Group Summer Internship Program 2027 New York City",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "VP - Investment Consultant Relations",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Technical Product Owner",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Specialist Customer Care",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "BUK TESCO Bank IN- Platforms-API Technical Product Owner - VP",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI/ML Data Scientist",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assistant Vice President - Treasury Financial Control",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Investment Banking Equity Capital Markets Healthcare Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Associate – TMT",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Relationship Director - Crown Dependencies",
-   "location": "Saint Helier, Jersey",
-   "why": "location 'Saint Helier, Jersey' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Financial Control",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Relationship Director - Correspondent Banking",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "2027 Customer and Digital - Data and Analytics Summer Internship Programme Glasgow",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "2027 Business Banking Apprenticeship Programme Manchester",
-   "location": "Greater Manchester, United Kingdom",
-   "why": "location 'Greater Manchester, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Automation Tester",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Speech Analyst",
-   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Scrum Master - VP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Director - Loans & Affordability",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Economic Crime Risk Manager - Product Review",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Economic Crime Consequence and Exit Management",
-   "location": "Northampton, United Kingdom; London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assistant Vice President - Applied AI Engineer",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineer - BA4",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI Engineering Lead-VP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Credit Risk Business Analyst",
-   "location": "Glasgow, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom; Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Mortgage Research VP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Product Manager-Tech",
-   "location": "Gurugram, India; Noida, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Application Support - Service Engineer",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineering Lead",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Kafka Platform Engineer",
-   "location": "Knutsford, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom; Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineer - AI Platform",
-   "location": "Bengaluru, India; Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior UI Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Vice President ML Ops Engineer",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Quantitative Analyst AVP - Treasury",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Splunk SIEM Engineer",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Equity AVP - Restaurants",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP Internal Auditor – Barclays UK",
-   "location": "Northampton, United Kingdom",
-   "why": "location 'Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "PBWM Technology Lending Lead",
-   "location": "London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Technical Analyst.",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Business Architect - Process Engagement Lead",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Protection Officer",
-   "location": "Monaco, Monaco",
-   "why": "location 'Monaco, Monaco' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Corporate Development Director (Risk Transfer)",
-   "location": "Wilmington, United States; New York, United States",
-   "why": "location 'Wilmington, United States; New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "BARX Client Services: Macro-FX and Fixed Income Analyst",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Credit Specialist - 9m Fixed Term Contract",
-   "location": "Dublin, Ireland",
-   "why": "location 'Dublin, Ireland' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Site Reliability Engineer (SRE) - VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Service Manager - VP with Digital Assets Technology",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Vice President - Data Architect",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Controls Assurance",
-   "location": "Bengaluru, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Vice President - Software Engineer",
-   "location": "Tokyo, Japan",
-   "why": "location 'Tokyo, Japan' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Mergers & Acquisitions and Strategic Transactions Legal Counsel",
-   "location": "Glasgow, United Kingdom; Greater Manchester, United Kingdom; Birmingham, United ",
-   "why": "location 'Glasgow, United Kingdom; Greater Manchester, United Kingdom; Birmingham, United ' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Board Support Specialist",
-   "location": "Paris, France",
-   "why": "location 'Paris, France' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Surveillance Optimization - AVP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Automation test engineer",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Fraud Lead Product Owner (Value Stream / Platform) (Director)",
-   "location": "Whippany, United States; Wilmington, United States",
-   "why": "location 'Whippany, United States; Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "BUK TESCO Bank IN - Colleague Product Owner - VP",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Lead Engineer, Applied AI",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Full Stack Engineer - VP",
-   "location": "New York, United States; Whippany, United States",
-   "why": "location 'New York, United States; Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Journey Labs Software Engineer - AVP",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Insurance Cash Sales Manager",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Internal Audit AVP -Credit Risk",
-   "location": "Wilmington, United States",
-   "why": "location 'Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Product Owner - Capital Risk Technology: Regulatory Reporting",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Private Banker",
-   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
-   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Transaction Monitoring analytics - AVP",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Customer Service Advisor",
-   "location": "Shrewsbury, United Kingdom",
-   "why": "location 'Shrewsbury, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Rates Product Manager – Global Markets",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Infrastructure Cloud and DevOps Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Manager",
-   "location": "Bengaluru, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Agency CMO Trader/Structurer AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Marketing Insight and Measurement Manager",
-   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI Engineer, AVP",
-   "location": "Henderson, United States",
-   "why": "location 'Henderson, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Director, FX Product",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Quant / Agentic AI Developer - AVP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Transaction Monitoring – Analytics VP",
-   "location": "Gurugram, India; Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Specialist Customer Care",
-   "location": "Gurugram, India; Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Journey - Software Engineer - AVP",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Business Analyst/Project Manager in Structured Products Technology",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Mobile IN - VP UX Designer",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "BUK TESCO Bank Mobile IN - VP Product Owner",
-   "location": "Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Caching SRE Lead",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Product Owner",
-   "location": "Bengaluru, India; Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Fundamental Credit Research Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Fraud Ops",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - eTrading & Digital Asset Risk",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Director – Marketing Technology",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Copilot Agents -M365 Power platform",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Vice President _ Fraud Ops",
-   "location": "Pune, India; Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Banking Off Cycle Internship Programme 2027 Dubai",
-   "location": "United Arab Emirates",
-   "why": "location 'United Arab Emirates' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Residential Warehouse Trader Analyst",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineer",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Corporate FP&A Senior Analyst - BPL",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "ISDA Negotiator - AVP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Tax Operations Analyst",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Market Surveillance Optimization - VP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Product Manager",
-   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Equities Derivatives Strat, VP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Equity Research Aerospace & Defense/Defense Tech, AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Application Security Analyst",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Application Security Specialist",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Data Analyst - AVP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Barclays Internal Audit Prudential Regulatory Reporting VP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Director, Solution Architect Cash Settlement",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Manager - Vice President",
-   "location": "Pune, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Director, Corporate Development & Strategic Transactions - Barclaycard Payments - BPL",
-   "location": "London, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Manager - Northern Audit Survey",
-   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo",
-   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Test Automation Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Engineer - AI Platform",
-   "location": "Bengaluru, India; Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Analyst",
-   "location": "Northampton, United Kingdom",
-   "why": "location 'Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Barclays Europe Country Compliance",
-   "location": "Paris, France",
-   "why": "location 'Paris, France' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Product Owner",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Solution Architect",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Personal Assistant",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Personal Assistant",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Agile Testing Specialist",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Agile Testing Team Lead",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Financial Crime Agile Testing Specialist",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Manufacturing, Transport & Logistics",
-   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
-   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Hospitality & Leisure",
-   "location": "London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King",
-   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Product Sales Specialist – Transactional Banking",
-   "location": "London, United Kingdom; Greater Manchester, United Kingdom",
-   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Retail & Wholesale",
-   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo",
-   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Abinitio + Big data Dev",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "FX- Trade Floor Application Support",
-   "location": "Tokyo, Japan",
-   "why": "location 'Tokyo, Japan' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Test Automation Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Model Risk Management-BA3",
-   "location": "Noida, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Fraud Strategy Manager VP",
-   "location": "Wilmington, United States",
-   "why": "location 'Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Payments Regulatory Lawyer - VP",
-   "location": "Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni",
-   "why": "location 'Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Markets Strats - AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Lead Developer Advocate - VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "VP - Transaction Banking Product Manager",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "BPL - Risk Assessment Unit Analyst",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Commercial Analytics Manager - BPL",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "DevOps Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Execution & Oversight for USCB IB Markets CISO",
-   "location": "Wilmington, United States; Whippany, United States",
-   "why": "location 'Wilmington, United States; Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Azure Infra Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Digital Product Owner",
-   "location": "London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Sterling Developer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Audit Director – Head of Audit Ireland",
-   "location": "Dublin, Ireland; Paris, France",
-   "why": "location 'Dublin, Ireland; Paris, France' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Head of Commodities, Diversified Energy & Infrastructure, Trade & Working Capital",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Supplier Manager - French/Spanish Speaking",
-   "location": "Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Devops Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Scrum Master",
-   "location": "Pune, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "IB SR Refresh SME",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Model risk Conformance",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Product Manager",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "KYC Processing Analyst",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP, Financial Institutions Group, Cash Management Sales Associate",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Controls Assurance - AVP",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Transformation Lead, PBWM India",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Service / Personal Banker",
-   "location": "Aberdeen, United Kingdom",
-   "why": "location 'Aberdeen, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior AI Product Owner - VP",
-   "location": "Whippany, United States; Wilmington, United States",
-   "why": "location 'Whippany, United States; Wilmington, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Corporate Governance Director – Fixed Term Contract",
-   "location": "Paris, France",
-   "why": "location 'Paris, France' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AI SRE Lead (Lead AI Platform Engineer)",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Full Stack Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Technical Lead",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Merchant Acquiring Financial Crime Policy & Advisory VP",
-   "location": "London, United Kingdom; Northampton, United Kingdom",
-   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Resilience Lead",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Barclays Internal Audit - Markets - Credit AVP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Native iOS Engineer",
-   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Penetration Tester",
-   "location": "Knutsford, United Kingdom; Greater Manchester, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom; Greater Manchester, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Java Full Stack Developer  - Vice President",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Manager – VP",
-   "location": "Pune, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Service Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior AWS Cloud Engineering Lead - VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Regional Program Manager, Field Sales",
-   "location": "United States",
-   "why": "location 'United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Service Advisor",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Project Arthur Controls Testing",
-   "location": "Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Fraud Analytics - Data Scientist",
-   "location": "Northampton, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Resilience Ops Recovery Lead - VP",
-   "location": "Whippany, United States",
-   "why": "location 'Whippany, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Specialist Customer Care - Mortgages CME",
-   "location": "Liverpool, United Kingdom",
-   "why": "location 'Liverpool, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Cloud Adoption & Scalability",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Digital Assets Strategy - VP",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Wholesale Credit Risk Sanctioning - LevFin - VP",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
+   "company": "Citi",
+   "title": "Product Mngt Mehanty Analyst (UAE Nationals ONLY)",
+   "location": "Dubai, Dubai, United Arab Emirates",
+   "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
   },
   {
    "company": "Citi",
@@ -2612,16 +2437,1156 @@
    "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
   },
   {
-   "company": "Citi",
-   "title": "Banamex Nte Volante SR Distrito Saltillo",
-   "location": "Saltillo, Coahuila, Mexico",
-   "why": "location 'Saltillo, Coahuila, Mexico' not India"
+   "company": "Barclays",
+   "title": "Rates Quantitative Analyst -VP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Supplier Manager - Barclaycard Payments (BPL)",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Cryptography Operations Engineer",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Software Engineer",
+   "location": "Knutsford, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Java Software Engineer -VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Securitized Product Business Oversight Compliance - VP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Administrative Assistant",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Executive Assistant",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Onboarding Business Partner",
+   "location": "Monaco, Monaco",
+   "why": "location 'Monaco, Monaco' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Chief Client Office - Client Data & Engineering Group Summer Internship Program 2027 New York City",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "VP - Investment Consultant Relations",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Technical Product Owner",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "BUK TESCO Bank IN- Platforms-API Technical Product Owner - VP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI/ML Data Scientist",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President - Treasury Financial Control",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Investment Banking Equity Capital Markets Healthcare Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Associate – TMT",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Relationship Director - Crown Dependencies",
+   "location": "Saint Helier, Jersey",
+   "why": "location 'Saint Helier, Jersey' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Financial Control",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Relationship Director - Correspondent Banking",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "2027 Customer and Digital - Data and Analytics Summer Internship Programme Glasgow",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "2027 Business Banking Apprenticeship Programme Manchester",
+   "location": "Greater Manchester, United Kingdom",
+   "why": "location 'Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Automation Tester",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Speech Analyst",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Scrum Master - VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Director - Loans & Affordability",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Economic Crime Risk Manager - Product Review",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Economic Crime Consequence and Exit Management",
+   "location": "Northampton, United Kingdom; London, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Assistant Vice President - Applied AI Engineer",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer - BA4",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Engineering Lead-VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Credit Risk Business Analyst",
+   "location": "Glasgow, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Mortgage Research VP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Manager-Tech",
+   "location": "Gurugram, India; Noida, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Application Support - Service Engineer",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineering Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Kafka Platform Engineer",
+   "location": "Knutsford, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineer - AI Platform",
+   "location": "Bengaluru, India; Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior UI Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President ML Ops Engineer",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Quantitative Analyst AVP - Treasury",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Splunk SIEM Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equity AVP - Restaurants",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP Internal Auditor – Barclays UK",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "PBWM Technology Lending Lead",
+   "location": "London, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Technical Analyst.",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Architect - Process Engagement Lead",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Protection Officer",
+   "location": "Monaco, Monaco",
+   "why": "location 'Monaco, Monaco' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Corporate Development Director (Risk Transfer)",
+   "location": "Wilmington, United States; New York, United States",
+   "why": "location 'Wilmington, United States; New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "BARX Client Services: Macro-FX and Fixed Income Analyst",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Credit Specialist - 9m Fixed Term Contract",
+   "location": "Dublin, Ireland",
+   "why": "location 'Dublin, Ireland' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Site Reliability Engineer (SRE) - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Service Manager - VP with Digital Assets Technology",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President - Data Architect",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Controls Assurance",
+   "location": "Bengaluru, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President - Software Engineer",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Mergers & Acquisitions and Strategic Transactions Legal Counsel",
+   "location": "Glasgow, United Kingdom; Greater Manchester, United Kingdom; Birmingham, United ",
+   "why": "location 'Glasgow, United Kingdom; Greater Manchester, United Kingdom; Birmingham, United ' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Board Support Specialist",
+   "location": "Paris, France",
+   "why": "location 'Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Surveillance Optimization - AVP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Automation test engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fraud Lead Product Owner (Value Stream / Platform) (Director)",
+   "location": "Whippany, United States; Wilmington, United States",
+   "why": "location 'Whippany, United States; Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "BUK TESCO Bank IN - Colleague Product Owner - VP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Engineer, Applied AI",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Full Stack Engineer - VP",
+   "location": "New York, United States; Whippany, United States",
+   "why": "location 'New York, United States; Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Journey Labs Software Engineer - AVP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Insurance Cash Sales Manager",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Internal Audit AVP -Credit Risk",
+   "location": "Wilmington, United States",
+   "why": "location 'Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner - Capital Risk Technology: Regulatory Reporting",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Private Banker",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Transaction Monitoring analytics - AVP",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Customer Service Advisor",
+   "location": "Shrewsbury, United Kingdom",
+   "why": "location 'Shrewsbury, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Rates Product Manager – Global Markets",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Infrastructure Cloud and DevOps Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager",
+   "location": "Bengaluru, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Agency CMO Trader/Structurer AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Marketing Insight and Measurement Manager",
+   "location": "London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Engineer, AVP",
+   "location": "Henderson, United States",
+   "why": "location 'Henderson, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director, FX Product",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Quant / Agentic AI Developer - AVP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Transaction Monitoring – Analytics VP",
+   "location": "Gurugram, India; Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care",
+   "location": "Gurugram, India; Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Journey - Software Engineer - AVP",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Business Analyst/Project Manager in Structured Products Technology",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Mobile IN - VP UX Designer",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "BUK TESCO Bank Mobile IN - VP Product Owner",
+   "location": "Bengaluru, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Caching SRE Lead",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner",
+   "location": "Bengaluru, India; Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fundamental Credit Research Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Fraud Ops",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - eTrading & Digital Asset Risk",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Director – Marketing Technology",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Copilot Agents -M365 Power platform",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Vice President _ Fraud Ops",
+   "location": "Pune, India; Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Banking Off Cycle Internship Programme 2027 Dubai",
+   "location": "United Arab Emirates",
+   "why": "location 'United Arab Emirates' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Residential Warehouse Trader Analyst",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Corporate FP&A Senior Analyst - BPL",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "ISDA Negotiator - AVP",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Tax Operations Analyst",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Market Surveillance Optimization - VP",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Product Manager",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equities Derivatives Strat, VP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Equity Research Aerospace & Defense/Defense Tech, AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Application Security Analyst",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Application Security Specialist",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Data Analyst - AVP",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Internal Audit Prudential Regulatory Reporting VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director, Solution Architect Cash Settlement",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager - Vice President",
+   "location": "Pune, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Director, Corporate Development & Strategic Transactions - Barclaycard Payments - BPL",
+   "location": "London, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Manager - Northern Audit Survey",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Automation Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Engineer - AI Platform",
+   "location": "Bengaluru, India; Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Analyst",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Europe Country Compliance",
+   "location": "Paris, France",
+   "why": "location 'Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Owner",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Solution Architect",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Personal Assistant",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Personal Assistant",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Specialist",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Team Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Financial Crime Agile Testing Specialist",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Manufacturing, Transport & Logistics",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Hospitality & Leisure",
+   "location": "London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King",
+   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom; Bristol, United King' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Product Sales Specialist – Transactional Banking",
+   "location": "London, United Kingdom; Greater Manchester, United Kingdom",
+   "why": "location 'London, United Kingdom; Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Retail & Wholesale",
+   "location": "Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo",
+   "why": "location 'Greater Manchester, United Kingdom; Leeds, United Kingdom; London, United Kingdo' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Abinitio + Big data Dev",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "FX- Trade Floor Application Support",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Test Automation Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Model Risk Management-BA3",
+   "location": "Noida, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Fraud Strategy Manager VP",
+   "location": "Wilmington, United States",
+   "why": "location 'Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Payments Regulatory Lawyer - VP",
+   "location": "Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni",
+   "why": "location 'Northampton, United Kingdom; Greater Manchester, United Kingdom; Birmingham, Uni' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Markets Strats - AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Developer Advocate - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "VP - Transaction Banking Product Manager",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "BPL - Risk Assessment Unit Analyst",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Commercial Analytics Manager - BPL",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "DevOps Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Execution & Oversight for USCB IB Markets CISO",
+   "location": "Wilmington, United States; Whippany, United States",
+   "why": "location 'Wilmington, United States; Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Azure Infra Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Digital Product Owner",
+   "location": "London, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Sterling Developer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Audit Director – Head of Audit Ireland",
+   "location": "Dublin, Ireland; Paris, France",
+   "why": "location 'Dublin, Ireland; Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Head of Commodities, Diversified Energy & Infrastructure, Trade & Working Capital",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Supplier Manager - French/Spanish Speaking",
+   "location": "Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Devops Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Software Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Scrum Master",
+   "location": "Pune, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "IB SR Refresh SME",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Model risk Conformance",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Product Manager",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "KYC Processing Analyst",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Controls Assurance - AVP",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Transformation Lead, PBWM India",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service / Personal Banker",
+   "location": "Aberdeen, United Kingdom",
+   "why": "location 'Aberdeen, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior AI Product Owner - VP",
+   "location": "Whippany, United States; Wilmington, United States",
+   "why": "location 'Whippany, United States; Wilmington, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Corporate Governance Director – Fixed Term Contract",
+   "location": "Paris, France",
+   "why": "location 'Paris, France' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AI SRE Lead (Lead AI Platform Engineer)",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Full Stack Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Technical Lead",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Merchant Acquiring Financial Crime Policy & Advisory VP",
+   "location": "London, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Resilience Lead",
+   "location": "Knutsford, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Barclays Internal Audit - Markets - Credit AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Native iOS Engineer",
+   "location": "Northampton, United Kingdom; Knutsford, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Knutsford, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Penetration Tester",
+   "location": "Knutsford, United Kingdom; Greater Manchester, United Kingdom",
+   "why": "location 'Knutsford, United Kingdom; Greater Manchester, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Java Full Stack Developer  - Vice President",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Engineering Manager – VP",
+   "location": "Pune, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Service Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior AWS Cloud Engineering Lead - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Regional Program Manager, Field Sales",
+   "location": "United States",
+   "why": "location 'United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Service Advisor",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Project Arthur Controls Testing",
+   "location": "Noida, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Fraud Analytics - Data Scientist",
+   "location": "Northampton, United Kingdom; Glasgow, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; Glasgow, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Resilience Ops Recovery Lead - VP",
+   "location": "Whippany, United States",
+   "why": "location 'Whippany, United States' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care - Mortgages CME",
+   "location": "Liverpool, United Kingdom",
+   "why": "location 'Liverpool, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "AVP - Cloud Adoption & Scalability",
+   "location": "Gurugram, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Digital Assets Strategy - VP",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Wholesale Credit Risk Sanctioning - LevFin - VP",
+   "location": "Mumbai, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Regional Economist, Emerging Asia",
+   "location": "Singapore, Singapore",
+   "why": "location 'Singapore, Singapore' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Oversight Compliance Specialist (Macro) - AVP",
+   "location": "Singapore, Singapore",
+   "why": "location 'Singapore, Singapore' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "GTSM - Site Reliability Engineer",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
    "company": "JPMorgan Chase",
    "title": "Finance & Business Management - Senior Associate",
    "location": "Plano, TX, United States",
    "why": "location 'Plano, TX, United States' not India"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Asset Management - Private Equity Investor Relations - Associate",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -2658,12 +3623,6 @@
    "title": "Part Time (30 Hours) Associate Banker, Eagle Glen Branch, Corona, CA Bilingual Spanish Required",
    "location": "Corona, CA, United States",
    "why": "location 'Corona, CA, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Part Time (30 Hours) Associate Banker, Brighton East Branch, Brooklyn, NY Bilingual Russian Required",
-   "location": "Brooklyn, NY, United States",
-   "why": "location 'Brooklyn, NY, United States' not India"
   }
  ]
 }
