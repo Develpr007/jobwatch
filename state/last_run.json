@@ -1,7 +1,11 @@
 {
- "when": "2026-11-26 13:53 IST",
+ "when": "2026-11-27 03:06 IST",
  "sources_ok": 510,
  "sources_failed": [
+  [
+   "Northern Trust",
+   "RuntimeError: workday 429: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n        "
+  ],
   [
    "PwC India",
    "RuntimeError: workday 429: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n        "
@@ -11,16 +15,12 @@
    "RuntimeError: workday 429: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n        "
   ],
   [
+   "Salesforce",
+   "RuntimeError: workday 429: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n        "
+  ],
+  [
    "Ameriprise Financial India",
    "SSLError: HTTPSConnectionPool(host='careers.ameriprise.com', port=443): Max retries exceeded with url: /search-jobs/India (Caused by SSLError(SSLCertVerificationError(1, "
-  ],
-  [
-   "Credit Agricole CIB",
-   "RuntimeError: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.ca-cib.com/offre-de-emploi/liste-toutes-offres.aspx?all=1&mode=layer\nCall log:\n  - navigating to \"https://"
-  ],
-  [
-   "FirstCry",
-   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.firstcry.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "SBI Card",
@@ -31,8 +31,8 @@
    "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.yes.bank.in/about-us/careers\", waiting until \"commit\"\n"
   ],
   [
-   "Niva Bupa",
-   "RuntimeError: Page.goto: net::ERR_TIMED_OUT at https://www.nivabupa.com/careers.html\nCall log:\n  - navigating to \"https://www.nivabupa.com/careers.html\", waiting until \"commi"
+   "Motilal Oswal",
+   "RuntimeError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.motilaloswalgroup.com/careers\", waiting until \"commit\"\n"
   ],
   [
    "NSDL",
@@ -76,19 +76,18 @@
   "Fitch Group",
   "Bank of America",
   "BNP Paribas",
-  "KPMG India",
   "LatentView Analytics",
+  "KPMG India",
   "Myntra",
-  "Zepto",
   "Zomato / Blinkit / Hyperpure / District (Eternal)",
+  "Zepto",
   "Nykaa",
-  "Swiggy",
   "Flipkart",
+  "Swiggy",
   "Zerodha",
   "Navi",
   "Ola",
   "Cars24",
-  "Delhivery",
   "Nestle India",
   "Grant Thornton Bharat",
   "Sattva Consulting",
@@ -108,34 +107,30 @@
   "Britannia",
   "Schneider Electric India",
   "Levi Strauss India",
-  "Allianz India",
+  "Credit Agricole CIB",
   "FactSet",
   "ICICI Bank",
-  "Acuity Analytics (Acuity Knowledge Partners)",
   "Setu",
   "Pine Labs",
   "Slice",
   "Angel One",
-  "Acko",
   "INDmoney",
+  "Acko",
   "Pepperfry",
-  "BigBasket",
   "Porter",
   "Ecom Express",
-  "ixigo",
-  "Games24x7",
   "XpressBees",
+  "Games24x7",
+  "ixigo",
   "MPL",
   "Dailyhunt (VerSe)",
   "Practo",
-  "HealthifyMe",
   "Moglix",
   "Infra.Market",
   "OfBusiness",
   "Ather Energy",
   "upGrad",
   "IndusInd Bank",
-  "AU Small Finance Bank",
   "L&T Finance",
   "Poonawalla Fincorp",
   "Cholamandalam Investment & Finance",
@@ -144,12 +139,13 @@
   "SBI Life",
   "Tata AIA Life",
   "Bajaj Allianz (Bajaj General / Bajaj Life)",
-  "ICICI Lombard",
   "HDFC ERGO",
+  "ICICI Lombard",
   "Axis Max Life Insurance",
+  "Niva Bupa",
   "Care Health Insurance",
-  "Star Health",
   "Tata Asset Management",
+  "Star Health",
   "HDFC AMC",
   "SBI Funds Management",
   "Nippon Life India Asset Management",
@@ -163,13 +159,11 @@
   "Dhan (Raise Securities)",
   "Uni Cards",
   "Kissht",
-  "M2P Fintech",
   "IDfy",
   "CleverTap",
   "WebEngage",
   "Unicommerce",
   "Zluri",
-  "Capillary Technologies",
   "Rocketlane",
   "Atlan",
   "CarTrade Tech",
@@ -188,9 +182,8 @@
   "Battery Smart",
   "Shadowfax",
   "Fleetx",
-  "FarEye",
-  "Locus",
   "Pando",
+  "FarEye",
   "Loadshare",
   "Snapdeal",
   "DeHaat",
@@ -203,18 +196,19 @@
   "Daimler Truck Innovation Center India",
   "Mercedes-Benz Research & Development India",
   "Affine",
+  "Mordor Intelligence",
   "MarketsandMarkets",
-  "GEP Worldwide",
   "GlobalData India",
+  "GEP Worldwide",
   "HGS (Hinduja Global Solutions)",
   "Infogain",
+  "Kroll India",
   "Nexdigm",
   "Lumenore",
   "Cognitio Analytics",
-  "Kroll India",
-  "The Souled Store",
   "Decathlon India",
   "Wakefit",
+  "The Souled Store",
   "Pernod Ricard India",
   "Haldiram's",
   "Jubilant FoodWorks",
@@ -222,2652 +216,483 @@
   "Voltas",
   "LG Electronics India",
   "Godrej & Boyce (Godrej Enterprises)",
-  "Escorts Kubota",
   "MG Motor India",
+  "Escorts Kubota",
   "Vedanta",
   "JSW Group",
   "Allcargo",
   "TCI (Transport Corporation of India)"
  ],
- "relevant_open": 879,
+ "relevant_open": 783,
  "new": [
   {
+   "company": "Citi",
+   "title": "Cash and Trade Proc Analyst 1",
+   "url": "https://jobs.citi.com/job/chennai/cash-and-trade-proc-analyst-1/287/103807811408",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "88cc5893796c389d"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Onboard Analyst",
+   "url": "https://jobs.citi.com/job/mumbai/client-onboard-analyst/287/103807810384",
+   "location": "Mumbai, Maharashtra, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "fcb40cbc80e567ed"
+  },
+  {
+   "company": "Barclays",
+   "title": "FLM LRR Analyst",
+   "url": "https://search.jobs.barclays/job/chennai/flm-lrr-analyst/13015/96518931520",
+   "location": "Chennai, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "0569e51c12110639"
+  },
+  {
+   "company": "Barclays",
+   "title": "FCE Data and Assurance Analyst (BA3)",
+   "url": "https://search.jobs.barclays/job/gurugram/fce-data-and-assurance-analyst-ba3/13015/103200583984",
+   "location": "Gurugram, India",
+   "posted": "",
+   "source": "radancy",
+   "extra": {
+    "category": "Banks & FS",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "761ac78ba6785828"
+  },
+  {
    "company": "American Express",
-   "title": "Analyst-Data Analytics",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016714",
+   "title": "Apprentice",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016647",
+   "location": "Bengaluru, KA, India",
+   "posted": "2026-11-26",
+   "source": "oracle",
+   "extra": {
+    "id": "26016647",
+    "category": "Banks & FS",
+    "found": "2026-11-27",
+    "posted": "2026-11-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "315d0bd2a14cab07"
+  },
+  {
+   "company": "American Express",
+   "title": "New Accounts Analyst",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26017085",
    "location": "Gurugram, HR, India",
    "posted": "2026-11-26",
    "source": "oracle",
    "extra": {
-    "id": "26016714",
+    "id": "26017085",
     "category": "Banks & FS",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "2026-11-26",
-    "verdict": "no experience stated"
+    "verdict": ""
    },
-   "key": "5b63b818276ff7eb"
+   "key": "bc26bad19a34f1b3"
   },
   {
    "company": "Deloitte India",
-   "title": "Consultant | APM: BFSI BA | Gurugram | Finance Transformation | Finance Strategy",
-   "url": "https://southasiacareers.deloitte.com/job/Gurugram-Consultant-APM-BFSI-BA-Gurugram-Finance-Transformation-Finance-Strategy/61059644/",
-   "location": "Gurugram, IN",
+   "title": "T&T_Customer_M&C - Consultant | Scrum Master/PMO | Pune",
+   "url": "https://southasiacareers.deloitte.com/job/Pune-T&T_Customer_M&C-Consultant-Scrum-MasterPMO-Pune/61050844/",
+   "location": "Pune, IN",
    "posted": "",
    "source": "html",
    "extra": {
     "category": "Consulting & Analytics",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "81b17ae946281f5e"
-  },
-  {
-   "company": "Deloitte India",
-   "title": "Consultant | D365 F&O - PMO | Mumbai | Emerging ERP Solutions",
-   "url": "https://southasiacareers.deloitte.com/job/Mumbai-Consultant-D365-F&O-PMO-Mumbai-Emerging-ERP-Solutions/61055544/",
-   "location": "Mumbai, IN",
-   "posted": "",
-   "source": "html",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "72ace8d65b84a9e2"
+   "key": "c09ef8cafd772fa1"
   },
   {
    "company": "KPMG Global Services (KGS)",
-   "title": "Analyst - Finance",
-   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051862",
+   "title": "Analyst",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051803",
    "location": "Gurgaon, Haryana, India",
    "posted": "2026-11-26",
    "source": "oracle",
    "extra": {
-    "id": "30051862",
+    "id": "30051803",
     "category": "Consulting & Analytics",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "2026-11-26",
     "verdict": "no experience stated"
    },
-   "key": "924fcb082973517b"
+   "key": "8a631e5251511c9e"
   },
   {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Consultant S&O",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30052326",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "2026-11-26",
+   "source": "oracle",
    "extra": {
+    "id": "30052326",
     "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7b4dd1775b066ed9"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7b4dd1775b066ed9"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d14467f27fb16e46"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d14467f27fb16e46"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b17787f12ac9bff4"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b17787f12ac9bff4"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0c151463804eb274"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0c151463804eb274"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f68d1d07da9b1f42"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f68d1d07da9b1f42"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0a17f97bbba6e8cc"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0a17f97bbba6e8cc"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5eeb42ba14e2139"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5eeb42ba14e2139"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460854333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "26c09c0e7198e138"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460854333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "26c09c0e7198e138"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460856633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "474aa25f5499a507"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460856633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "474aa25f5499a507"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "924ef1a4583c5a7a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "924ef1a4583c5a7a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d720d40c46e3645a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d720d40c46e3645a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2e1b4b4e93cfbcb7"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2e1b4b4e93cfbcb7"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6154f907a8e80437"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6154f907a8e80437"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460848833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7d2cae745ca50e4b"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460848833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7d2cae745ca50e4b"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "56f1a7cd44338bc5"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "56f1a7cd44338bc5"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1ebefe494545faac"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1ebefe494545faac"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8c1aac748426e46a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8c1aac748426e46a"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "4708687fe4aaa335"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "4708687fe4aaa335"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "835fa59fc883129f"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "835fa59fc883129f"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "72d80a59868f8d56"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "72d80a59868f8d56"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460845633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "aad988e6fea8043e"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460845633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "aad988e6fea8043e"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "43a54992b2b3c768"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "43a54992b2b3c768"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bca788093f8c401c"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bca788093f8c401c"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1801f96a1ba88d4f"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1801f96a1ba88d4f"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460858533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d205f0c663640596"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460858533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d205f0c663640596"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859133/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a6d406c737743272"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859133/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a6d406c737743272"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874733/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5e215f9aa036ddd1"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874733/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5e215f9aa036ddd1"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dcb6378f89f4f239"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dcb6378f89f4f239"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460873233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a9de73d75bdc18b8"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460873233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a9de73d75bdc18b8"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "968893ea826e2383"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "968893ea826e2383"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874433/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "506041a1249e3a24"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874433/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "506041a1249e3a24"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "90d749cbdcd3eac7"
-  },
-  {
-   "company": "EY India",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "90d749cbdcd3eac7"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460872633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "393b3138e9fff56e"
-  },
-  {
-   "company": "EY India",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460872633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "393b3138e9fff56e"
-  },
-  {
-   "company": "EY India",
-   "title": "PAS GI - ROW - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-PAS-GI-ROW-Advanced-Analyst-KA-560016/1460901733/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c0308878c3e67c6e"
-  },
-  {
-   "company": "EY India",
-   "title": "PAS GI - ROW - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-PAS-GI-ROW-Advanced-Analyst-KA-560016/1460901733/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting & Analytics",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c0308878c3e67c6e"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Analyst | Bangalore",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Analyst---Bangalore_R159670",
-   "location": "Bangalore, India",
-   "posted": "Posted 2 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-India/Analyst---Bangalore_R159670",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-24",
+    "found": "2026-11-27",
+    "posted": "2026-11-26",
     "verdict": "no experience stated"
    },
-   "key": "1bf38e516a5c4787"
+   "key": "c5801f63ff52d371"
   },
   {
-   "company": "Northern Trust",
-   "title": "Analyst Pune",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Analyst-Pune_R159673",
-   "location": "Pune, India",
-   "posted": "Posted 2 Days Ago",
-   "source": "workday",
+   "company": "KPMG Global Services (KGS)",
+   "title": "Analyst-KDNI",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30052376",
+   "location": "Bangalore, Karnataka, India",
+   "posted": "2026-11-26",
+   "source": "oracle",
    "extra": {
-    "externalPath": "/job/Pune-India/Analyst-Pune_R159673",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-24",
-    "verdict": "no experience stated"
-   },
-   "key": "45ccd5ea767e37d7"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Associate Consultant, Capital Markets Operations",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Associate-Consultant--Capital-Markets-Operations_R163920-1",
-   "location": "Bangalore, India",
-   "posted": "Posted 3 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-India/Associate-Consultant--Capital-Markets-Operations_R163920-1",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-23",
-    "verdict": "no experience stated"
-   },
-   "key": "5e97d337142f5db2"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Assoc Consultant",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Assoc-Consultant_R163686-1",
-   "location": "Bangalore, India",
-   "posted": "Posted Yesterday",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-India/Assoc-Consultant_R163686-1",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-25",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d653e57bf298c0d0"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Associate Consultant, Omnium Services",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Associate-Consultant--Omnium-Services_R164002",
-   "location": "Bangalore, India",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-India/Associate-Consultant--Omnium-Services_R164002",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
+    "id": "30052376",
+    "category": "Consulting & Analytics",
+    "found": "2026-11-27",
     "posted": "2026-11-26",
     "verdict": ""
    },
-   "key": "964c5ca8abed1141"
+   "key": "c330d70ce885dee4"
   },
   {
-   "company": "Northern Trust",
-   "title": "Associate Consultant",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Associate-Consultant_R163917",
-   "location": "Bangalore, India",
-   "posted": "Posted 3 Days Ago",
-   "source": "workday",
+   "company": "WNS",
+   "title": "Consultant - GenAI Application Development",
+   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000163852229",
+   "location": "Gurgaon, HR, in",
+   "posted": "2026-11-26T11:16:40.380Z",
+   "source": "smartrecruiters",
    "extra": {
-    "externalPath": "/job/Bangalore-India/Associate-Consultant_R163917",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-23",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b2a6815f26bc9127"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "P1, Assoc Consultant",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/P1--Assoc-Consultant_R161089",
-   "location": "Bangalore, India",
-   "posted": "Posted 20 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Bangalore-India/P1--Assoc-Consultant_R161089",
-    "category": "Banks & FS",
-    "found": "2026-11-26",
-    "posted": "2026-11-06",
+    "id": "744000163852229",
+    "category": "Consulting & Analytics",
+    "found": "2026-11-27",
+    "posted": "2026-11-26",
     "verdict": "no experience stated"
    },
-   "key": "0a88cb64fd401eea"
+   "key": "2eb11d7742cb5af4"
   },
   {
-   "company": "Razorpay",
-   "title": "Associate, Business Operations",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4757678005",
-   "location": "Bengaluru",
-   "posted": "2026-11-26T01:04:36-05:00",
+   "company": "Paytm",
+   "title": "Talent  Acquisition Internship",
+   "url": "https://jobs.lever.co/paytm/c6b86cd8-7f07-4469-992b-8968ed92739e",
+   "location": "Gurugram, Haryana",
+   "posted": "1795695925448",
+   "source": "lever",
+   "extra": {
+    "team": "HR",
+    "commitment": "Intern",
+    "category": "Indian Startups",
+    "found": "2026-11-27",
+    "posted": "2026-11-26",
+    "verdict": "fresher-friendly"
+   },
+   "key": "6b2cf1d91c099f28"
+  },
+  {
+   "company": "Groww",
+   "title": "Content - Intern",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/5049076101",
+   "location": "Bengaluru, India",
+   "posted": "2026-11-26T07:22:28-05:00",
    "source": "greenhouse",
    "extra": {
     "category": "Indian Startups",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "2026-11-26",
     "verdict": "fresher-friendly"
    },
-   "key": "4845283dc61d088f"
+   "key": "1adc0f863f7de79d"
   },
   {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
+   "company": "Amazon",
+   "title": "Programmer/Analyst",
+   "url": "https://www.amazon.jobs/en/jobs/10570646/programmer-analyst",
+   "location": "Gurugram, Haryana, IND",
+   "posted": "October 28, 2026",
+   "source": "amazon",
    "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7b4dd1775b066ed9"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7b4dd1775b066ed9"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d14467f27fb16e46"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d14467f27fb16e46"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b17787f12ac9bff4"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460853733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "b17787f12ac9bff4"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0c151463804eb274"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460852433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0c151463804eb274"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f68d1d07da9b1f42"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "f68d1d07da9b1f42"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0a17f97bbba6e8cc"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "0a17f97bbba6e8cc"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5eeb42ba14e2139"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460851833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c5eeb42ba14e2139"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460854333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "26c09c0e7198e138"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460854333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "26c09c0e7198e138"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460856633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "474aa25f5499a507"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460856633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "474aa25f5499a507"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "924ef1a4583c5a7a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "924ef1a4583c5a7a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d720d40c46e3645a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d720d40c46e3645a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2e1b4b4e93cfbcb7"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2e1b4b4e93cfbcb7"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6154f907a8e80437"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460847833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "6154f907a8e80437"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460848833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7d2cae745ca50e4b"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460848833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "7d2cae745ca50e4b"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "56f1a7cd44338bc5"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849233/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "56f1a7cd44338bc5"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1ebefe494545faac"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1ebefe494545faac"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8c1aac748426e46a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460849733/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "8c1aac748426e46a"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "4708687fe4aaa335"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850333/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "4708687fe4aaa335"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "835fa59fc883129f"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460850833/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "835fa59fc883129f"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "72d80a59868f8d56"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846033/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "72d80a59868f8d56"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460845633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "aad988e6fea8043e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460845633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "aad988e6fea8043e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "43a54992b2b3c768"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460846433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "43a54992b2b3c768"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bca788093f8c401c"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857933/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "bca788093f8c401c"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1801f96a1ba88d4f"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460857433/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "1801f96a1ba88d4f"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460858533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d205f0c663640596"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460858533/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "d205f0c663640596"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859133/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a6d406c737743272"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859133/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a6d406c737743272"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874733/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5e215f9aa036ddd1"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874733/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "5e215f9aa036ddd1"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dcb6378f89f4f239"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874933/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "dcb6378f89f4f239"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460873233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a9de73d75bdc18b8"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460873233/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "a9de73d75bdc18b8"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "968893ea826e2383"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874033/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "968893ea826e2383"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874433/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "506041a1249e3a24"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460874433/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "506041a1249e3a24"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "90d749cbdcd3eac7"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Project Consultant - PAS WKFA - NAT - CNS - PC - WORKFORCE ADVISORY - Chennai",
-   "url": "https://careers.ey.com/ey/job/Chennai-Project-Consultant-PAS-WKFA-NAT-CNS-PC-WORKFORCE-ADVISORY-Chennai-TN-600113/1460859633/",
-   "location": "Chennai, TN, IN, 600113",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "90d749cbdcd3eac7"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460872633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "393b3138e9fff56e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "Consultant - Business Consulting Risk - FS - CNS - RISK - PROCESS & CONTROLS - Mumbai",
-   "url": "https://careers.ey.com/ey/job/Mumbai-Consultant-Business-Consulting-Risk-FS-CNS-RISK-PROCESS-&-CONTROLS-Mumbai-MH-400028/1460872633/",
-   "location": "Mumbai, MH, IN, 400028",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "393b3138e9fff56e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "PAS GI - ROW - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-PAS-GI-ROW-Advanced-Analyst-KA-560016/1460901733/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c0308878c3e67c6e"
-  },
-  {
-   "company": "EY GDS",
-   "title": "PAS GI - ROW - Advanced Analyst",
-   "url": "https://careers.ey.com/ey/job/Bengaluru-PAS-GI-ROW-Advanced-Analyst-KA-560016/1460901733/",
-   "location": "Bengaluru, KA, IN, 560016",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Consulting, IT & Knowledge Services",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "fresher-friendly"
-   },
-   "key": "c0308878c3e67c6e"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Contract Sales Operations Associate Analyst",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Contract-Sales-Operations-Associate-Analyst_JR367849",
-   "location": "India - Hyderabad",
-   "posted": "Posted Today",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/India---Hyderabad/Contract-Sales-Operations-Associate-Analyst_JR367849",
     "category": "Global Tech & FMCG",
-    "found": "2026-11-26",
-    "posted": "2026-11-26",
+    "found": "2026-11-27",
+    "posted": "2026-10-28",
     "verdict": "no experience stated"
    },
-   "key": "d0dc9a74d96f4213"
-  },
-  {
-   "company": "Salesforce",
-   "title": "GTM Strategy and Operations Associate Analyst",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Indianapolis/GTM-Strategy-and-Operations-Associate-Analyst_JR368698",
-   "location": "Indiana - Indianapolis",
-   "posted": "Posted 9 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/Indiana---Indianapolis/GTM-Strategy-and-Operations-Associate-Analyst_JR368698",
-    "category": "Global Tech & FMCG",
-    "found": "2026-11-26",
-    "posted": "2026-11-17",
-    "verdict": ""
-   },
-   "key": "65f331e23c60f960"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Technical Business Analyst, Product & Pricing Operations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Technical-Business-Analyst--Product---Pricing-Operations_JR366420",
-   "location": "India - Hyderabad",
-   "posted": "Posted 13 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/India---Hyderabad/Technical-Business-Analyst--Product---Pricing-Operations_JR366420",
-    "category": "Global Tech & FMCG",
-    "found": "2026-11-26",
-    "posted": "2026-11-13",
-    "verdict": ""
-   },
-   "key": "4086299ca8aa78fb"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Social Experience Analyst",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Social-Experience-Analyst_JR367933",
-   "location": "India - Hyderabad",
-   "posted": "Posted 15 Days Ago",
-   "source": "workday",
-   "extra": {
-    "externalPath": "/job/India---Hyderabad/Social-Experience-Analyst_JR367933",
-    "category": "Global Tech & FMCG",
-    "found": "2026-11-26",
-    "posted": "2026-11-11",
-    "verdict": "no experience stated"
-   },
-   "key": "d2817652aaad8e5a"
-  },
-  {
-   "company": "Vodafone Idea",
-   "title": "AGM - Strategic Accounts",
-   "url": "https://careers.vodafoneidea.com/job/Chennai-AGM-Strategic-Accounts-Tami/1425912633/",
-   "location": "Chennai, Tamil Nadu, IN",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "62b732d98155e359"
-  },
-  {
-   "company": "Vodafone Idea",
-   "title": "AGM - Strategic Accounts",
-   "url": "https://careers.vodafoneidea.com/job/Chennai-AGM-Strategic-Accounts-Tami/1425912633/",
-   "location": "Chennai, Tamil Nadu, IN",
-   "posted": "",
-   "source": "successfactors",
-   "extra": {
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
-    "posted": "",
-    "verdict": "no experience stated"
-   },
-   "key": "62b732d98155e359"
+   "key": "d390fe9e07ccf67d"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458280/",
+   "title": "Apprentice DIWA",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-DIWA-MH-400050/54460180/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "162fcd724d7b1f5c"
+   "key": "af57627d1fbde3d0"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458280/",
+   "title": "Apprentice DIWA",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-DIWA-MH-400050/54460180/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "162fcd724d7b1f5c"
+   "key": "af57627d1fbde3d0"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458280/",
+   "title": "Apprentice DIWA",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-DIWA-MH-400050/54460180/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "162fcd724d7b1f5c"
+   "key": "af57627d1fbde3d0"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458180/",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400050/54460380/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "47a3363ff5884aee"
+   "key": "97d741f7d3146c24"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458180/",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400050/54460380/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "47a3363ff5884aee"
+   "key": "97d741f7d3146c24"
   },
   {
    "company": "IHCL (Taj)",
-   "title": "Apprentice - NAPS",
-   "url": "https://careers.ihcltata.com/IHCL/job/Jamshedpur-Apprentice-NAPS-JH-831001/54458180/",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Mumbai-Apprentice-MH-400050/54460380/",
    "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "47a3363ff5884aee"
+   "key": "97d741f7d3146c24"
   },
   {
-   "company": "Honeywell India",
-   "title": "Intern (Bachelor's)",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/163008",
-   "location": "Pune, Maharashtra, India",
-   "posted": "2026-11-26",
-   "source": "oracle",
-   "extra": {
-    "id": "163008",
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
-    "posted": "2026-11-26",
-    "verdict": "fresher-friendly"
-   },
-   "key": "940d4a2a7d30cb87"
-  },
-  {
-   "company": "Honeywell India",
-   "title": "Intern (Bach) Sales Ops",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/163062",
-   "location": "Pune, Maharashtra, India",
-   "posted": "2026-11-26",
-   "source": "oracle",
-   "extra": {
-    "id": "163062",
-    "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
-    "posted": "2026-11-26",
-    "verdict": "fresher-friendly"
-   },
-   "key": "2dfebecdda943930"
-  },
-  {
-   "company": "ANZ",
-   "title": "Market Risk Analyst",
-   "url": "https://careers.anz.com/job/Bengaluru-Market-Risk-Analyst/1370945466/",
-   "location": "Bengaluru, IN",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Gurgaon-Apprentice-HR-122004/54460280/",
+   "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
-    "category": "Finance, Insurance & Research",
-    "found": "2026-11-26",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-27",
     "posted": "",
-    "verdict": ""
+    "verdict": "fresher-friendly"
    },
-   "key": "5fc1473c6af15ca0"
+   "key": "22feceb9affc614c"
   },
   {
-   "company": "ANZ",
-   "title": "Market Risk Analyst",
-   "url": "https://careers.anz.com/job/Bengaluru-Market-Risk-Analyst/1370945466/",
-   "location": "Bengaluru, IN",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Gurgaon-Apprentice-HR-122004/54460280/",
+   "location": "",
    "posted": "",
    "source": "successfactors",
    "extra": {
-    "category": "Finance, Insurance & Research",
-    "found": "2026-11-26",
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-27",
     "posted": "",
-    "verdict": ""
+    "verdict": "fresher-friendly"
    },
-   "key": "5fc1473c6af15ca0"
+   "key": "22feceb9affc614c"
   },
   {
-   "company": "Zeta",
-   "title": "Intern",
-   "url": "https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2",
-   "location": "Bangalore - WF",
-   "posted": "1795675213601",
-   "source": "lever",
-   "extra": {
-    "team": "People Success",
-    "commitment": "Intern",
-    "category": "Indian Startups & Consumer Internet",
-    "found": "2026-11-26",
-    "posted": "2026-11-26",
-    "verdict": "no experience stated"
-   },
-   "key": "edd5d54940fb6ebe"
-  },
-  {
-   "company": "Dr. Reddy's",
-   "title": "Management Intern - DPEx RA",
-   "url": "https://careers.drreddys.com/job/management-intern-dpex-ra-in-hyderabad-jid-5673",
-   "location": "Location Hyderabad",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice",
+   "url": "https://careers.ihcltata.com/IHCL/job/Gurgaon-Apprentice-HR-122004/54460280/",
+   "location": "",
    "posted": "",
-   "source": "browser",
+   "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
-    "verdict": "no experience stated"
+    "verdict": "fresher-friendly"
    },
-   "key": "06349b2ba22330de"
+   "key": "22feceb9affc614c"
   },
   {
-   "company": "Dr. Reddy's",
-   "title": "Finance Associate",
-   "url": "https://careers.drreddys.com/job/finance-associate-in-hyderabad-jid-5672",
-   "location": "Location Hyderabad",
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Apprentice-Job-LD-682553/54461380/",
+   "location": "",
    "posted": "",
-   "source": "browser",
+   "source": "successfactors",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
-    "verdict": "no experience stated"
+    "verdict": "fresher-friendly"
    },
-   "key": "60b2f741fedb953b"
+   "key": "673eff410360f127"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Apprentice-Job-LD-682553/54461380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "673eff410360f127"
+  },
+  {
+   "company": "IHCL (Taj)",
+   "title": "Apprentice Job",
+   "url": "https://careers.ihcltata.com/IHCL/job/Apprentice-Job-LD-682553/54461380/",
+   "location": "",
+   "posted": "",
+   "source": "successfactors",
+   "extra": {
+    "category": "Corporates, FMCG, Pharma & Global Tech",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "fresher-friendly"
+   },
+   "key": "673eff410360f127"
   },
   {
    "company": "LinkedIn India",
    "title": "Sales Operations Analyst - Sales Development",
-   "url": "https://in.linkedin.com/jobs/view/sales-operations-analyst-sales-development-at-linkedin-4495255127?position=41&pageNum=0&refId=fYIS91AtZQouznajMw0bdQ%3D%3D&trackingId=RVD77UvceMl6rhCEMFZaVg%3D%3D",
+   "url": "https://in.linkedin.com/jobs/view/sales-operations-analyst-sales-development-at-linkedin-4495255127?position=40&pageNum=0&refId=WiwYLT5At6KJS9%2FF4ojduw%3D%3D&trackingId=3MA32hh3uD005KygYkGVWQ%3D%3D",
    "location": "Bengaluru, Karnataka, India",
    "posted": "",
    "source": "browser",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "fresher-friendly"
    },
-   "key": "a17cf9dda3d60cfb"
+   "key": "9ebdbb1198cf6448"
   },
   {
    "company": "LinkedIn India",
    "title": "Project Consultant: Multilingual Audio AI Trainer (India), 20/hour",
-   "url": "https://in.linkedin.com/jobs/view/project-consultant-multilingual-audio-ai-trainer-india-20-hour-at-linkedin-4494728472?position=43&pageNum=0&refId=fYIS91AtZQouznajMw0bdQ%3D%3D&trackingId=futZjNxZv3ygozgZZIV2aA%3D%3D",
+   "url": "https://in.linkedin.com/jobs/view/project-consultant-multilingual-audio-ai-trainer-india-20-hour-at-linkedin-4494728472?position=42&pageNum=0&refId=WiwYLT5At6KJS9%2FF4ojduw%3D%3D&trackingId=pCS58uIfnBAuZXJd8UpbrA%3D%3D",
    "location": "India",
    "posted": "",
    "source": "browser",
    "extra": {
     "category": "Corporates, FMCG, Pharma & Global Tech",
-    "found": "2026-11-26",
+    "found": "2026-11-27",
     "posted": "",
     "verdict": "no experience stated"
    },
-   "key": "6ab07401451123d9"
+   "key": "29136f07e61ed093"
+  },
+  {
+   "company": "IDFC FIRST Bank",
+   "title": "Business Analyst",
+   "url": "https://careers.idfcfirst.bank.in/in/en/job/P-206565/Business-Analyst",
+   "location": "",
+   "posted": "",
+   "source": "browser",
+   "extra": {
+    "category": "Finance, Insurance & Research",
+    "found": "2026-11-27",
+    "posted": "",
+    "verdict": "no experience stated"
+   },
+   "key": "d031d5a1919169e5"
   }
  ],
  "dropped_after_reading": [
   {
+   "company": "Citi",
+   "title": "Data Information Analyst",
+   "url": "https://jobs.citi.com/job/chennai/data-information-analyst/287/103813638944",
+   "why": "asks 2+ years"
+  },
+  {
    "company": "American Express",
-   "title": "Analyst-Compliance",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016527",
-   "why": "asks 3+ years"
+   "title": "New Accounts Analyst",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26017084",
+   "why": "asks 2+ years"
   },
   {
-   "company": "Northern Trust",
-   "title": "Consultant, Risk Analytics",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Risk-Analytics_R163546",
-   "why": "asks 6+ years"
+   "company": "KPMG Global Services (KGS)",
+   "title": "Associate Consultant - FDD",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30051524",
+   "why": "requires POST-GRADUATE"
   },
   {
-   "company": "Northern Trust",
-   "title": "Consultant,RiskAnalytics",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant-RiskAnalytics_R163881",
-   "why": "asks 6+ years"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Assoc Consultant",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Assoc-Consultant_R163359-1",
-   "why": "asks 7+ years"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Consultant, Data Management",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Data-Management_R156255",
-   "why": "asks 6+ years"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Consultant, Data Management",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Consultant--Data-Management_R156258",
-   "why": "asks 6+ years"
-  },
-  {
-   "company": "Northern Trust",
-   "title": "Assoc Cnsltnt, Risk Analytics",
-   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Assoc-Cnsltnt--Risk-Analytics_R163965",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Mahindra Group",
-   "title": "DGM - Group Strategy",
-   "url": "https://jobs.mahindracareers.com/job/Mumbai-Worli-DGM-Group-Strategy-Mumb/1400630500/",
-   "why": "asks 5+ years"
-  },
-  {
-   "company": "Mahindra Group",
-   "title": "DGM - Group Strategy",
-   "url": "https://jobs.mahindracareers.com/job/Mumbai-Worli-DGM-Group-Strategy-Mumb/1400630500/",
-   "why": "asks 5+ years"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Capacity Management Analyst (Immediate joiners preferred)",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Capacity-Management-Analyst--Immediate-joiners-preferred-_JR368964",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Reckitt India",
-   "title": "OTC AR Analyst",
-   "url": "https://careers.reckitt.com/job/Hyderabad-OTC-AR-Analyst-Tela-NA/1460890933/",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Reckitt India",
-   "title": "OTC AR Analyst",
-   "url": "https://careers.reckitt.com/job/Hyderabad-OTC-AR-Analyst-Tela-NA/1460890933/",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Wood Mackenzie India",
-   "title": "Research Analyst - Global Power Markets",
-   "url": "https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Analyst---Global-Power-Markets_JR3557",
-   "why": "asks 3+ years"
-  },
-  {
-   "company": "Nutanix India",
-   "title": "Resident Consultant",
-   "url": "https://jobs.jobvite.com/nutanix/job/os69Bfw2",
-   "why": "asks 5+ years"
+   "company": "Nagarro",
+   "title": "Analyst",
+   "url": "https://jobs.smartrecruiters.com/Nagarro1/744000163910789",
+   "why": "requires MBA"
   }
  ],
  "rejected_sample": [
@@ -2879,7 +704,19 @@
   },
   {
    "company": "HSBC",
-   "title": "Senior Consultant Specialist",
+   "title": "Change Management / Consultant Specialist",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Head Credit Cards and Retail Lending",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "HSBC",
+   "title": "Avaloq / Senior Consultant Specialist",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
   },
@@ -2897,15 +734,15 @@
   },
   {
    "company": "HSBC",
-   "title": "Cyber Security / SOC /Senior Consultant Specialist",
+   "title": "GCP, Bigquery, Pyspark/Consultant Specialist",
    "location": "Hyderabad, Telangana, India",
    "why": "excluded keyword"
   },
   {
    "company": "HSBC",
-   "title": "Lead Business Analyst",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
+   "title": "Assistant Manager Operations - Fund Accounting",
+   "location": "Kolkata, West Bengal, India",
+   "why": "manager-level"
   },
   {
    "company": "HSBC",
@@ -2920,15 +757,585 @@
    "why": "manager-level"
   },
   {
-   "company": "HSBC",
-   "title": "CCSS Representative",
-   "location": "Bangalore, Karnataka, India",
+   "company": "Citi",
+   "title": "Banamex Banquero Integral Distrito   Gdl. Sur  Suc 4722 - PLAZA BUGAMBILIAS, ZAPOPAN, JAL.",
+   "location": "Zapopan, Jalisco, Mexico",
+   "why": "location 'Zapopan, Jalisco, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Mesero Ejecutivo",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Partnership and Growth Lead",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Data Governance Foundation Analyst 2",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX Especialista Senior de Partes Relacionadas en Contraloria Interna",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Banking - Subsidiary Account Manager - C12 - ESCAZU",
+   "location": "Escazú, Provincia de San José, Costa Rica",
+   "why": "location 'Escazú, Provincia de San José, Costa Rica' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex: Desarrollador Intermedio: Ab Intio Microestrategy",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Cajero (a) Bancario Cosamaloapan, Ver",
+   "location": "Cosamaloapan, Veracruz, Mexico",
+   "why": "location 'Cosamaloapan, Veracruz, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Cajero (a) Bancario Isla, Ver",
+   "location": "Isla, Veracruz, Mexico",
+   "why": "location 'Isla, Veracruz, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Analista de Conciliaciones Contables de Cobranza y Pagos",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Servicio a Clientes Afore",
+   "location": "Puebla City, Puebla, Mexico",
+   "why": "location 'Puebla City, Puebla, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex Banquero Integral Suc 626 C.F. Rio",
+   "location": "Tijuana, Baja California, Mexico",
+   "why": "location 'Tijuana, Baja California, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Regulatory Reporting Analyst",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Engineering Group Manager (Infrastructure & Virtualization) - SVP",
+   "location": "Irving, Texas, United States",
+   "why": "location 'Irving, Texas, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Lead Golang Engineer - Core AI Platforms",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "MidCorp Senior Relationship Manager & Sector Lead, Industrials / Aerospace & Defence (Director) - Frankfurt (German speaker)",
+   "location": "Frankfurt am Main, Hesse, Germany",
+   "why": "location 'Frankfurt am Main, Hesse, Germany' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Banking Senior Analyst - Stockholm",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "why": "location 'Stockholm, Stockholm County, Sweden' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Client Onboard Intmd Analyst  - BOGOTA",
+   "location": "Bogotá, Bogota D.C., Colombia",
+   "why": "location 'Bogotá, Bogota D.C., Colombia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Sr Relationship Manager - C13 - SANTIAGO",
+   "location": "Santiago, Santiago Metropolitan, Chile",
+   "why": "location 'Santiago, Santiago Metropolitan, Chile' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex: Analista de Reclamaciones Monetarias.",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex: Analista de Reclamaciones Monetarias.",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banking - Project Intermediate Analyst - Officer",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Banking Associate - Power, Energy and Commodity Traders (UK Natural Resources)",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Banamex - Banquero de Relación Empresarial - San Luis Potosi",
+   "location": "San Luis Potosí City, San Luis Potosí, Mexico",
+   "why": "location 'San Luis Potosí City, San Luis Potosí, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Mid-Corp Senior Relationship Manager & Industry Franchise Lead (Director) - Frankfurt (German speaker)",
+   "location": "Frankfurt am Main, Hesse, Germany",
+   "why": "location 'Frankfurt am Main, Hesse, Germany' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Director, Private Banker - Colombian Market Coverage",
+   "location": "Miami, Florida, United States",
+   "why": "location 'Miami, Florida, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Counselor Senior Lead",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Technology Product Manager - Enterprise GenAI Platforms",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Product Control Senior Analyst",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX IT Project Intmd Analyst - C11 - CIUDAD DE MEXICO",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Institutional Customer Service Manager - BOGOTA",
+   "location": "Bogotá, Bogota D.C., Colombia",
+   "why": "location 'Bogotá, Bogota D.C., Colombia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "DART Market Risk Reporting- Lead Analyst, Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Core Java Tech Lead - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Core Java Backend Developer - Assistant Vice President",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Business Lead Analyst - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Project Tech Lead - Finance Data and AI, Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Head of Custody Operations and NAM Lead for Investor Services Operations",
+   "location": "New York, New York, United States",
+   "why": "location 'New York, New York, United States' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Operations Support Manager",
+   "location": "Pune, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "Quality Software Engineer Lead - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "DART Market Risk Reporting Lead Analyst - Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "DART Market Risk Reporting - Senior Analyst, Assistant Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Full-stack Technical Lead - Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Executive Assistant",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "why": "location 'Amsterdam, North Holland, Netherlands' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Operations Analyst - Cash Equity Brokerage support",
+   "location": "Riyadh, Riyadh Region, Saudi Arabia",
+   "why": "location 'Riyadh, Riyadh Region, Saudi Arabia' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Python Counterparty Credit Risk Senior Developer, Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "BANAMEX - DB Marketing  Analyst - Officer",
+   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
+   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Banking Analyst, TMT Team",
+   "location": "Shanghai, Shanghai Municipality, China",
+   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Oracle ERP Analyst - Asistant Vice President",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Services Global Solution Sales - Vice President – Western Europe",
+   "location": "Madrid, Madrid, Spain",
+   "why": "location 'Madrid, Madrid, Spain' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Corporate Bank - Consumer, Healthcare & Diversified Industrials - Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Data Analytics Project Lead - Vice President",
+   "location": "Belfast, Northern Ireland, United Kingdom",
+   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Project Manager",
+   "location": "Pune, Maharashtra, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Citi",
+   "title": "VP-Investment Planning and Portfolio Oversight Lead – Custody-Services",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Program Advisory, Consulting & Execution, Senior Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Benefits Operations Analyst",
+   "location": "Budapest, Budapest, Hungary",
+   "why": "location 'Budapest, Budapest, Hungary' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Repo’s Clearing Technology Business Analyst (VP)",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Audit Manager - Culture and Behavioral Risk",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Sanctions Senior Analyst",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Account Policy Senior Lead Analyst, Senior Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Operations Support Analyst 2",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities and Derivatives Intermediate Analyst (Digital Assets)",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Assistant Vice President (IC) - Business Analytics Sr Analyst - C12 - GURUGRAM",
+   "location": "Gurgaon, Haryana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities and Derivatives Lead Analyst (Digital Assets)",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Assistant Vice President (IC) - Business Analytics Sr Analyst - C12 - GURUGRAM",
+   "location": "Gurgaon, Haryana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities and Derivatives Senior Analyst (Digital Assets)",
+   "location": "Warsaw, Mazovia, Poland",
+   "why": "location 'Warsaw, Mazovia, Poland' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Citi Developer Concierge Support Analyst - Assistant Vice President",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Golang Engineer - GenAI Platforms",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Software Engineering Lead - GenAI Platforms",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Third Party Risk Management Managing Director (C16)",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Ops Support Specialist",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Counterparty Credit Risk Python Developer, Assistant Vice President",
+   "location": "London, England, United Kingdom",
+   "why": "location 'London, England, United Kingdom' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Payroll Transformation Lead Analyst  (One-Year Fixed Term)",
+   "location": "Budapest, Budapest, Hungary",
+   "why": "location 'Budapest, Budapest, Hungary' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Representative",
+   "location": "Gurgaon, Haryana, India",
    "why": "no role phrase"
   },
   {
-   "company": "HSBC",
-   "title": "Microsoft PowerApps/Consultant Specialist",
-   "location": "Hyderabad, Telangana, India",
+   "company": "Citi",
+   "title": "Application Technology Senior Vice President - Research Technology - China Securities NewCo",
+   "location": "Shanghai, Shanghai Municipality, China",
+   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "기업금융신용분석팀 - Credit Analyst (대기업 담당)",
+   "location": "Seoul, Seoul, South Korea",
+   "why": "location 'Seoul, Seoul, South Korea' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "기업금융신용분석팀 - Credit Analyst  (대기업 담당)",
+   "location": "Seoul, Seoul, South Korea",
+   "why": "location 'Seoul, Seoul, South Korea' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Risk Reporting Senior Analyst, Assistant Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Citigold Wealth Planning Advisor",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Citigold Private Client (CPC) Advisor – Noth Asia Markets - Vice President (VP)",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Investment Specialist",
+   "location": "Kowloon, Kowloon City, Hong Kong SAR",
+   "why": "location 'Kowloon, Kowloon City, Hong Kong SAR' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Assistant Vice President, FX Specialist (Treasury)",
+   "location": "Kowloon, Kowloon City, Hong Kong SAR",
+   "why": "location 'Kowloon, Kowloon City, Hong Kong SAR' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Associate, Client Manager, Global Network Banking, Corporate Banking",
+   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
+   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "CPC Banker Associate",
+   "location": "Kowloon, Kowloon City, Hong Kong SAR",
+   "why": "location 'Kowloon, Kowloon City, Hong Kong SAR' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Java Developer",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Early Career Program Manager - Assistant Vice President",
+   "location": "Multiple Locations",
+   "why": "location 'Multiple Locations' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Officer, Funds Transfer & Check Clearing",
+   "location": "Kowloon, Kowloon City, Hong Kong SAR",
+   "why": "location 'Kowloon, Kowloon City, Hong Kong SAR' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "IT Business Sr Analyst - C12 - PUNE",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Cash & Trade Proc Lead Analyst - VP",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Vice President, AI-Driven Credit Risk Management",
+   "location": "Mumbai, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Operation Support Group Manager - Senior Vice President - TAGUIG",
+   "location": "City of Taguig, Metro Manila, Philippines",
+   "why": "location 'City of Taguig, Metro Manila, Philippines' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Trade Processing - Securities and Derivatives Analyst",
+   "location": "Gurgaon, Haryana, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Operations Support Analyst 2",
+   "location": "Chennai, Tamil Nadu, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Application Developer Programmer Analyst",
+   "location": "Pune, Maharashtra, India",
+   "why": "excluded keyword"
+  },
+  {
+   "company": "Citi",
+   "title": "Business Development Manager (BDM)",
+   "location": "Singapore, Singapore, Singapore",
+   "why": "location 'Singapore, Singapore, Singapore' not India"
+  },
+  {
+   "company": "Citi",
+   "title": "Securities & Derivatives Intermediate Analyst, Markets Operations",
+   "location": "Chiyoda, Tokyo, Japan",
+   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+  },
+  {
+   "company": "Citi",
+   "title": ".NET Full Stack Developer - Assistant Vice President",
+   "location": "Chennai, Tamil Nadu, India",
    "why": "excluded keyword"
   },
   {
@@ -3311,12 +1718,6 @@
   },
   {
    "company": "Citi",
-   "title": "Event Marketing - Senior Roadshow Coordinator",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
    "title": "Sanctions Junior Analyst",
    "location": "Olsztyn, Warmia-Masuria, Poland",
    "why": "location 'Olsztyn, Warmia-Masuria, Poland' not India"
@@ -3326,12 +1727,6 @@
    "title": "Cash & Collateral Management Senior Analyst",
    "location": "Mumbai, Maharashtra, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Product Manager - Senior Vice President",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "manager-level"
   },
   {
    "company": "Citi",
@@ -3356,12 +1751,6 @@
    "title": "Data Governance Foundation Lead - Vice President",
    "location": "Belfast, Northern Ireland, United Kingdom",
    "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Big Data Engineer",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
   },
   {
    "company": "Citi",
@@ -3407,18 +1796,6 @@
   },
   {
    "company": "Citi",
-   "title": "Program Group Manager (Senior Vice President)",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Development Sr Programmer Analyst - C12 - PUNE",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
    "title": "Emerging Market Trader, Equities",
    "location": "London, England, United Kingdom",
    "why": "location 'London, England, United Kingdom' not India"
@@ -3434,12 +1811,6 @@
    "title": "Reference Data Services Analyst",
    "location": "Olsztyn, Warmia-Masuria, Poland",
    "why": "location 'Olsztyn, Warmia-Masuria, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Applications Development Sr Programmer Analyst - C12 - CHENNAI",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
   },
   {
    "company": "Citi",
@@ -3503,12 +1874,6 @@
   },
   {
    "company": "Citi",
-   "title": "Application Support Analyst with SRE",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
    "title": ".NET Senior Engineer - Assistant Vice President",
    "location": "Pune, Maharashtra, India",
    "why": "excluded keyword"
@@ -3545,543 +1910,237 @@
   },
   {
    "company": "Citi",
-   "title": "Treasury and Trade Solution Sales Manager",
+   "title": "Treasury and Trade Solution Sales Manager - VP",
    "location": "Jakarta, Jakarta Special Capital Region, Indonesia",
    "why": "location 'Jakarta, Jakarta Special Capital Region, Indonesia' not India"
   },
   {
-   "company": "Citi",
-   "title": "대기업 인더스트리얼본부 RA",
-   "location": "Seoul, Seoul, South Korea",
-   "why": "location 'Seoul, Seoul, South Korea' not India"
+   "company": "Barclays",
+   "title": "USCB GTA Technical Product Owner",
+   "location": "Pune, India",
+   "why": "no role phrase"
   },
   {
-   "company": "Citi",
-   "title": "High Touch Sales Trader - Director",
-   "location": "Hong Kong, Central and Western District, Hong Kong SAR",
-   "why": "location 'Hong Kong, Central and Western District, Hong Kong SAR' not India"
+   "company": "Barclays",
+   "title": "AVP - BA Client Journey Execution",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "国内新卒採用本選考 オペレーション部門（沖縄） フルタイム アナリスト (28卒) / Operations, Full-Time Analyst, Okinawa - Japan (Class of 2028)",
-   "location": "Naha, Okinawa, Japan",
-   "why": "location 'Naha, Okinawa, Japan' not India"
+   "company": "Barclays",
+   "title": "Lending Application Support Analyst",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Vice President, Applications Development Tech Lead Analyst, Technology",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+   "company": "Barclays",
+   "title": "Payments Product Manager – FIG Solutions",
+   "location": "Frankfurt am Main, Germany",
+   "why": "location 'Frankfurt am Main, Germany' not India"
   },
   {
-   "company": "Citi",
-   "title": "Assistant Vice President, Commercial Associate, Citi Commercial Bank",
-   "location": "Taipei, Taiwan, Taiwan",
-   "why": "location 'Taipei, Taiwan, Taiwan' not India"
+   "company": "Barclays",
+   "title": "Equity Research Software, AVP",
+   "location": "New York, United States",
+   "why": "location 'New York, United States' not India"
   },
   {
-   "company": "Citi",
-   "title": "Business Execution and Risk Control - Equity Principal Trading",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
+   "company": "Barclays",
+   "title": "Head of Healthcare and MTL Mid Corporate",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Vice President, Applications Development Tech Lead Analyst, Technology",
-   "location": "Chiyoda, Tokyo, Japan",
-   "why": "location 'Chiyoda, Tokyo, Japan' not India"
+   "company": "Barclays",
+   "title": "Relationship Director Mid Corporate",
+   "location": "Norwich, United Kingdom; Cambridge, United Kingdom",
+   "why": "location 'Norwich, United Kingdom; Cambridge, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Senior Relationship Manager (VP) - Corporate Banking",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
+   "company": "Barclays",
+   "title": "Site Support Coordinator",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Business Execution and Risk Control - Equity Brokerage",
-   "location": "Shanghai, Shanghai Municipality, China",
-   "why": "location 'Shanghai, Shanghai Municipality, China' not India"
+   "company": "Barclays",
+   "title": "Software Engineer - AI",
+   "location": "Pune, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "AVP, Product Specialist, Wealth Lending Cards",
-   "location": "Kowloon, Kowloon City, Hong Kong SAR",
-   "why": "location 'Kowloon, Kowloon City, Hong Kong SAR' not India"
+   "company": "Barclays",
+   "title": "QA BA4",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Global Network Banking Client Manager",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
+   "company": "Barclays",
+   "title": "QA BA4",
+   "location": "Chennai, India",
+   "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Vice President, Product Owner - AI Automation & Intelligent Data Platforms",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Equity Quantitative Analyst - Project Manager / Business Analyst",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Barclays UK Product and Proposition Commercial Manager",
+   "location": "Gurugram, India",
    "why": "manager-level"
   },
   {
-   "company": "Citi",
-   "title": "Citi - Human Resources, Summer Analyst, India – APAC, 2027",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Citi - Human Resources, Full Time Analyst, India – APAC, 2027",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "VP- Product Manager -Trade Payables Finance",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Barclays UK Product and Proposition Commercial Manager",
+   "location": "Gurugram, India",
    "why": "manager-level"
   },
   {
-   "company": "Citi",
-   "title": "Applications Development - Vice President",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Software Engineer - AI",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "KYC Operations Analyst 2",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Operations Analyst - Legal Supplier Management",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "KYC Operations Analyst 2",
-   "location": "Mumbai, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Legal EA Team Leader",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Services and Payments Operations Head - Nigeria",
-   "location": "Lagos, Lagos, Nigeria",
-   "why": "location 'Lagos, Lagos, Nigeria' not India"
+   "company": "Barclays",
+   "title": "Barclays UK Product and Proposition Commercial Manager",
+   "location": "Gurugram, India",
+   "why": "manager-level"
   },
   {
-   "company": "Citi",
-   "title": "Applications Development Analyst - Assistant Vice President",
-   "location": "Chennai, Tamil Nadu, India",
+   "company": "Barclays",
+   "title": "Cloud & DevOps Infrastructure Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Application Support Technical Lead - Vice President",
-   "location": "Chennai, Tamil Nadu, India",
+   "company": "Barclays",
+   "title": "Senior Java Developer",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Application Support Technical Lead - Vice President",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Senior Developer",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Foreign Exchange (FX) Derivatives Support Lead, Vice President",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "GenAI Agentic AI Engg Lead- AVP - PUNE",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Senior Java Developer",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Backend Java Developer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Senior Developer",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Backend Java Developer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Release Train Engineer",
+   "location": "Pune, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Generative AI Software Engineer",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "Assistant Manager - Data & Risk Management",
+   "location": "Noida, India",
+   "why": "manager-level"
+  },
+  {
+   "company": "Barclays",
+   "title": "Business Oversight Compliance Specialist",
+   "location": "Mumbai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Fund Accounting Specialist",
-   "location": "Pune, Maharashtra, India",
+   "company": "Barclays",
+   "title": "FCS People Leader",
+   "location": "Gurugram, India",
+   "why": "no role phrase"
+  },
+  {
+   "company": "Barclays",
+   "title": "Senior Wealth Planner - Wealth Management",
+   "location": "Cambridge, United Kingdom",
+   "why": "location 'Cambridge, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "IT Services Support Lead - Barclaycard Payments, BPL",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "IT Support Services Lead - Barclaycard Payments, BPL",
+   "location": "Northampton, United Kingdom",
+   "why": "location 'Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Product Manager Colleague Platforms - Barclaycard Payments, BPL",
+   "location": "Northampton, United Kingdom; London, United Kingdom",
+   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "IT Services Support Specialist - Barclaycard Payments, BPL",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Customer Lifecycle Marketing Manager",
+   "location": "London, United Kingdom; Northampton, United Kingdom",
+   "why": "location 'London, United Kingdom; Northampton, United Kingdom' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai",
+   "location": "United Arab Emirates",
+   "why": "location 'United Arab Emirates' not India"
+  },
+  {
+   "company": "Barclays",
+   "title": "Specialist Customer Care",
+   "location": "Chennai, India",
    "why": "excluded keyword"
   },
   {
-   "company": "Citi",
-   "title": "Data Science Senior Analyst",
-   "location": "Belfast, Northern Ireland, United Kingdom",
-   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
+   "company": "Barclays",
+   "title": "Financial Institution Cash Sales Manager",
+   "location": "London, United Kingdom",
+   "why": "location 'London, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Wholesale Credit Risk - In-Business Quality Assurance – Vice President",
-   "location": "Mumbai, Maharashtra, India",
-   "why": "excluded keyword"
+   "company": "Barclays",
+   "title": "Vice President - Global Markets",
+   "location": "Tokyo, Japan",
+   "why": "location 'Tokyo, Japan' not India"
   },
   {
-   "company": "Citi",
-   "title": "Compliance Risk Analyst (UAE Nationals ONLY)",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "why": "location 'Dubai, Dubai, United Arab Emirates' not India"
+   "company": "Barclays",
+   "title": "Engineering Director – Marketing Technology",
+   "location": "Glasgow, United Kingdom",
+   "why": "location 'Glasgow, United Kingdom' not India"
   },
   {
-   "company": "Citi",
-   "title": "Program Management Senior Analyst - Assistant Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "FP&A Lending Analyst, Assistant Vice President",
-   "location": "Singapore, Singapore, Singapore",
-   "why": "location 'Singapore, Singapore, Singapore' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Analista KYC Personas Fisicas",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banquero BEI CDMX | Guadalajara | Monterrey",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Asesor Previsional",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker - Dearborn and Washington Branch",
-   "location": "Chicago, Illinois, United States",
-   "why": "location 'Chicago, Illinois, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Platform Architect",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Sr Technology Lead Analyst",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act - Niles Branch",
-   "location": "Niles, Illinois, United States",
-   "why": "location 'Niles, Illinois, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Analista de Crédito CDMX, Monterrey, Guadalajara.",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Nte Banquero integral Ramos Arizpe, Coah",
-   "location": "Ramos Arizpe, Coahuila, Mexico",
-   "why": "location 'Ramos Arizpe, Coahuila, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Norte Distrito Monterrey Oriente Ejecutivo de cuenta Pyme Jr",
-   "location": "Monterrey, Nuevo León, Mexico",
-   "why": "location 'Monterrey, Nuevo León, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Coordinador de Ventas Afore Uruapan",
-   "location": "Uruapan, Michoacán, Mexico",
-   "why": "location 'Uruapan, Michoacán, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex: Analista de datos, prevención operativa.",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Full Stack Java Lead",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act, Bilingual English/Spanish Speaking Preferred, Doral Area, Officer",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part-Time Universal Banker (20 Hours)- Bilingual English/French or Haitian Creole Speaking Preferred, East Tamarac Branch",
-   "location": "Tamarac, Florida, United States",
-   "why": "location 'Tamarac, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex | Distrito Zamora | Ejecutivo Pyme Jr.",
-   "location": "Zamora, Michoacán, Mexico",
-   "why": "location 'Zamora, Michoacán, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Credit Portfolio Sr Analyst",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part- Time (20 Hour) Teller, Long Beach Bixby Knolls Branch",
-   "location": "Long Beach, California, United States",
-   "why": "location 'Long Beach, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part- Time Teller (20 hours), Whittwood Mall Branch",
-   "location": "Whittier, California, United States",
-   "why": "location 'Whittier, California, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex: Ejecutivo Telefónico Cobranza",
-   "location": "Metepec, México, Mexico",
-   "why": "location 'Metepec, México, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Part-Time Teller (20 Hours), Jamaica Branch",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Personal Banker SAFE Act, Queens Bouelvard & 39th Street Branch",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Junior Developer (Java)",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Junior (Java) Developer",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Full Stack Java/React Developer - Vice President",
-   "location": "Jersey City, New Jersey, United States",
-   "why": "location 'Jersey City, New Jersey, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Analista de Producto de Crédito - Santa Fe",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "The FX & Derivatives Senior Analyst (Backoffice)",
-   "location": "Bogotá, Bogota D.C., Colombia",
-   "why": "location 'Bogotá, Bogota D.C., Colombia' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Nte Volante SR Distrito Saltillo",
-   "location": "Saltillo, Coahuila, Mexico",
-   "why": "location 'Saltillo, Coahuila, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Data/Information Mgt Int Anlst",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Asesor Previsional Afore",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex - Analista de Core Operations",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex Asesor Hipotecario Canal Desarrollos",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Banamex | Trainee Banca Empresarial",
-   "location": "Zapopan, Jalisco, Mexico",
-   "why": "location 'Zapopan, Jalisco, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Payroll Lead Analyst",
-   "location": "Heredia, Provincia de Heredia, Costa Rica",
-   "why": "location 'Heredia, Provincia de Heredia, Costa Rica' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Branch Manager Franklin/Adams Chicago Il, Vice President",
-   "location": "Chicago, Illinois, United States",
-   "why": "location 'Chicago, Illinois, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Lead Java Risk Developer, Vice President",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Developer, FX eCommerce, Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Intelligence Group Manager",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "*Apps Dev Tech Lead Analyst-conversion",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Operations Coordinator",
-   "location": "Newark, Delaware, United States",
-   "why": "location 'Newark, Delaware, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Services AI Program Governance Manager - Director",
-   "location": "New York, New York, United States",
-   "why": "location 'New York, New York, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Anti Money Laundering Risk Management Senior Vice President",
-   "location": "Multiple Locations",
-   "why": "location 'Multiple Locations' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Developer - Credit Risk Technology, Vice President",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX ANALISTA DE CARTERA DE CREDITO",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Business Risk Officer - Vice President",
-   "location": "Belfast, Northern Ireland, United Kingdom",
-   "why": "location 'Belfast, Northern Ireland, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Client Onboarding Specialist",
-   "location": "Tampa, Florida, United States",
-   "why": "location 'Tampa, Florida, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "BANAMEX Especialista de Balances -Contabilidad",
-   "location": "Ciudad De Mexico, Ciudad De Mexico, Mexico",
-   "why": "location 'Ciudad De Mexico, Ciudad De Mexico, Mexico' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Fraud Operations Specialist",
-   "location": "Pune, Maharashtra, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Fraud Operations Specialist",
-   "location": "Chennai, Tamil Nadu, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology- Application Development, Full Time Analyst, Warsaw 2027",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Technology - Application Development, Summer Analyst, Warsaw 2027",
-   "location": "Warsaw, Mazovia, Poland",
-   "why": "location 'Warsaw, Mazovia, Poland' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Commercial Bank -  Relationship Associate  (Business & Professional Services)",
-   "location": "London, England, United Kingdom",
-   "why": "location 'London, England, United Kingdom' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Markets Data Risk Senior Lead Analyst - SVP",
-   "location": "Mississauga, Ontario, Canada",
-   "why": "location 'Mississauga, Ontario, Canada' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Financial Reporting Intermediate Analyst",
-   "location": "Columbus, Ohio, United States",
-   "why": "location 'Columbus, Ohio, United States' not India"
-  },
-  {
-   "company": "Citi",
-   "title": "Commercial Subsidiaries Group Relationship Manager, Assistant Vice President - ASTANA",
-   "location": "Almaty, Almaty, Kazakhstan",
-   "why": "location 'Almaty, Almaty, Kazakhstan' not India"
+   "company": "Barclays",
+   "title": "Banking Off Cycle Internship Programme 2027 Milan",
+   "location": "Milan, Italy",
+   "why": "location 'Milan, Italy' not India"
   },
   {
    "company": "Barclays",
@@ -4236,12 +2295,6 @@
   {
    "company": "Barclays",
    "title": "Senior Wealth Planner - Wealth Management",
-   "location": "Cambridge, United Kingdom",
-   "why": "location 'Cambridge, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Senior Wealth Planner - Wealth Management",
    "location": "Maidstone, United Kingdom",
    "why": "location 'Maidstone, United Kingdom' not India"
   },
@@ -4271,12 +2324,6 @@
   },
   {
    "company": "Barclays",
-   "title": "IT Services Support Lead - Barclaycard Payments, BPL",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Client Support Specialist - Part time 20h/Week",
    "location": "Knutsford, United Kingdom",
    "why": "location 'Knutsford, United Kingdom' not India"
@@ -4286,12 +2333,6 @@
    "title": "SAP Basis Developer",
    "location": "Pune, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Technical Product Owner",
-   "location": "Chennai, India",
-   "why": "no role phrase"
   },
   {
    "company": "Barclays",
@@ -4523,18 +2564,6 @@
   },
   {
    "company": "Barclays",
-   "title": "IT Support Services Lead - Barclaycard Payments, BPL",
-   "location": "Northampton, United Kingdom",
-   "why": "location 'Northampton, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Lead Product Manager Colleague Platforms - Barclaycard Payments, BPL",
-   "location": "Northampton, United Kingdom; London, United Kingdom",
-   "why": "location 'Northampton, United Kingdom; London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
    "title": "Scrum Master - SAFe",
    "location": "Glasgow, United Kingdom",
    "why": "location 'Glasgow, United Kingdom' not India"
@@ -4562,12 +2591,6 @@
    "title": "Axiom Developer",
    "location": "Pune, India",
    "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "IT Services Support Specialist - Barclaycard Payments, BPL",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
   },
   {
    "company": "Barclays",
@@ -4918,190 +2941,40 @@
    "why": "excluded keyword"
   },
   {
-   "company": "Barclays",
-   "title": "FX Strats - AVP",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 30 Hours, West Las Vegas Area - Multiple Locations",
+   "location": "Las Vegas, NV, United States",
+   "why": "location 'Las Vegas, NV, United States' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Software Engineer",
-   "location": "Pune, India",
-   "why": "excluded keyword"
+   "company": "JPMorgan Chase",
+   "title": "Lead Software Engineer - IP FS Data Protection and Recovery",
+   "location": "Houston, TX, United States",
+   "why": "location 'Houston, TX, United States' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Private Banker",
-   "location": "Saint Helier, Jersey; St Peter Port, Guernsey",
-   "why": "location 'Saint Helier, Jersey; St Peter Port, Guernsey' not India"
+   "company": "JPMorgan Chase",
+   "title": "Lead Security Engineer",
+   "location": "Seattle, WA, United States",
+   "why": "location 'Seattle, WA, United States' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Quantitative Analyst AVP - Treasury",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
+   "company": "JPMorgan Chase",
+   "title": "2027 Applied AI - HR CDAO - Summer Associate",
+   "location": "New York, NY, United States",
+   "why": "location 'New York, NY, United States' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Senior KDB+ Engineer",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker, 20 Hours, Williamsburg, VA - Williamsburg on Monticello Branch",
+   "location": "Williamsburg, VA, United States",
+   "why": "location 'Williamsburg, VA, United States' not India"
   },
   {
-   "company": "Barclays",
-   "title": "Customer Service Advisor - Tesco Bank",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Customer Service - Personal Banker",
-   "location": "Norwich, United Kingdom",
-   "why": "location 'Norwich, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Programme Director",
-   "location": "London, United Kingdom; Glasgow, United Kingdom",
-   "why": "location 'London, United Kingdom; Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Director, Banking & Wholesale Lending Data Strategy & Governance",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Workforce Manager",
-   "location": "Knutsford, United Kingdom",
-   "why": "location 'Knutsford, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Executive assistant",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Engineering Manager",
-   "location": "Prague, Czechia",
-   "why": "location 'Prague, Czechia' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Private Bank Executive, Analyst",
-   "location": "Singapore, Singapore",
-   "why": "location 'Singapore, Singapore' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assurance OLO testing VP",
-   "location": "Pune, India; Noida, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Rates Structuring",
-   "location": "Mumbai, India",
-   "why": "no role phrase"
-  },
-  {
-   "company": "Barclays",
-   "title": "International Corporate Banking Relationship Manager - Europe",
-   "location": "Luxembourg, Luxembourg",
-   "why": "location 'Luxembourg, Luxembourg' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assistant Vice President - Global Markets",
-   "location": "Tokyo, Japan",
-   "why": "location 'Tokyo, Japan' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assistant Vice President - Subsidiary Governance",
-   "location": "London, United Kingdom",
-   "why": "location 'London, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineer",
-   "location": "Pune, India; Bengaluru, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Data Engineering Lead",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Markets Cash Equities & Research - AVP",
-   "location": "Glasgow, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Loans & Portfolio Management Legal - VP",
-   "location": "Glasgow, United Kingdom; Birmingham, United Kingdom",
-   "why": "location 'Glasgow, United Kingdom; Birmingham, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Digital Assets Strategy VP",
-   "location": "New York, United States",
-   "why": "location 'New York, United States' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Legal Executive Assistant",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP Fraud Analytics",
-   "location": "Gurugram, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "Assitant Manager Fraud Analytics",
-   "location": "Gurugram, India",
-   "why": "manager-level"
-  },
-  {
-   "company": "Barclays",
-   "title": "Specialist Customer Care - Mortgages CME",
-   "location": "Liverpool, United Kingdom",
-   "why": "location 'Liverpool, United Kingdom' not India"
-  },
-  {
-   "company": "Barclays",
-   "title": "Wholesale Credit Risk Sanctioning - LevFin - AVP",
-   "location": "Mumbai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "AVP - Product Controller FIF",
-   "location": "Chennai, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "GTSM - SRE Lead - XDP",
-   "location": "Pune, India",
-   "why": "excluded keyword"
-  },
-  {
-   "company": "Barclays",
-   "title": "International Corporate Banking Relationship Manager",
-   "location": "Paris, France",
-   "why": "location 'Paris, France' not India"
+   "company": "JPMorgan Chase",
+   "title": "Associate Banker (20 Hours) , North Olmsted, OH - Great Northern",
+   "location": "North Olmsted, OH, United States",
+   "why": "location 'North Olmsted, OH, United States' not India"
   },
   {
    "company": "JPMorgan Chase",
@@ -5222,54 +3095,6 @@
    "title": "Hiring Event - Part Time Associate Banker North Miami  (30 Hours)",
    "location": "Hialeah, FL, United States",
    "why": "location 'Hialeah, FL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Hiring Event - Part Time Associate Banker Waterfront NJ (30 Hours)",
-   "location": "Union City, NJ, United States",
-   "why": "location 'Union City, NJ, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Westchester Southeast  Area - Multiple locations",
-   "location": "Eastchester, NY, United States",
-   "why": "location 'Eastchester, NY, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer -  Reliability Support",
-   "location": "Plano, TX, United States",
-   "why": "location 'Plano, TX, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Associate Banker, 30 Hours, Chicago Central West Area, Bilingual Spanish Required  - Multiple locations",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Commercial Banker-Healthcare, Higher Education & Nonprofit-Vice President",
-   "location": "Bloomfield Hills, MI, United States",
-   "why": "location 'Bloomfield Hills, MI, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Branch Manager - CO Metro Central - Denver, CO",
-   "location": "Denver, CO, United States",
-   "why": "location 'Denver, CO, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Transactions Specialist I - Receivable Operations",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Senior Lead Software Engineer - Payments, AI, Java, Spring Boot",
-   "location": "Chicago, IL, United States",
-   "why": "location 'Chicago, IL, United States' not India"
   }
  ]
 }
